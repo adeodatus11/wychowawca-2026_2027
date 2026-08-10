@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lekcje wychowawcze ZSZ5 2026/2027</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="topline">
+      <div>
+        <p class="kicker">ZSZ5 · narzędzie dla wychowawcy</p>
+        <h1>Lekcje wychowawcze ZSZ5 2026/2027</h1>
+        <p class="subtitle">Scenariusze 30-minutowych lekcji i pliki Markdown pod prezentacje. Lekcja 0 jest tylko dla klas pierwszych; pozostałe lekcje są dla wszystkich klas Technikum nr 5 i BS I stopnia nr 5.</p>
+      </div>
+      <span class="badge">wersja robocza do użycia</span>
+    </div>
+    <div class="hero-grid" aria-label="Podsumowanie materiałów">
+      <div class="metric"><strong>12</strong><span>lekcji wychowawczych</span></div>
+      <div class="metric"><strong>30</strong><span>minut na scenariusz</span></div>
+      <div class="metric"><strong>24</strong><span>pliki MD: scenariusze i prezentacje</span></div>
+      <div class="metric"><strong>1</strong><span>lekcja startowa dla klas pierwszych</span></div>
+    </div>
+  </header>
+  <main>
+    <aside aria-label="Lista lekcji">
+      <div class="panel-title">
+        <strong>Wybór lekcji</strong>
+        <span id="resultCount" class="count-pill">12 z 12</span>
+      </div>
+      <div class="filters">
+        <label for="search">Szukaj</label>
+        <input id="search" type="search" placeholder="frekwencja, statut, VULCAN">
+        <label for="groupFilter">Zakres</label>
+        <select id="groupFilter">
+          <option value="all">Wszystkie lekcje</option>
+          <option value="first">Tylko lekcja 0</option>
+          <option value="allClasses">Lekcje dla wszystkich</option>
+        </select>
+      </div>
+      <div class="quick-filters" aria-label="Szybkie filtry">
+        <button class="chip active" type="button" data-chip="all">wszystkie</button>
+        <button class="chip" type="button" data-chip="org">organizacyjne</button>
+        <button class="chip" type="button" data-chip="attendance">frekwencja</button>
+        <button class="chip" type="button" data-chip="men">MEN</button>
+      </div>
+      <div id="lessonList" class="lesson-list"></div>
+    </aside>
+    <article id="detail" class="detail"></article>
+  </main>
+  <footer>
+    <button id="focusToggle" class="chip" type="button">Tryb skupienia</button>
+    Źródła i zastrzeżenia są w pliku <a href="../zrodla.md">zrodla.md</a>. Przed użyciem uzupełnij lokalne numery sal i potwierdź procedurę przekazywania danych do VULCAN.
+  </footer>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
