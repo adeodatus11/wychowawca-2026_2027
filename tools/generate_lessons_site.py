@@ -949,6 +949,57 @@ ul { margin: 0; padding-left: 20px; }
 .deck-shell:fullscreen .deck-slide ul { font-size: clamp(1.4rem, 2vw, 2.25rem); }
 .deck-shell:fullscreen .deck-controls,
 .deck-shell:fullscreen .deck-help { color: #d8e8ef; }
+.pptx-shell {
+  display: grid;
+  gap: 12px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 14px;
+  background:
+    linear-gradient(135deg, rgba(11, 107, 95, .12), transparent 42%),
+    linear-gradient(315deg, rgba(37, 93, 154, .10), transparent 36%),
+    #ffffff;
+}
+.pptx-frame-wrap {
+  aspect-ratio: 16 / 9;
+  min-height: 520px;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid #cfdbe5;
+  background: #10232f;
+  box-shadow: 0 24px 60px rgba(20, 33, 43, .18);
+}
+.pptx-frame {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background: #ffffff;
+}
+.pptx-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+.pptx-note {
+  color: var(--muted);
+  font-size: .9rem;
+  margin: 0;
+}
+.pptx-shell:fullscreen {
+  width: 100vw;
+  height: 100vh;
+  border: 0;
+  border-radius: 0;
+  padding: 14px;
+  background: #07141b;
+}
+.pptx-shell:fullscreen .pptx-frame-wrap {
+  height: calc(100vh - 74px);
+  min-height: 0;
+  aspect-ratio: auto;
+}
+.pptx-shell:fullscreen .pptx-note { color: #d8e8ef; }
 .warning {
   border-left: 5px solid var(--amber);
   background: var(--amber-soft);
@@ -984,6 +1035,7 @@ footer { padding: 0 clamp(18px, 4vw, 48px) 28px; color: var(--muted); font-size:
   .detail-top, .section-grid, .slide-grid { grid-template-columns: 1fr; }
   .deck-controls { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .deck-progress { grid-column: 1 / -1; order: -1; }
+  .pptx-frame-wrap { min-height: 380px; }
   .time-row { grid-template-columns: 1fr; }
 }
 @media (max-width: 560px) {
@@ -994,6 +1046,7 @@ footer { padding: 0 clamp(18px, 4vw, 48px) 28px; color: var(--muted); font-size:
   .content, .detail-head { padding-inline: 16px; }
   .deck-stage { min-height: 280px; }
   .deck-slide { padding: 22px; }
+  .pptx-frame-wrap { min-height: 260px; }
 }
 @media print {
   body { background: #fff; }
@@ -1143,6 +1196,34 @@ function updateDeckView(lesson) {{
   progressBar.style.setProperty('--progress', `${{progress}}%`);
 }}
 
+function pptxUrl(lesson) {{
+  return new URL(`../prezentacje_pptx/${{lesson.slug}}.pptx`, window.location.href).href;
+}}
+
+function pptxViewerUrl(lesson) {{
+  return `https://view.officeapps.live.com/op/embed.aspx?src=${{encodeURIComponent(pptxUrl(lesson))}}`;
+}}
+
+function renderPptxEmbed(lesson) {{
+  const pptx = pptxUrl(lesson);
+  const viewer = pptxViewerUrl(lesson);
+  const isLocal = ['localhost', '127.0.0.1'].includes(window.location.hostname);
+  const localNote = isLocal
+    ? 'Podgląd osadzony działa po publikacji na GitHub Pages. Lokalnie użyj przycisku Pobierz PPTX.'
+    : 'To jest osadzony plik PPTX z folderu prezentacje_pptx, nie slajdy generowane przez stronę.';
+  return `<div class="pptx-shell" data-pptx-embed>
+    <div class="pptx-frame-wrap">
+      <iframe class="pptx-frame" title="Prezentacja PPTX: ${{lesson.title}}" src="${{viewer}}" allowfullscreen loading="lazy"></iframe>
+    </div>
+    <div class="pptx-actions">
+      <a class="deck-btn primary" href="${{pptx}}" download>Pobierz PPTX</a>
+      <a class="deck-btn" href="${{viewer}}" target="_blank" rel="noopener">Otwórz w nowej karcie</a>
+      <button class="deck-btn" type="button" data-pptx-action="fullscreen">Pełny ekran</button>
+    </div>
+    <p class="pptx-note">${{localNote}} Skrót: F włącza pełny ekran osadzenia.</p>
+  </div>`;
+}}
+
 function renderChecklist(lesson) {{
   const checks = [
     'Sprawdzam grupę docelową lekcji.',
@@ -1163,7 +1244,7 @@ function tabButton(id, label) {{
 
 function renderTabContent(lesson) {{
   if (currentTab === 'slides') {{
-    return `<div class="content">${{renderDeck(lesson)}}</div>`;
+    return `<div class="content">${{renderPptxEmbed(lesson)}}</div>`;
   }}
   if (currentTab === 'checklist') {{
     return `<div class="content">
@@ -1201,7 +1282,7 @@ function showToast(message) {{
 }}
 
 function openFullscreen() {{
-  const deck = detail.querySelector('[data-deck]');
+  const deck = detail.querySelector('[data-pptx-embed]') || detail.querySelector('[data-deck]');
   if (!deck) return;
   const request = deck.requestFullscreen || deck.webkitRequestFullscreen || deck.msRequestFullscreen;
   if (!request) {{
@@ -1210,6 +1291,14 @@ function openFullscreen() {{
   }}
   const result = request.call(deck);
   result?.catch?.(() => showToast('Nie udało się włączyć pełnego ekranu'));
+}}
+
+function bindPptxControls() {{
+  detail.querySelectorAll('[data-pptx-action]').forEach((btn) => {{
+    btn.addEventListener('click', () => {{
+      if (btn.dataset.pptxAction === 'fullscreen') openFullscreen();
+    }});
+  }});
 }}
 
 function bindDeckControls(lesson) {{
@@ -1239,11 +1328,12 @@ function renderDetail(id) {{
         </div>
         <div class="focus-card">
           <strong>30 min</strong>
-          <span>gotowy scenariusz, prezentacja MD i checklista prowadzącego</span>
+          <span>gotowy scenariusz, realny plik PPTX i checklista prowadzącego</span>
         </div>
       </div>
       <div class="actions">
         <a href="../scenariusze/${{lesson.slug}}.md">Scenariusz MD</a>
+        <a class="secondary" href="../prezentacje_pptx/${{lesson.slug}}.pptx">PPTX</a>
         <a class="secondary" href="../prezentacje_md/${{lesson.slug}}.md">Prezentacja MD</a>
         <button class="secondary" type="button" data-action="copy">Kopiuj plan</button>
         <button class="secondary" type="button" data-action="print">Drukuj widok</button>
@@ -1264,7 +1354,7 @@ function renderDetail(id) {{
   }});
   detail.querySelector('[data-action="copy"]').addEventListener('click', () => copyPlan(lesson));
   detail.querySelector('[data-action="print"]').addEventListener('click', () => window.print());
-  if (currentTab === 'slides') bindDeckControls(lesson);
+  if (currentTab === 'slides') bindPptxControls();
   markActive();
 }}
 
@@ -1290,23 +1380,6 @@ focusToggle.addEventListener('click', () => {{
 document.addEventListener('keydown', (event) => {{
   if (currentTab !== 'slides') return;
   if (['INPUT', 'SELECT', 'TEXTAREA'].includes(event.target?.tagName)) return;
-  const lesson = LESSONS.find((item) => item.id === currentId) || LESSONS[0];
-  if (event.key === 'ArrowRight' || event.key === 'PageDown' || event.key === ' ') {{
-    event.preventDefault();
-    moveSlide(lesson, 1);
-  }}
-  if (event.key === 'ArrowLeft' || event.key === 'PageUp') {{
-    event.preventDefault();
-    moveSlide(lesson, -1);
-  }}
-  if (event.key === 'Home') {{
-    event.preventDefault();
-    setSlideIndex(lesson, 0);
-  }}
-  if (event.key === 'End') {{
-    event.preventDefault();
-    setSlideIndex(lesson, lesson.slides.length - 1);
-  }}
   if (event.key.toLowerCase() === 'f') {{
     event.preventDefault();
     openFullscreen();

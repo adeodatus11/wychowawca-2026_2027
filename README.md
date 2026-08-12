@@ -6,7 +6,8 @@ Publiczna strona z materiałami do lekcji wychowawczych ZSZ5 na rok szkolny 2026
 
 - scenariusze lekcji w Markdown,
 - pliki Markdown pod prezentacje,
-- osadzona strona HTML z interaktywnymi prezentacjami i trybem pełnoekranowym,
+- pliki PowerPoint `.pptx` osadzane na stronie przez publiczny podgląd Office,
+- strona HTML z trybem pełnoekranowym dla osadzonej prezentacji PPTX,
 - generator materiałów w `tools/generate_lessons_site.py`.
 
 ## Strona

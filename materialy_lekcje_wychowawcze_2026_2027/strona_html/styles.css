@@ -435,6 +435,57 @@ ul { margin: 0; padding-left: 20px; }
 .deck-shell:fullscreen .deck-slide ul { font-size: clamp(1.4rem, 2vw, 2.25rem); }
 .deck-shell:fullscreen .deck-controls,
 .deck-shell:fullscreen .deck-help { color: #d8e8ef; }
+.pptx-shell {
+  display: grid;
+  gap: 12px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 14px;
+  background:
+    linear-gradient(135deg, rgba(11, 107, 95, .12), transparent 42%),
+    linear-gradient(315deg, rgba(37, 93, 154, .10), transparent 36%),
+    #ffffff;
+}
+.pptx-frame-wrap {
+  aspect-ratio: 16 / 9;
+  min-height: 520px;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid #cfdbe5;
+  background: #10232f;
+  box-shadow: 0 24px 60px rgba(20, 33, 43, .18);
+}
+.pptx-frame {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background: #ffffff;
+}
+.pptx-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+.pptx-note {
+  color: var(--muted);
+  font-size: .9rem;
+  margin: 0;
+}
+.pptx-shell:fullscreen {
+  width: 100vw;
+  height: 100vh;
+  border: 0;
+  border-radius: 0;
+  padding: 14px;
+  background: #07141b;
+}
+.pptx-shell:fullscreen .pptx-frame-wrap {
+  height: calc(100vh - 74px);
+  min-height: 0;
+  aspect-ratio: auto;
+}
+.pptx-shell:fullscreen .pptx-note { color: #d8e8ef; }
 .warning {
   border-left: 5px solid var(--amber);
   background: var(--amber-soft);
@@ -470,6 +521,7 @@ footer { padding: 0 clamp(18px, 4vw, 48px) 28px; color: var(--muted); font-size:
   .detail-top, .section-grid, .slide-grid { grid-template-columns: 1fr; }
   .deck-controls { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .deck-progress { grid-column: 1 / -1; order: -1; }
+  .pptx-frame-wrap { min-height: 380px; }
   .time-row { grid-template-columns: 1fr; }
 }
 @media (max-width: 560px) {
@@ -480,6 +532,7 @@ footer { padding: 0 clamp(18px, 4vw, 48px) 28px; color: var(--muted); font-size:
   .content, .detail-head { padding-inline: 16px; }
   .deck-stage { min-height: 280px; }
   .deck-slide { padding: 22px; }
+  .pptx-frame-wrap { min-height: 260px; }
 }
 @media print {
   body { background: #fff; }

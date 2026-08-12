@@ -25,8 +25,12 @@ Lekcja 0 jest przeznaczona wyłącznie dla klas pierwszych. Pozostałe lekcje s�
 
 1. Otwórz `strona_html/index.html` w przeglądarce.
 2. Wybierz lekcję z listy.
-3. Skorzystaj ze scenariusza lub z linku do prezentacji MD.
+3. Skorzystaj ze scenariusza, pliku PPTX albo prezentacji MD.
 4. Przed użyciem uzupełnij lokalne informacje, szczególnie numery sal, procedurę VULCAN i aktualne osoby kontaktowe.
+
+## Prezentacje na stronie
+
+Zakładka `Prezentacja` osadza właściwe pliki z folderu `prezentacje_pptx`. Podgląd osadzony działa najlepiej po publikacji na GitHub Pages, bo viewer Office musi mieć publiczny adres pliku PPTX. Lokalnie można użyć przycisku pobierania PPTX.
 
 ## Ważne
 
