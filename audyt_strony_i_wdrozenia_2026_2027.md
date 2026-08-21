@@ -22,6 +22,7 @@ Data audytu: 21 sierpnia 2026 r.
 
 - Dodano `assets/logo-orzel-zsz5.png` oraz kopię do folderu publikacyjnego `strona_html/assets/`.
 - Dodano pasek brandu do strony głównej i wszystkich lekcji.
+- Po ponownym audycie brandingu wymieniono logo na znak „Zespół Szkół Zawodowych nr 5 / Szkoła Mistrzów” dostarczony przez użytkownika. Przygotowano dwa warianty: pełny wordmark do szerokich układów oraz kompaktowy znak orła/ZSZ5 do małych nagłówków i widoku mobilnego.
 - Poprawiono tekst hero oraz metrykę: zamiast „1 osobny URL na lekcję” jest „7 miesięcy”.
 - Usunięto przeciążające opisy obszarów z nagłówków miesięcy.
 - Poprawiono przygotowanie nauczyciela.

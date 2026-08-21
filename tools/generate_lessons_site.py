@@ -17,6 +17,8 @@ ROOT_LESSON_PAGES = ROOT / "lekcje"
 ROOT_ASSETS = ROOT / "assets"
 SITE_ASSETS = SITE / "assets"
 LOGO_FILE = "logo-orzel-zsz5.png"
+LOGO_FULL_FILE = "logo-school-master-full.png"
+LOGO_FILES = (LOGO_FILE, LOGO_FULL_FILE)
 ANALYSIS = ROOT / "analiza_i_opracowanie_tematow_lekcji_wychowawczych_2026_2027.md"
 DOCX_SOURCE = ROOT / "Plan pracy wychowawczo profilaktycznej szkoly 2026.2027.docx"
 
@@ -1145,11 +1147,13 @@ def page_shell(title: str, body: str, rel_prefix: str = "") -> str:
 """)
 
 
-def brand_html(rel_prefix: str = "") -> str:
+def brand_html(rel_prefix: str = "", variant: str = "compact") -> str:
+    variant_class = "brand-strip-full" if variant == "full" else "brand-strip-compact"
     return f"""
-    <div class="brand-strip">
-      <img src="{rel_prefix}assets/{LOGO_FILE}" alt="Logo ZSZ5 we Wrocławiu" width="500" height="407">
-      <div>
+    <div class="brand-strip {variant_class}">
+      <img class="brand-logo-full" src="{rel_prefix}assets/{LOGO_FULL_FILE}" alt="Zespół Szkół Zawodowych nr 5 we Wrocławiu - Szkoła Mistrzów" width="1931" height="301">
+      <img class="brand-logo-mark" src="{rel_prefix}assets/{LOGO_FILE}" alt="Logo ZSZ5 we Wrocławiu" width="437" height="298">
+      <div class="brand-text">
         <strong>Szkoła Mistrzów</strong>
         <span>Zespół Szkół Zawodowych nr 5 we Wrocławiu</span>
       </div>
@@ -1271,7 +1275,7 @@ def render_index(lessons: list[dict], sources_href: str = "../zrodla.md") -> str
         )
     body = f"""
   <header class="site-header">
-    {brand_html()}
+    {brand_html(variant="full")}
     <p class="kicker">Materiały dla wychowawcy</p>
     <h1>Plan pracy wychowawczo-profilaktycznej 2026/2027</h1>
     <p class="subtitle">35 lekcji ułożonych miesiącami. Każda strona prowadzi wychowawcę przez sens tematu, pytanie otwierające, ćwiczenie, najważniejsze komunikaty dla uczniów, film i źródła do pogłębienia.</p>
@@ -1346,16 +1350,39 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 .brand-strip {
   display: inline-flex;
   align-items: center;
-  gap: 13px;
+  gap: 15px;
   max-width: 100%;
-  margin-bottom: 18px;
+  margin-bottom: 20px;
   color: var(--ink);
 }
-.brand-strip img {
-  width: 74px;
-  height: 60px;
+.brand-logo-full,
+.brand-logo-mark {
+  display: block;
+  height: auto;
   object-fit: contain;
   object-position: left center;
+}
+.brand-logo-full {
+  width: min(680px, 100%);
+  max-height: 106px;
+}
+.brand-logo-mark {
+  width: 78px;
+  max-height: 58px;
+}
+.brand-strip-full {
+  display: flex;
+  width: min(720px, 100%);
+}
+.brand-strip-full .brand-logo-mark,
+.brand-strip-full .brand-text {
+  display: none;
+}
+.brand-strip-compact .brand-logo-full {
+  display: none;
+}
+.brand-text {
+  min-width: 0;
 }
 .brand-strip strong {
   display: block;
@@ -1666,9 +1693,23 @@ li + li { margin-top: 6px; }
   .schedule { display: block; overflow-x: auto; }
 }
 @media (max-width: 520px) {
-  .brand-strip img {
-    width: 58px;
-    height: 48px;
+  .brand-strip {
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+  .brand-strip-full {
+    width: 100%;
+  }
+  .brand-strip-full .brand-logo-full {
+    display: none;
+  }
+  .brand-strip-full .brand-logo-mark,
+  .brand-strip-full .brand-text {
+    display: block;
+  }
+  .brand-logo-mark {
+    width: 60px;
+    max-height: 46px;
   }
   .brand-strip strong { font-size: .98rem; }
   .brand-strip span { font-size: .82rem; }
@@ -1798,8 +1839,9 @@ def main() -> None:
     LESSON_PAGES.mkdir(parents=True, exist_ok=True)
     ROOT_LESSON_PAGES.mkdir(parents=True, exist_ok=True)
     SITE_ASSETS.mkdir(parents=True, exist_ok=True)
-    if (ROOT_ASSETS / LOGO_FILE).exists():
-        shutil.copy2(ROOT_ASSETS / LOGO_FILE, SITE_ASSETS / LOGO_FILE)
+    for logo_file in LOGO_FILES:
+        if (ROOT_ASSETS / logo_file).exists():
+            shutil.copy2(ROOT_ASSETS / logo_file, SITE_ASSETS / logo_file)
     (SITE / "styles.css").write_text(CSS.strip() + "\n", encoding="utf-8")
     (SITE / "script.js").write_text(JS.strip() + "\n", encoding="utf-8")
     (SITE / "index.html").write_text(render_index(lessons), encoding="utf-8")
