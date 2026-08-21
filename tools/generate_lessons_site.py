@@ -13,6 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "materialy_lekcje_wychowawcze_2026_2027"
 SITE = OUT / "strona_html"
 LESSON_PAGES = SITE / "lekcje"
+ROOT_LESSON_PAGES = ROOT / "lekcje"
 ANALYSIS = ROOT / "analiza_i_opracowanie_tematow_lekcji_wychowawczych_2026_2027.md"
 DOCX_SOURCE = ROOT / "Plan pracy wychowawczo profilaktycznej szkoly 2026.2027.docx"
 
@@ -632,8 +633,51 @@ def normalize_title(value: str) -> str:
     return value
 
 
+SHORT_TITLES = [
+    "Integracja i reintegracja klasy",
+    "Komunikacja, która pomaga",
+    "Wspólne rozwiązywanie trudności",
+    "Odpowiedzialność za społeczność szkolną",
+    "Bezpieczeństwo swoje i innych",
+    "Współczesny patriotyzm",
+    "Wolontariat i pomaganie",
+    "Sen, ruch i odżywianie",
+    "Pierwsza pomoc",
+    "Stres i regeneracja",
+    "Decyzje prozdrowotne",
+    "Dane w sieci",
+    "Odpowiedzialne korzystanie z AI",
+    "Fake news i manipulacja",
+    "Równowaga cyfrowa",
+    "Mówienie o potrzebach",
+    "Mapa pomocy w szkole",
+    "Współpraca uczeń - rodzic - szkoła",
+    "Mocne strony i wsparcie",
+    "Reagowanie na przemoc rówieśniczą",
+    "Uzależnienia behawioralne",
+    "Zdrowie psychiczne i pomoc",
+    "Konflikt bez agresji",
+    "Mocne strony i przyszły zawód",
+    "Kompetencje oczekiwane przez pracodawcę",
+    "Praktyki zawodowe",
+    "Decyzje dotyczące kariery",
+    "Samodzielne szukanie odpowiedzi",
+    "Dobry projekt",
+    "Informacja zwrotna",
+    "Łączenie wiedzy z różnych dziedzin",
+    "Oszczędzanie energii i wody",
+    "Codzienne decyzje a środowisko",
+    "Segregacja odpadów",
+    "Szkoła odpowiedzialna za środowisko",
+]
+
+
+def clean_inline_markdown(value: str) -> str:
+    return re.sub(r"`([^`]+)`", r"„\1”", value)
+
+
 def esc(value: str) -> str:
-    return html.escape(value, quote=True)
+    return html.escape(clean_inline_markdown(value), quote=True)
 
 
 def paragraph(text: str) -> str:
@@ -642,6 +686,10 @@ def paragraph(text: str) -> str:
 
 def list_html(items: list[str]) -> str:
     return "<ul>" + "".join(f"<li>{esc(item)}</li>" for item in items) + "</ul>"
+
+
+def tidy_html(value: str) -> str:
+    return "\n".join(line.rstrip() for line in value.splitlines()) + "\n"
 
 
 def prep_items(lesson: dict) -> list[str]:
@@ -715,13 +763,14 @@ def build_lessons() -> list[dict]:
         fields = analysis.get(title) or analysis_by_normalized.get(normalize_title(title))
         if not fields:
             raise RuntimeError(f"Missing analysis section for: {title}")
-        slug = f"{idx:02d}-{slugify(title)}"
+        slug = f"{idx:02d}"
         lessons.append(
             {
                 "id": f"{idx:02d}",
                 "slug": slug,
                 "url": f"lekcje/{slug}.html",
                 "title": title,
+                "display_title": SHORT_TITLES[idx - 1],
                 "goal": item["goal"],
                 "month": item["month"],
                 "area": item["area"],
@@ -743,7 +792,7 @@ def build_lessons() -> list[dict]:
 
 
 def page_shell(title: str, body: str, rel_prefix: str = "") -> str:
-    return f"""<!doctype html>
+    return tidy_html(f"""<!doctype html>
 <html lang="pl">
 <head>
   <meta charset="utf-8">
@@ -756,7 +805,7 @@ def page_shell(title: str, body: str, rel_prefix: str = "") -> str:
 {body}
 </body>
 </html>
-"""
+""")
 
 
 def render_lesson(lesson: dict, prev_lesson: dict | None, next_lesson: dict | None) -> str:
@@ -770,7 +819,8 @@ def render_lesson(lesson: dict, prev_lesson: dict | None, next_lesson: dict | No
   <header class="site-header compact">
     <a class="back-link" href="../index.html">← Plan pracy wychowawczo-profilaktycznej 2026/2027</a>
     <p class="kicker">Cel {lesson["goal"]} · {esc(lesson["area"])} · {esc(lesson["month"])}</p>
-    <h1>{esc(lesson["title"])}</h1>
+    <h1>{esc(lesson["display_title"])}</h1>
+    <p class="subtitle"><strong>Temat z planu:</strong> {esc(lesson["title"])}</p>
     <p class="subtitle">Przewodnik dla wychowawcy na 30-minutową lekcję. Materiał można skrócić albo potraktować jako punkt wyjścia do rozmowy z klasą.</p>
   </header>
   <main class="lesson-layout">
@@ -833,20 +883,45 @@ def render_lesson(lesson: dict, prev_lesson: dict | None, next_lesson: dict | No
     </article>
   </main>
 """
-    return page_shell(lesson["title"], body, rel_prefix="../")
+    return page_shell(f'{lesson["id"]}. {lesson["display_title"]}', body, rel_prefix="../")
 
 
-def render_index(lessons: list[dict]) -> str:
-    cards = []
-    for lesson in lessons:
-        cards.append(
+def render_index(lessons: list[dict], sources_href: str = "../zrodla.md") -> str:
+    goal_sections = []
+    for goal in range(1, 10):
+        group = [lesson for lesson in lessons if lesson["goal"] == goal]
+        if not group:
+            continue
+        areas = sorted({lesson["area"] for lesson in group})
+        cards = []
+        for lesson in group:
+            cards.append(
+                f"""
+          <a class="lesson-card" href="{esc(lesson["url"])}" data-goal="{lesson["goal"]}" data-month="{esc(lesson["month"])}" data-area="{esc(lesson["area"])}">
+            <span class="card-top">
+              <span class="lesson-id">{lesson["id"]}</span>
+              <span class="lesson-meta">{esc(lesson["month"])} · {esc(lesson["area"])}</span>
+            </span>
+            <strong>{esc(lesson["display_title"])}</strong>
+            <span class="full-topic">Temat z planu: {esc(lesson["title"])}</span>
+            <span class="lesson-result"><b>Efekt:</b> {esc(lesson["evidence"])}</span>
+            <span class="open-label">Otwórz lekcję</span>
+          </a>"""
+            )
+        goal_sections.append(
             f"""
-      <a class="lesson-card" href="{esc(lesson["url"])}" data-goal="{lesson["goal"]}" data-month="{esc(lesson["month"])}" data-area="{esc(lesson["area"])}">
-        <span class="lesson-id">{lesson["id"]}</span>
-        <span class="lesson-meta">Cel {lesson["goal"]} · {esc(lesson["month"])} · {esc(lesson["area"])}</span>
-        <strong>{esc(lesson["title"])}</strong>
-        <span>{esc(lesson["evidence"])}</span>
-      </a>"""
+      <section class="goal-section" data-goal-section="{goal}">
+        <div class="goal-heading">
+          <div>
+            <span class="goal-kicker">Cel {goal}</span>
+            <h2>{esc(" / ".join(areas))}</h2>
+          </div>
+          <span>{len(group)} lekcje</span>
+        </div>
+        <div class="lesson-grid">
+          {''.join(cards)}
+        </div>
+      </section>"""
         )
     body = f"""
   <header class="site-header">
@@ -872,15 +947,15 @@ def render_index(lessons: list[dict]) -> str:
       <p id="count" class="count">35 lekcji</p>
     </section>
     <section>
-      <h2>Lista lekcji</h2>
-      <div id="lessonGrid" class="lesson-grid">
-        {''.join(cards)}
+      <h2>Lista lekcji według celów</h2>
+      <div id="lessonGrid" class="goal-list">
+        {''.join(goal_sections)}
       </div>
     </section>
     <section class="note">
       <h2>Jak korzystać</h2>
       <p>Wychowawca wybiera temat zgodnie z miesiącem z planu, otwiera stronę lekcji i prowadzi zajęcia według przewodnika. Przy tematach wrażliwych pracujemy na przykładach fikcyjnych i nie zbieramy prywatnych historii uczniów na forum klasy.</p>
-      <p>Źródła zbiorcze są dostępne w pliku <a href="../zrodla.md">zrodla.md</a>.</p>
+      <p>Źródła zbiorcze są dostępne w pliku <a href="{esc(sources_href)}">zrodla.md</a>.</p>
     </section>
   </main>
   <script src="script.js"></script>
@@ -997,30 +1072,104 @@ input, select {
   padding: 6px 10px;
   font-weight: 800;
 }
+.goal-list {
+  display: grid;
+  gap: 20px;
+}
+.goal-section {
+  display: grid;
+  gap: 12px;
+}
+.goal-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 14px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--line);
+}
+.goal-heading h2 { margin: 3px 0 0; }
+.goal-heading > span {
+  flex: 0 0 auto;
+  color: var(--muted);
+  font-size: .9rem;
+  font-weight: 800;
+}
+.goal-kicker {
+  color: var(--accent);
+  font-size: .78rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+}
 .lesson-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 13px;
 }
 .lesson-card {
   display: grid;
-  gap: 8px;
+  grid-template-rows: auto auto auto 1fr auto;
+  gap: 9px;
   padding: 15px;
   color: var(--ink);
   text-decoration: none;
 }
 .lesson-card:hover { border-color: var(--accent); background: var(--accent-soft); }
+.card-top {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  min-width: 0;
+}
 .lesson-id {
-  width: fit-content;
+  flex: 0 0 auto;
   min-width: 38px;
   padding: 3px 8px;
   border-radius: 8px;
   background: var(--ink);
   color: #fff !important;
   font-weight: 900;
+  text-align: center;
 }
-.lesson-meta { font-size: .82rem; font-weight: 800; }
-.lesson-card strong { font-size: 1.05rem; line-height: 1.28; }
+.lesson-meta {
+  min-width: 0;
+  font-size: .82rem;
+  font-weight: 800;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.lesson-card strong {
+  font-size: 1.08rem;
+  line-height: 1.25;
+}
+.full-topic {
+  display: -webkit-box;
+  font-size: .9rem;
+  line-height: 1.38;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.lesson-result {
+  font-size: .92rem;
+  line-height: 1.4;
+}
+.lesson-result b { color: var(--ink); }
+.open-label {
+  width: fit-content;
+  margin-top: 4px;
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  padding: 6px 10px;
+  color: var(--accent) !important;
+  font-weight: 850;
+}
+.lesson-card:hover .open-label {
+  background: var(--accent);
+  color: #fff !important;
+}
 .note {
   grid-column: 2;
   margin-top: 20px;
@@ -1119,6 +1268,7 @@ li + li { margin-top: 6px; }
   .metrics, .index-layout, .lesson-layout { grid-template-columns: 1fr; }
   .toolbar, .lesson-aside { position: static; }
   .note { grid-column: auto; }
+  .goal-heading { align-items: start; flex-direction: column; }
   .schedule { display: block; overflow-x: auto; }
 }
 """
@@ -1128,6 +1278,7 @@ JS = """
 const search = document.querySelector('#search');
 const goalFilter = document.querySelector('#goalFilter');
 const cards = Array.from(document.querySelectorAll('.lesson-card'));
+const goalSections = Array.from(document.querySelectorAll('.goal-section'));
 const count = document.querySelector('#count');
 
 function normalize(value) {
@@ -1145,6 +1296,10 @@ function applyFilters() {
     const show = matchesText && matchesGoal;
     card.hidden = !show;
     if (show) visible += 1;
+  });
+  goalSections.forEach((section) => {
+    const hasVisibleCard = Boolean(section.querySelector('.lesson-card:not([hidden])'));
+    section.hidden = !hasVisibleCard;
   });
   count.textContent = `${visible} z ${cards.length} lekcji`;
 }
@@ -1211,7 +1366,8 @@ Publiczna strona z materiałami dla wychowawców ZSZ5 na rok szkolny 2026/2027.
 - źródło tematów: `Plan pracy wychowawczo profilaktycznej szkoly 2026.2027.docx`,
 - liczba tematów: {len(lessons)},
 - format: osobna strona HTML dla każdej lekcji,
-- wejście do strony: `materialy_lekcje_wychowawcze_2026_2027/strona_html/index.html`.
+- wejście do strony: `index.html`,
+- krótkie adresy lekcji: `lekcje/01.html`, `lekcje/02.html` itd.
 
 ## Zawartość lekcji
 
@@ -1235,23 +1391,30 @@ def main() -> None:
     SITE.mkdir(parents=True, exist_ok=True)
     if LESSON_PAGES.exists():
         shutil.rmtree(LESSON_PAGES)
+    if ROOT_LESSON_PAGES.exists():
+        shutil.rmtree(ROOT_LESSON_PAGES)
     LESSON_PAGES.mkdir(parents=True, exist_ok=True)
+    ROOT_LESSON_PAGES.mkdir(parents=True, exist_ok=True)
     (SITE / "styles.css").write_text(CSS.strip() + "\n", encoding="utf-8")
     (SITE / "script.js").write_text(JS.strip() + "\n", encoding="utf-8")
     (SITE / "index.html").write_text(render_index(lessons), encoding="utf-8")
+    (ROOT / "styles.css").write_text(CSS.strip() + "\n", encoding="utf-8")
+    (ROOT / "script.js").write_text(JS.strip() + "\n", encoding="utf-8")
+    (ROOT / "index.html").write_text(
+        render_index(lessons, sources_href="materialy_lekcje_wychowawcze_2026_2027/zrodla.md"),
+        encoding="utf-8",
+    )
     for idx, lesson in enumerate(lessons):
         prev_lesson = lessons[idx - 1] if idx > 0 else None
         next_lesson = lessons[idx + 1] if idx < len(lessons) - 1 else None
-        (LESSON_PAGES / f"{lesson['slug']}.html").write_text(render_lesson(lesson, prev_lesson, next_lesson), encoding="utf-8")
+        lesson_html = render_lesson(lesson, prev_lesson, next_lesson)
+        (LESSON_PAGES / f"{lesson['slug']}.html").write_text(lesson_html, encoding="utf-8")
+        (ROOT_LESSON_PAGES / f"{lesson['slug']}.html").write_text(lesson_html, encoding="utf-8")
     (OUT / "lessons.json").write_text(json.dumps(lessons, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     write_sources(lessons)
     write_readme(lessons)
     write_root_readme(lessons)
-    (ROOT / "index.html").write_text(
-        '<!doctype html><html lang="pl"><head><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=materialy_lekcje_wychowawcze_2026_2027/strona_html/index.html"><title>Plan pracy wychowawczo-profilaktycznej 2026/2027</title></head><body><p><a href="materialy_lekcje_wychowawcze_2026_2027/strona_html/index.html">Otwórz plan pracy wychowawczo-profilaktycznej 2026/2027</a></p></body></html>\n',
-        encoding="utf-8",
-    )
-    print(f"Generated {len(lessons)} lesson pages in {LESSON_PAGES}")
+    print(f"Generated {len(lessons)} lesson pages in {LESSON_PAGES} and {ROOT_LESSON_PAGES}")
 
 
 if __name__ == "__main__":

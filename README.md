@@ -7,7 +7,8 @@ Publiczna strona z materiałami dla wychowawców ZSZ5 na rok szkolny 2026/2027.
 - źródło tematów: `Plan pracy wychowawczo profilaktycznej szkoly 2026.2027.docx`,
 - liczba tematów: 35,
 - format: osobna strona HTML dla każdej lekcji,
-- wejście do strony: `materialy_lekcje_wychowawcze_2026_2027/strona_html/index.html`.
+- wejście do strony: `index.html`,
+- krótkie adresy lekcji: `lekcje/01.html`, `lekcje/02.html` itd.
 
 ## Zawartość lekcji
 
