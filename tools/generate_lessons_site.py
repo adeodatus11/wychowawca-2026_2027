@@ -286,7 +286,7 @@ LESSON_META = [
             "Ostry komentarz często zamyka rozmowę; konkretna prośba daje szansę na zmianę.",
         ],
         "sources": ["men_2026"],
-        "video": ("Język a relacje", "https://www.youtube.com/watch?v=e9AlT3kJeAw"),
+        "video": ("Komunikacja bez przemocy (NVC) - Magdalena Malinowska-Berggren, Joanna Flis", "https://www.youtube.com/watch?v=lYfuhIjcyKs"),
     },
     {
         "goal": 1,
@@ -312,7 +312,7 @@ LESSON_META = [
             "Reagowanie na zagrożenie jest elementem odpowiedzialności, nie donoszeniem.",
         ],
         "sources": ["men_2026", "zsz5"],
-        "video": ("Po co nam relacje z innymi?", "https://www.youtube.com/watch?v=xnKobxzTKd4"),
+        "video": ("Być wychowawcą lub wychowawczynią klasy. Co to tak naprawdę znaczy?", "https://www.youtube.com/watch?v=nF3OOHrpmZo"),
     },
     {
         "goal": 2,
@@ -351,7 +351,7 @@ LESSON_META = [
             "Dobre działanie społeczne ma cel, opiekuna, granice i bezpieczny sposób wykonania.",
         ],
         "sources": ["men_2026"],
-        "video": ("Sztuka pomagania - animacja edukacyjna", "https://www.youtube.com/watch?v=R--NSyvsI0o"),
+        "video": ("Wolontariusz: kto to taki? | Edukujemy o Wolontariacie", "https://www.youtube.com/watch?v=vzs6bBqVCoE"),
     },
     {
         "goal": 3,
@@ -364,7 +364,7 @@ LESSON_META = [
             "Nie komentujemy wyglądu ani masy ciała; rozmawiamy o funkcjonowaniu i zdrowiu.",
         ],
         "sources": ["men_2026", "zpe_zdrowie"],
-        "video": ("Co się dzieje, gdy długo korzystamy z telefonu przed snem?", "https://www.youtube.com/watch?v=e3VZvoDyghY"),
+        "video": ("Dlaczego śpimy? Sen jako fundament zdrowia i nauki", "https://www.youtube.com/watch?v=GqZSUajM1Ws"),
     },
     {
         "goal": 3,
@@ -390,7 +390,7 @@ LESSON_META = [
             "Jeżeli stres odbiera sen, jedzenie, bezpieczeństwo lub chęć życia, trzeba powiedzieć dorosłemu.",
         ],
         "sources": ["zpe_zdrowie"],
-        "video": ("Stres wróg czy przyjaciel?", "https://www.youtube.com/watch?v=7Tg81LhIFTU"),
+        "video": ("Jak radzić sobie ze stresem? Warsztaty dla uczniów", "https://www.youtube.com/watch?v=2H3rW60hlbM"),
     },
     {
         "goal": 3,
@@ -403,7 +403,7 @@ LESSON_META = [
             "W razie problemów zdrowotnych uczeń nie zostaje sam: rodzic, wychowawca, pielęgniarka, lekarz, pedagog lub psycholog.",
         ],
         "sources": ["zpe_zdrowie"],
-        "video": ("Edukacja zdrowotna - materiały ZPE", "https://zpe.gov.pl/edukacja-zdrowotna"),
+        "video": ("Zdrowy styl życia #8 [Moje bezpieczeństwo]", "https://www.youtube.com/watch?v=u84AzBAcI10"),
     },
     {
         "goal": 4,
@@ -442,7 +442,7 @@ LESSON_META = [
             "Udostępnianie fałszywych treści może szkodzić innym, nawet jeśli robimy to bez złej intencji.",
         ],
         "sources": ["nask_dezinformacja", "zpe"],
-        "video": ("W co wierzyć w internecie? Kurs NASK dla nauczycieli", "https://www.nask.pl/aktualnosci/w-co-wierzyc-w-internecie-nowy-kurs-dla-nauczycieli-na-ose-it-szkole"),
+        "video": ("PEWNI W SIECI - Dezinformacja i fake newsy", "https://www.youtube.com/watch?v=u3k1Nj2QSIw"),
     },
     {
         "goal": 4,
@@ -468,7 +468,7 @@ LESSON_META = [
             "Uczeń nie musi opowiadać prywatnych spraw na forum klasy.",
         ],
         "sources": ["men_2026", "zsz5"],
-        "video": ("Mówię językiem żyrafy - porozumienie bez przemocy", "https://www.youtube.com/watch?v=Q20hHA8YSyE"),
+        "video": ("Nonviolent Communication - Marshall Rosenberg (napisy PL)", "https://www.youtube.com/watch?v=Q-Si2l8-jxo"),
     },
     {
         "goal": 5,
@@ -572,7 +572,7 @@ LESSON_META = [
             "Uczeń powinien umieć podać dowód swojej mocnej strony.",
         ],
         "sources": ["ore_doradztwo", "ore_filmy", "szkola_mistrzow"],
-        "video": ("Drogi Zawodowe - Mocne strony", "https://doradztwo.ore.edu.pl/cykl-filmow-drogi-zawodowe/"),
+        "video": ("Drogi Zawodowe - Mocne strony", "https://www.youtube.com/watch?v=DCMlt_8GXLM"),
     },
     {
         "goal": 7,
@@ -585,7 +585,7 @@ LESSON_META = [
             "Praktyki są miejscem budowania opinii o sobie.",
         ],
         "sources": ["ore_doradztwo", "ore_filmy", "szkola_mistrzow"],
-        "video": ("Kompetencje miękkie - co pracodawcy cenią najbardziej", "https://www.youtube.com/playlist?list=PLb3ouxXjeRieChrhVYJarKFnrDH6i3-xU"),
+        "video": ("Czego pracodawcy oczekują od kandydatów do pracy?", "https://www.youtube.com/watch?v=63QVdxPKV-I"),
     },
     {
         "goal": 7,
@@ -598,7 +598,7 @@ LESSON_META = [
             "Uczeń ma wpływ na to, co wyniesie z praktyk.",
         ],
         "sources": ["ore_doradztwo", "ore_filmy", "szkola_mistrzow"],
-        "video": ("Drogi Zawodowe - Pierwsze doświadczenia", "https://doradztwo.ore.edu.pl/cykl-filmow-drogi-zawodowe/"),
+        "video": ("Drogi Zawodowe - Pierwsze doświadczenia", "https://www.youtube.com/watch?v=STSlRxKnIyE"),
     },
     {
         "goal": 7,
@@ -611,7 +611,7 @@ LESSON_META = [
             "Pierwszy krok jest ważniejszy niż idealny plan na całe życie.",
         ],
         "sources": ["ore_doradztwo", "ore_filmy", "szkola_mistrzow"],
-        "video": ("Drogi Zawodowe - Wybory i decyzje", "https://doradztwo.ore.edu.pl/cykl-filmow-drogi-zawodowe/"),
+        "video": ("Drogi Zawodowe - Decyzje", "https://www.youtube.com/watch?v=qefETYPjBs0"),
     },
     {
         "goal": 8,
@@ -624,7 +624,7 @@ LESSON_META = [
             "Ciekawość można zamienić w mały plan poszukiwania.",
         ],
         "sources": ["zpe", "nask_dezinformacja"],
-        "video": ("ZPE - zasoby edukacyjne do samodzielnej pracy", "https://zpe.gov.pl/"),
+        "video": ("Wierzyć czy nie? Jak oceniać wiarygodność źródeł informacji w sieci", "https://www.youtube.com/watch?v=K3p-VsXJIFs"),
     },
     {
         "goal": 8,
@@ -637,7 +637,7 @@ LESSON_META = [
             "Nauczyciel wspiera proces, ale nie wykonuje pracy za uczniów.",
         ],
         "sources": ["projekt"],
-        "video": ("Metoda projektu - webinaria", "https://www.youtube.com/playlist?list=PL_2UCJJebQEQYYi6Tn6pm8vGB68Z0hwxT"),
+        "video": ("Czym jest metoda projektu?", "https://www.youtube.com/watch?v=n78QV3OqnzA"),
     },
     {
         "goal": 8,
@@ -650,7 +650,7 @@ LESSON_META = [
             "Uczeń korzysta z informacji zwrotnej dopiero wtedy, gdy robi po niej konkretne działanie.",
         ],
         "sources": ["ceo_feedback"],
-        "video": ("Ocenianie kształtujące - współpraca nauczycieli", "https://www.youtube.com/playlist?list=PLD4KSOFXmjZuF-xOYwcn89_PJI2Pt2hV9"),
+        "video": ("Informacja zwrotna - trudne narzędzie czy dobra komunikacja", "https://www.youtube.com/watch?v=aTpnPo3EMXI"),
     },
     {
         "goal": 8,
@@ -663,7 +663,7 @@ LESSON_META = [
             "Łączenie dziedzin pomaga rozwiązywać praktyczne problemy.",
         ],
         "sources": ["zpe", "projekt"],
-        "video": ("Uczenie się metodą uczniowskiego projektu", "https://www.edunews.pl/narzedzia-i-projekty/narzedzia-edukacyjne/1136-uczenie-sie-metoda-uczniowskiego-projektu"),
+        "video": ("Edukacja dla przyszłości - dyskusja", "https://www.youtube.com/watch?v=f93q36pGyeA"),
     },
     {
         "goal": 9,
@@ -676,7 +676,7 @@ LESSON_META = [
             "W szkole szukamy rozwiązań realnych, nie tylko deklaracji.",
         ],
         "sources": ["pah_woda", "zpe_odpady"],
-        "video": ("Woda nie tylko w kranie", "https://www.youtube.com/watch?v=AB0RFjndmWU"),
+        "video": ("Webinar wprowadzający do akcji Światowy Dzień Wody z PAH", "https://www.youtube.com/watch?v=wPrO9__b00k"),
     },
     {
         "goal": 9,
@@ -689,7 +689,7 @@ LESSON_META = [
             "Lepsza alternatywa musi być możliwa do wykonania w realnym życiu ucznia.",
         ],
         "sources": ["zpe_odpady", "pah_woda"],
-        "video": ("Ekologia w życiu EKO bohatera", "https://www.youtube.com/watch?v=wxZ6JKXTX4U"),
+        "video": ("Czy technologia i AI szkodzą środowisku?", "https://www.youtube.com/watch?v=C9FZtXpnanY"),
     },
     {
         "goal": 9,
@@ -702,7 +702,7 @@ LESSON_META = [
             "Najpierw ograniczamy ilość odpadów, a dopiero potem je segregujemy.",
         ],
         "sources": ["zpe_odpady"],
-        "video": ("W jaki sposób radzić sobie z odpadami?", "https://zpe.gov.pl/a/film/Df0T0zIDT"),
+        "video": ("Jak są segregowane odpady? - Fabryki w Polsce", "https://www.youtube.com/watch?v=CwAP97KJTIg"),
     },
     {
         "goal": 9,
@@ -715,7 +715,7 @@ LESSON_META = [
             "Lepiej zrobić jedno małe działanie niż zapisać dużą deklarację bez wykonania.",
         ],
         "sources": ["zpe_odpady", "projekt"],
-        "video": ("Młodzież promuje ekologiczne zachowania", "https://eog-szkoly.zory.pl/mlodziez-nakrecila-filmy-by-promowac-ekologiczne-zachowania/"),
+        "video": ("O angażowaniu młodych ludzi w akcje na rzecz klimatu i środowiska", "https://www.youtube.com/watch?v=exmwH6-x8g8"),
     },
 ]
 
@@ -849,21 +849,21 @@ LESSON_FOCUS = [
 
 VIDEO_NOTES = [
     "Materiał pomaga wejść w temat relacji i pokazuje, że klasa potrzebuje świadomie budowanych zasad, nie tylko formalnego bycia razem. Warto obejrzeć go pod kątem jednego przykładu do rozmowy o atmosferze w grupie.",
-    "Film jest dobrym punktem wyjścia do rozmowy o języku, który otwiera albo zamyka kontakt. Nauczyciel może zwrócić uwagę na przykłady komunikatów, które łatwo przełożyć na sytuacje klasowe.",
+    "Rozmowa o NVC porządkuje różnicę między oceną, faktem, potrzebą i prośbą. Nauczyciel może potraktować ją jako dorosłe tło do przygotowania prostych komunikatów, które uczniowie przećwiczą w klasie.",
     "Materiał porządkuje myślenie o konflikcie i pomaga nie mylić trudności grupowej z szukaniem winnego. Przyda się do przygotowania pytań o fakty, emocje i możliwe kroki naprawcze.",
-    "Film można potraktować jako inspirację do rozmowy o tym, po co ludziom wspólnota i zasady współżycia. Warto wyłapać przykłady zachowań, które budują odpowiedzialność w codziennych sytuacjach.",
+    "Rozmowa o roli wychowawcy pomaga spojrzeć na klasę jak na społeczność, którą trzeba prowadzić przez relacje, zasady i odpowiedzialność. Warto wybrać z niej jeden przykład codziennego zachowania dorosłego, które wzmacnia kulturę klasy.",
     "Materiał o pierwszej pomocy pokazuje prosty schemat reakcji w sytuacji zagrożenia. Dobrze obejrzeć go przed lekcją, żeby mówić uczniom krótko: zabezpiecz, sprawdź, wezwij pomoc.",
     "Film pomaga odsunąć temat patriotyzmu od samej symboliki i rozpocząć rozmowę o postawie obywatelskiej. Warto wykorzystać go jako pretekst do pytania, jak wygląda odpowiedzialność za wspólnotę dziś.",
-    "Materiał pokazuje pomaganie jako działanie wymagające sensu, granic i szacunku. Nauczyciel może poszukać w nim przykładów do odróżnienia realnej pomocy od działania wyłącznie na pokaz.",
-    "Film wspiera rozmowę o higienie snu i wpływie ekranów na regenerację. Przyda się zwłaszcza do pokazania, że zdrowie zaczyna się od małych codziennych wyborów.",
+    "Materiał pokazuje wolontariat jako odpowiedzialne działanie, a nie tylko dobry gest. Nauczyciel może wyciągnąć z niego pytania o motywację, granice pomocy, rolę organizatora i realny skutek dla odbiorcy.",
+    "Film daje dorosły kontekst do rozmowy o śnie jako warunku koncentracji, uczenia się i nastroju. Warto użyć go do przełożenia tematu zdrowia na jeden konkretny nawyk, który uczeń może sprawdzić w tygodniu.",
     "Materiał wzmacnia najważniejszy komunikat: uczeń nie musi być ratownikiem, żeby rozpocząć właściwe działanie. Warto obejrzeć go pod kątem spokojnego języka instrukcji.",
-    "Film pomaga pokazać stres jako reakcję organizmu, która może mobilizować albo przeciążać. Nauczyciel może wykorzystać go do rozmowy o sygnałach ostrzegawczych i regeneracji.",
-    "Strona ZPE prowadzi do materiałów o edukacji zdrowotnej. Warto przejrzeć ją, żeby dobrać przykład decyzji zdrowotnej bliski klasie, bez moralizowania i zawstydzania.",
+    "Warsztatowy materiał pomaga pokazać stres jako reakcję organizmu, którą można zauważać i regulować. Nauczyciel może wykorzystać go do rozmowy o sygnałach przeciążenia i prostych sposobach regeneracji.",
+    "Wideolekcja porządkuje podstawowe elementy zdrowego stylu życia bez wchodzenia w ocenianie wyglądu. Warto obejrzeć ją pod kątem decyzji zdrowotnych, które mają skutek dla energii, frekwencji i nauki.",
     "Film może posłużyć jako wprowadzenie do rozmowy o podstawowych zasadach cyberbezpieczeństwa. Najważniejsze jest wyłapanie prostych zachowań chroniących dane i prywatność.",
     "Materiał pomaga zrozumieć, że AI jest narzędziem wymagającym kontroli, źródeł i odpowiedzialności. Warto obejrzeć go pod kątem przykładów, kiedy AI pomaga, a kiedy może zaszkodzić.",
-    "To inspiracja dla nauczyciela do rozmowy o dezinformacji i mechanizmach manipulacji. Warto szukać przykładów pytań, które uczniowie mogą zadać przed udostępnieniem treści.",
+    "Odcinek o dezinformacji pokazuje, jak łatwo treść w sieci może wpływać na emocje i decyzje. Nauczyciel może przygotować na jego podstawie prosty filtr: źródło, data, autor, dowód, emocja.",
     "Film o higienie cyfrowej pomaga przenieść rozmowę z zakazów na równowagę i samoregulację. Dobry do przygotowania krótkiego eksperymentu offline dla uczniów.",
-    "Materiał o porozumieniu bez przemocy pomaga zobaczyć, jak mówić o potrzebach bez ataku i oskarżeń. Nauczyciel może przełożyć go na prosty schemat komunikatu ucznia do dorosłego.",
+    "Wystąpienie Rosenberga pokazuje porozumienie bez przemocy w wersji źródłowej i dorosłej. Nauczyciel może przełożyć je na szkolny schemat: co się stało, co czuję, czego potrzebuję, o co proszę.",
     "Film można potraktować jako inspirację do myślenia o relacji uczeń-dorosły. Warto wyłapać przykłady zachowań nauczyciela, które obniżają próg proszenia o pomoc.",
     "Materiał pomaga przygotować rozmowę o tym, że rodzic i szkoła nie są przeciwnymi stronami. Warto wykorzystać go do nazwania roli faktów, planu i spokojnego kontaktu.",
     "Film z cyklu doradczego pomaga uczniom myśleć o sobie przez pytania i obserwację, a nie przez etykiety. Nauczyciel może wykorzystać go do rozmowy o mocnych stronach i wsparciu.",
@@ -872,17 +872,17 @@ VIDEO_NOTES = [
     "Materiał pomaga przygotować spokojny język rozmowy z nastolatkiem w trudnościach. Warto obejrzeć go pod kątem tego, jak słuchać bez natychmiastowego oceniania.",
     "Film o konflikcie w grupie pozwala zobaczyć, że nie każda trudność wymaga eskalacji. Nauczyciel może z niego wziąć przykłady pytań, które zatrzymują agresję.",
     "Film z cyklu ORE pomaga mówić o mocnych stronach jako o zasobach zawodowych. Warto obejrzeć go przed lekcją, żeby przygotować pytania o dowody i przykłady działań.",
-    "Playlista o kompetencjach miękkich pokazuje, czego pracodawcy oczekują poza wiedzą techniczną. Nauczyciel może wybrać jeden fragment do przygotowania rozmowy o praktykach.",
+    "Webinar pokazuje oczekiwania pracodawców wobec kandydatów i pozwala zejść z ogólników o kompetencjach miękkich do konkretnych zachowań: punktualności, komunikacji, odpowiedzialności i uczenia się.",
     "Film z cyklu ORE o pierwszych doświadczeniach zawodowych pomaga pokazać praktyki jako element budowania reputacji. Warto wykorzystać go do rozmowy o postawie w miejscu pracy.",
-    "Materiał ORE może pomóc nauczycielowi rozmawiać o decyzjach bez presji idealnego wyboru. Przygotowuje do pytań o opcje, informacje i pierwszy możliwy krok.",
-    "ZPE jest tu inspiracją do pokazania uczniom, że dobre źródło ma autora, kontekst i cel. Warto przed lekcją wybrać jeden przykład materiału do wspólnej oceny wiarygodności.",
-    "Webinary o metodzie projektu pomagają nauczycielowi uporządkować przejście od pomysłu do działania. Warto zwrócić uwagę na role, harmonogram i kryteria sukcesu.",
-    "Materiały CEO pokazują informację zwrotną jako narzędzie rozwoju, a nie oceniania osoby. Nauczyciel może przygotować jeden model zdania: mocna strona, wskazówka, następny krok.",
-    "Artykuł o metodzie projektu pomaga zobaczyć uczenie się jako łączenie dziedzin i działanie. Warto użyć go do przygotowania przykładu zadania, które wymaga kilku typów wiedzy.",
-    "Animacja PAH o wodzie dobrze wspiera rozmowę o zasobach, których nie widać w codziennym pośpiechu. Nauczyciel może wykorzystać ją do pytań o straty w domu i szkole.",
-    "Film o ekologii w codzienności pozwala przejść od ogólnych haseł do zwykłych decyzji. Warto obejrzeć go pod kątem przykładów, które uczniowie mogą odnieść do jednego dnia.",
-    "Materiał ZPE o odpadach porządkuje podstawowe pojęcia i pokazuje praktyczny sens segregacji. Przyda się do przygotowania krótkiego ćwiczenia z typowymi błędami.",
-    "Materiał o działaniach młodzieży pokazuje, że ekologia może być projektem uczniowskim, a nie tylko tematem rozmowy. Warto poszukać w nim inspiracji do małego działania klasowego.",
+    "Film ORE pomaga nauczycielowi rozmawiać o decyzjach bez presji idealnego wyboru. Przygotowuje do pytań o opcje, informacje, konsekwencje i pierwszy możliwy krok.",
+    "Materiał o wiarygodności źródeł pomaga pokazać uczniom, że dobre szukanie odpowiedzi wymaga sprawdzenia autora, kontekstu i potwierdzenia. Warto przed lekcją przygotować jeden przykład do wspólnej oceny.",
+    "Krótka rozmowa o metodzie projektu pomaga uporządkować różnicę między pomysłem a projektem. Nauczyciel może wykorzystać ją do nazwania celu, ról, terminu, produktu i kryterium sukcesu.",
+    "Wystąpienie CEO pokazuje informację zwrotną jako narzędzie komunikacji i rozwoju, a nie oceniania osoby. Nauczyciel może przygotować jeden model zdania: mocna strona, wskazówka, następny krok.",
+    "Dyskusja o edukacji przyszłości pomaga zobaczyć, że realne problemy łączą wiedzę, technologię, komunikację i odpowiedzialność. Warto użyć jej do przygotowania przykładu zadania wymagającego kilku typów wiedzy.",
+    "Webinar PAH daje nauczycielowi dojrzalszy kontekst do rozmowy o wodzie: zasoby, odpowiedzialność i globalne zależności. Z materiału warto wybrać jeden przykład, który da się przełożyć na szkołę lub dom.",
+    "Rozmowa o środowiskowym koszcie technologii pozwala połączyć codzienne decyzje cyfrowe z odpowiedzialnością ekologiczną. Warto potraktować ją jako punkt wyjścia do pytania, gdzie technologia pomaga, a gdzie generuje koszt.",
+    "Reportaż z sortowni pokazuje praktyczny sens segregacji i to, co dzieje się z odpadami po wyrzuceniu. Przyda się do ćwiczenia z typowymi błędami oraz rozmowy o ograniczaniu odpadów u źródła.",
+    "Materiał CEO pokazuje, jak angażować młodych ludzi w realne działania klimatyczne i środowiskowe. Warto poszukać w nim inspiracji do małego projektu klasowego z terminem, opiekunem i miernikiem efektu.",
 ]
 
 

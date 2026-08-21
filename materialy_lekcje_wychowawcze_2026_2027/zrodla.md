@@ -45,21 +45,21 @@
 ## Filmy i inspiracje wideo dla nauczyciela
 
 - 01. [Wspólnie łatwiej. Jak budować dobre relacje w klasie](https://www.youtube.com/watch?v=Cs3UpXMJ0Ko) - Poznajmy się – budujemy zespół klasowy/ Reintegracja klasy – jak odbudować współpracę?
-- 02. [Język a relacje](https://www.youtube.com/watch?v=e9AlT3kJeAw) - Komunikacja, która pomaga – jak rozmawiać ze sobą?
+- 02. [Komunikacja bez przemocy (NVC) - Magdalena Malinowska-Berggren, Joanna Flis](https://www.youtube.com/watch?v=lYfuhIjcyKs) - Komunikacja, która pomaga – jak rozmawiać ze sobą?
 - 03. [Konflikt w grupie - fakty i mity](https://www.youtube.com/watch?v=_cXiIE4Pnr4) - Nasza klasa – jak wspólnie rozwiązywać trudności?
-- 04. [Po co nam relacje z innymi?](https://www.youtube.com/watch?v=xnKobxzTKd4) - Moja szkoła, moja społeczność – za co jestem odpowiedzialny?
+- 04. [Być wychowawcą lub wychowawczynią klasy. Co to tak naprawdę znaczy?](https://www.youtube.com/watch?v=nF3OOHrpmZo) - Moja szkoła, moja społeczność – za co jestem odpowiedzialny?
 - 05. [ABC pierwszej pomocy](https://zpe.gov.pl/a/abc-pierwszej-pomocy/DtLX9npeZ) - Odpowiedzialność za bezpieczeństwo swoje i innych
 - 06. [Co to jest patriotyzm?](https://www.youtube.com/watch?v=rP7IBvMJICc) - Patriotyzm współczesny – co oznacza dla młodego człowieka?
-- 07. [Sztuka pomagania - animacja edukacyjna](https://www.youtube.com/watch?v=R--NSyvsI0o) - Wolontariat i działanie dla innych – dlaczego warto pomagać?
-- 08. [Co się dzieje, gdy długo korzystamy z telefonu przed snem?](https://www.youtube.com/watch?v=e3VZvoDyghY) - Sen, ruch i odżywianie – fundamenty zdrowia
+- 07. [Wolontariusz: kto to taki? | Edukujemy o Wolontariacie](https://www.youtube.com/watch?v=vzs6bBqVCoE) - Wolontariat i działanie dla innych – dlaczego warto pomagać?
+- 08. [Dlaczego śpimy? Sen jako fundament zdrowia i nauki](https://www.youtube.com/watch?v=GqZSUajM1Ws) - Sen, ruch i odżywianie – fundamenty zdrowia
 - 09. [Film, dzięki któremu możesz uratować komuś życie](https://www.youtube.com/watch?v=k1KswfV4qwU) - Pierwsza pomoc – wiem, jak reagować
-- 10. [Stres wróg czy przyjaciel?](https://www.youtube.com/watch?v=7Tg81LhIFTU) - Stres i regeneracja – jak dbać o swój organizm?
-- 11. [Edukacja zdrowotna - materiały ZPE](https://zpe.gov.pl/edukacja-zdrowotna) - Odpowiedzialne decyzje prozdrowotne
+- 10. [Jak radzić sobie ze stresem? Warsztaty dla uczniów](https://www.youtube.com/watch?v=2H3rW60hlbM) - Stres i regeneracja – jak dbać o swój organizm?
+- 11. [Zdrowy styl życia #8 [Moje bezpieczeństwo]](https://www.youtube.com/watch?v=u84AzBAcI10) - Odpowiedzialne decyzje prozdrowotne
 - 12. [CyberBezpieczni - bezpieczeństwo w sieci](https://www.youtube.com/watch?v=wH92EtBAJzU) - Moje dane w sieci – jak je chronić?
 - 13. [Sztuczna inteligencja a edukacja](https://www.youtube.com/watch?v=nO2qXnUDfus) - Sztuczna inteligencja – korzystam odpowiedzialnie
-- 14. [W co wierzyć w internecie? Kurs NASK dla nauczycieli](https://www.nask.pl/aktualnosci/w-co-wierzyc-w-internecie-nowy-kurs-dla-nauczycieli-na-ose-it-szkole) - Fake news i manipulacja – jak rozpoznać, że ktoś chce mnie wprowadzić w błąd?
+- 14. [PEWNI W SIECI - Dezinformacja i fake newsy](https://www.youtube.com/watch?v=u3k1Nj2QSIw) - Fake news i manipulacja – jak rozpoznać, że ktoś chce mnie wprowadzić w błąd?
 - 15. [10 zasad higieny cyfrowej](https://www.youtube.com/watch?v=QvylySSkZ8M) - Aktywność off-line – jak zachować równowagę cyfrową?
-- 16. [Mówię językiem żyrafy - porozumienie bez przemocy](https://www.youtube.com/watch?v=Q20hHA8YSyE) - Jak mówić o swoich potrzebach i trudnościach?
+- 16. [Nonviolent Communication - Marshall Rosenberg (napisy PL)](https://www.youtube.com/watch?v=Q-Si2l8-jxo) - Jak mówić o swoich potrzebach i trudnościach?
 - 17. [Jak budować relacje i wzmacniać uczniów w klasie](https://www.youtube.com/watch?v=QcmBRziAyRk) - Kto może mi pomóc w szkole?
 - 18. [Jak rodzic może budować relację z nauczycielami?](https://www.youtube.com/watch?v=MR-uhRVFxG4) - Współpraca ucznia, rodzica i szkoły – dlaczego jest ważna?
 - 19. [Jaki jestem? Oto jest pytanie?](https://www.youtube.com/watch?v=4gp_EQ7F_bo) - Moje mocne strony i obszary, w których potrzebuję wsparcia
@@ -67,15 +67,15 @@
 - 21. [Higiena cyfrowa, czyli profilaktyka e-uzależnień](https://www.youtube.com/watch?v=JEGFYp4OVcQ) - Uzależnienia behawioralne – kiedy korzystanie staje się problemem?
 - 22. [Jak rozmawiać z nastolatkiem, żeby chciał słuchać?](https://www.youtube.com/watch?v=Dh3EGv9Vimc) - Zdrowie psychiczne – gdzie i jak szukać pomocy?
 - 23. [Konflikt w grupie - fakty i mity](https://www.youtube.com/watch?v=_cXiIE4Pnr4) - Konflikt bez agresji – jak rozwiązywać trudne sytuacje?
-- 24. [Drogi Zawodowe - Mocne strony](https://doradztwo.ore.edu.pl/cykl-filmow-drogi-zawodowe/) - Moje mocne strony i przyszły zawód
-- 25. [Kompetencje miękkie - co pracodawcy cenią najbardziej](https://www.youtube.com/playlist?list=PLb3ouxXjeRieChrhVYJarKFnrDH6i3-xU) - Kompetencje, których oczekuje pracodawca
-- 26. [Drogi Zawodowe - Pierwsze doświadczenia](https://doradztwo.ore.edu.pl/cykl-filmow-drogi-zawodowe/) - Praktyki zawodowe – jak wykorzystać je do budowania swojej przyszłości?
-- 27. [Drogi Zawodowe - Wybory i decyzje](https://doradztwo.ore.edu.pl/cykl-filmow-drogi-zawodowe/) - Jak podejmować świadome decyzje dotyczące swojej kariery?
-- 28. [ZPE - zasoby edukacyjne do samodzielnej pracy](https://zpe.gov.pl/) - Ciekawość prowadzi do wiedzy – jak samodzielnie szukać odpowiedzi?
-- 29. [Metoda projektu - webinaria](https://www.youtube.com/playlist?list=PL_2UCJJebQEQYYi6Tn6pm8vGB68Z0hwxT) - Od pomysłu do działania – jak stworzyć dobry projekt?
-- 30. [Ocenianie kształtujące - współpraca nauczycieli](https://www.youtube.com/playlist?list=PLD4KSOFXmjZuF-xOYwcn89_PJI2Pt2hV9) - Informacja zwrotna – jak wykorzystać ją do rozwoju?
-- 31. [Uczenie się metodą uczniowskiego projektu](https://www.edunews.pl/narzedzia-i-projekty/narzedzia-edukacyjne/1136-uczenie-sie-metoda-uczniowskiego-projektu) - Wiedza nie ma granic – jak łączyć informacje z różnych dziedzin?
-- 32. [Woda nie tylko w kranie](https://www.youtube.com/watch?v=AB0RFjndmWU) - Oszczędzanie energii i wody – co możemy zrobić w szkole i w domu?
-- 33. [Ekologia w życiu EKO bohatera](https://www.youtube.com/watch?v=wxZ6JKXTX4U) - Jak codzienne decyzje wpływają na środowisko?
-- 34. [W jaki sposób radzić sobie z odpadami?](https://zpe.gov.pl/a/film/Df0T0zIDT) - Segregacja odpadów w praktyce
-- 35. [Młodzież promuje ekologiczne zachowania](https://eog-szkoly.zory.pl/mlodziez-nakrecila-filmy-by-promowac-ekologiczne-zachowania/) - Szkoła odpowiedzialna za środowisko
+- 24. [Drogi Zawodowe - Mocne strony](https://www.youtube.com/watch?v=DCMlt_8GXLM) - Moje mocne strony i przyszły zawód
+- 25. [Czego pracodawcy oczekują od kandydatów do pracy?](https://www.youtube.com/watch?v=63QVdxPKV-I) - Kompetencje, których oczekuje pracodawca
+- 26. [Drogi Zawodowe - Pierwsze doświadczenia](https://www.youtube.com/watch?v=STSlRxKnIyE) - Praktyki zawodowe – jak wykorzystać je do budowania swojej przyszłości?
+- 27. [Drogi Zawodowe - Decyzje](https://www.youtube.com/watch?v=qefETYPjBs0) - Jak podejmować świadome decyzje dotyczące swojej kariery?
+- 28. [Wierzyć czy nie? Jak oceniać wiarygodność źródeł informacji w sieci](https://www.youtube.com/watch?v=K3p-VsXJIFs) - Ciekawość prowadzi do wiedzy – jak samodzielnie szukać odpowiedzi?
+- 29. [Czym jest metoda projektu?](https://www.youtube.com/watch?v=n78QV3OqnzA) - Od pomysłu do działania – jak stworzyć dobry projekt?
+- 30. [Informacja zwrotna - trudne narzędzie czy dobra komunikacja](https://www.youtube.com/watch?v=aTpnPo3EMXI) - Informacja zwrotna – jak wykorzystać ją do rozwoju?
+- 31. [Edukacja dla przyszłości - dyskusja](https://www.youtube.com/watch?v=f93q36pGyeA) - Wiedza nie ma granic – jak łączyć informacje z różnych dziedzin?
+- 32. [Webinar wprowadzający do akcji Światowy Dzień Wody z PAH](https://www.youtube.com/watch?v=wPrO9__b00k) - Oszczędzanie energii i wody – co możemy zrobić w szkole i w domu?
+- 33. [Czy technologia i AI szkodzą środowisku?](https://www.youtube.com/watch?v=C9FZtXpnanY) - Jak codzienne decyzje wpływają na środowisko?
+- 34. [Jak są segregowane odpady? - Fabryki w Polsce](https://www.youtube.com/watch?v=CwAP97KJTIg) - Segregacja odpadów w praktyce
+- 35. [O angażowaniu młodych ludzi w akcje na rzecz klimatu i środowiska](https://www.youtube.com/watch?v=exmwH6-x8g8) - Szkoła odpowiedzialna za środowisko
