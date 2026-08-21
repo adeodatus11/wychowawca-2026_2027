@@ -14,6 +14,9 @@ OUT = ROOT / "materialy_lekcje_wychowawcze_2026_2027"
 SITE = OUT / "strona_html"
 LESSON_PAGES = SITE / "lekcje"
 ROOT_LESSON_PAGES = ROOT / "lekcje"
+ROOT_ASSETS = ROOT / "assets"
+SITE_ASSETS = SITE / "assets"
+LOGO_FILE = "logo-orzel-zsz5.png"
 ANALYSIS = ROOT / "analiza_i_opracowanie_tematow_lekcji_wychowawczych_2026_2027.md"
 DOCX_SOURCE = ROOT / "Plan pracy wychowawczo profilaktycznej szkoly 2026.2027.docx"
 
@@ -979,10 +982,10 @@ def tidy_html(value: str) -> str:
 
 def prep_items(lesson: dict) -> list[str]:
     return [
-        "Przeczytaj sekcję „Co musi wybrzmieć” i wybierz 2-3 zdania, które powiesz uczniom dosłownie.",
-        "Obejrzyj film lub inspirację wideo albo przejrzyj źródła, żeby mieć świeży przykład do rozmowy.",
-        "Przygotuj tablicę, kartki samoprzylepne albo prostą kartę pracy; nie zbieraj prywatnych historii uczniów na forum klasy.",
-        f"Zdecyduj, jak odnotujesz efekt: {lesson['evidence']}",
+        "Przeczytaj „Szczegółowy opis dla nauczyciela” i zaznacz jeden przykład, którym otworzysz rozmowę z klasą.",
+        f"Przygotuj pytanie startowe: „{lesson['opening_question']}”. Nie zamieniaj go na ogólne pytanie o temat.",
+        "Przy tematach wrażliwych pracuj na przykładach fikcyjnych; nie proś uczniów o prywatne zwierzenia na forum.",
+        f"Ustal, jak zapiszesz efekt lekcji: {lesson['evidence']}",
     ]
 
 
@@ -1142,17 +1145,30 @@ def page_shell(title: str, body: str, rel_prefix: str = "") -> str:
 """)
 
 
+def brand_html(rel_prefix: str = "") -> str:
+    return f"""
+    <div class="brand-strip">
+      <img src="{rel_prefix}assets/{LOGO_FILE}" alt="Logo ZSZ5 we Wrocławiu" width="500" height="407">
+      <div>
+        <strong>Szkoła Mistrzów</strong>
+        <span>Zespół Szkół Zawodowych nr 5 we Wrocławiu</span>
+      </div>
+    </div>
+"""
+
+
 def render_lesson(lesson: dict, prev_lesson: dict | None, next_lesson: dict | None) -> str:
     source_links = source_links_html(lesson["sources"])
     nav_prev = f'<a class="nav-link" href="{esc(prev_lesson["slug"])}.html">Poprzednia lekcja</a>' if prev_lesson else ""
     nav_next = f'<a class="nav-link" href="{esc(next_lesson["slug"])}.html">Następna lekcja</a>' if next_lesson else ""
     body = f"""
   <header class="site-header compact">
+    {brand_html("../")}
     <a class="back-link" href="../index.html">← Plan pracy wychowawczo-profilaktycznej 2026/2027</a>
     <p class="kicker">Cel {lesson["goal"]} · {esc(lesson["area"])} · {esc(lesson["month"])}</p>
     <h1>{esc(lesson["display_title"])}</h1>
     <p class="subtitle"><strong>Temat z planu:</strong> {esc(lesson["title"])}</p>
-    <p class="subtitle">Przewodnik dla wychowawcy na 30-minutową lekcję. Materiał można skrócić albo potraktować jako punkt wyjścia do rozmowy z klasą.</p>
+    <p class="subtitle">Materiał dla wychowawcy: kontekst tematu, konkretne pytanie startowe, przebieg rozmowy, ćwiczenie i komunikaty, które trzeba powiedzieć uczniom wprost.</p>
   </header>
   <main class="lesson-layout">
     <aside class="lesson-aside">
@@ -1224,7 +1240,6 @@ def render_index(lessons: list[dict], sources_href: str = "../zrodla.md") -> str
         group = [lesson for lesson in lessons if lesson["month"] == month]
         if not group:
             continue
-        areas = sorted({lesson["area"] for lesson in group})
         cards = []
         for lesson in group:
             cards.append(
@@ -1246,7 +1261,6 @@ def render_index(lessons: list[dict], sources_href: str = "../zrodla.md") -> str
         <div class="month-heading">
           <div>
             <h2>{esc(month)}</h2>
-            <p>{esc(" / ".join(areas))}</p>
           </div>
           <span>{esc(lesson_count_label(len(group)))}</span>
         </div>
@@ -1257,14 +1271,15 @@ def render_index(lessons: list[dict], sources_href: str = "../zrodla.md") -> str
         )
     body = f"""
   <header class="site-header">
-    <p class="kicker">ZSZ5 · materiały dla wychowawcy</p>
+    {brand_html()}
+    <p class="kicker">Materiały dla wychowawcy</p>
     <h1>Plan pracy wychowawczo-profilaktycznej 2026/2027</h1>
-    <p class="subtitle">35 tematów z najnowszego pliku DOCX opracowanych jako osobne strony WWW i ułożonych miesiącami. Każda lekcja zawiera cel, przewidywane rezultaty, przebieg, ćwiczenie, komunikaty, które muszą wybrzmieć, źródła i film albo inspirację wideo dla nauczyciela.</p>
+    <p class="subtitle">35 lekcji ułożonych miesiącami. Każda strona prowadzi wychowawcę przez sens tematu, pytanie otwierające, ćwiczenie, najważniejsze komunikaty dla uczniów, film i źródła do pogłębienia.</p>
     <div class="metrics" aria-label="Podsumowanie">
       <div><strong>35</strong><span>lekcji</span></div>
       <div><strong>9</strong><span>celów</span></div>
       <div><strong>30</strong><span>minut</span></div>
-      <div><strong>1</strong><span>osobny URL na lekcję</span></div>
+      <div><strong>7</strong><span>miesięcy</span></div>
     </div>
   </header>
   <main class="index-layout">
@@ -1286,7 +1301,7 @@ def render_index(lessons: list[dict], sources_href: str = "../zrodla.md") -> str
     </section>
     <section class="note">
       <h2>Jak korzystać</h2>
-      <p>Wychowawca wybiera temat zgodnie z miesiącem z planu, otwiera stronę lekcji i prowadzi zajęcia według przewodnika. Przy tematach wrażliwych pracujemy na przykładach fikcyjnych i nie zbieramy prywatnych historii uczniów na forum klasy.</p>
+      <p>Wybierz miesiąc, otwórz lekcję i zacznij od gotowego pytania startowego. Przy tematach wrażliwych pracuj na przykładach fikcyjnych; nie zbieraj prywatnych historii uczniów na forum klasy.</p>
       <p>Źródła zbiorcze są dostępne w pliku <a href="{esc(sources_href)}">zrodla.md</a>.</p>
     </section>
   </main>
@@ -1328,6 +1343,31 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   border-bottom: 1px solid var(--line);
 }
 .site-header.compact { padding-bottom: 22px; }
+.brand-strip {
+  display: inline-flex;
+  align-items: center;
+  gap: 13px;
+  max-width: 100%;
+  margin-bottom: 18px;
+  color: var(--ink);
+}
+.brand-strip img {
+  width: 74px;
+  height: 60px;
+  object-fit: contain;
+  object-position: left center;
+}
+.brand-strip strong {
+  display: block;
+  font-size: 1.05rem;
+  line-height: 1.15;
+}
+.brand-strip span {
+  display: block;
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: .9rem;
+}
 .kicker {
   margin: 0 0 8px;
   color: var(--accent);
@@ -1414,18 +1454,13 @@ input, select {
 }
 .month-heading {
   display: flex;
-  align-items: end;
+  align-items: center;
   justify-content: space-between;
   gap: 14px;
   padding-bottom: 8px;
   border-bottom: 1px solid var(--line);
 }
-.month-heading h2 { margin: 3px 0 0; }
-.month-heading p {
-  margin: 4px 0 0;
-  color: var(--muted);
-  font-size: .92rem;
-}
+.month-heading h2 { margin: 0; }
 .month-heading > span {
   flex: 0 0 auto;
   color: var(--muted);
@@ -1532,6 +1567,9 @@ input, select {
   margin-bottom: 10px;
   font-size: .92rem;
 }
+.resource-card {
+  background: #fbfdff;
+}
 .resource-link {
   display: inline-flex;
   border: 1px solid var(--accent);
@@ -1621,9 +1659,19 @@ li + li { margin-top: 6px; }
 @media (max-width: 840px) {
   .metrics, .index-layout, .lesson-layout { grid-template-columns: 1fr; }
   .toolbar, .lesson-aside { position: static; }
+  .lesson-content { order: 1; }
+  .lesson-aside { order: 2; }
   .note { grid-column: auto; }
   .month-heading { align-items: start; flex-direction: column; }
   .schedule { display: block; overflow-x: auto; }
+}
+@media (max-width: 520px) {
+  .brand-strip img {
+    width: 58px;
+    height: 48px;
+  }
+  .brand-strip strong { font-size: .98rem; }
+  .brand-strip span { font-size: .82rem; }
 }
 """
 
@@ -1749,6 +1797,9 @@ def main() -> None:
         shutil.rmtree(ROOT_LESSON_PAGES)
     LESSON_PAGES.mkdir(parents=True, exist_ok=True)
     ROOT_LESSON_PAGES.mkdir(parents=True, exist_ok=True)
+    SITE_ASSETS.mkdir(parents=True, exist_ok=True)
+    if (ROOT_ASSETS / LOGO_FILE).exists():
+        shutil.copy2(ROOT_ASSETS / LOGO_FILE, SITE_ASSETS / LOGO_FILE)
     (SITE / "styles.css").write_text(CSS.strip() + "\n", encoding="utf-8")
     (SITE / "script.js").write_text(JS.strip() + "\n", encoding="utf-8")
     (SITE / "index.html").write_text(render_index(lessons), encoding="utf-8")

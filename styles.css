@@ -30,6 +30,31 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   border-bottom: 1px solid var(--line);
 }
 .site-header.compact { padding-bottom: 22px; }
+.brand-strip {
+  display: inline-flex;
+  align-items: center;
+  gap: 13px;
+  max-width: 100%;
+  margin-bottom: 18px;
+  color: var(--ink);
+}
+.brand-strip img {
+  width: 74px;
+  height: 60px;
+  object-fit: contain;
+  object-position: left center;
+}
+.brand-strip strong {
+  display: block;
+  font-size: 1.05rem;
+  line-height: 1.15;
+}
+.brand-strip span {
+  display: block;
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: .9rem;
+}
 .kicker {
   margin: 0 0 8px;
   color: var(--accent);
@@ -116,18 +141,13 @@ input, select {
 }
 .month-heading {
   display: flex;
-  align-items: end;
+  align-items: center;
   justify-content: space-between;
   gap: 14px;
   padding-bottom: 8px;
   border-bottom: 1px solid var(--line);
 }
-.month-heading h2 { margin: 3px 0 0; }
-.month-heading p {
-  margin: 4px 0 0;
-  color: var(--muted);
-  font-size: .92rem;
-}
+.month-heading h2 { margin: 0; }
 .month-heading > span {
   flex: 0 0 auto;
   color: var(--muted);
@@ -234,6 +254,9 @@ input, select {
   margin-bottom: 10px;
   font-size: .92rem;
 }
+.resource-card {
+  background: #fbfdff;
+}
 .resource-link {
   display: inline-flex;
   border: 1px solid var(--accent);
@@ -323,7 +346,17 @@ li + li { margin-top: 6px; }
 @media (max-width: 840px) {
   .metrics, .index-layout, .lesson-layout { grid-template-columns: 1fr; }
   .toolbar, .lesson-aside { position: static; }
+  .lesson-content { order: 1; }
+  .lesson-aside { order: 2; }
   .note { grid-column: auto; }
   .month-heading { align-items: start; flex-direction: column; }
   .schedule { display: block; overflow-x: auto; }
+}
+@media (max-width: 520px) {
+  .brand-strip img {
+    width: 58px;
+    height: 48px;
+  }
+  .brand-strip strong { font-size: .98rem; }
+  .brand-strip span { font-size: .82rem; }
 }
