@@ -810,6 +810,32 @@ GOAL_CONTEXT = {
 }
 
 
+GOAL_SHORT_LABELS = {
+    1: "Relacje",
+    2: "Odpowiedzialność",
+    3: "Zdrowie",
+    4: "Cyfrowe",
+    5: "Wsparcie",
+    6: "Kryzysy",
+    7: "Kariera",
+    8: "Uczenie",
+    9: "Ekologia",
+}
+
+
+GOAL_META = {
+    1: "Integracja klasy, komunikacja, zasady współpracy i rozwiązywanie codziennych napięć zanim urosną do poważnego problemu.",
+    2: "Odpowiedzialność za szkołę i innych ludzi: reagowanie, wolontariat, patriotyzm codzienny i troska o wspólną przestrzeń.",
+    3: "Zdrowie rozumiane praktycznie: sen, ruch, stres, pierwsza pomoc, decyzje prozdrowotne i wpływ na koncentrację oraz emocje.",
+    4: "Bezpieczne funkcjonowanie w sieci: prywatność, AI, manipulacja informacyjna, higiena cyfrowa i odpowiedzialność za publikowanie.",
+    5: "Obniżenie progu proszenia o pomoc: potrzeby ucznia, mapa wsparcia w szkole, współpraca z rodzicami i nazywanie mocnych stron.",
+    6: "Spokojne rozpoznawanie sytuacji ryzykownych: przemoc, kryzys psychiczny, uzależnienia behawioralne i konflikt bez agresji.",
+    7: "Doradztwo zawodowe połączone z praktyką: zasoby ucznia, kompetencje pracownicze, praktyki i decyzje o dalszej ścieżce.",
+    8: "Uczenie się przez działanie: pytania, planowanie projektu, źródła, informacja zwrotna i łączenie wiedzy z różnych dziedzin.",
+    9: "Ekologia jako konkretne decyzje szkolne: oszczędzanie zasobów, segregacja, ograniczanie strat i sprawdzanie efektów działań.",
+}
+
+
 LESSON_FOCUS = [
     "W tej lekcji kluczowe jest stworzenie klasy, w której uczniowie mogą wejść w rozmowę bez presji odsłaniania prywatnych spraw. Wychowawca powinien obserwować, kto łatwo zabiera głos, kto zostaje na marginesie i jakie zachowania klasa sama uznaje za wspierające lub utrudniające współpracę.",
     "Komunikację warto pokazać jako umiejętność, której można się nauczyć, a nie jako cechę charakteru. Najważniejsze jest przesunięcie rozmowy z etykietowania osoby na opis faktu, skutku, potrzeby i prośby.",
@@ -1239,6 +1265,21 @@ def render_lesson(lesson: dict, prev_lesson: dict | None, next_lesson: dict | No
 
 
 def render_index(lessons: list[dict]) -> str:
+    goal_options = "".join(
+        f'<option value="{goal_id}">{goal_id}. {esc(label)}</option>'
+        for goal_id, label in GOAL_SHORT_LABELS.items()
+    )
+    goal_map_items = "".join(
+        f"""
+          <article class="goal-item">
+            <span class="goal-token">{goal_id}</span>
+            <div>
+              <h3>{esc(GOAL_SHORT_LABELS[goal_id])}</h3>
+              <p>{esc(GOAL_META[goal_id])}</p>
+            </div>
+          </article>"""
+        for goal_id in GOAL_SHORT_LABELS
+    )
     month_sections = []
     for month in MONTH_ORDER:
         group = [lesson for lesson in lessons if lesson["month"] == month]
@@ -1246,12 +1287,13 @@ def render_index(lessons: list[dict]) -> str:
             continue
         cards = []
         for lesson in group:
+            goal_label = GOAL_SHORT_LABELS[lesson["goal"]]
             cards.append(
                 f"""
-          <a class="lesson-card" href="{esc(lesson["url"])}" data-goal="{lesson["goal"]}" data-month="{esc(lesson["month"])}" data-area="{esc(lesson["area"])}">
+          <a class="lesson-card" href="{esc(lesson["url"])}" data-goal="{lesson["goal"]}" data-goal-label="{esc(goal_label)}" data-month="{esc(lesson["month"])}" data-area="{esc(lesson["area"])}">
             <span class="card-top">
               <span class="lesson-id">{lesson["id"]}</span>
-              <span class="lesson-meta">Cel {lesson["goal"]} · {esc(lesson["area"])}</span>
+              <span class="lesson-meta">{esc(goal_label)} · {esc(lesson["area"])}</span>
             </span>
             <strong>{esc(lesson["display_title"])}</strong>
             <span class="full-topic">Temat z planu: {esc(lesson["title"])}</span>
@@ -1290,23 +1332,33 @@ def render_index(lessons: list[dict]) -> str:
     <section class="toolbar" aria-label="Filtrowanie lekcji">
       <label for="search">Szukaj tematu</label>
       <input id="search" type="search" placeholder="np. AI, przemoc, praktyki, zdrowie">
-      <label for="goalFilter">Cel</label>
+      <label for="goalFilter">Obszar</label>
       <select id="goalFilter">
-        <option value="all">Wszystkie cele</option>
-        {''.join(f'<option value="{i}">Cel {i}</option>' for i in range(1, 10))}
+        <option value="all">Wszystkie obszary</option>
+        {goal_options}
       </select>
       <p id="count" class="count">35 lekcji</p>
+      <p class="filter-help">Obszar pokazuje główny cel wychowawczy lekcji. Jedna lekcja może wspierać kilka spraw, ale filtr prowadzi po jej najważniejszym zadaniu.</p>
     </section>
-    <section>
+    <section class="overview" aria-labelledby="overview-title">
+      <div class="overview-block">
+        <h2 id="overview-title">Jak pracować z tą stroną</h2>
+        <p>Strona jest praktycznym przewodnikiem dla wychowawcy. Najpierw wybierz miesiąc albo obszar po lewej, potem otwórz temat i przeczytaj krótki opis sensu lekcji. Ten opis pomaga zrozumieć, po co dana rozmowa jest prowadzona i czego warto pilnować w klasie.</p>
+        <p>Na stronie lekcji zacznij od pytania otwierającego, skorzystaj z proponowanego ćwiczenia i koniecznie wypowiedz komunikaty z sekcji „Co musi wybrzmieć”. Film traktuj przede wszystkim jako przygotowanie dla nauczyciela; można go wykorzystać także z klasą, jeśli pasuje do wieku i sytuacji grupy.</p>
+      </div>
+      <div class="overview-block">
+        <h2>Cele programu w skrócie</h2>
+        <p>Dziewięć obszarów porządkuje cały plan. Krótkie nazwy w filtrze są skrótami roboczymi, a poniższe opisy pokazują, co realnie ma zostać wzmocnione u uczniów.</p>
+        <div class="goal-map">
+          {goal_map_items}
+        </div>
+      </div>
+    </section>
+    <section class="lesson-list-section">
       <h2>Lista lekcji według miesięcy</h2>
       <div id="lessonGrid" class="month-list">
         {''.join(month_sections)}
       </div>
-    </section>
-    <section class="note">
-      <h2>Jak korzystać</h2>
-      <p>Wybierz miesiąc, otwórz lekcję i zacznij od gotowego pytania startowego. Przy tematach wrażliwych pracuj na przykładach fikcyjnych; nie zbieraj prywatnych historii uczniów na forum klasy.</p>
-      <p>Każda lekcja zawiera gotowy przewodnik dla wychowawcy: kontekst tematu, pytanie otwierające, przebieg zajęć, komunikaty do wypowiedzenia uczniom, film inspiracyjny i materiały do pogłębienia.</p>
     </section>
   </main>
   <script src="script.js"></script>
@@ -1429,7 +1481,7 @@ h2 {
   margin-top: 22px;
   max-width: 980px;
 }
-.metrics div, .toolbar, .lesson-card, .lesson-content, .lesson-aside .aside-card, .note {
+.metrics div, .toolbar, .lesson-card, .lesson-content, .lesson-aside .aside-card, .note, .overview-block {
   border: 1px solid var(--line);
   border-radius: 10px;
   background: var(--panel);
@@ -1471,6 +1523,64 @@ input, select {
   padding: 6px 10px;
   font-weight: 800;
 }
+.filter-help {
+  margin: 4px 0 0;
+  color: var(--muted);
+  font-size: .9rem;
+  line-height: 1.4;
+}
+.overview, .lesson-list-section {
+  grid-column: 2;
+}
+.overview {
+  display: grid;
+  gap: 14px;
+}
+.overview-block {
+  padding: 18px;
+}
+.overview-block p {
+  margin: 0;
+  color: var(--muted);
+}
+.overview-block p + p {
+  margin-top: 10px;
+}
+.goal-map {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 10px;
+  margin-top: 14px;
+}
+.goal-item {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 10px;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfdff;
+}
+.goal-token {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  background: var(--ink);
+  color: #fff;
+  font-weight: 900;
+}
+.goal-item h3 {
+  margin: 0 0 4px;
+  font-size: .98rem;
+  line-height: 1.2;
+}
+.goal-item p {
+  font-size: .9rem;
+  line-height: 1.4;
+}
 .month-list {
   display: grid;
   gap: 20px;
@@ -1478,6 +1588,10 @@ input, select {
 .month-section {
   display: grid;
   gap: 12px;
+}
+.month-section.is-hidden,
+.lesson-card.is-hidden {
+  display: none !important;
 }
 .month-heading {
   display: flex;
@@ -1688,7 +1802,7 @@ li + li { margin-top: 6px; }
   .toolbar, .lesson-aside { position: static; }
   .lesson-content { order: 1; }
   .lesson-aside { order: 2; }
-  .note { grid-column: auto; }
+  .note, .overview, .lesson-list-section { grid-column: auto; }
   .month-heading { align-items: start; flex-direction: column; }
   .schedule { display: block; overflow-x: auto; }
 }
@@ -1738,11 +1852,14 @@ function applyFilters() {
     const matchesGoal = goal === 'all' || card.dataset.goal === goal;
     const show = matchesText && matchesGoal;
     card.hidden = !show;
+    card.classList.toggle('is-hidden', !show);
     if (show) visible += 1;
   });
   monthSections.forEach((section) => {
-    const hasVisibleCard = Boolean(section.querySelector('.lesson-card:not([hidden])'));
-    section.hidden = !hasVisibleCard;
+    const hasVisibleCard = Array.from(section.querySelectorAll('.lesson-card')).some((card) => !card.hidden);
+    const hideSection = !hasVisibleCard;
+    section.hidden = hideSection;
+    section.classList.toggle('is-hidden', hideSection);
   });
   count.textContent = `${visible} z ${cards.length} lekcji`;
 }

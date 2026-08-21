@@ -18,11 +18,14 @@ function applyFilters() {
     const matchesGoal = goal === 'all' || card.dataset.goal === goal;
     const show = matchesText && matchesGoal;
     card.hidden = !show;
+    card.classList.toggle('is-hidden', !show);
     if (show) visible += 1;
   });
   monthSections.forEach((section) => {
-    const hasVisibleCard = Boolean(section.querySelector('.lesson-card:not([hidden])'));
-    section.hidden = !hasVisibleCard;
+    const hasVisibleCard = Array.from(section.querySelectorAll('.lesson-card')).some((card) => !card.hidden);
+    const hideSection = !hasVisibleCard;
+    section.hidden = hideSection;
+    section.classList.toggle('is-hidden', hideSection);
   });
   count.textContent = `${visible} z ${cards.length} lekcji`;
 }

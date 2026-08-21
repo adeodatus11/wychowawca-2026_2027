@@ -112,7 +112,7 @@ h2 {
   margin-top: 22px;
   max-width: 980px;
 }
-.metrics div, .toolbar, .lesson-card, .lesson-content, .lesson-aside .aside-card, .note {
+.metrics div, .toolbar, .lesson-card, .lesson-content, .lesson-aside .aside-card, .note, .overview-block {
   border: 1px solid var(--line);
   border-radius: 10px;
   background: var(--panel);
@@ -154,6 +154,64 @@ input, select {
   padding: 6px 10px;
   font-weight: 800;
 }
+.filter-help {
+  margin: 4px 0 0;
+  color: var(--muted);
+  font-size: .9rem;
+  line-height: 1.4;
+}
+.overview, .lesson-list-section {
+  grid-column: 2;
+}
+.overview {
+  display: grid;
+  gap: 14px;
+}
+.overview-block {
+  padding: 18px;
+}
+.overview-block p {
+  margin: 0;
+  color: var(--muted);
+}
+.overview-block p + p {
+  margin-top: 10px;
+}
+.goal-map {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 10px;
+  margin-top: 14px;
+}
+.goal-item {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 10px;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfdff;
+}
+.goal-token {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  background: var(--ink);
+  color: #fff;
+  font-weight: 900;
+}
+.goal-item h3 {
+  margin: 0 0 4px;
+  font-size: .98rem;
+  line-height: 1.2;
+}
+.goal-item p {
+  font-size: .9rem;
+  line-height: 1.4;
+}
 .month-list {
   display: grid;
   gap: 20px;
@@ -161,6 +219,10 @@ input, select {
 .month-section {
   display: grid;
   gap: 12px;
+}
+.month-section.is-hidden,
+.lesson-card.is-hidden {
+  display: none !important;
 }
 .month-heading {
   display: flex;
@@ -371,7 +433,7 @@ li + li { margin-top: 6px; }
   .toolbar, .lesson-aside { position: static; }
   .lesson-content { order: 1; }
   .lesson-aside { order: 2; }
-  .note { grid-column: auto; }
+  .note, .overview, .lesson-list-section { grid-column: auto; }
   .month-heading { align-items: start; flex-direction: column; }
   .schedule { display: block; overflow-x: auto; }
 }
