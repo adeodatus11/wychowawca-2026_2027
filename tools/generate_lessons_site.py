@@ -1323,7 +1323,7 @@ def render_index(lessons: list[dict]) -> str:
     <p class="subtitle">35 lekcji ułożonych miesiącami. Każda strona prowadzi wychowawcę przez sens tematu, pytanie otwierające, ćwiczenie, najważniejsze komunikaty dla uczniów, film i źródła do pogłębienia.</p>
     <div class="metrics" aria-label="Podsumowanie">
       <div><strong>35</strong><span>lekcji</span></div>
-      <div><strong>9</strong><span>celów</span></div>
+      <div><strong>9</strong><span>obszarów</span></div>
       <div><strong>30</strong><span>minut</span></div>
       <div><strong>7</strong><span>miesięcy</span></div>
     </div>
@@ -1415,8 +1415,8 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   object-position: left center;
 }
 .brand-logo-full {
-  width: min(680px, 100%);
-  max-height: 106px;
+  width: min(430px, 72vw);
+  max-height: 72px;
 }
 .brand-logo-mark {
   width: 78px;
@@ -1424,7 +1424,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 }
 .brand-strip-full {
   display: flex;
-  width: min(720px, 100%);
+  width: min(460px, 100%);
 }
 .brand-strip-full .brand-logo-mark,
 .brand-strip-full .brand-text {
