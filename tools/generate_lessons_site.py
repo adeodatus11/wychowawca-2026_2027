@@ -1316,11 +1316,13 @@ def render_index(lessons: list[dict]) -> str:
       </section>"""
         )
     body = f"""
-  <header class="site-header">
-    {brand_html(variant="full")}
-    <p class="kicker">Materiały dla wychowawcy</p>
-    <h1>Plan pracy wychowawczo-profilaktycznej 2026/2027</h1>
-    <p class="subtitle">35 lekcji ułożonych miesiącami. Każda strona prowadzi wychowawcę przez sens tematu, pytanie otwierające, ćwiczenie, najważniejsze komunikaty dla uczniów, film i źródła do pogłębienia.</p>
+  <header class="site-header home-header">
+    <div class="hero-copy">
+      {brand_html(variant="full")}
+      <p class="kicker">Materiały dla wychowawcy</p>
+      <h1>Plan pracy wychowawczo-profilaktycznej 2026/2027</h1>
+      <p class="subtitle">35 lekcji ułożonych miesiącami. Każda strona prowadzi wychowawcę przez sens tematu, pytanie otwierające, ćwiczenie, najważniejsze komunikaty dla uczniów, film i źródła do pogłębienia.</p>
+    </div>
     <div class="metrics" aria-label="Podsumowanie">
       <div><strong>35</strong><span>lekcji</span></div>
       <div><strong>9</strong><span>obszarów</span></div>
@@ -1394,17 +1396,26 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   outline-offset: 2px;
 }
 .site-header {
-  padding: 34px clamp(18px, 5vw, 64px) 26px;
+  padding: 24px clamp(18px, 5vw, 64px);
   background: linear-gradient(135deg, #fff, #f7fbfc 58%, #e8f5f2);
   border-bottom: 1px solid var(--line);
 }
 .site-header.compact { padding-bottom: 22px; }
+.home-header {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 430px);
+  gap: 28px;
+  align-items: end;
+}
+.hero-copy {
+  min-width: 0;
+}
 .brand-strip {
   display: inline-flex;
   align-items: center;
   gap: 15px;
   max-width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 14px;
   color: var(--ink);
 }
 .brand-logo-full,
@@ -1458,7 +1469,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 h1 {
   margin: 0;
   max-width: 1060px;
-  font-size: clamp(1.85rem, 4vw, 3.15rem);
+  font-size: clamp(1.85rem, 3.5vw, 2.8rem);
   line-height: 1.08;
   letter-spacing: 0;
   overflow-wrap: anywhere;
@@ -1481,6 +1492,12 @@ h2 {
   margin-top: 22px;
   max-width: 980px;
 }
+.home-header .metrics {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-self: center;
+  margin-top: 0;
+  max-width: none;
+}
 .metrics div, .toolbar, .lesson-card, .lesson-content, .lesson-aside .aside-card, .note, .overview-block {
   border: 1px solid var(--line);
   border-radius: 10px;
@@ -1488,6 +1505,7 @@ h2 {
   box-shadow: var(--shadow);
 }
 .metrics div { padding: 14px; }
+.home-header .metrics div { padding: 12px; }
 .metrics strong { display: block; font-size: 1.55rem; }
 .metrics span, .lesson-card span, .aside-card span, .source-list span { color: var(--muted); }
 .index-layout {
@@ -1797,8 +1815,19 @@ li + li { margin-top: 6px; }
   font-weight: 800;
 }
 .nav-link.primary { background: var(--accent); color: #fff; }
+@media (max-width: 1080px) {
+  .home-header {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .home-header .metrics {
+    grid-template-columns: repeat(4, minmax(130px, 1fr));
+    margin-top: 0;
+  }
+}
 @media (max-width: 840px) {
   .metrics, .index-layout, .lesson-layout { grid-template-columns: 1fr; }
+  .home-header .metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .toolbar, .lesson-aside { position: static; }
   .lesson-content { order: 1; }
   .lesson-aside { order: 2; }
