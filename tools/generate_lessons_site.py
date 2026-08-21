@@ -1238,7 +1238,7 @@ def render_lesson(lesson: dict, prev_lesson: dict | None, next_lesson: dict | No
     return page_shell(f'{lesson["id"]}. {lesson["display_title"]}', body, rel_prefix="../")
 
 
-def render_index(lessons: list[dict], sources_href: str = "../zrodla.md") -> str:
+def render_index(lessons: list[dict]) -> str:
     month_sections = []
     for month in MONTH_ORDER:
         group = [lesson for lesson in lessons if lesson["month"] == month]
@@ -1306,7 +1306,7 @@ def render_index(lessons: list[dict], sources_href: str = "../zrodla.md") -> str
     <section class="note">
       <h2>Jak korzystać</h2>
       <p>Wybierz miesiąc, otwórz lekcję i zacznij od gotowego pytania startowego. Przy tematach wrażliwych pracuj na przykładach fikcyjnych; nie zbieraj prywatnych historii uczniów na forum klasy.</p>
-      <p>Źródła zbiorcze są dostępne w pliku <a href="{esc(sources_href)}">zrodla.md</a>.</p>
+      <p>Każda lekcja zawiera gotowy przewodnik dla wychowawcy: kontekst tematu, pytanie otwierające, przebieg zajęć, komunikaty do wypowiedzenia uczniom, film inspiracyjny i materiały do pogłębienia.</p>
     </section>
   </main>
   <script src="script.js"></script>
@@ -1847,10 +1847,7 @@ def main() -> None:
     (SITE / "index.html").write_text(render_index(lessons), encoding="utf-8")
     (ROOT / "styles.css").write_text(CSS.strip() + "\n", encoding="utf-8")
     (ROOT / "script.js").write_text(JS.strip() + "\n", encoding="utf-8")
-    (ROOT / "index.html").write_text(
-        render_index(lessons, sources_href="materialy_lekcje_wychowawcze_2026_2027/zrodla.md"),
-        encoding="utf-8",
-    )
+    (ROOT / "index.html").write_text(render_index(lessons), encoding="utf-8")
     for idx, lesson in enumerate(lessons):
         prev_lesson = lessons[idx - 1] if idx > 0 else None
         next_lesson = lessons[idx + 1] if idx < len(lessons) - 1 else None
