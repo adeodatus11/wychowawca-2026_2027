@@ -883,9 +883,48 @@ VIDEO_NOTES = [
 ]
 
 
+OPENING_QUESTIONS = [
+    "Co sprawia, że w klasie łatwiej jest się uczyć i być sobą?",
+    "Jaki komunikat od drugiej osoby pomaga wam współpracować, a jaki od razu zamyka rozmowę?",
+    "Z jaką trudnością klasową da się coś zrobić bez szukania winnego?",
+    "Po czym poznajemy, że uczeń naprawdę dba o społeczność szkoły?",
+    "W jakiej sytuacji w szkole nie wolno udawać, że nic się nie dzieje?",
+    "Jak można pokazać odpowiedzialność za Polskę i lokalną wspólnotę bez wielkich słów?",
+    "Kiedy pomaganie jest naprawdę pomocą, a kiedy tylko dobrym gestem bez efektu?",
+    "Który nawyk najbardziej wpływa na waszą energię w szkole: sen, ruch czy jedzenie?",
+    "Co jest pierwszą rzeczą, którą powinien zrobić świadek sytuacji zagrożenia?",
+    "Po czym poznajecie, że stres jeszcze mobilizuje, a kiedy zaczyna przeciążać?",
+    "Jaką decyzję zdrowotną łatwo podjąć dziś, ale jej skutki widać dopiero później?",
+    "Jakiej jednej informacji o sobie nie chcielibyście zobaczyć publicznie w internecie?",
+    "Kiedy AI pomaga się uczyć, a kiedy zaczyna wykonywać pracę za ucznia?",
+    "Co powinno zapalić lampkę ostrzegawczą, zanim udostępnimy informację dalej?",
+    "Co tracimy jako pierwsze, kiedy telefon zabiera nam za dużo czasu?",
+    "Jak można powiedzieć dorosłemu o trudności, nie opowiadając wszystkiego na forum klasy?",
+    "Do kogo w szkole poszlibyście z problemem, którego nie da się rozwiązać samemu?",
+    "Co pomaga uczniowi, rodzicowi i szkole rozmawiać o problemie bez wzajemnego oskarżania?",
+    "Po czym poznajemy mocną stronę: po deklaracji czy po konkretnym zachowaniu?",
+    "Czym różni się konflikt od przemocy?",
+    "Kiedy korzystanie z telefonu, gry albo internetu przestaje być zwykłą rozrywką?",
+    "Jaki sygnał mówi, że z trudnością psychiczną nie powinno się zostawać samemu?",
+    "Co w konflikcie najczęściej dolewa oliwy do ognia, a co pomaga go zatrzymać?",
+    "Która wasza mocna strona może mieć znaczenie w przyszłej pracy?",
+    "Jakie zachowanie na praktykach może zrobić lepsze wrażenie niż sama deklaracja umiejętności?",
+    "Co można zrobić na praktykach, żeby po ich zakończeniu mieć realny dowód doświadczenia?",
+    "Jaką informację trzeba zdobyć, zanim podejmie się decyzję o dalszej nauce albo pracy?",
+    "Od jakiego pytania zaczyna się dobre szukanie odpowiedzi?",
+    "Po czym poznać, że pomysł stał się już projektem?",
+    "Jaka informacja zwrotna naprawdę pomaga coś poprawić?",
+    "Jaki szkolny albo zawodowy problem wymaga wiedzy z więcej niż jednego przedmiotu?",
+    "Gdzie w szkole albo w domu najłatwiej marnujemy wodę lub energię?",
+    "Która codzienna decyzja ma mały koszt dla nas, ale dobry skutek dla środowiska?",
+    "Jaki błąd w segregacji odpadów widzicie najczęściej?",
+    "Jakie jedno działanie ekologiczne szkoła mogłaby realnie wdrożyć i sprawdzić po miesiącu?",
+]
+
+
 AREA_SOURCE_KEYS = {
     "Integracja klasy": ["szkola_z_klasa_razem", "szkola_z_klasa_materialy", "szkola_z_klasa_odpornosc"],
-    "Odpowiedzialność społeczna": ["pah_dla_szkol", "pah_edukacja", "szkola_z_klasa_materialy"],
+    "Odpowiedzialność społeczna": ["szkola_z_klasa_materialy", "szkola_z_klasa_razem"],
     "Edukacja zdrowotna": ["zpe_zdrowie", "szkola_z_klasa_odpornosc", "unicef_stress"],
     "Bezpieczeństwo cyfrowe": ["saferinternet", "saferinternet_dobrostan", "nask_cyberprofilaktyka"],
     "Wsparcie ucznia": ["szkola_z_klasa_odpornosc", "unicef_teen", "zsz5"],
@@ -902,6 +941,7 @@ MONTH_ORDER = ["Wrzesień", "Październik", "Listopad", "Luty", "Marzec", "Kwiec
 LESSON_EXTRA_SOURCE_KEYS = {
     3: ["fdds_przemoc_scenariusz"],
     5: ["zpe_pierwsza_pomoc", "wosp"],
+    7: ["pah_dla_szkol", "pah_edukacja"],
     9: ["zpe_pierwsza_pomoc", "wosp"],
     12: ["uodo", "nask_cyberprofilaktyka"],
     13: ["zpe_ai", "uodo"],
@@ -991,7 +1031,7 @@ def lesson_count_label(count: int) -> str:
 
 def schedule_html(lesson: dict) -> str:
     rows = [
-        ("0-3 min", "Start", "Zadaj pytanie otwierające i zbierz 2-3 szybkie odpowiedzi bez oceniania."),
+        ("0-3 min", "Start", f"Zadaj pytanie otwierające: „{lesson['opening_question']}”. Zbierz 2-3 szybkie odpowiedzi bez oceniania."),
         ("3-8 min", "Kontekst", lesson["must_be_said"][0]),
         ("8-20 min", "Ćwiczenie główne", lesson["activity"]),
         ("20-26 min", "Omówienie", "Nazwij wnioski klasy i połącz je z codziennym funkcjonowaniem w szkole."),
@@ -1044,6 +1084,10 @@ def build_lessons() -> list[dict]:
     analysis = parse_analysis()
     analysis_by_normalized = {normalize_title(title): fields for title, fields in analysis.items()}
     expected_titles = [item["title"] for item in LESSON_META]
+    if len(OPENING_QUESTIONS) != len(LESSON_META):
+        raise RuntimeError("OPENING_QUESTIONS must contain one question per lesson")
+    if len(VIDEO_NOTES) != len(LESSON_META):
+        raise RuntimeError("VIDEO_NOTES must contain one note per lesson")
     validate_against_docx(expected_titles)
     lessons = []
     for idx, item in enumerate(LESSON_META, 1):
@@ -1064,6 +1108,7 @@ def build_lessons() -> list[dict]:
                 "month": item["month"],
                 "area": item["area"],
                 "duration": "30 minut",
+                "opening_question": OPENING_QUESTIONS[idx - 1],
                 "purpose": fields["Sens tematu"],
                 "outcomes": [part.strip() for part in re.split(r"\s+oraz\s+|\s+i\s+", fields["Rezultaty"], maxsplit=1) if part.strip()],
                 "results_text": fields["Rezultaty"],
@@ -1122,7 +1167,7 @@ def render_lesson(lesson: dict, prev_lesson: dict | None, next_lesson: dict | No
       <div class="aside-card video-card">
         <strong>Film dla nauczyciela</strong>
         <span>{esc(lesson["teacher_video"]["note"])}</span>
-        <a class="resource-link" href="{esc(lesson["teacher_video"]["url"])}">Otwórz: {esc(lesson["teacher_video"]["title"])}</a>
+        <a class="resource-link" href="{esc(lesson["teacher_video"]["url"])}" target="_blank" rel="noopener noreferrer">Otwórz w nowej karcie: {esc(lesson["teacher_video"]["title"])}</a>
       </div>
       <div class="aside-card resource-card">
         <strong>Do pogłębienia tematu</strong>
@@ -1180,7 +1225,6 @@ def render_index(lessons: list[dict], sources_href: str = "../zrodla.md") -> str
         if not group:
             continue
         areas = sorted({lesson["area"] for lesson in group})
-        goals = ", ".join(f"Cel {goal}" for goal in sorted({lesson["goal"] for lesson in group}))
         cards = []
         for lesson in group:
             cards.append(
@@ -1201,7 +1245,6 @@ def render_index(lessons: list[dict], sources_href: str = "../zrodla.md") -> str
       <section class="month-section" data-month-section="{esc(month)}">
         <div class="month-heading">
           <div>
-            <span class="month-kicker">{esc(goals)}</span>
             <h2>{esc(month)}</h2>
             <p>{esc(" / ".join(areas))}</p>
           </div>
@@ -1388,13 +1431,6 @@ input, select {
   color: var(--muted);
   font-size: .9rem;
   font-weight: 800;
-}
-.month-kicker {
-  color: var(--accent);
-  font-size: .78rem;
-  font-weight: 900;
-  text-transform: uppercase;
-  letter-spacing: .04em;
 }
 .lesson-grid {
   display: grid;

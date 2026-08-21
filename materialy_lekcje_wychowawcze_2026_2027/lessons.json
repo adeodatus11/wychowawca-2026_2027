@@ -9,6 +9,7 @@
     "month": "Wrzesień",
     "area": "Integracja klasy",
     "duration": "30 minut",
+    "opening_question": "Co sprawia, że w klasie łatwiej jest się uczyć i być sobą?",
     "purpose": "To lekcja startowa lub naprawcza. Ma pomóc klasie zobaczyć, że grupa nie tworzy się sama: potrzebuje znajomości, zasad, kontaktu i gotowości do współpracy.",
     "outcomes": [
       "Uczeń przedstawia się w bezpiecznej formule, wskazuje jedną rzecz, która pomaga mu funkcjonować w klasie,",
@@ -72,6 +73,7 @@
     "month": "Luty",
     "area": "Integracja klasy",
     "duration": "30 minut",
+    "opening_question": "Jaki komunikat od drugiej osoby pomaga wam współpracować, a jaki od razu zamyka rozmowę?",
     "purpose": "Lekcja ma przesunąć klasę od komentarzy, ocen i pretensji do komunikacji opartej na faktach, emocjach, potrzebach i prośbie.",
     "outcomes": [
       "Uczeń potrafi zamienić komunikat oskarżający na komunikat pomocny",
@@ -128,6 +130,7 @@
     "month": "Kwiecień",
     "area": "Integracja klasy",
     "duration": "30 minut",
+    "opening_question": "Z jaką trudnością klasową da się coś zrobić bez szukania winnego?",
     "purpose": "Temat służy pracy z realnym funkcjonowaniem klasy, ale w sposób uporządkowany i bez szukania winnych.",
     "outcomes": [
       "Klasa potrafi nazwać jeden problem, oddzielić fakty od interpretacji",
@@ -198,6 +201,7 @@
     "month": "Wrzesień",
     "area": "Odpowiedzialność społeczna",
     "duration": "30 minut",
+    "opening_question": "Po czym poznajemy, że uczeń naprawdę dba o społeczność szkoły?",
     "purpose": "Lekcja pokazuje, że odpowiedzialność ucznia nie ogranicza się do ocen. Dotyczy bezpieczeństwa, relacji, przestrzeni szkolnej i dobrego imienia społeczności.",
     "outcomes": [
       "Uczeń wskazuje konkretne zachowania, za które odpowiada wobec siebie, klasy",
@@ -215,9 +219,8 @@
     ],
     "source_keys": [
       "zsz5",
-      "pah_dla_szkol",
-      "pah_edukacja",
-      "szkola_z_klasa_materialy"
+      "szkola_z_klasa_materialy",
+      "szkola_z_klasa_razem"
     ],
     "sources": [
       {
@@ -227,22 +230,16 @@
         "note": "Lokalne dokumenty szkoły, statut, komunikaty i informacje organizacyjne."
       },
       {
-        "key": "pah_dla_szkol",
-        "name": "PAH: programy dla szkół",
-        "url": "https://www.pah.org.pl/zaangazuj-sie/dla-szkol/",
-        "note": "Programy edukacyjne dla szkół, m.in. Lekcje Pomagania i Godziny Wychowawcze ze Światem."
-      },
-      {
-        "key": "pah_edukacja",
-        "name": "PAH: edukacja globalna",
-        "url": "https://www.pah.org.pl/zaangazuj-sie/edukacjaglobalna/",
-        "note": "Materiały i szkolenia o edukacji globalnej, odpowiedzialności, wodzie i kryzysach humanitarnych."
-      },
-      {
         "key": "szkola_z_klasa_materialy",
         "name": "Fundacja Szkoła z Klasą: biblioteka materiałów",
         "url": "https://www.szkolazklasa.org.pl/materialy/",
         "note": "Biblioteka poradników, scenariuszy, kart pracy i pomysłów wzmacniających relacje oraz aktywność uczniów."
+      },
+      {
+        "key": "szkola_z_klasa_razem",
+        "name": "Szkoła z Klasą: Razem w Klasie - przewodnik dla szkół",
+        "url": "https://www.szkolazklasa.org.pl/materialy/razem-w-klasie-przewodnik-dla-szkol/",
+        "note": "Przewodnik o integracji, pracy z różnorodną klasą i budowaniu relacji."
       }
     ],
     "teacher_video": {
@@ -261,6 +258,7 @@
     "month": "Listopad",
     "area": "Odpowiedzialność społeczna",
     "duration": "30 minut",
+    "opening_question": "W jakiej sytuacji w szkole nie wolno udawać, że nic się nie dzieje?",
     "purpose": "Uczeń ma rozumieć, że bezpieczeństwo to nie tylko regulamin, ale szybkie rozpoznanie ryzyka i właściwa reakcja.",
     "outcomes": [
       "Uczeń rozpoznaje sytuacje wymagające natychmiastowego zgłoszenia dorosłemu",
@@ -279,9 +277,8 @@
     "source_keys": [
       "zsz5",
       "zpe_pierwsza_pomoc",
-      "pah_dla_szkol",
-      "pah_edukacja",
       "szkola_z_klasa_materialy",
+      "szkola_z_klasa_razem",
       "wosp"
     ],
     "sources": [
@@ -298,22 +295,16 @@
         "note": "Film i materiał edukacyjny o podstawach pierwszej pomocy."
       },
       {
-        "key": "pah_dla_szkol",
-        "name": "PAH: programy dla szkół",
-        "url": "https://www.pah.org.pl/zaangazuj-sie/dla-szkol/",
-        "note": "Programy edukacyjne dla szkół, m.in. Lekcje Pomagania i Godziny Wychowawcze ze Światem."
-      },
-      {
-        "key": "pah_edukacja",
-        "name": "PAH: edukacja globalna",
-        "url": "https://www.pah.org.pl/zaangazuj-sie/edukacjaglobalna/",
-        "note": "Materiały i szkolenia o edukacji globalnej, odpowiedzialności, wodzie i kryzysach humanitarnych."
-      },
-      {
         "key": "szkola_z_klasa_materialy",
         "name": "Fundacja Szkoła z Klasą: biblioteka materiałów",
         "url": "https://www.szkolazklasa.org.pl/materialy/",
         "note": "Biblioteka poradników, scenariuszy, kart pracy i pomysłów wzmacniających relacje oraz aktywność uczniów."
+      },
+      {
+        "key": "szkola_z_klasa_razem",
+        "name": "Szkoła z Klasą: Razem w Klasie - przewodnik dla szkół",
+        "url": "https://www.szkolazklasa.org.pl/materialy/razem-w-klasie-przewodnik-dla-szkol/",
+        "note": "Przewodnik o integracji, pracy z różnorodną klasą i budowaniu relacji."
       },
       {
         "key": "wosp",
@@ -338,6 +329,7 @@
     "month": "Maj",
     "area": "Odpowiedzialność społeczna",
     "duration": "30 minut",
+    "opening_question": "Jak można pokazać odpowiedzialność za Polskę i lokalną wspólnotę bez wielkich słów?",
     "purpose": "Lekcja przenosi patriotyzm z poziomu haseł na codzienne postawy: szacunek, uczciwość, język debaty, praca, odpowiedzialność i zaangażowanie lokalne.",
     "outcomes": [
       "Uczeń potrafi podać współczesne przykłady postawy patriotycznej",
@@ -354,28 +346,21 @@
       "Współczesny patriotyzm można pokazać przez uczciwość, pracę, pomoc i troskę o otoczenie."
     ],
     "source_keys": [
-      "pah_dla_szkol",
-      "pah_edukacja",
-      "szkola_z_klasa_materialy"
+      "szkola_z_klasa_materialy",
+      "szkola_z_klasa_razem"
     ],
     "sources": [
-      {
-        "key": "pah_dla_szkol",
-        "name": "PAH: programy dla szkół",
-        "url": "https://www.pah.org.pl/zaangazuj-sie/dla-szkol/",
-        "note": "Programy edukacyjne dla szkół, m.in. Lekcje Pomagania i Godziny Wychowawcze ze Światem."
-      },
-      {
-        "key": "pah_edukacja",
-        "name": "PAH: edukacja globalna",
-        "url": "https://www.pah.org.pl/zaangazuj-sie/edukacjaglobalna/",
-        "note": "Materiały i szkolenia o edukacji globalnej, odpowiedzialności, wodzie i kryzysach humanitarnych."
-      },
       {
         "key": "szkola_z_klasa_materialy",
         "name": "Fundacja Szkoła z Klasą: biblioteka materiałów",
         "url": "https://www.szkolazklasa.org.pl/materialy/",
         "note": "Biblioteka poradników, scenariuszy, kart pracy i pomysłów wzmacniających relacje oraz aktywność uczniów."
+      },
+      {
+        "key": "szkola_z_klasa_razem",
+        "name": "Szkoła z Klasą: Razem w Klasie - przewodnik dla szkół",
+        "url": "https://www.szkolazklasa.org.pl/materialy/razem-w-klasie-przewodnik-dla-szkol/",
+        "note": "Przewodnik o integracji, pracy z różnorodną klasą i budowaniu relacji."
       }
     ],
     "teacher_video": {
@@ -394,6 +379,7 @@
     "month": "Marzec",
     "area": "Odpowiedzialność społeczna",
     "duration": "30 minut",
+    "opening_question": "Kiedy pomaganie jest naprawdę pomocą, a kiedy tylko dobrym gestem bez efektu?",
     "purpose": "Temat ma pokazać wolontariat jako konkretne działanie, nie jako jednorazową akcję dla wpisu do dokumentacji.",
     "outcomes": [
       "Uczeń rozumie, komu można pomagać, jakie są granice pomocy",
@@ -410,11 +396,24 @@
       "Dobre działanie społeczne ma cel, opiekuna, granice i bezpieczny sposób wykonania."
     ],
     "source_keys": [
+      "szkola_z_klasa_materialy",
+      "szkola_z_klasa_razem",
       "pah_dla_szkol",
-      "pah_edukacja",
-      "szkola_z_klasa_materialy"
+      "pah_edukacja"
     ],
     "sources": [
+      {
+        "key": "szkola_z_klasa_materialy",
+        "name": "Fundacja Szkoła z Klasą: biblioteka materiałów",
+        "url": "https://www.szkolazklasa.org.pl/materialy/",
+        "note": "Biblioteka poradników, scenariuszy, kart pracy i pomysłów wzmacniających relacje oraz aktywność uczniów."
+      },
+      {
+        "key": "szkola_z_klasa_razem",
+        "name": "Szkoła z Klasą: Razem w Klasie - przewodnik dla szkół",
+        "url": "https://www.szkolazklasa.org.pl/materialy/razem-w-klasie-przewodnik-dla-szkol/",
+        "note": "Przewodnik o integracji, pracy z różnorodną klasą i budowaniu relacji."
+      },
       {
         "key": "pah_dla_szkol",
         "name": "PAH: programy dla szkół",
@@ -426,12 +425,6 @@
         "name": "PAH: edukacja globalna",
         "url": "https://www.pah.org.pl/zaangazuj-sie/edukacjaglobalna/",
         "note": "Materiały i szkolenia o edukacji globalnej, odpowiedzialności, wodzie i kryzysach humanitarnych."
-      },
-      {
-        "key": "szkola_z_klasa_materialy",
-        "name": "Fundacja Szkoła z Klasą: biblioteka materiałów",
-        "url": "https://www.szkolazklasa.org.pl/materialy/",
-        "note": "Biblioteka poradników, scenariuszy, kart pracy i pomysłów wzmacniających relacje oraz aktywność uczniów."
       }
     ],
     "teacher_video": {
@@ -450,6 +443,7 @@
     "month": "Październik",
     "area": "Edukacja zdrowotna",
     "duration": "30 minut",
+    "opening_question": "Który nawyk najbardziej wpływa na waszą energię w szkole: sen, ruch czy jedzenie?",
     "purpose": "Lekcja łączy zdrowie z codziennym funkcjonowaniem w szkole: koncentracją, frekwencją, nastrojem i gotowością do nauki.",
     "outcomes": [
       "Uczeń wskazuje jeden nawyk zdrowotny, który może poprawić w najbliższym tygodniu."
@@ -505,6 +499,7 @@
     "month": "Listopad",
     "area": "Edukacja zdrowotna",
     "duration": "30 minut",
+    "opening_question": "Co jest pierwszą rzeczą, którą powinien zrobić świadek sytuacji zagrożenia?",
     "purpose": "Celem jest utrwalenie postawy reagowania, a nie pełne szkolenie ratownicze.",
     "outcomes": [
       "Uczeń zna prostą kolejność działania: zadbaj o bezpieczeństwo, oceń sytuację, wezwij pomoc, wykonuj polecenia dyspozytora lub osoby dorosłej."
@@ -574,6 +569,7 @@
     "month": "Luty",
     "area": "Edukacja zdrowotna",
     "duration": "30 minut",
+    "opening_question": "Po czym poznajecie, że stres jeszcze mobilizuje, a kiedy zaczyna przeciążać?",
     "purpose": "Lekcja uczy odróżniania zwykłego napięcia od przeciążenia i pokazuje konkretne sposoby regeneracji.",
     "outcomes": [
       "Uczeń rozpoznaje sygnały przeciążenia",
@@ -630,6 +626,7 @@
     "month": "Kwiecień",
     "area": "Edukacja zdrowotna",
     "duration": "30 minut",
+    "opening_question": "Jaką decyzję zdrowotną łatwo podjąć dziś, ale jej skutki widać dopiero później?",
     "purpose": "Temat wzmacnia umiejętność przewidywania skutków wyborów zdrowotnych: snu, używek, ruchu, jedzenia, ekranów i bezpieczeństwa.",
     "outcomes": [
       "Uczeń potrafi przeanalizować decyzję zdrowotną przez skutki krótko-",
@@ -686,6 +683,7 @@
     "month": "Październik",
     "area": "Bezpieczeństwo cyfrowe",
     "duration": "30 minut",
+    "opening_question": "Jakiej jednej informacji o sobie nie chcielibyście zobaczyć publicznie w internecie?",
     "purpose": "Lekcja uczy, że dane osobowe, zdjęcia, lokalizacja i hasła mają konsekwencje poza Internetem.",
     "outcomes": [
       "Uczeń wskazuje dane, których nie należy publikować,",
@@ -763,6 +761,7 @@
     "month": "Listopad",
     "area": "Bezpieczeństwo cyfrowe",
     "duration": "30 minut",
+    "opening_question": "Kiedy AI pomaga się uczyć, a kiedy zaczyna wykonywać pracę za ucznia?",
     "purpose": "Lekcja ma pokazać AI jako narzędzie wspierające uczenie się, ale wymagające krytycznego myślenia, ochrony danych i uczciwości.",
     "outcomes": [
       "Uczeń wie, czego nie wpisywać do narzędzi AI, jak sprawdzać odpowiedzi",
@@ -840,6 +839,7 @@
     "month": "Marzec",
     "area": "Bezpieczeństwo cyfrowe",
     "duration": "30 minut",
+    "opening_question": "Co powinno zapalić lampkę ostrzegawczą, zanim udostępnimy informację dalej?",
     "purpose": "Lekcja wzmacnia odporność informacyjną: uczeń ma umieć zatrzymać się przed udostępnieniem treści.",
     "outcomes": [
       "Uczeń stosuje prosty schemat: sprawdź autora, źródło, datę, emocje, dowody",
@@ -917,6 +917,7 @@
     "month": "Maj",
     "area": "Bezpieczeństwo cyfrowe",
     "duration": "30 minut",
+    "opening_question": "Co tracimy jako pierwsze, kiedy telefon zabiera nam za dużo czasu?",
     "purpose": "Temat nie ma demonizować technologii, tylko pomóc uczniom odzyskać kontrolę nad czasem, snem, uwagą i relacjami.",
     "outcomes": [
       "Uczeń rozpoznaje jedną sytuację, w której ekran zabiera mu uwagę lub odpoczynek,",
@@ -987,6 +988,7 @@
     "month": "Wrzesień",
     "area": "Wsparcie ucznia",
     "duration": "30 minut",
+    "opening_question": "Jak można powiedzieć dorosłemu o trudności, nie opowiadając wszystkiego na forum klasy?",
     "purpose": "Lekcja uczy, że proszenie o pomoc jest kompetencją, a nie słabością.",
     "outcomes": [
       "Uczeń potrafi nazwać trudność w sposób bezpieczny",
@@ -1043,6 +1045,7 @@
     "month": "Listopad",
     "area": "Wsparcie ucznia",
     "duration": "30 minut",
+    "opening_question": "Do kogo w szkole poszlibyście z problemem, którego nie da się rozwiązać samemu?",
     "purpose": "Lekcja porządkuje szkolną mapę wsparcia, żeby uczeń wiedział, do kogo iść przed eskalacją problemu.",
     "outcomes": [
       "Uczeń rozróżnia role: wychowawca, nauczyciel przedmiotu, pedagog, psycholog, doradca zawodowy, pielęgniarka, dyrekcja, rodzic/opiekun."
@@ -1098,6 +1101,7 @@
     "month": "Marzec",
     "area": "Wsparcie ucznia",
     "duration": "30 minut",
+    "opening_question": "Co pomaga uczniowi, rodzicowi i szkole rozmawiać o problemie bez wzajemnego oskarżania?",
     "purpose": "Lekcja pokazuje, że wsparcie działa wtedy, gdy uczeń, dom i szkoła wymieniają informacje i mają wspólny plan.",
     "outcomes": [
       "Uczeń rozumie, jakie informacje powinny trafić do rodzica",
@@ -1154,6 +1158,7 @@
     "month": "Maj",
     "area": "Wsparcie ucznia",
     "duration": "30 minut",
+    "opening_question": "Po czym poznajemy mocną stronę: po deklaracji czy po konkretnym zachowaniu?",
     "purpose": "Lekcja łączy samoocenę z planowaniem rozwoju i proszeniem o pomoc.",
     "outcomes": [
       "Uczeń wskazuje co najmniej dwie mocne strony, jeden obszar do rozwoju",
@@ -1224,6 +1229,7 @@
     "month": "Październik",
     "area": "Profilaktyka kryzysów",
     "duration": "30 minut",
+    "opening_question": "Czym różni się konflikt od przemocy?",
     "purpose": "Lekcja ma pomóc odróżnić konflikt od przemocy oraz wskazać sposoby bezpiecznego reagowania świadka i osoby pokrzywdzonej.",
     "outcomes": [
       "Uczeń zna cechy przemocy: intencjonalność, powtarzalność lub poważne naruszenie granic, nierównowaga sił, szkoda. Wie, komu zgłosić sytuację."
@@ -1293,6 +1299,7 @@
     "month": "Listopad",
     "area": "Profilaktyka kryzysów",
     "duration": "30 minut",
+    "opening_question": "Kiedy korzystanie z telefonu, gry albo internetu przestaje być zwykłą rozrywką?",
     "purpose": "Temat pokazuje, że problemem może być nie tylko substancja, ale także utrata kontroli nad zachowaniem: graniem, telefonem, zakupami, mediami społecznościowymi czy hazardem.",
     "outcomes": [
       "Uczeń rozpoznaje sygnały ostrzegawcze: utrata kontroli, zaniedbywanie obowiązków, konflikty, ukrywanie, drażliwość po ograniczeniu, szkody mimo kontynuowania."
@@ -1369,6 +1376,7 @@
     "month": "Luty",
     "area": "Profilaktyka kryzysów",
     "duration": "30 minut",
+    "opening_question": "Jaki sygnał mówi, że z trudnością psychiczną nie powinno się zostawać samemu?",
     "purpose": "Lekcja ma obniżyć barierę szukania pomocy i pokazać, że kryzys psychiczny wymaga reakcji tak samo jak uraz fizyczny.",
     "outcomes": [
       "Uczeń zna podstawowe sygnały alarmowe",
@@ -1446,6 +1454,7 @@
     "month": "Kwiecień",
     "area": "Profilaktyka kryzysów",
     "duration": "30 minut",
+    "opening_question": "Co w konflikcie najczęściej dolewa oliwy do ognia, a co pomaga go zatrzymać?",
     "purpose": "Temat uczy zatrzymania eskalacji i szukania rozwiązania, które nie upokarza żadnej strony.",
     "outcomes": [
       "Uczeń potrafi zaproponować kroki rozmowy konfliktowej: zatrzymanie, fakty, potrzeby, propozycja, umowa."
@@ -1522,6 +1531,7 @@
     "month": "Październik",
     "area": "Doradztwo zawodowe",
     "duration": "30 minut",
+    "opening_question": "Która wasza mocna strona może mieć znaczenie w przyszłej pracy?",
     "purpose": "Lekcja łączy samoświadomość ucznia z wyborem i rozwijaniem kompetencji zawodowych.",
     "outcomes": [
       "Uczeń wskazuje swoje mocne strony",
@@ -1592,6 +1602,7 @@
     "month": "Listopad",
     "area": "Doradztwo zawodowe",
     "duration": "30 minut",
+    "opening_question": "Jakie zachowanie na praktykach może zrobić lepsze wrażenie niż sama deklaracja umiejętności?",
     "purpose": "Lekcja pokazuje, że pracodawca ocenia nie tylko umiejętności techniczne, ale też postawę, komunikację i odpowiedzialność.",
     "outcomes": [
       "Uczeń wskazuje kompetencje cenione przez pracodawców",
@@ -1662,6 +1673,7 @@
     "month": "Marzec",
     "area": "Doradztwo zawodowe",
     "duration": "30 minut",
+    "opening_question": "Co można zrobić na praktykach, żeby po ich zakończeniu mieć realny dowód doświadczenia?",
     "purpose": "Praktyki mają być przedstawione jako miejsce uczenia się, budowania reputacji, zdobywania doświadczenia i sprawdzania wyborów zawodowych.",
     "outcomes": [
       "Uczeń rozumie, jak frekwencja, postawa",
@@ -1732,6 +1744,7 @@
     "month": "Maj",
     "area": "Doradztwo zawodowe",
     "duration": "30 minut",
+    "opening_question": "Jaką informację trzeba zdobyć, zanim podejmie się decyzję o dalszej nauce albo pracy?",
     "purpose": "Lekcja daje uczniowi prosty model decyzyjny, który można zastosować przy wyborze pracy, szkoły, kursu, specjalizacji lub praktyk.",
     "outcomes": [
       "Uczeń potrafi porównać opcje kariery według informacji, konsekwencji, ryzyk",
@@ -1802,6 +1815,7 @@
     "month": "Październik",
     "area": "Uczenie się i projekt",
     "duration": "30 minut",
+    "opening_question": "Od jakiego pytania zaczyna się dobre szukanie odpowiedzi?",
     "purpose": "Lekcja wzmacnia aktywność poznawczą: uczeń ma umieć zamienić ciekawość w pytanie i poszukiwanie wiarygodnej odpowiedzi.",
     "outcomes": [
       "Uczeń formułuje pytanie badawcze",
@@ -1865,6 +1879,7 @@
     "month": "Listopad",
     "area": "Uczenie się i projekt",
     "duration": "30 minut",
+    "opening_question": "Po czym poznać, że pomysł stał się już projektem?",
     "purpose": "Lekcja pokazuje projekt jako uporządkowaną drogę od pomysłu do efektu, a nie jako chaotyczne działanie na ostatnią chwilę.",
     "outcomes": [
       "Uczeń potrafi określić cel projektu, odbiorcę, zadania, termin, zasoby",
@@ -1928,6 +1943,7 @@
     "month": "Marzec",
     "area": "Uczenie się i projekt",
     "duration": "30 minut",
+    "opening_question": "Jaka informacja zwrotna naprawdę pomaga coś poprawić?",
     "purpose": "Lekcja uczy, że feedback nie jest tylko oceną, ale informacją, co działa, co poprawić i jaki jest następny krok.",
     "outcomes": [
       "Uczeń odróżnia ocenę od informacji zwrotnej",
@@ -1991,6 +2007,7 @@
     "month": "Maj",
     "area": "Uczenie się i projekt",
     "duration": "30 minut",
+    "opening_question": "Jaki szkolny albo zawodowy problem wymaga wiedzy z więcej niż jednego przedmiotu?",
     "purpose": "Lekcja pokazuje, że wiedza zawodowa, ogólna, społeczna i cyfrowa łączy się w realnych sytuacjach.",
     "outcomes": [
       "Uczeń potrafi pokazać, jak różne przedmioty",
@@ -2054,6 +2071,7 @@
     "month": "Październik",
     "area": "Edukacja ekologiczna",
     "duration": "30 minut",
+    "opening_question": "Gdzie w szkole albo w domu najłatwiej marnujemy wodę lub energię?",
     "purpose": "Temat sprowadza edukację ekologiczną do codziennych nawyków i kosztów, które uczniowie rozumieją.",
     "outcomes": [
       "Uczeń wskazuje konkretne działania ograniczające zużycie energii",
@@ -2124,6 +2142,7 @@
     "month": "Listopad",
     "area": "Edukacja ekologiczna",
     "duration": "30 minut",
+    "opening_question": "Która codzienna decyzja ma mały koszt dla nas, ale dobry skutek dla środowiska?",
     "purpose": "Lekcja pokazuje związek między małymi wyborami a większym skutkiem środowiskowym.",
     "outcomes": [
       "Uczeń analizuje codzienne decyzje w obszarach: odpady, energia, woda, transport, zakupy",
@@ -2194,6 +2213,7 @@
     "month": "Marzec",
     "area": "Edukacja ekologiczna",
     "duration": "30 minut",
+    "opening_question": "Jaki błąd w segregacji odpadów widzicie najczęściej?",
     "purpose": "Lekcja ma przełożyć ogólną wiedzę o segregacji na praktyczne decyzje w szkole.",
     "outcomes": [
       "Uczeń potrafi przypisać typowe odpady szkolne do właściwych kategorii",
@@ -2257,6 +2277,7 @@
     "month": "Maj",
     "area": "Edukacja ekologiczna",
     "duration": "30 minut",
+    "opening_question": "Jakie jedno działanie ekologiczne szkoła mogłaby realnie wdrożyć i sprawdzić po miesiącu?",
     "purpose": "Ostatni temat ekologiczny powinien zakończyć się propozycją działania, nie tylko rozmową.",
     "outcomes": [
       "Klasa wybiera jedno realistyczne działanie ekologiczne do wdrożenia lub zgłoszenia w szkole."
