@@ -1,21 +1,24 @@
-# Wychowawca 2026/2027
+# Plan pracy wychowawczo-profilaktycznej 2026/2027
 
-Publiczna strona z materiałami do lekcji wychowawczych ZSZ5 na rok szkolny 2026/2027.
+Publiczna strona z materiałami dla wychowawców ZSZ5 na rok szkolny 2026/2027.
 
-## Zawartość
+## Aktualna wersja
 
-- scenariusze lekcji w Markdown,
-- pliki Markdown pod prezentacje,
-- pliki PowerPoint `.pptx` osadzane na stronie przez publiczny podgląd Office,
-- strona HTML z trybem pełnoekranowym dla osadzonej prezentacji PPTX,
-- generator materiałów w `tools/generate_lessons_site.py`.
+- źródło tematów: `Plan pracy wychowawczo profilaktycznej szkoly 2026.2027.docx`,
+- liczba tematów: 35,
+- format: osobna strona HTML dla każdej lekcji,
+- wejście do strony: `materialy_lekcje_wychowawcze_2026_2027/strona_html/index.html`.
 
-## Strona
+## Zawartość lekcji
 
-Po włączeniu GitHub Pages strona startowa repozytorium przekierowuje do:
+Każda lekcja zawiera cel, przewidywane rezultaty, przygotowanie nauczyciela, przebieg 30 minut, ćwiczenie, sekcję `Co musi wybrzmieć`, dowód realizacji, źródła rozszerzające i film albo inspirację wideo dla nauczyciela.
 
-`materialy_lekcje_wychowawcze_2026_2027/strona_html/index.html`
+## Generowanie
 
-## Uwagi
+Stronę generuje skrypt:
 
-Materiały są wersją roboczą do adaptacji przez wychowawcę. Przed użyciem trzeba potwierdzić lokalne numery sal, osoby kontaktowe oraz procedurę przekazywania danych do Dziennika VULCAN.
+```bash
+python tools/generate_lessons_site.py
+```
+
+Przed publikacją generator sprawdza zgodność listy 35 tematów z plikiem DOCX, jeśli dostępna jest biblioteka `python-docx`.

@@ -3,58 +3,257 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Lekcje wychowawcze ZSZ5 2026/2027</title>
+  <title>Plan pracy wychowawczo-profilaktycznej 2026/2027</title>
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <div class="topline">
-      <div>
-        <p class="kicker">ZSZ5 · narzędzie dla wychowawcy</p>
-        <h1>Lekcje wychowawcze ZSZ5 2026/2027</h1>
-        <p class="subtitle">Scenariusze 30-minutowych lekcji i pliki Markdown pod prezentacje. Lekcja 0 jest tylko dla klas pierwszych; pozostałe lekcje są dla wszystkich klas Technikum nr 5 i BS I stopnia nr 5.</p>
-      </div>
-      <span class="badge">wersja robocza do użycia</span>
-    </div>
-    <div class="hero-grid" aria-label="Podsumowanie materiałów">
-      <div class="metric"><strong>12</strong><span>lekcji wychowawczych</span></div>
-      <div class="metric"><strong>30</strong><span>minut na scenariusz</span></div>
-      <div class="metric"><strong>24</strong><span>pliki MD: scenariusze i prezentacje</span></div>
-      <div class="metric"><strong>1</strong><span>lekcja startowa dla klas pierwszych</span></div>
+
+  <header class="site-header">
+    <p class="kicker">ZSZ5 · materiały dla wychowawcy</p>
+    <h1>Plan pracy wychowawczo-profilaktycznej 2026/2027</h1>
+    <p class="subtitle">35 tematów z najnowszego pliku DOCX opracowanych jako osobne strony WWW. Każda lekcja zawiera cel, przewidywane rezultaty, przebieg, ćwiczenie, komunikaty, które muszą wybrzmieć, źródła i film albo inspirację wideo dla nauczyciela.</p>
+    <div class="metrics" aria-label="Podsumowanie">
+      <div><strong>35</strong><span>lekcji</span></div>
+      <div><strong>9</strong><span>celów</span></div>
+      <div><strong>30</strong><span>minut</span></div>
+      <div><strong>1</strong><span>osobny URL na lekcję</span></div>
     </div>
   </header>
-  <main>
-    <aside aria-label="Lista lekcji">
-      <div class="panel-title">
-        <strong>Wybór lekcji</strong>
-        <span id="resultCount" class="count-pill">12 z 12</span>
+  <main class="index-layout">
+    <section class="toolbar" aria-label="Filtrowanie lekcji">
+      <label for="search">Szukaj tematu</label>
+      <input id="search" type="search" placeholder="np. AI, przemoc, praktyki, zdrowie">
+      <label for="goalFilter">Cel</label>
+      <select id="goalFilter">
+        <option value="all">Wszystkie cele</option>
+        <option value="1">Cel 1</option><option value="2">Cel 2</option><option value="3">Cel 3</option><option value="4">Cel 4</option><option value="5">Cel 5</option><option value="6">Cel 6</option><option value="7">Cel 7</option><option value="8">Cel 8</option><option value="9">Cel 9</option>
+      </select>
+      <p id="count" class="count">35 lekcji</p>
+    </section>
+    <section>
+      <h2>Lista lekcji</h2>
+      <div id="lessonGrid" class="lesson-grid">
+        
+      <a class="lesson-card" href="lekcje/01-poznajmy-sie-budujemy-zespol-klasowy-reintegracja-klasy-jak-odbudowac-wspolprace.html" data-goal="1" data-month="Wrzesień" data-area="Integracja klasy">
+        <span class="lesson-id">01</span>
+        <span class="lesson-meta">Cel 1 · Wrzesień · Integracja klasy</span>
+        <strong>Poznajmy się – budujemy zespół klasowy/ Reintegracja klasy – jak odbudować współpracę?</strong>
+        <span>Zdjęcie lub przepisana lista zasad klasowych, bez danych wrażliwych.</span>
+      </a>
+      <a class="lesson-card" href="lekcje/02-komunikacja-ktora-pomaga-jak-rozmawiac-ze-soba.html" data-goal="1" data-month="Luty" data-area="Integracja klasy">
+        <span class="lesson-id">02</span>
+        <span class="lesson-meta">Cel 1 · Luty · Integracja klasy</span>
+        <strong>Komunikacja, która pomaga – jak rozmawiać ze sobą?</strong>
+        <span>Karta z jednym przerobionym komunikatem.</span>
+      </a>
+      <a class="lesson-card" href="lekcje/03-nasza-klasa-jak-wspolnie-rozwiazywac-trudnosci.html" data-goal="1" data-month="Kwiecień" data-area="Integracja klasy">
+        <span class="lesson-id">03</span>
+        <span class="lesson-meta">Cel 1 · Kwiecień · Integracja klasy</span>
+        <strong>Nasza klasa – jak wspólnie rozwiązywać trudności?</strong>
+        <span>Ustalony jeden krok naprawczy i termin sprawdzenia.</span>
+      </a>
+      <a class="lesson-card" href="lekcje/04-moja-szkola-moja-spolecznosc-za-co-jestem-odpowiedzialny.html" data-goal="2" data-month="Wrzesień" data-area="Odpowiedzialność społeczna">
+        <span class="lesson-id">04</span>
+        <span class="lesson-meta">Cel 2 · Wrzesień · Odpowiedzialność społeczna</span>
+        <strong>Moja szkoła, moja społeczność – za co jestem odpowiedzialny?</strong>
+        <span>Mapa odpowiedzialności klasy.</span>
+      </a>
+      <a class="lesson-card" href="lekcje/05-odpowiedzialnosc-za-bezpieczenstwo-swoje-i-innych.html" data-goal="2" data-month="Listopad" data-area="Odpowiedzialność społeczna">
+        <span class="lesson-id">05</span>
+        <span class="lesson-meta">Cel 2 · Listopad · Odpowiedzialność społeczna</span>
+        <strong>Odpowiedzialność za bezpieczeństwo swoje i innych</strong>
+        <span>Uczeń zapisuje trzy sytuacje, których nie wolno zostawić bez reakcji.</span>
+      </a>
+      <a class="lesson-card" href="lekcje/06-patriotyzm-wspolczesny-co-oznacza-dla-mlodego-czlowieka.html" data-goal="2" data-month="Maj" data-area="Odpowiedzialność społeczna">
+        <span class="lesson-id">06</span>
+        <span class="lesson-meta">Cel 2 · Maj · Odpowiedzialność społeczna</span>
+        <strong>Patriotyzm współczesny – co oznacza dla młodego człowieka?</strong>
+        <span>Lista klasowa `Patriotyzm bez wielkich słów`.</span>
+      </a>
+      <a class="lesson-card" href="lekcje/07-wolontariat-i-dzialanie-dla-innych-dlaczego-warto-pomagac.html" data-goal="2" data-month="Marzec" data-area="Odpowiedzialność społeczna">
+        <span class="lesson-id">07</span>
+        <span class="lesson-meta">Cel 2 · Marzec · Odpowiedzialność społeczna</span>
+        <strong>Wolontariat i działanie dla innych – dlaczego warto pomagać?</strong>
+        <span>Jedna propozycja wolontariatu lub działania społecznego gotowa do decyzji wychowawcy.</span>
+      </a>
+      <a class="lesson-card" href="lekcje/08-sen-ruch-i-odzywianie-fundamenty-zdrowia.html" data-goal="3" data-month="Październik" data-area="Edukacja zdrowotna">
+        <span class="lesson-id">08</span>
+        <span class="lesson-meta">Cel 3 · Październik · Edukacja zdrowotna</span>
+        <strong>Sen, ruch i odżywianie – fundamenty zdrowia</strong>
+        <span>Prywatna karta planu zdrowotnego ucznia.</span>
+      </a>
+      <a class="lesson-card" href="lekcje/09-pierwsza-pomoc-wiem-jak-reagowac.html" data-goal="3" data-month="Listopad" data-area="Edukacja zdrowotna">
+        <span class="lesson-id">09</span>
+        <span class="lesson-meta">Cel 3 · Listopad · Edukacja zdrowotna</span>
+        <strong>Pierwsza pomoc – wiem, jak reagować</strong>
+        <span>Klasa tworzy krótką listę `Jak reagujemy w szkole`.</span>
+      </a>
+      <a class="lesson-card" href="lekcje/10-stres-i-regeneracja-jak-dbac-o-swoj-organizm.html" data-goal="3" data-month="Luty" data-area="Edukacja zdrowotna">
+        <span class="lesson-id">10</span>
+        <span class="lesson-meta">Cel 3 · Luty · Edukacja zdrowotna</span>
+        <strong>Stres i regeneracja – jak dbać o swój organizm?</strong>
+        <span>Prywatna karta `Kiedy widzę..., robię...`.</span>
+      </a>
+      <a class="lesson-card" href="lekcje/11-odpowiedzialne-decyzje-prozdrowotne.html" data-goal="3" data-month="Kwiecień" data-area="Edukacja zdrowotna">
+        <span class="lesson-id">11</span>
+        <span class="lesson-meta">Cel 3 · Kwiecień · Edukacja zdrowotna</span>
+        <strong>Odpowiedzialne decyzje prozdrowotne</strong>
+        <span>Wypełniona karta analizy decyzji.</span>
+      </a>
+      <a class="lesson-card" href="lekcje/12-moje-dane-w-sieci-jak-je-chronic.html" data-goal="4" data-month="Październik" data-area="Bezpieczeństwo cyfrowe">
+        <span class="lesson-id">12</span>
+        <span class="lesson-meta">Cel 4 · Październik · Bezpieczeństwo cyfrowe</span>
+        <strong>Moje dane w sieci – jak je chronić?</strong>
+        <span>Lista `5 zasad ochrony danych w sieci`.</span>
+      </a>
+      <a class="lesson-card" href="lekcje/13-sztuczna-inteligencja-korzystam-odpowiedzialnie.html" data-goal="4" data-month="Listopad" data-area="Bezpieczeństwo cyfrowe">
+        <span class="lesson-id">13</span>
+        <span class="lesson-meta">Cel 4 · Listopad · Bezpieczeństwo cyfrowe</span>
+        <strong>Sztuczna inteligencja – korzystam odpowiedzialnie</strong>
+        <span>Klasowe zasady `AI w nauce: wolno, ostrożnie, nie wolno`.</span>
+      </a>
+      <a class="lesson-card" href="lekcje/14-fake-news-i-manipulacja-jak-rozpoznac-ze-ktos-chce-mnie-wprowadzic-w-blad.html" data-goal="4" data-month="Marzec" data-area="Bezpieczeństwo cyfrowe">
+        <span class="lesson-id">14</span>
+        <span class="lesson-meta">Cel 4 · Marzec · Bezpieczeństwo cyfrowe</span>
+        <strong>Fake news i manipulacja – jak rozpoznać, że ktoś chce mnie wprowadzić w błąd?</strong>
+        <span>Wypełniona karta weryfikacji informacji.</span>
+      </a>
+      <a class="lesson-card" href="lekcje/15-aktywnosc-off-line-jak-zachowac-rownowage-cyfrowa.html" data-goal="4" data-month="Maj" data-area="Bezpieczeństwo cyfrowe">
+        <span class="lesson-id">15</span>
+        <span class="lesson-meta">Cel 4 · Maj · Bezpieczeństwo cyfrowe</span>
+        <strong>Aktywność off-line – jak zachować równowagę cyfrową?</strong>
+        <span>Prywatny plan off-line na tydzień.</span>
+      </a>
+      <a class="lesson-card" href="lekcje/16-jak-mowic-o-swoich-potrzebach-i-trudnosciach.html" data-goal="5" data-month="Wrzesień" data-area="Wsparcie ucznia">
+        <span class="lesson-id">16</span>
+        <span class="lesson-meta">Cel 5 · Wrzesień · Wsparcie ucznia</span>
+        <strong>Jak mówić o swoich potrzebach i trudnościach?</strong>
+        <span>Karta z przykładową wiadomością bez danych prywatnych.</span>
+      </a>
+      <a class="lesson-card" href="lekcje/17-kto-moze-mi-pomoc-w-szkole.html" data-goal="5" data-month="Listopad" data-area="Wsparcie ucznia">
+        <span class="lesson-id">17</span>
+        <span class="lesson-meta">Cel 5 · Listopad · Wsparcie ucznia</span>
+        <strong>Kto może mi pomóc w szkole?</strong>
+        <span>Mapa wsparcia klasy.</span>
+      </a>
+      <a class="lesson-card" href="lekcje/18-wspolpraca-ucznia-rodzica-i-szkoly-dlaczego-jest-wazna.html" data-goal="5" data-month="Marzec" data-area="Wsparcie ucznia">
+        <span class="lesson-id">18</span>
+        <span class="lesson-meta">Cel 5 · Marzec · Wsparcie ucznia</span>
+        <strong>Współpraca ucznia, rodzica i szkoły – dlaczego jest ważna?</strong>
+        <span>Schemat rozmowy wspierającej.</span>
+      </a>
+      <a class="lesson-card" href="lekcje/19-moje-mocne-strony-i-obszary-w-ktorych-potrzebuje-wsparcia.html" data-goal="5" data-month="Maj" data-area="Wsparcie ucznia">
+        <span class="lesson-id">19</span>
+        <span class="lesson-meta">Cel 5 · Maj · Wsparcie ucznia</span>
+        <strong>Moje mocne strony i obszary, w których potrzebuję wsparcia</strong>
+        <span>Prywatna karta rozwoju ucznia.</span>
+      </a>
+      <a class="lesson-card" href="lekcje/20-przemoc-rowiesnicza-jak-reagowac-gdy-ktos-przekracza-granice.html" data-goal="6" data-month="Październik" data-area="Profilaktyka kryzysów">
+        <span class="lesson-id">20</span>
+        <span class="lesson-meta">Cel 6 · Październik · Profilaktyka kryzysów</span>
+        <strong>Przemoc rówieśnicza – jak reagować, gdy ktoś przekracza granice?</strong>
+        <span>Karta `Nie zostawiam bez reakcji`.</span>
+      </a>
+      <a class="lesson-card" href="lekcje/21-uzaleznienia-behawioralne-kiedy-korzystanie-staje-sie-problemem.html" data-goal="6" data-month="Listopad" data-area="Profilaktyka kryzysów">
+        <span class="lesson-id">21</span>
+        <span class="lesson-meta">Cel 6 · Listopad · Profilaktyka kryzysów</span>
+        <strong>Uzależnienia behawioralne – kiedy korzystanie staje się problemem?</strong>
+        <span>Uczniowie zapisują trzy sygnały, przy których warto porozmawiać z dorosłym.</span>
+      </a>
+      <a class="lesson-card" href="lekcje/22-zdrowie-psychiczne-gdzie-i-jak-szukac-pomocy.html" data-goal="6" data-month="Luty" data-area="Profilaktyka kryzysów">
+        <span class="lesson-id">22</span>
+        <span class="lesson-meta">Cel 6 · Luty · Profilaktyka kryzysów</span>
+        <strong>Zdrowie psychiczne – gdzie i jak szukać pomocy?</strong>
+        <span>Karta wsparcia ucznia, prywatna.</span>
+      </a>
+      <a class="lesson-card" href="lekcje/23-konflikt-bez-agresji-jak-rozwiazywac-trudne-sytuacje.html" data-goal="6" data-month="Kwiecień" data-area="Profilaktyka kryzysów">
+        <span class="lesson-id">23</span>
+        <span class="lesson-meta">Cel 6 · Kwiecień · Profilaktyka kryzysów</span>
+        <strong>Konflikt bez agresji – jak rozwiązywać trudne sytuacje?</strong>
+        <span>Lista zdań, które pomagają zatrzymać konflikt.</span>
+      </a>
+      <a class="lesson-card" href="lekcje/24-moje-mocne-strony-i-przyszly-zawod.html" data-goal="7" data-month="Październik" data-area="Doradztwo zawodowe">
+        <span class="lesson-id">24</span>
+        <span class="lesson-meta">Cel 7 · Październik · Doradztwo zawodowe</span>
+        <strong>Moje mocne strony i przyszły zawód</strong>
+        <span>Karta `Moje zasoby zawodowe`.</span>
+      </a>
+      <a class="lesson-card" href="lekcje/25-kompetencje-ktorych-oczekuje-pracodawca.html" data-goal="7" data-month="Listopad" data-area="Doradztwo zawodowe">
+        <span class="lesson-id">25</span>
+        <span class="lesson-meta">Cel 7 · Listopad · Doradztwo zawodowe</span>
+        <strong>Kompetencje, których oczekuje pracodawca</strong>
+        <span>Indywidualny wybór jednej kompetencji do rozwijania w miesiącu.</span>
+      </a>
+      <a class="lesson-card" href="lekcje/26-praktyki-zawodowe-jak-wykorzystac-je-do-budowania-swojej-przyszlosci.html" data-goal="7" data-month="Marzec" data-area="Doradztwo zawodowe">
+        <span class="lesson-id">26</span>
+        <span class="lesson-meta">Cel 7 · Marzec · Doradztwo zawodowe</span>
+        <strong>Praktyki zawodowe – jak wykorzystać je do budowania swojej przyszłości?</strong>
+        <span>Lista 5 zasad wykorzystania praktyk.</span>
+      </a>
+      <a class="lesson-card" href="lekcje/27-jak-podejmowac-swiadome-decyzje-dotyczace-swojej-kariery.html" data-goal="7" data-month="Maj" data-area="Doradztwo zawodowe">
+        <span class="lesson-id">27</span>
+        <span class="lesson-meta">Cel 7 · Maj · Doradztwo zawodowe</span>
+        <strong>Jak podejmować świadome decyzje dotyczące swojej kariery?</strong>
+        <span>Wypełniona tabela jednej decyzji edukacyjno-zawodowej.</span>
+      </a>
+      <a class="lesson-card" href="lekcje/28-ciekawosc-prowadzi-do-wiedzy-jak-samodzielnie-szukac-odpowiedzi.html" data-goal="8" data-month="Październik" data-area="Uczenie się i projekt">
+        <span class="lesson-id">28</span>
+        <span class="lesson-meta">Cel 8 · Październik · Uczenie się i projekt</span>
+        <strong>Ciekawość prowadzi do wiedzy – jak samodzielnie szukać odpowiedzi?</strong>
+        <span>Mini-plan poszukiwania odpowiedzi.</span>
+      </a>
+      <a class="lesson-card" href="lekcje/29-od-pomyslu-do-dzialania-jak-stworzyc-dobry-projekt.html" data-goal="8" data-month="Listopad" data-area="Uczenie się i projekt">
+        <span class="lesson-id">29</span>
+        <span class="lesson-meta">Cel 8 · Listopad · Uczenie się i projekt</span>
+        <strong>Od pomysłu do działania – jak stworzyć dobry projekt?</strong>
+        <span>Karta mini-projektu.</span>
+      </a>
+      <a class="lesson-card" href="lekcje/30-informacja-zwrotna-jak-wykorzystac-ja-do-rozwoju.html" data-goal="8" data-month="Marzec" data-area="Uczenie się i projekt">
+        <span class="lesson-id">30</span>
+        <span class="lesson-meta">Cel 8 · Marzec · Uczenie się i projekt</span>
+        <strong>Informacja zwrotna – jak wykorzystać ją do rozwoju?</strong>
+        <span>Jedna informacja zwrotna napisana według modelu: mocna strona, wskazówka, następny krok.</span>
+      </a>
+      <a class="lesson-card" href="lekcje/31-wiedza-nie-ma-granic-jak-laczyc-informacje-z-roznych-dziedzin.html" data-goal="8" data-month="Maj" data-area="Uczenie się i projekt">
+        <span class="lesson-id">31</span>
+        <span class="lesson-meta">Cel 8 · Maj · Uczenie się i projekt</span>
+        <strong>Wiedza nie ma granic – jak łączyć informacje z różnych dziedzin?</strong>
+        <span>Mapa interdyscyplinarna jednego zadania.</span>
+      </a>
+      <a class="lesson-card" href="lekcje/32-oszczedzanie-energii-i-wody-co-mozemy-zrobic-w-szkole-i-w-domu.html" data-goal="9" data-month="Październik" data-area="Edukacja ekologiczna">
+        <span class="lesson-id">32</span>
+        <span class="lesson-meta">Cel 9 · Październik · Edukacja ekologiczna</span>
+        <strong>Oszczędzanie energii i wody – co możemy zrobić w szkole i w domu?</strong>
+        <span>Lista 3 działań klasy i 3 działań indywidualnych.</span>
+      </a>
+      <a class="lesson-card" href="lekcje/33-jak-codzienne-decyzje-wplywaja-na-srodowisko.html" data-goal="9" data-month="Listopad" data-area="Edukacja ekologiczna">
+        <span class="lesson-id">33</span>
+        <span class="lesson-meta">Cel 9 · Listopad · Edukacja ekologiczna</span>
+        <strong>Jak codzienne decyzje wpływają na środowisko?</strong>
+        <span>Karta analizy jednego dnia.</span>
+      </a>
+      <a class="lesson-card" href="lekcje/34-segregacja-odpadow-w-praktyce.html" data-goal="9" data-month="Marzec" data-area="Edukacja ekologiczna">
+        <span class="lesson-id">34</span>
+        <span class="lesson-meta">Cel 9 · Marzec · Edukacja ekologiczna</span>
+        <strong>Segregacja odpadów w praktyce</strong>
+        <span>Mini-instrukcja segregacji dla klasy.</span>
+      </a>
+      <a class="lesson-card" href="lekcje/35-szkola-odpowiedzialna-za-srodowisko.html" data-goal="9" data-month="Maj" data-area="Edukacja ekologiczna">
+        <span class="lesson-id">35</span>
+        <span class="lesson-meta">Cel 9 · Maj · Edukacja ekologiczna</span>
+        <strong>Szkoła odpowiedzialna za środowisko</strong>
+        <span>Jedna karta propozycji działania ekologicznego.</span>
+      </a>
       </div>
-      <div class="filters">
-        <label for="search">Szukaj</label>
-        <input id="search" type="search" placeholder="frekwencja, statut, VULCAN">
-        <label for="groupFilter">Zakres</label>
-        <select id="groupFilter">
-          <option value="all">Wszystkie lekcje</option>
-          <option value="first">Tylko lekcja 0</option>
-          <option value="allClasses">Lekcje dla wszystkich</option>
-        </select>
-      </div>
-      <div class="quick-filters" aria-label="Szybkie filtry">
-        <button class="chip active" type="button" data-chip="all">wszystkie</button>
-        <button class="chip" type="button" data-chip="org">organizacyjne</button>
-        <button class="chip" type="button" data-chip="attendance">frekwencja</button>
-        <button class="chip" type="button" data-chip="men">MEN</button>
-      </div>
-      <div id="lessonList" class="lesson-list"></div>
-    </aside>
-    <article id="detail" class="detail"></article>
+    </section>
+    <section class="note">
+      <h2>Jak korzystać</h2>
+      <p>Wychowawca wybiera temat zgodnie z miesiącem z planu, otwiera stronę lekcji i prowadzi zajęcia według przewodnika. Przy tematach wrażliwych pracujemy na przykładach fikcyjnych i nie zbieramy prywatnych historii uczniów na forum klasy.</p>
+      <p>Źródła zbiorcze są dostępne w pliku <a href="../zrodla.md">zrodla.md</a>.</p>
+    </section>
   </main>
-  <footer>
-    <button id="focusToggle" class="chip" type="button">Tryb skupienia</button>
-    Źródła i zastrzeżenia są w pliku <a href="../zrodla.md">zrodla.md</a>. Przed użyciem uzupełnij lokalne numery sal i potwierdź procedurę przekazywania danych do VULCAN.
-  </footer>
-  <div id="toast" class="toast" role="status" aria-live="polite"></div>
   <script src="script.js"></script>
+
 </body>
 </html>

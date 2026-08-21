@@ -1,1353 +1,1633 @@
 [
   {
-    "id": "00",
-    "slug": "00_wycieczka_po_zsz5_klasy_pierwsze",
-    "title": "Lekcja 0: Nawigacja po ZSZ5",
-    "group": "Tylko klasy pierwsze Technikum nr 5 i BS I stopnia nr 5",
-    "men": "Adaptacja, bezpieczeństwo, komunikacja szkoła-uczeń-rodzic",
-    "purpose": "Uczeń wie, gdzie szukać pomocy i informacji w szkole oraz w kanałach cyfrowych ZSZ5.",
-    "outcomes": [
-      "wskazuje najważniejsze miejsca w budynku i wie, kiedy z nich korzystać",
-      "odróżnia stronę EduPage, stronę Szkoła Mistrzów, Facebook szkoły i Dziennik VULCAN",
-      "potrafi wyjaśnić, dlaczego dostęp do Dziennika VULCAN ma uczeń i rodzic",
-      "zna podstawową ścieżkę kontaktu: wychowawca, sekretariat, pedagog/psycholog, dyrekcja"
-    ],
-    "materials": [
-      "telefon nauczyciela lub komputer z dostępem do strony zsz5.edupage.org",
-      "link do szkolnego Facebooka: https://www.facebook.com/zsz5wro",
-      "link do Szkoły Mistrzów: https://www.szkolamistrzow.info/",
-      "kartka z trasą spaceru po szkole; numery sal do uzupełnienia lokalnie"
-    ],
-    "prep": [
-      "Sprawdź aktualne miejsca: sekretariat uczniowski, dyrekcja/wicedyrektor, gabinet pedagoga, gabinet psychologa, biblioteka, sale/pracownie zawodowe, tablice informacyjne.",
-      "Dopisz aktualne numery sal lub skróty lokalizacyjne na wydruku.",
-      "Jeżeli spacer po budynku jest niemożliwy, zrób wariant stacjonarny z mapą słowną i stronami WWW."
-    ],
-    "schedule": [
-      [
-        "0-3 min",
-        "Start",
-        "Pytanie: gdzie uczeń szuka informacji, gdy nie wie, co zrobić?"
-      ],
-      [
-        "3-14 min",
-        "Spacer nawigacyjny",
-        "Krótka trasa: wejście/portiernia, sekretariat, tablice, pedagog/psycholog, biblioteka, pracownie."
-      ],
-      [
-        "14-22 min",
-        "Nawigacja cyfrowa",
-        "Pokaz: EduPage, Szkoła Mistrzów, Facebook, Dziennik VULCAN."
-      ],
-      [
-        "22-27 min",
-        "Mini-zadanie",
-        "Uczniowie w parach układają 3 scenki: gdzie idę / do kogo piszę / co sprawdzam w dzienniku."
-      ],
-      [
-        "27-30 min",
-        "Domknięcie",
-        "Każdy zapisuje jedną rzecz, którą sprawdzi dziś w domu z rodzicem/opiekunem."
-      ]
-    ],
-    "key_points": [
-      "EduPage to oficjalne źródło dokumentów i komunikatów szkoły.",
-      "Szkoła Mistrzów pokazuje ofertę i charakter kształcenia zawodowego.",
-      "Facebook jest szybkim kanałem informacji i promocji, ale nie zastępuje dziennika.",
-      "Dziennik VULCAN jest podstawowym miejscem komunikacji, frekwencji, ocen i usprawiedliwień.",
-      "Rodzic/opiekun powinien mieć własny dostęp, bo konto rodzica ma inne uprawnienia niż konto ucznia."
-    ],
-    "activity": "Mapa decyzji: nauczyciel czyta sytuacje, a uczniowie wskazują kanał: budynek, EduPage, Facebook, VULCAN, wychowawca. Przykłady: brak dostępu do dziennika, choroba, praktyki, zmiana planu, potrzeba rozmowy z pedagogiem.",
-    "privacy": "Nie zapisujemy loginów ani haseł. Nie fotografujemy dokumentów z danymi osób. W razie problemu z kontem uczeń zgłasza to wychowawcy zgodnie z procedurą szkoły.",
-    "assessment": "Na koniec uczeń potrafi w 30 sekund powiedzieć: gdzie znajdzie statut, gdzie sprawdzi frekwencję, do kogo zgłosi problem i dlaczego rodzic potrzebuje dostępu do dziennika.",
-    "slides": [
-      [
-        "Po co ta lekcja?",
-        [
-          "Dziś uczymy się poruszać po szkole i po jej kanałach informacji.",
-          "Cel: wiedzieć, gdzie i do kogo iść, zanim pojawi się problem."
-        ]
-      ],
-      [
-        "Najważniejsze miejsca",
-        [
-          "Wejście i portiernia",
-          "Sekretariat uczniowski",
-          "Pedagog, psycholog, pomoc PP",
-          "Biblioteka i tablice informacyjne",
-          "Pracownie zawodowe i sale klasowe"
-        ]
-      ],
-      [
-        "Strona szkoły",
-        [
-          "zsz5.edupage.org",
-          "statut, dokumenty, komunikaty",
-          "zakładki dla uczniów i rodziców"
-        ]
-      ],
-      [
-        "Szkoła Mistrzów",
-        [
-          "szkolamistrzow.info",
-          "oferta zawodowa",
-          "dualny charakter kształcenia"
-        ]
-      ],
-      [
-        "Facebook szkoły",
-        [
-          "bieżące życie szkoły",
-          "wydarzenia i sukcesy",
-          "nie zastępuje oficjalnych komunikatów"
-        ]
-      ],
-      [
-        "Dziennik VULCAN",
-        [
-          "oceny, frekwencja, wiadomości",
-          "usprawiedliwienia i kontakt z rodzicem",
-          "uczeń i rodzic potrzebują własnego dostępu"
-        ]
-      ],
-      [
-        "Szybka mapa decyzji",
-        [
-          "Nie wiem, gdzie iść: wychowawca",
-          "Nie mam dostępu do dziennika: wychowawca/procedura szkoły",
-          "Jestem chory: rodzic i usprawiedliwienie",
-          "Mam kryzys: pedagog/psycholog"
-        ]
-      ]
-    ]
-  },
-  {
     "id": "01",
-    "slug": "01_dane_do_dziennika_vulcan",
-    "title": "Dane do Dziennika VULCAN: po co je zbieramy i jak je zabezpieczyć",
-    "group": "Wszystkie klasy",
-    "men": "Współpraca z rodzicami, bezpieczeństwo, organizacja pracy szkoły",
-    "purpose": "Uczeń rozumie, jakie dane są potrzebne do kartoteki szkolnej i dlaczego aktualne kontakty są warunkiem realnej współpracy szkoły z domem.",
+    "slug": "01-poznajmy-sie-budujemy-zespol-klasowy-reintegracja-klasy-jak-odbudowac-wspolprace",
+    "url": "lekcje/01-poznajmy-sie-budujemy-zespol-klasowy-reintegracja-klasy-jak-odbudowac-wspolprace.html",
+    "title": "Poznajmy się – budujemy zespół klasowy/ Reintegracja klasy – jak odbudować współpracę?",
+    "goal": 1,
+    "month": "Wrzesień",
+    "area": "Integracja klasy",
+    "duration": "30 minut",
+    "purpose": "To lekcja startowa lub naprawcza. Ma pomóc klasie zobaczyć, że grupa nie tworzy się sama: potrzebuje znajomości, zasad, kontaktu i gotowości do współpracy.",
     "outcomes": [
-      "wymienia podstawowe kategorie danych do kartoteki ucznia",
-      "rozumie, że dane kontaktowe rodziców/opiekunów muszą być aktualne",
-      "wie, że dane wrażliwe i dokumenty przekazuje się tylko bezpiecznym kanałem wskazanym przez szkołę",
-      "potrafi przygotować rodzica/opiekuna do uzupełnienia braków"
+      "Uczeń przedstawia się w bezpiecznej formule, wskazuje jedną rzecz, która pomaga mu funkcjonować w klasie,",
+      "współtworzy 3-5 zasad dobrej współpracy."
     ],
-    "materials": [
-      "lista kontrolna danych do sprawdzenia w domu",
-      "bezpieczna koperta lub oficjalny formularz szkoły, jeśli szkoła go stosuje",
-      "dostęp nauczyciela do Dziennika VULCAN według uprawnień"
+    "results_text": "Uczeń przedstawia się w bezpiecznej formule, wskazuje jedną rzecz, która pomaga mu funkcjonować w klasie, oraz współtworzy 3-5 zasad dobrej współpracy.",
+    "flow": "Start od pytania: `Co sprawia, że w klasie łatwiej się uczyć i być sobą?` Następnie uczniowie pracują w parach: imię, jedna mocna strona, jedna rzecz, której potrzebuję od klasy. W drugiej części klasa tworzy tablicę `Pomaga / Przeszkadza / Umawiamy się`. Na koniec wybiera 3 zasady do sprawdzenia po miesiącu.",
+    "activity": "`Kontrakt minimum`: uczniowie w grupach zapisują po jednej zasadzie dotyczącej rozmowy, pomocy, punktualności, telefonu i reagowania na wykluczenie.",
+    "evidence": "Zdjęcie lub przepisana lista zasad klasowych, bez danych wrażliwych.",
+    "safety": "Nie wymuszać ujawniania spraw prywatnych. Uczeń może mówić ogólnie.",
+    "must_be_said": [
+      "Klasa nie staje się zespołem automatycznie; zespół buduje się przez codzienne zachowania.",
+      "Każdy uczeń ma prawo do bezpiecznego wejścia w grupę bez ujawniania spraw prywatnych.",
+      "Zasady współpracy mają sens tylko wtedy, gdy klasa potrafi do nich wrócić po konflikcie."
     ],
-    "prep": [
-      "Zweryfikuj z sekretariatem, które pola są faktycznie brakujące w kartotece oddziału.",
-      "Nie wyświetlaj listy uczniów z danymi na projektorze.",
-      "Ustal, czy dane mają wrócić przez dziennik, formularz papierowy, sekretariat czy zebranie z rodzicami."
+    "source_keys": [
+      "men_2026",
+      "zsz5"
     ],
-    "schedule": [
-      [
-        "0-4 min",
-        "Start",
-        "Dlaczego szkoła nie może działać na nieaktualnym numerze telefonu?"
-      ],
-      [
-        "4-10 min",
-        "Kategorie danych",
-        "Uczeń, adres, rodzice/opiekunowie, kontakty, dane do dokumentacji szkolnej."
-      ],
-      [
-        "10-18 min",
-        "Lista kontrolna",
-        "Uczniowie zaznaczają, co mają sprawdzić w domu; bez wpisywania danych na forum klasy."
-      ],
-      [
-        "18-25 min",
-        "Bezpieczeństwo danych",
-        "Co wolno wysłać, czego nie wolno publikować, komu przekazujemy dokumenty."
-      ],
-      [
-        "25-30 min",
-        "Zadanie domowe",
-        "Uczeń ustala z rodzicem/opiekunem, co trzeba uzupełnić i do kiedy."
-      ]
+    "sources": [
+      {
+        "key": "men_2026",
+        "name": "MEN: podstawowe kierunki polityki oświatowej 2026/2027",
+        "url": "https://www.gov.pl/web/edukacja/podstawowe-kierunki-realizacji-polityki-oswiatowej-panstwa-w-roku-szkolnym-20262027",
+        "note": "Punkt odniesienia dla całego planu wychowawczo-profilaktycznego."
+      },
+      {
+        "key": "zsz5",
+        "name": "ZSZ nr 5 we Wrocławiu",
+        "url": "https://zsz5.edupage.org/",
+        "note": "Lokalne dokumenty szkoły, statut, komunikaty i informacje organizacyjne."
+      }
     ],
-    "key_points": [
-      "Typowe kategorie: imiona i nazwisko ucznia, PESEL lub dokument tożsamości, data i miejsce urodzenia, adres zamieszkania, dane rodziców/opiekunów, adresy i kontakty, adres e-mail do konta dziennika.",
-      "VULCAN wskazuje, że kartoteki obejmują dane adresowe i kontaktowe ucznia oraz dane podstawowe, adresowe i kontaktowe rodziców/opiekunów.",
-      "Wychowawca nie zbiera danych publicznie. Uczeń ma tylko sprawdzić kompletność i przekazać informację ustalonym kanałem.",
-      "Aktualny telefon rodzica ma znaczenie przy frekwencji, wypadku, kryzysie, praktykach i pilnych komunikatach.",
-      "Kody dostępu do Dziennika VULCAN są indywidualne; rodzic i uczeń mają osobne konta."
-    ],
-    "activity": "Ćwiczenie bez danych osobowych: uczniowie dostają fikcyjną kartotekę z brakami i oznaczają, które braki uniemożliwiają kontakt szkoły z domem. Potem przenoszą wnioski na własną listę do sprawdzenia w domu.",
-    "privacy": "Nie zbieramy numerów PESEL, adresów, numerów telefonów ani e-maili w otwartym dokumencie, na tablicy, w grupowym czacie ani w prezentacji. Dane wracają tylko procedurą szkoły.",
-    "assessment": "Uczeń oddaje podpisaną przez siebie listę kontrolną: wiem, co mam sprawdzić w domu; nie zawiera ona danych osobowych.",
-    "slides": [
-      [
-        "Po co kartoteka?",
-        [
-          "kontakt w pilnej sytuacji",
-          "prawidłowe dokumenty szkolne",
-          "frekwencja i usprawiedliwienia",
-          "komunikacja z rodzicem/opiekunem"
-        ]
-      ],
-      [
-        "Kategorie danych",
-        [
-          "dane ucznia",
-          "adres zamieszkania",
-          "rodzice/opiekunowie",
-          "telefony i e-maile",
-          "dane do dokumentacji szkolnej"
-        ]
-      ],
-      [
-        "Dane rodzica/opiekuna",
-        [
-          "imię i nazwisko",
-          "adres, jeśli wymagany",
-          "telefon",
-          "e-mail do konta dziennika",
-          "aktualność kontaktu"
-        ]
-      ],
-      [
-        "Czego nie robimy",
-        [
-          "nie czytamy danych na forum",
-          "nie wpisujemy danych w publiczny formularz",
-          "nie wysyłamy dokumentów na grupę klasy",
-          "nie pokazujemy kartoteki na projektorze"
-        ]
-      ],
-      [
-        "Zadanie",
-        [
-          "sprawdź z rodzicem/opiekunem",
-          "uzupełnij braki ustaloną drogą",
-          "zgłoś problem z dostępem do dziennika"
-        ]
-      ]
-    ]
+    "teacher_video": {
+      "title": "Wspólnie łatwiej. Jak budować dobre relacje w klasie",
+      "url": "https://www.youtube.com/watch?v=Cs3UpXMJ0Ko"
+    }
   },
   {
     "id": "02",
-    "slug": "02_statut_zsz5",
-    "title": "Statut ZSZ5: gdzie go znaleźć, co reguluje i jak z niego korzystać",
-    "group": "Wszystkie klasy",
-    "men": "Odpowiedzialność, prawa i obowiązki, współpraca w społeczności szkolnej",
-    "purpose": "Uczeń traktuje statut jako praktyczną instrukcję życia szkoły, a nie dokument do przeczytania tylko przy konflikcie.",
+    "slug": "02-komunikacja-ktora-pomaga-jak-rozmawiac-ze-soba",
+    "url": "lekcje/02-komunikacja-ktora-pomaga-jak-rozmawiac-ze-soba.html",
+    "title": "Komunikacja, która pomaga – jak rozmawiać ze sobą?",
+    "goal": 1,
+    "month": "Luty",
+    "area": "Integracja klasy",
+    "duration": "30 minut",
+    "purpose": "Lekcja ma przesunąć klasę od komentarzy, ocen i pretensji do komunikacji opartej na faktach, emocjach, potrzebach i prośbie.",
     "outcomes": [
-      "znajduje statut na stronie szkoły",
-      "wyjaśnia, co statut reguluje: prawa, obowiązki, frekwencję, ocenianie, praktyki, pomoc PP",
-      "wskazuje najważniejsze paragrafy dotyczące frekwencji i klasyfikacji",
-      "wie, że statut obowiązuje uczniów Technikum nr 5 i BS I stopnia nr 5 w ramach ZSZ5"
+      "Uczeń potrafi zamienić komunikat oskarżający na komunikat pomocny",
+      "wskazuje różnicę między krytyką osoby a opisem zachowania."
     ],
-    "materials": [
-      "link do strony zsz5.edupage.org i zakładki Statut",
-      "lokalny tekst statutu z 15.10.2025",
-      "wydruk trzech fragmentów: frekwencja, klasyfikacja, praktyki"
+    "results_text": "Uczeń potrafi zamienić komunikat oskarżający na komunikat pomocny oraz wskazuje różnicę między krytyką osoby a opisem zachowania.",
+    "flow": "Nauczyciel pokazuje dwa komunikaty: `Zawsze wszystko psujesz` oraz `Kiedy przerywasz w pracy grupy, trudno nam skończyć zadanie`. Klasa porównuje skutki obu zdań. Następnie uczniowie ćwiczą schemat: fakt - skutek - potrzeba - prośba. W parach przerabiają przykłady szkolne: hałas, spóźnienie, ignorowanie pracy, nieodpisywanie w grupie.",
+    "activity": "`Tłumacz konfliktu`: każda para dostaje ostre zdanie i przepisuje je na wersję, która zwiększa szansę rozmowy.",
+    "evidence": "Karta z jednym przerobionym komunikatem.",
+    "safety": "Przykłady powinny być fikcyjne. Nie omawiać publicznie aktualnych sporów uczniów.",
+    "must_be_said": [
+      "Mówimy o zachowaniu i skutkach, nie o wartości osoby.",
+      "Komunikat pomocny zawiera fakt, skutek, potrzebę i prośbę.",
+      "Ostry komentarz często zamyka rozmowę; konkretna prośba daje szansę na zmianę."
     ],
-    "prep": [
-      "Sprawdź, czy na stronie jest aktualny plik statutu.",
-      "Przygotuj 3 krótkie fragmenty bez długiego czytania całego dokumentu.",
-      "Zaznacz uczniom, że w razie wątpliwości pracujemy na aktualnym pliku ze strony szkoły."
+    "source_keys": [
+      "men_2026"
     ],
-    "schedule": [
-      [
-        "0-4 min",
-        "Start",
-        "Gdzie szukać zasad, gdy ktoś mówi: 'tak jest w statucie'?"
-      ],
-      [
-        "4-9 min",
-        "Jak znaleźć dokument",
-        "Pokaz strony szkoły i zakładki Statut."
-      ],
-      [
-        "9-18 min",
-        "Co reguluje statut",
-        "Prawa, obowiązki, ocenianie, zachowanie, frekwencja, praktyki, pomoc."
-      ],
-      [
-        "18-26 min",
-        "Praca na fragmentach",
-        "Grupy rozwiązują 3 przypadki: nieobecność, praktyka, nieklasyfikowanie."
-      ],
-      [
-        "26-30 min",
-        "Podsumowanie",
-        "Uczeń zapisuje: jeden paragraf, który realnie go dotyczy."
-      ]
+    "sources": [
+      {
+        "key": "men_2026",
+        "name": "MEN: podstawowe kierunki polityki oświatowej 2026/2027",
+        "url": "https://www.gov.pl/web/edukacja/podstawowe-kierunki-realizacji-polityki-oswiatowej-panstwa-w-roku-szkolnym-20262027",
+        "note": "Punkt odniesienia dla całego planu wychowawczo-profilaktycznego."
+      }
     ],
-    "key_points": [
-      "ZSZ5 obejmuje Technikum nr 5, Branżową Szkołę I stopnia nr 5 i Branżową Szkołę II stopnia nr 5.",
-      "Statut reguluje organizację szkoły, prawa i obowiązki, ocenianie, frekwencję, praktyczną naukę zawodu, pomoc psychologiczno-pedagogiczną i zadania wychowawcy.",
-      "W statucie ZSZ5 frekwencja jest połączona z usprawiedliwianiem, karami porządkowymi, klasyfikacją i promocją.",
-      "W BS I praktyki i dzienniczek zajęć praktycznych są elementem obowiązku szkolnego/zawodowego.",
-      "Wychowawca ma statutowe zadanie monitorowania frekwencji, rozpoznawania przyczyn nieobecności i pomocy uczniom z brakami."
-    ],
-    "activity": "Case study: 'Uczeń był nieobecny przez kilka dni i przynosi usprawiedliwienie po czasie'; 'Uczeń BS I nie dostarcza dzienniczka praktyk'; 'Uczeń ma ponad połowę nieobecności na przedmiocie'. Grupy wskazują, czego trzeba szukać w statucie.",
-    "privacy": "Nie omawiamy realnych spraw uczniów z klasy. Przypadki są fikcyjne i służą tylko zrozumieniu zasad.",
-    "assessment": "Exit ticket: 'Statut przydaje mi się, gdy...' oraz 'najpierw sprawdzam...'.",
-    "slides": [
-      [
-        "Statut to instrukcja szkoły",
-        [
-          "nie tylko dokument prawny",
-          "zasady wspólne dla uczniów i nauczycieli",
-          "punkt odniesienia w sporach"
-        ]
-      ],
-      [
-        "Gdzie go znaleźć",
-        [
-          "zsz5.edupage.org",
-          "menu: Statut",
-          "pracujemy na aktualnym pliku ze strony"
-        ]
-      ],
-      [
-        "Co reguluje",
-        [
-          "prawa i obowiązki",
-          "ocenianie i zachowanie",
-          "frekwencję",
-          "praktyki",
-          "pomoc psychologiczno-pedagogiczną"
-        ]
-      ],
-      [
-        "ZSZ5 w statucie",
-        [
-          "Technikum nr 5",
-          "Branżowa Szkoła I stopnia nr 5",
-          "Branżowa Szkoła II stopnia nr 5"
-        ]
-      ],
-      [
-        "Dlaczego frekwencja jest w statucie",
-        [
-          "usprawiedliwienia",
-          "ostrzeżenia i nagany",
-          "klasyfikacja",
-          "promocja",
-          "praktyki zawodowe"
-        ]
-      ]
-    ]
+    "teacher_video": {
+      "title": "Język a relacje",
+      "url": "https://www.youtube.com/watch?v=e9AlT3kJeAw"
+    }
   },
   {
     "id": "03",
-    "slug": "03_frekwencja",
-    "title": "Frekwencja: obecność jako warunek zaliczenia, bezpieczeństwa i zawodu",
-    "group": "Wszystkie klasy",
-    "men": "Bezpieczeństwo, odpowiedzialność, zdrowie psychiczne, współpraca z rodzicami",
-    "purpose": "Uczeń widzi frekwencję nie jako procent w dzienniku, lecz jako warunek relacji ze szkołą, pracodawcą i własną przyszłością.",
+    "slug": "03-nasza-klasa-jak-wspolnie-rozwiazywac-trudnosci",
+    "url": "lekcje/03-nasza-klasa-jak-wspolnie-rozwiazywac-trudnosci.html",
+    "title": "Nasza klasa – jak wspólnie rozwiązywać trudności?",
+    "goal": 1,
+    "month": "Kwiecień",
+    "area": "Integracja klasy",
+    "duration": "30 minut",
+    "purpose": "Temat służy pracy z realnym funkcjonowaniem klasy, ale w sposób uporządkowany i bez szukania winnych.",
     "outcomes": [
-      "wyjaśnia skutki nieusprawiedliwionych nieobecności w ZSZ5",
-      "odróżnia chorobę i usprawiedliwienie od unikania szkoły",
-      "zna próg ustawowy 50% nieusprawiedliwionej nieobecności w miesiącu dla obowiązku nauki",
-      "zna zasadę nieklasyfikowania przy braku podstaw z powodu ponad połowy nieobecności na zajęciach",
-      "tworzy osobisty plan naprawy frekwencji lub utrzymania dobrej obecności"
+      "Klasa potrafi nazwać jeden problem, oddzielić fakty od interpretacji",
+      "ustalić mały krok naprawczy."
     ],
-    "materials": [
-      "wydruk progów ze statutu ZSZ5",
-      "karta 'plan 7 dni obecności'",
-      "przykładowe, fikcyjne raporty frekwencji"
+    "results_text": "Klasa potrafi nazwać jeden problem, oddzielić fakty od interpretacji i ustalić mały krok naprawczy.",
+    "flow": "Nauczyciel wprowadza zasadę: `Nie szukamy winnego, szukamy mechanizmu i rozwiązania`. Uczniowie anonimowo zapisują trudności klasy. Wychowawca grupuje je w kategorie: komunikacja, frekwencja, atmosfera, praca na lekcji, wzajemna pomoc. Klasa wybiera jeden obszar i pracuje modelem: co widzimy, co to powoduje, co zależy od nas, jaki krok testujemy przez tydzień.",
+    "activity": "`Problem na cztery pola`: fakty, skutki, potrzeby, pierwszy krok.",
+    "evidence": "Ustalony jeden krok naprawczy i termin sprawdzenia.",
+    "safety": "Jeżeli pojawia się temat przemocy, poniżania lub zagrożenia, lekcję trzeba przerwać jako debatę klasową i przejść do procedury interwencji.",
+    "must_be_said": [
+      "Rozwiązanie problemu zaczyna się od oddzielenia faktów od opinii.",
+      "Nie każda trudność wymaga szukania winnego; często potrzebny jest mały krok naprawczy.",
+      "Jeżeli trudność dotyczy przemocy lub zagrożenia, uruchamiamy pomoc dorosłych."
     ],
-    "prep": [
-      "Nie pokazuj rankingu klasy z nazwiskami.",
-      "Przygotuj neutralne przykłady procentów i liczb godzin.",
-      "Ustal ścieżkę wsparcia: wychowawca, rodzic, pedagog/psycholog, pracodawca/KSP."
+    "source_keys": [
+      "men_2026",
+      "men_przemoc"
     ],
-    "schedule": [
-      [
-        "0-5 min",
-        "Start",
-        "Frekwencja to nie ocena z charakteru, tylko informacja o ryzyku."
-      ],
-      [
-        "5-12 min",
-        "Konkrety prawne i szkolne",
-        "50% w miesiącu, nieklasyfikowanie, progi statutu ZSZ5."
-      ],
-      [
-        "12-20 min",
-        "Analiza przypadków",
-        "Trzy fikcyjne sytuacje: choroba, spóźnienia, unikanie praktyk."
-      ],
-      [
-        "20-27 min",
-        "Plan naprawy",
-        "Uczeń wybiera jeden mikro-krok na 7 dni."
-      ],
-      [
-        "27-30 min",
-        "Zamknięcie",
-        "Kiedy proszę o pomoc i kogo informuję?"
-      ]
+    "sources": [
+      {
+        "key": "men_2026",
+        "name": "MEN: podstawowe kierunki polityki oświatowej 2026/2027",
+        "url": "https://www.gov.pl/web/edukacja/podstawowe-kierunki-realizacji-polityki-oswiatowej-panstwa-w-roku-szkolnym-20262027",
+        "note": "Punkt odniesienia dla całego planu wychowawczo-profilaktycznego."
+      },
+      {
+        "key": "men_przemoc",
+        "name": "MEN: ścieżka pomocy dla szkoły - przemoc rówieśnicza",
+        "url": "https://dokumenty.men.gov.pl/SCIEZKA-POMOCY-DLA-SZKOLY-przemoc-rowiesnicza-68c43ef1af0a9.docx",
+        "note": "Dokument pomocniczy do reagowania na przemoc rówieśniczą w szkole."
+      }
     ],
-    "key_points": [
-      "Prawo oświatowe wskazuje próg co najmniej 50% nieusprawiedliwionej nieobecności w miesiącu jako niespełnianie obowiązku nauki.",
-      "Ustawa o systemie oświaty dopuszcza nieklasyfikowanie, gdy brak podstaw do oceny z powodu nieobecności przekraczającej połowę czasu zajęć.",
-      "Statut ZSZ5 przewiduje reakcje za godziny nieusprawiedliwione: upomnienie wychowawcy, naganę wychowawcy, naganę dyrektora, a w skrajnych przypadkach skreślenie.",
-      "W BS I nieobecność na praktycznej nauce zawodu ma dodatkowe skutki, bo dotyczy także pracodawcy i dzienniczka praktyk.",
-      "Frekwencję naprawia się wcześnie: rozmowa, usprawiedliwienia, plan nadrobienia, kontakt z rodzicem/pracodawcą, wsparcie pedagoga lub psychologa."
-    ],
-    "activity": "Plan 7 dni: uczniowie wybierają jedną barierę frekwencji i zapisują realistyczny krok: transport, sen, komunikacja z rodzicem, kontakt z wychowawcą, nadrobienie jednego przedmiotu. Karty mogą zostać u ucznia.",
-    "privacy": "Nie diagnozujemy publicznie przyczyn nieobecności. Uczniowie nie muszą ujawniać sytuacji rodzinnej, zdrowotnej ani psychicznej.",
-    "assessment": "Uczeń tworzy mini-plan: 'jeśli nie mogę być w szkole, robię trzy rzeczy: informuję..., sprawdzam..., nadrabiam...'.",
-    "slides": [
-      [
-        "Frekwencja to sygnał",
-        [
-          "nie ranking",
-          "nie etykieta",
-          "informacja o ryzyku",
-          "punkt startu do działania"
-        ]
-      ],
-      [
-        "Dlaczego ważna",
-        [
-          "klasyfikacja",
-          "promocja",
-          "praktyki i pracodawca",
-          "bezpieczeństwo",
-          "kontakt z rodzicem"
-        ]
-      ],
-      [
-        "Progi, które trzeba znać",
-        [
-          "50% nieusprawiedliwionej nieobecności w miesiącu",
-          "ponad połowa nieobecności na zajęciach może oznaczać brak klasyfikacji",
-          "statutowe reakcje szkoły"
-        ]
-      ],
-      [
-        "Co robię po nieobecności",
-        [
-          "usprawiedliwienie w terminie",
-          "sprawdzenie zaległości",
-          "kontakt z nauczycielem",
-          "plan nadrobienia"
-        ]
-      ],
-      [
-        "Plan 7 dni",
-        [
-          "jeden problem",
-          "jeden konkretny krok",
-          "jedna osoba do kontaktu",
-          "jedna rzecz do nadrobienia"
-        ]
-      ]
-    ]
+    "teacher_video": {
+      "title": "Konflikt w grupie - fakty i mity",
+      "url": "https://www.youtube.com/watch?v=_cXiIE4Pnr4"
+    }
   },
   {
     "id": "04",
-    "slug": "04_reforma26_kompas_jutra",
-    "title": "Reforma26 i Kompas Jutra: szkoła wymagająca, wspierająca i przyjazna",
-    "group": "Wszystkie klasy",
-    "men": "Wspieranie szkół we wdrażaniu zmian wynikających z Reformy26. Kompas Jutra.",
-    "purpose": "Uczeń rozumie, że reforma nie jest hasłem ministerialnym, tylko zmianą sposobu uczenia się: więcej sensu, wymagań, wsparcia i informacji zwrotnej.",
+    "slug": "04-moja-szkola-moja-spolecznosc-za-co-jestem-odpowiedzialny",
+    "url": "lekcje/04-moja-szkola-moja-spolecznosc-za-co-jestem-odpowiedzialny.html",
+    "title": "Moja szkoła, moja społeczność – za co jestem odpowiedzialny?",
+    "goal": 2,
+    "month": "Wrzesień",
+    "area": "Odpowiedzialność społeczna",
+    "duration": "30 minut",
+    "purpose": "Lekcja pokazuje, że odpowiedzialność ucznia nie ogranicza się do ocen. Dotyczy bezpieczeństwa, relacji, przestrzeni szkolnej i dobrego imienia społeczności.",
     "outcomes": [
-      "szkoła może jednocześnie wymagać i wspierać",
-      "uczeń ma wpływ na sposób uczenia się klasy",
-      "informacja zwrotna pomaga poprawić pracę"
+      "Uczeń wskazuje konkretne zachowania, za które odpowiada wobec siebie, klasy",
+      "szkoły."
     ],
-    "materials": [
-      "tablica lub wspólny dokument bez danych osobowych",
-      "karta pracy z pytaniami do refleksji",
-      "fragment priorytetu MEN 2026/2027 w języku ucznia"
+    "results_text": "Uczeń wskazuje konkretne zachowania, za które odpowiada wobec siebie, klasy i szkoły.",
+    "flow": "Start od krótkiego pytania: `Co w szkole zależy od uczniów, nawet jeśli nie zapisano tego w planie lekcji?` Uczniowie tworzą mapę trzech kręgów: ja, klasa, szkoła. Do każdego dopisują zachowania odpowiedzialne i nieodpowiedzialne. Następnie wybierają jedną sytuację z życia szkoły i analizują, kto ma wpływ na jej rozwiązanie.",
+    "activity": "`Trzy kręgi odpowiedzialności`: ja dbam o..., klasa dba o..., szkoła potrzebuje od nas...",
+    "evidence": "Mapa odpowiedzialności klasy.",
+    "safety": "Warto połączyć temat ze Statutem szkoły i Standardami Ochrony Małoletnich.",
+    "must_be_said": [
+      "Odpowiedzialność ucznia dotyczy też atmosfery, bezpieczeństwa i przestrzeni szkoły.",
+      "Wspólnota szkolna działa wtedy, gdy każdy wykonuje małe obowiązki bez przypominania.",
+      "Reagowanie na zagrożenie jest elementem odpowiedzialności, nie donoszeniem."
     ],
-    "prep": [
-      "Wybierz przykłady bliskie klasie: technikum, BS I stopnia, praktyki, pracodawca, frekwencja.",
-      "Nie używaj realnych spraw uczniów jako studiów przypadku.",
-      "Zdecyduj, czy efekt lekcji zostaje w teczce wychowawcy, czy u ucznia."
+    "source_keys": [
+      "men_2026",
+      "zsz5"
     ],
-    "schedule": [
-      [
-        "0-4 min",
-        "Start",
-        "Jedno pytanie otwierające i szybka diagnoza skojarzeń."
-      ],
-      [
-        "4-10 min",
-        "Priorytet MEN po ludzku",
-        "Nauczyciel tłumaczy sens priorytetu na przykład z życia szkoły."
-      ],
-      [
-        "10-21 min",
-        "Ćwiczenie główne",
-        "Burza faktów: co w naszej klasie pomaga się uczyć, co przeszkadza, czego potrzebujemy od siebie."
-      ],
-      [
-        "21-27 min",
-        "Przeniesienie na klasę",
-        "Co z tego wynika dla naszej frekwencji, relacji, praktyk lub bezpieczeństwa?"
-      ],
-      [
-        "27-30 min",
-        "Zamknięcie",
-        "Exit ticket: jedna decyzja, jedna prośba, jedno pytanie."
-      ]
+    "sources": [
+      {
+        "key": "men_2026",
+        "name": "MEN: podstawowe kierunki polityki oświatowej 2026/2027",
+        "url": "https://www.gov.pl/web/edukacja/podstawowe-kierunki-realizacji-polityki-oswiatowej-panstwa-w-roku-szkolnym-20262027",
+        "note": "Punkt odniesienia dla całego planu wychowawczo-profilaktycznego."
+      },
+      {
+        "key": "zsz5",
+        "name": "ZSZ nr 5 we Wrocławiu",
+        "url": "https://zsz5.edupage.org/",
+        "note": "Lokalne dokumenty szkoły, statut, komunikaty i informacje organizacyjne."
+      }
     ],
-    "key_points": [
-      "wymagania",
-      "wsparcie",
-      "przyjazna relacja",
-      "odpowiedzialność ucznia",
-      "informacja zwrotna"
-    ],
-    "activity": "Burza faktów: co w naszej klasie pomaga się uczyć, co przeszkadza, czego potrzebujemy od siebie.",
-    "privacy": "Uczniowie mogą pracować na przykładach fikcyjnych. Nie ujawniamy danych zdrowotnych, rodzinnych, ocen, sytuacji kryzysowych ani nazwisk.",
-    "assessment": "Krótka karta wyjścia: 'rozumiem...', 'mogę zrobić...', 'potrzebuję zapytać...'.",
-    "slides": [
-      [
-        "Temat",
-        [
-          "Reforma26 i Kompas Jutra: szkoła wymagająca, wspierająca i przyjazna",
-          "30 minut rozmowy i konkretu wychowawczego"
-        ]
-      ],
-      [
-        "Priorytet MEN",
-        [
-          "Wspieranie szkół we wdrażaniu zmian wynikających z Reformy26. Kompas Jutra."
-        ]
-      ],
-      [
-        "Po co nam to w ZSZ5",
-        [
-          "Uczeń rozumie, że reforma nie jest hasłem ministerialnym, tylko zmianą sposobu uczenia się: więcej sensu, wymagań, wsparcia i informacji zwrotnej."
-        ]
-      ],
-      [
-        "Słowa kluczowe",
-        [
-          "wymagania",
-          "wsparcie",
-          "przyjazna relacja",
-          "odpowiedzialność ucznia",
-          "informacja zwrotna"
-        ]
-      ],
-      [
-        "Ćwiczenie",
-        [
-          "Burza faktów: co w naszej klasie pomaga się uczyć, co przeszkadza, czego potrzebujemy od siebie."
-        ]
-      ],
-      [
-        "Połączenie z frekwencją",
-        [
-          "obecność daje kontakt",
-          "kontakt daje wsparcie",
-          "wsparcie pomaga utrzymać naukę i praktyki"
-        ]
-      ],
-      [
-        "Wyjście z lekcji",
-        [
-          "jedna decyzja",
-          "jedna prośba",
-          "jedno pytanie"
-        ]
-      ]
-    ]
+    "teacher_video": {
+      "title": "Po co nam relacje z innymi?",
+      "url": "https://www.youtube.com/watch?v=xnKobxzTKd4"
+    }
   },
   {
     "id": "05",
-    "slug": "05_odpornosc_spoleczna_bezpieczenstwo",
-    "title": "Odporność społeczna: patriotyzm, obywatelskość i bezpieczeństwo na co dzień",
-    "group": "Wszystkie klasy",
-    "men": "Szkoła miejscem budowania odporności społecznej; postawy patriotyczne, obywatelskie, prospołeczne i odpowiedzialność za bezpieczeństwo.",
-    "purpose": "Uczeń rozumie, że odporność społeczna zaczyna się od codziennych zachowań: reagowania, informowania, dbania o innych i przestrzegania procedur.",
+    "slug": "05-odpowiedzialnosc-za-bezpieczenstwo-swoje-i-innych",
+    "url": "lekcje/05-odpowiedzialnosc-za-bezpieczenstwo-swoje-i-innych.html",
+    "title": "Odpowiedzialność za bezpieczeństwo swoje i innych",
+    "goal": 2,
+    "month": "Listopad",
+    "area": "Odpowiedzialność społeczna",
+    "duration": "30 minut",
+    "purpose": "Uczeń ma rozumieć, że bezpieczeństwo to nie tylko regulamin, ale szybkie rozpoznanie ryzyka i właściwa reakcja.",
     "outcomes": [
-      "rozpoznaje sytuacje wymagające reakcji dorosłych",
-      "odróżnia donoszenie od odpowiedzialnego zgłoszenia",
-      "wiąże patriotyzm z troską o wspólnotę"
+      "Uczeń rozpoznaje sytuacje wymagające natychmiastowego zgłoszenia dorosłemu",
+      "wie, że reagowanie nie jest donoszeniem."
     ],
-    "materials": [
-      "tablica lub wspólny dokument bez danych osobowych",
-      "karta pracy z pytaniami do refleksji",
-      "fragment priorytetu MEN 2026/2027 w języku ucznia"
+    "results_text": "Uczeń rozpoznaje sytuacje wymagające natychmiastowego zgłoszenia dorosłemu oraz wie, że reagowanie nie jest donoszeniem.",
+    "flow": "Wychowawca przedstawia krótkie sytuacje: zasłabnięcie, groźba w wiadomości, bójka, niebezpieczne zachowanie w pracowni, uczeń w kryzysie. Klasa przypisuje reakcję: pomagam samodzielnie, proszę rówieśnika, zgłaszam wychowawcy, pedagogowi, dyrekcji lub służbom. Nauczyciel porządkuje zasadę: najpierw bezpieczeństwo, potem wyjaśnianie.",
+    "activity": "`Drabina reakcji`: od zauważenia problemu do powiadomienia właściwej osoby.",
+    "evidence": "Uczeń zapisuje trzy sytuacje, których nie wolno zostawić bez reakcji.",
+    "safety": "Nie instruować uczniów do samodzielnego rozwiązywania sytuacji zagrożenia.",
+    "must_be_said": [
+      "Najpierw dbamy o bezpieczeństwo, dopiero później wyjaśniamy szczegóły.",
+      "Nie nagrywamy i nie udostępniamy sytuacji zagrożenia.",
+      "Uczeń ma prawo i obowiązek wezwać dorosłego, gdy ktoś może ucierpieć."
     ],
-    "prep": [
-      "Wybierz przykłady bliskie klasie: technikum, BS I stopnia, praktyki, pracodawca, frekwencja.",
-      "Nie używaj realnych spraw uczniów jako studiów przypadku.",
-      "Zdecyduj, czy efekt lekcji zostaje w teczce wychowawcy, czy u ucznia."
+    "source_keys": [
+      "men_2026",
+      "zsz5",
+      "zpe_pierwsza_pomoc"
     ],
-    "schedule": [
-      [
-        "0-4 min",
-        "Start",
-        "Jedno pytanie otwierające i szybka diagnoza skojarzeń."
-      ],
-      [
-        "4-10 min",
-        "Priorytet MEN po ludzku",
-        "Nauczyciel tłumaczy sens priorytetu na przykład z życia szkoły."
-      ],
-      [
-        "10-21 min",
-        "Ćwiczenie główne",
-        "Drabina reakcji: uczniowie ustawiają sytuacje od 'rozwiązuję sam' do 'natychmiast zgłaszam dorosłemu'."
-      ],
-      [
-        "21-27 min",
-        "Przeniesienie na klasę",
-        "Co z tego wynika dla naszej frekwencji, relacji, praktyk lub bezpieczeństwa?"
-      ],
-      [
-        "27-30 min",
-        "Zamknięcie",
-        "Exit ticket: jedna decyzja, jedna prośba, jedno pytanie."
-      ]
+    "sources": [
+      {
+        "key": "men_2026",
+        "name": "MEN: podstawowe kierunki polityki oświatowej 2026/2027",
+        "url": "https://www.gov.pl/web/edukacja/podstawowe-kierunki-realizacji-polityki-oswiatowej-panstwa-w-roku-szkolnym-20262027",
+        "note": "Punkt odniesienia dla całego planu wychowawczo-profilaktycznego."
+      },
+      {
+        "key": "zsz5",
+        "name": "ZSZ nr 5 we Wrocławiu",
+        "url": "https://zsz5.edupage.org/",
+        "note": "Lokalne dokumenty szkoły, statut, komunikaty i informacje organizacyjne."
+      },
+      {
+        "key": "zpe_pierwsza_pomoc",
+        "name": "ZPE: ABC pierwszej pomocy",
+        "url": "https://zpe.gov.pl/a/abc-pierwszej-pomocy/DtLX9npeZ",
+        "note": "Film i materiał edukacyjny o podstawach pierwszej pomocy."
+      }
     ],
-    "key_points": [
-      "wspólnota",
-      "odpowiedzialność",
-      "bezpieczeństwo",
-      "procedury",
-      "pomoc"
-    ],
-    "activity": "Drabina reakcji: uczniowie ustawiają sytuacje od 'rozwiązuję sam' do 'natychmiast zgłaszam dorosłemu'.",
-    "privacy": "Uczniowie mogą pracować na przykładach fikcyjnych. Nie ujawniamy danych zdrowotnych, rodzinnych, ocen, sytuacji kryzysowych ani nazwisk.",
-    "assessment": "Krótka karta wyjścia: 'rozumiem...', 'mogę zrobić...', 'potrzebuję zapytać...'.",
-    "slides": [
-      [
-        "Temat",
-        [
-          "Odporność społeczna: patriotyzm, obywatelskość i bezpieczeństwo na co dzień",
-          "30 minut rozmowy i konkretu wychowawczego"
-        ]
-      ],
-      [
-        "Priorytet MEN",
-        [
-          "Szkoła miejscem budowania odporności społecznej; postawy patriotyczne, obywatelskie, prospołeczne i odpowiedzialność za bezpieczeństwo."
-        ]
-      ],
-      [
-        "Po co nam to w ZSZ5",
-        [
-          "Uczeń rozumie, że odporność społeczna zaczyna się od codziennych zachowań: reagowania, informowania, dbania o innych i przestrzegania procedur."
-        ]
-      ],
-      [
-        "Słowa kluczowe",
-        [
-          "wspólnota",
-          "odpowiedzialność",
-          "bezpieczeństwo",
-          "procedury",
-          "pomoc"
-        ]
-      ],
-      [
-        "Ćwiczenie",
-        [
-          "Drabina reakcji: uczniowie ustawiają sytuacje od 'rozwiązuję sam' do 'natychmiast zgłaszam dorosłemu'."
-        ]
-      ],
-      [
-        "Połączenie z frekwencją",
-        [
-          "obecność daje kontakt",
-          "kontakt daje wsparcie",
-          "wsparcie pomaga utrzymać naukę i praktyki"
-        ]
-      ],
-      [
-        "Wyjście z lekcji",
-        [
-          "jedna decyzja",
-          "jedna prośba",
-          "jedno pytanie"
-        ]
-      ]
-    ]
+    "teacher_video": {
+      "title": "ABC pierwszej pomocy",
+      "url": "https://zpe.gov.pl/a/abc-pierwszej-pomocy/DtLX9npeZ"
+    }
   },
   {
     "id": "06",
-    "slug": "06_edukacja_zdrowotna",
-    "title": "Edukacja zdrowotna: sen, ruch, jedzenie, pierwsza pomoc i frekwencja",
-    "group": "Wszystkie klasy",
-    "men": "Edukacja zdrowotna; zdrowy styl życia, aktywność ruchowa, zachowania prozdrowotne i pierwsza pomoc.",
-    "purpose": "Uczeń łączy zdrowie z obecnością w szkole, gotowością do pracy i bezpieczeństwem własnym oraz innych.",
+    "slug": "06-patriotyzm-wspolczesny-co-oznacza-dla-mlodego-czlowieka",
+    "url": "lekcje/06-patriotyzm-wspolczesny-co-oznacza-dla-mlodego-czlowieka.html",
+    "title": "Patriotyzm współczesny – co oznacza dla młodego człowieka?",
+    "goal": 2,
+    "month": "Maj",
+    "area": "Odpowiedzialność społeczna",
+    "duration": "30 minut",
+    "purpose": "Lekcja przenosi patriotyzm z poziomu haseł na codzienne postawy: szacunek, uczciwość, język debaty, praca, odpowiedzialność i zaangażowanie lokalne.",
     "outcomes": [
-      "wskazuje jeden nawyk zdrowotny wpływający na frekwencję",
-      "zna podstawowy schemat reagowania w sytuacji zagrożenia",
-      "rozumie, że zdrowie to też proszenie o pomoc"
+      "Uczeń potrafi podać współczesne przykłady postawy patriotycznej",
+      "odróżnia patriotyzm od agresji słownej lub pogardy."
     ],
-    "materials": [
-      "tablica lub wspólny dokument bez danych osobowych",
-      "karta pracy z pytaniami do refleksji",
-      "fragment priorytetu MEN 2026/2027 w języku ucznia"
+    "results_text": "Uczeń potrafi podać współczesne przykłady postawy patriotycznej i odróżnia patriotyzm od agresji słownej lub pogardy.",
+    "flow": "Uczniowie zapisują skojarzenia z patriotyzmem. Nauczyciel porządkuje je w trzy kategorie: symbole i pamięć, odpowiedzialność obywatelska, codzienne zachowania. Grupy analizują przykłady: dbanie o przestrzeń publiczną, udział w wyborach po osiągnięciu pełnoletności, uczciwa praca, szacunek dla języka, pomoc lokalna, reagowanie na przemoc.",
+    "activity": "`Patriotyzm w praktyce`: uczniowie tworzą listę 5 działań dostępnych młodemu człowiekowi.",
+    "evidence": "Lista klasowa `Patriotyzm bez wielkich słów`.",
+    "safety": "Dopuszczać różne poglądy, ale pilnować języka szacunku.",
+    "must_be_said": [
+      "Patriotyzm to nie tylko symbole i święta, ale też odpowiedzialność za wspólnotę.",
+      "Szacunek do innych ludzi i języka debaty jest częścią postawy obywatelskiej.",
+      "Współczesny patriotyzm można pokazać przez uczciwość, pracę, pomoc i troskę o otoczenie."
     ],
-    "prep": [
-      "Wybierz przykłady bliskie klasie: technikum, BS I stopnia, praktyki, pracodawca, frekwencja.",
-      "Nie używaj realnych spraw uczniów jako studiów przypadku.",
-      "Zdecyduj, czy efekt lekcji zostaje w teczce wychowawcy, czy u ucznia."
+    "source_keys": [
+      "men_2026"
     ],
-    "schedule": [
-      [
-        "0-4 min",
-        "Start",
-        "Jedno pytanie otwierające i szybka diagnoza skojarzeń."
-      ],
-      [
-        "4-10 min",
-        "Priorytet MEN po ludzku",
-        "Nauczyciel tłumaczy sens priorytetu na przykład z życia szkoły."
-      ],
-      [
-        "10-21 min",
-        "Ćwiczenie główne",
-        "Audit dnia: uczniowie wybierają jeden element do poprawy przez tydzień: sen, śniadanie, ruch, nawodnienie, ograniczenie ekranu przed snem."
-      ],
-      [
-        "21-27 min",
-        "Przeniesienie na klasę",
-        "Co z tego wynika dla naszej frekwencji, relacji, praktyk lub bezpieczeństwa?"
-      ],
-      [
-        "27-30 min",
-        "Zamknięcie",
-        "Exit ticket: jedna decyzja, jedna prośba, jedno pytanie."
-      ]
+    "sources": [
+      {
+        "key": "men_2026",
+        "name": "MEN: podstawowe kierunki polityki oświatowej 2026/2027",
+        "url": "https://www.gov.pl/web/edukacja/podstawowe-kierunki-realizacji-polityki-oswiatowej-panstwa-w-roku-szkolnym-20262027",
+        "note": "Punkt odniesienia dla całego planu wychowawczo-profilaktycznego."
+      }
     ],
-    "key_points": [
-      "sen",
-      "ruch",
-      "jedzenie",
-      "pierwsza pomoc",
-      "gotowość do nauki"
-    ],
-    "activity": "Audit dnia: uczniowie wybierają jeden element do poprawy przez tydzień: sen, śniadanie, ruch, nawodnienie, ograniczenie ekranu przed snem.",
-    "privacy": "Uczniowie mogą pracować na przykładach fikcyjnych. Nie ujawniamy danych zdrowotnych, rodzinnych, ocen, sytuacji kryzysowych ani nazwisk.",
-    "assessment": "Krótka karta wyjścia: 'rozumiem...', 'mogę zrobić...', 'potrzebuję zapytać...'.",
-    "slides": [
-      [
-        "Temat",
-        [
-          "Edukacja zdrowotna: sen, ruch, jedzenie, pierwsza pomoc i frekwencja",
-          "30 minut rozmowy i konkretu wychowawczego"
-        ]
-      ],
-      [
-        "Priorytet MEN",
-        [
-          "Edukacja zdrowotna; zdrowy styl życia, aktywność ruchowa, zachowania prozdrowotne i pierwsza pomoc."
-        ]
-      ],
-      [
-        "Po co nam to w ZSZ5",
-        [
-          "Uczeń łączy zdrowie z obecnością w szkole, gotowością do pracy i bezpieczeństwem własnym oraz innych."
-        ]
-      ],
-      [
-        "Słowa kluczowe",
-        [
-          "sen",
-          "ruch",
-          "jedzenie",
-          "pierwsza pomoc",
-          "gotowość do nauki"
-        ]
-      ],
-      [
-        "Ćwiczenie",
-        [
-          "Audit dnia: uczniowie wybierają jeden element do poprawy przez tydzień: sen, śniadanie, ruch, nawodnienie, ograniczenie ekranu przed snem."
-        ]
-      ],
-      [
-        "Połączenie z frekwencją",
-        [
-          "obecność daje kontakt",
-          "kontakt daje wsparcie",
-          "wsparcie pomaga utrzymać naukę i praktyki"
-        ]
-      ],
-      [
-        "Wyjście z lekcji",
-        [
-          "jedna decyzja",
-          "jedna prośba",
-          "jedno pytanie"
-        ]
-      ]
-    ]
+    "teacher_video": {
+      "title": "Co to jest patriotyzm?",
+      "url": "https://www.youtube.com/watch?v=rP7IBvMJICc"
+    }
   },
   {
     "id": "07",
-    "slug": "07_higiena_cyfrowa_ai_zpe",
-    "title": "Higiena cyfrowa, AI i krytyczne myślenie",
-    "group": "Wszystkie klasy",
-    "men": "Higiena cyfrowa i aktywność offline; bezpieczeństwo w sieci; krytyczna analiza informacji; odpowiedzialne wykorzystanie AI; ZPE.",
-    "purpose": "Uczeń potrafi nazwać koszt nadmiaru telefonu i wie, jak odpowiedzialnie korzystać z AI bez oddawania swoich danych i myślenia.",
+    "slug": "07-wolontariat-i-dzialanie-dla-innych-dlaczego-warto-pomagac",
+    "url": "lekcje/07-wolontariat-i-dzialanie-dla-innych-dlaczego-warto-pomagac.html",
+    "title": "Wolontariat i działanie dla innych – dlaczego warto pomagać?",
+    "goal": 2,
+    "month": "Marzec",
+    "area": "Odpowiedzialność społeczna",
+    "duration": "30 minut",
+    "purpose": "Temat ma pokazać wolontariat jako konkretne działanie, nie jako jednorazową akcję dla wpisu do dokumentacji.",
     "outcomes": [
-      "odróżnia pomoc AI od zastępowania własnej pracy",
-      "zna zasadę niewpisywania danych osobowych do publicznych narzędzi",
-      "umie sprawdzić informację w co najmniej dwóch źródłach"
+      "Uczeń rozumie, komu można pomagać, jakie są granice pomocy",
+      "jaka forma działania jest realna dla klasy."
     ],
-    "materials": [
-      "tablica lub wspólny dokument bez danych osobowych",
-      "karta pracy z pytaniami do refleksji",
-      "fragment priorytetu MEN 2026/2027 w języku ucznia"
+    "results_text": "Uczeń rozumie, komu można pomagać, jakie są granice pomocy i jaka forma działania jest realna dla klasy.",
+    "flow": "Nauczyciel pyta: `Komu realnie możemy pomóc w naszej szkole albo okolicy?` Klasa tworzy listę potrzeb: młodsi uczniowie, osoby starsze, wydarzenia szkolne, środowisko, zbiórki, pomoc koleżeńska. Następnie grupy sprawdzają, co jest realne: czas, zgody, opiekun, zasoby, bezpieczeństwo.",
+    "activity": "`Projekt pomocy w 20 minut`: cel, odbiorca, działanie, osoba odpowiedzialna, termin.",
+    "evidence": "Jedna propozycja wolontariatu lub działania społecznego gotowa do decyzji wychowawcy.",
+    "safety": "Pomoc nie może naruszać godności osób, którym się pomaga.",
+    "must_be_said": [
+      "Pomaganie powinno być konkretne, potrzebne i szanujące godność odbiorcy.",
+      "Wolontariat rozwija odpowiedzialność, współpracę i sprawczość.",
+      "Dobre działanie społeczne ma cel, opiekuna, granice i bezpieczny sposób wykonania."
     ],
-    "prep": [
-      "Wybierz przykłady bliskie klasie: technikum, BS I stopnia, praktyki, pracodawca, frekwencja.",
-      "Nie używaj realnych spraw uczniów jako studiów przypadku.",
-      "Zdecyduj, czy efekt lekcji zostaje w teczce wychowawcy, czy u ucznia."
+    "source_keys": [
+      "men_2026"
     ],
-    "schedule": [
-      [
-        "0-4 min",
-        "Start",
-        "Jedno pytanie otwierające i szybka diagnoza skojarzeń."
-      ],
-      [
-        "4-10 min",
-        "Priorytet MEN po ludzku",
-        "Nauczyciel tłumaczy sens priorytetu na przykład z życia szkoły."
-      ],
-      [
-        "10-21 min",
-        "Ćwiczenie główne",
-        "Test informacji: uczniowie dostają krótką tezę i planują, jak ją zweryfikować bez kopiowania pierwszego wyniku."
-      ],
-      [
-        "21-27 min",
-        "Przeniesienie na klasę",
-        "Co z tego wynika dla naszej frekwencji, relacji, praktyk lub bezpieczeństwa?"
-      ],
-      [
-        "27-30 min",
-        "Zamknięcie",
-        "Exit ticket: jedna decyzja, jedna prośba, jedno pytanie."
-      ]
+    "sources": [
+      {
+        "key": "men_2026",
+        "name": "MEN: podstawowe kierunki polityki oświatowej 2026/2027",
+        "url": "https://www.gov.pl/web/edukacja/podstawowe-kierunki-realizacji-polityki-oswiatowej-panstwa-w-roku-szkolnym-20262027",
+        "note": "Punkt odniesienia dla całego planu wychowawczo-profilaktycznego."
+      }
     ],
-    "key_points": [
-      "telefon",
-      "uwaga",
-      "AI",
-      "RODO",
-      "weryfikacja źródeł"
-    ],
-    "activity": "Test informacji: uczniowie dostają krótką tezę i planują, jak ją zweryfikować bez kopiowania pierwszego wyniku.",
-    "privacy": "Uczniowie mogą pracować na przykładach fikcyjnych. Nie ujawniamy danych zdrowotnych, rodzinnych, ocen, sytuacji kryzysowych ani nazwisk.",
-    "assessment": "Krótka karta wyjścia: 'rozumiem...', 'mogę zrobić...', 'potrzebuję zapytać...'.",
-    "slides": [
-      [
-        "Temat",
-        [
-          "Higiena cyfrowa, AI i krytyczne myślenie",
-          "30 minut rozmowy i konkretu wychowawczego"
-        ]
-      ],
-      [
-        "Priorytet MEN",
-        [
-          "Higiena cyfrowa i aktywność offline; bezpieczeństwo w sieci; krytyczna analiza informacji; odpowiedzialne wykorzystanie AI; ZPE."
-        ]
-      ],
-      [
-        "Po co nam to w ZSZ5",
-        [
-          "Uczeń potrafi nazwać koszt nadmiaru telefonu i wie, jak odpowiedzialnie korzystać z AI bez oddawania swoich danych i myślenia."
-        ]
-      ],
-      [
-        "Słowa kluczowe",
-        [
-          "telefon",
-          "uwaga",
-          "AI",
-          "RODO",
-          "weryfikacja źródeł"
-        ]
-      ],
-      [
-        "Ćwiczenie",
-        [
-          "Test informacji: uczniowie dostają krótką tezę i planują, jak ją zweryfikować bez kopiowania pierwszego wyniku."
-        ]
-      ],
-      [
-        "Połączenie z frekwencją",
-        [
-          "obecność daje kontakt",
-          "kontakt daje wsparcie",
-          "wsparcie pomaga utrzymać naukę i praktyki"
-        ]
-      ],
-      [
-        "Wyjście z lekcji",
-        [
-          "jedna decyzja",
-          "jedna prośba",
-          "jedno pytanie"
-        ]
-      ]
-    ]
+    "teacher_video": {
+      "title": "Sztuka pomagania - animacja edukacyjna",
+      "url": "https://www.youtube.com/watch?v=R--NSyvsI0o"
+    }
   },
   {
     "id": "08",
-    "slug": "08_potrzeby_ucznia_wspolpraca_z_rodzicami",
-    "title": "Moje potrzeby w szkole: jak prosić o wsparcie i współpracować z rodzicem",
-    "group": "Wszystkie klasy",
-    "men": "Rozpoznawanie potrzeb dzieci i młodzieży; współpraca z rodzicami; pomoc psychologiczno-pedagogiczna i wychowawcza.",
-    "purpose": "Uczeń wie, że trudność szkolna powinna uruchomić rozmowę i wsparcie, a nie samotne znikanie z lekcji.",
+    "slug": "08-sen-ruch-i-odzywianie-fundamenty-zdrowia",
+    "url": "lekcje/08-sen-ruch-i-odzywianie-fundamenty-zdrowia.html",
+    "title": "Sen, ruch i odżywianie – fundamenty zdrowia",
+    "goal": 3,
+    "month": "Październik",
+    "area": "Edukacja zdrowotna",
+    "duration": "30 minut",
+    "purpose": "Lekcja łączy zdrowie z codziennym funkcjonowaniem w szkole: koncentracją, frekwencją, nastrojem i gotowością do nauki.",
     "outcomes": [
-      "nazywa szkolne sytuacje, w których warto poprosić o pomoc",
-      "wie, że pomoc PP jest dobrowolna i nieodpłatna",
-      "potrafi przygotować krótką wiadomość do wychowawcy"
+      "Uczeń wskazuje jeden nawyk zdrowotny, który może poprawić w najbliższym tygodniu."
     ],
-    "materials": [
-      "tablica lub wspólny dokument bez danych osobowych",
-      "karta pracy z pytaniami do refleksji",
-      "fragment priorytetu MEN 2026/2027 w języku ucznia"
+    "results_text": "Uczeń wskazuje jeden nawyk zdrowotny, który może poprawić w najbliższym tygodniu.",
+    "flow": "Uczniowie anonimowo oceniają, co najczęściej osłabia ich energię: brak snu, mało ruchu, nieregularne jedzenie, napoje energetyczne, ekran przed snem. Wychowawca omawia skutki bez moralizowania. Potem uczniowie wybierają jeden mikro-nawyk: wcześniejsze odłożenie telefonu, śniadanie, woda, spacer, stała godzina snu.",
+    "activity": "`Plan 7 dni`: wybieram jeden nawyk, przeszkodę i sposób sprawdzenia.",
+    "evidence": "Prywatna karta planu zdrowotnego ucznia.",
+    "safety": "Nie komentować wyglądu, masy ciała ani prywatnych problemów zdrowotnych uczniów.",
+    "must_be_said": [
+      "Sen, ruch i jedzenie wpływają na koncentrację, nastrój, frekwencję i gotowość do nauki.",
+      "Nie chodzi o idealny styl życia, tylko o jeden realny nawyk do poprawy.",
+      "Nie komentujemy wyglądu ani masy ciała; rozmawiamy o funkcjonowaniu i zdrowiu."
     ],
-    "prep": [
-      "Wybierz przykłady bliskie klasie: technikum, BS I stopnia, praktyki, pracodawca, frekwencja.",
-      "Nie używaj realnych spraw uczniów jako studiów przypadku.",
-      "Zdecyduj, czy efekt lekcji zostaje w teczce wychowawcy, czy u ucznia."
+    "source_keys": [
+      "men_2026",
+      "zpe_zdrowie"
     ],
-    "schedule": [
-      [
-        "0-4 min",
-        "Start",
-        "Jedno pytanie otwierające i szybka diagnoza skojarzeń."
-      ],
-      [
-        "4-10 min",
-        "Priorytet MEN po ludzku",
-        "Nauczyciel tłumaczy sens priorytetu na przykład z życia szkoły."
-      ],
-      [
-        "10-21 min",
-        "Ćwiczenie główne",
-        "Trzy zdania do wychowawcy: 'Mam trudność z...', 'Potrzebuję...', 'Mogę zrobić pierwszy krok...'."
-      ],
-      [
-        "21-27 min",
-        "Przeniesienie na klasę",
-        "Co z tego wynika dla naszej frekwencji, relacji, praktyk lub bezpieczeństwa?"
-      ],
-      [
-        "27-30 min",
-        "Zamknięcie",
-        "Exit ticket: jedna decyzja, jedna prośba, jedno pytanie."
-      ]
+    "sources": [
+      {
+        "key": "men_2026",
+        "name": "MEN: podstawowe kierunki polityki oświatowej 2026/2027",
+        "url": "https://www.gov.pl/web/edukacja/podstawowe-kierunki-realizacji-polityki-oswiatowej-panstwa-w-roku-szkolnym-20262027",
+        "note": "Punkt odniesienia dla całego planu wychowawczo-profilaktycznego."
+      },
+      {
+        "key": "zpe_zdrowie",
+        "name": "ZPE: edukacja zdrowotna",
+        "url": "https://zpe.gov.pl/edukacja-zdrowotna",
+        "note": "Programy, scenariusze i materiały dla nauczycieli oraz uczniów."
+      }
     ],
-    "key_points": [
-      "potrzeby",
-      "rozmowa",
-      "rodzic",
-      "pedagog",
-      "psycholog"
-    ],
-    "activity": "Trzy zdania do wychowawcy: 'Mam trudność z...', 'Potrzebuję...', 'Mogę zrobić pierwszy krok...'.",
-    "privacy": "Uczniowie mogą pracować na przykładach fikcyjnych. Nie ujawniamy danych zdrowotnych, rodzinnych, ocen, sytuacji kryzysowych ani nazwisk.",
-    "assessment": "Krótka karta wyjścia: 'rozumiem...', 'mogę zrobić...', 'potrzebuję zapytać...'.",
-    "slides": [
-      [
-        "Temat",
-        [
-          "Moje potrzeby w szkole: jak prosić o wsparcie i współpracować z rodzicem",
-          "30 minut rozmowy i konkretu wychowawczego"
-        ]
-      ],
-      [
-        "Priorytet MEN",
-        [
-          "Rozpoznawanie potrzeb dzieci i młodzieży; współpraca z rodzicami; pomoc psychologiczno-pedagogiczna i wychowawcza."
-        ]
-      ],
-      [
-        "Po co nam to w ZSZ5",
-        [
-          "Uczeń wie, że trudność szkolna powinna uruchomić rozmowę i wsparcie, a nie samotne znikanie z lekcji."
-        ]
-      ],
-      [
-        "Słowa kluczowe",
-        [
-          "potrzeby",
-          "rozmowa",
-          "rodzic",
-          "pedagog",
-          "psycholog"
-        ]
-      ],
-      [
-        "Ćwiczenie",
-        [
-          "Trzy zdania do wychowawcy: 'Mam trudność z...', 'Potrzebuję...', 'Mogę zrobić pierwszy krok...'."
-        ]
-      ],
-      [
-        "Połączenie z frekwencją",
-        [
-          "obecność daje kontakt",
-          "kontakt daje wsparcie",
-          "wsparcie pomaga utrzymać naukę i praktyki"
-        ]
-      ],
-      [
-        "Wyjście z lekcji",
-        [
-          "jedna decyzja",
-          "jedna prośba",
-          "jedno pytanie"
-        ]
-      ]
-    ]
+    "teacher_video": {
+      "title": "Co się dzieje, gdy długo korzystamy z telefonu przed snem?",
+      "url": "https://www.youtube.com/watch?v=e3VZvoDyghY"
+    }
   },
   {
     "id": "09",
-    "slug": "09_uzaleznienia_przemoc_kryzys",
-    "title": "Uzależnienia behawioralne, przemoc rówieśnicza i kryzys psychiczny",
-    "group": "Wszystkie klasy",
-    "men": "Profilaktyka uzależnień behawioralnych i przemocy rówieśniczej; zdrowie psychiczne; reagowanie w kryzysach.",
-    "purpose": "Uczeń rozpoznaje sygnały ryzyka i wie, że szybkie zgłoszenie przemocy lub kryzysu jest działaniem ochronnym.",
+    "slug": "09-pierwsza-pomoc-wiem-jak-reagowac",
+    "url": "lekcje/09-pierwsza-pomoc-wiem-jak-reagowac.html",
+    "title": "Pierwsza pomoc – wiem, jak reagować",
+    "goal": 3,
+    "month": "Listopad",
+    "area": "Edukacja zdrowotna",
+    "duration": "30 minut",
+    "purpose": "Celem jest utrwalenie postawy reagowania, a nie pełne szkolenie ratownicze.",
     "outcomes": [
-      "odróżnia konflikt od przemocy",
-      "wskazuje przykłady uzależnień behawioralnych",
-      "zna szkolną ścieżkę zgłoszenia kryzysu"
+      "Uczeń zna prostą kolejność działania: zadbaj o bezpieczeństwo, oceń sytuację, wezwij pomoc, wykonuj polecenia dyspozytora lub osoby dorosłej."
     ],
-    "materials": [
-      "tablica lub wspólny dokument bez danych osobowych",
-      "karta pracy z pytaniami do refleksji",
-      "fragment priorytetu MEN 2026/2027 w języku ucznia"
+    "results_text": "Uczeń zna prostą kolejność działania: zadbaj o bezpieczeństwo, oceń sytuację, wezwij pomoc, wykonuj polecenia dyspozytora lub osoby dorosłej.",
+    "flow": "Wychowawca omawia scenariusz: ktoś zasłabł na korytarzu. Klasa ustala, czego nie robić: nie panikować, nie nagrywać, nie zostawiać osoby samej, nie tłoczyć się. Następnie uczniowie ćwiczą role: osoba reagująca, osoba wzywająca dorosłego, osoba zabezpieczająca miejsce.",
+    "activity": "`Minuta reakcji`: w grupach uczniowie układają 5 kroków zachowania w sytuacji zasłabnięcia.",
+    "evidence": "Klasa tworzy krótką listę `Jak reagujemy w szkole`.",
+    "safety": "Jeżeli szkoła ma własną procedurę pierwszej pomocy, należy ją przywołać jako obowiązującą.",
+    "must_be_said": [
+      "Nie trzeba być ratownikiem, żeby rozpocząć właściwe działanie: zabezpiecz, sprawdź, wezwij pomoc.",
+      "W sytuacji zagrożenia nie nagrywamy i nie tłoczymy się wokół poszkodowanego.",
+      "Dyspozytor i osoby dorosłe prowadzą działanie; uczeń ma szybko zgłosić problem."
     ],
-    "prep": [
-      "Wybierz przykłady bliskie klasie: technikum, BS I stopnia, praktyki, pracodawca, frekwencja.",
-      "Nie używaj realnych spraw uczniów jako studiów przypadku.",
-      "Zdecyduj, czy efekt lekcji zostaje w teczce wychowawcy, czy u ucznia."
+    "source_keys": [
+      "zpe_pierwsza_pomoc",
+      "wosp"
     ],
-    "schedule": [
-      [
-        "0-4 min",
-        "Start",
-        "Jedno pytanie otwierające i szybka diagnoza skojarzeń."
-      ],
-      [
-        "4-10 min",
-        "Priorytet MEN po ludzku",
-        "Nauczyciel tłumaczy sens priorytetu na przykład z życia szkoły."
-      ],
-      [
-        "10-21 min",
-        "Ćwiczenie główne",
-        "Sygnały i reakcje: uczniowie przypisują sytuacje do reakcji: rozmowa, wsparcie rówieśnicze, wychowawca, pedagog/psycholog, natychmiastowa pomoc dorosłego."
-      ],
-      [
-        "21-27 min",
-        "Przeniesienie na klasę",
-        "Co z tego wynika dla naszej frekwencji, relacji, praktyk lub bezpieczeństwa?"
-      ],
-      [
-        "27-30 min",
-        "Zamknięcie",
-        "Exit ticket: jedna decyzja, jedna prośba, jedno pytanie."
-      ]
+    "sources": [
+      {
+        "key": "zpe_pierwsza_pomoc",
+        "name": "ZPE: ABC pierwszej pomocy",
+        "url": "https://zpe.gov.pl/a/abc-pierwszej-pomocy/DtLX9npeZ",
+        "note": "Film i materiał edukacyjny o podstawach pierwszej pomocy."
+      },
+      {
+        "key": "wosp",
+        "name": "WOŚP: Ratujemy i Uczymy Ratować",
+        "url": "https://www.wosp.org.pl/uczymy-ratowac",
+        "note": "Materiały edukacyjne i program pierwszej pomocy."
+      }
     ],
-    "key_points": [
-      "przemoc",
-      "kryzys",
-      "uzależnienia behawioralne",
-      "zgłoszenie",
-      "wsparcie"
-    ],
-    "activity": "Sygnały i reakcje: uczniowie przypisują sytuacje do reakcji: rozmowa, wsparcie rówieśnicze, wychowawca, pedagog/psycholog, natychmiastowa pomoc dorosłego.",
-    "privacy": "Uczniowie mogą pracować na przykładach fikcyjnych. Nie ujawniamy danych zdrowotnych, rodzinnych, ocen, sytuacji kryzysowych ani nazwisk.",
-    "assessment": "Krótka karta wyjścia: 'rozumiem...', 'mogę zrobić...', 'potrzebuję zapytać...'.",
-    "slides": [
-      [
-        "Temat",
-        [
-          "Uzależnienia behawioralne, przemoc rówieśnicza i kryzys psychiczny",
-          "30 minut rozmowy i konkretu wychowawczego"
-        ]
-      ],
-      [
-        "Priorytet MEN",
-        [
-          "Profilaktyka uzależnień behawioralnych i przemocy rówieśniczej; zdrowie psychiczne; reagowanie w kryzysach."
-        ]
-      ],
-      [
-        "Po co nam to w ZSZ5",
-        [
-          "Uczeń rozpoznaje sygnały ryzyka i wie, że szybkie zgłoszenie przemocy lub kryzysu jest działaniem ochronnym."
-        ]
-      ],
-      [
-        "Słowa kluczowe",
-        [
-          "przemoc",
-          "kryzys",
-          "uzależnienia behawioralne",
-          "zgłoszenie",
-          "wsparcie"
-        ]
-      ],
-      [
-        "Ćwiczenie",
-        [
-          "Sygnały i reakcje: uczniowie przypisują sytuacje do reakcji: rozmowa, wsparcie rówieśnicze, wychowawca, pedagog/psycholog, natychmiastowa pomoc dorosłego."
-        ]
-      ],
-      [
-        "Połączenie z frekwencją",
-        [
-          "obecność daje kontakt",
-          "kontakt daje wsparcie",
-          "wsparcie pomaga utrzymać naukę i praktyki"
-        ]
-      ],
-      [
-        "Wyjście z lekcji",
-        [
-          "jedna decyzja",
-          "jedna prośba",
-          "jedno pytanie"
-        ]
-      ]
-    ]
+    "teacher_video": {
+      "title": "Film, dzięki któremu możesz uratować komuś życie",
+      "url": "https://www.youtube.com/watch?v=k1KswfV4qwU"
+    }
   },
   {
     "id": "10",
-    "slug": "10_doradztwo_zawodowe_ksztalcenie_zawodowe",
-    "title": "Decyzje edukacyjno-zawodowe: zawód, praktyki i rynek pracy",
-    "group": "Wszystkie klasy",
-    "men": "Świadome decyzje edukacyjno-zawodowe; doradztwo zawodowe; promocja kształcenia zawodowego; nowa oferta szkół branżowych i techników.",
-    "purpose": "Uczeń widzi związek między frekwencją, praktyką, relacją z pracodawcą i przyszłą ścieżką zawodową.",
+    "slug": "10-stres-i-regeneracja-jak-dbac-o-swoj-organizm",
+    "url": "lekcje/10-stres-i-regeneracja-jak-dbac-o-swoj-organizm.html",
+    "title": "Stres i regeneracja – jak dbać o swój organizm?",
+    "goal": 3,
+    "month": "Luty",
+    "area": "Edukacja zdrowotna",
+    "duration": "30 minut",
+    "purpose": "Lekcja uczy odróżniania zwykłego napięcia od przeciążenia i pokazuje konkretne sposoby regeneracji.",
     "outcomes": [
-      "łączy obecność z nabywaniem kompetencji zawodowych",
-      "wskazuje źródła informacji o zawodach w ZSZ5",
-      "potrafi nazwać jedną kompetencję do rozwijania w semestrze"
+      "Uczeń rozpoznaje sygnały przeciążenia",
+      "wskazuje dwie strategie regeneracji możliwe do zastosowania."
     ],
-    "materials": [
-      "tablica lub wspólny dokument bez danych osobowych",
-      "karta pracy z pytaniami do refleksji",
-      "fragment priorytetu MEN 2026/2027 w języku ucznia"
+    "results_text": "Uczeń rozpoznaje sygnały przeciążenia i wskazuje dwie strategie regeneracji możliwe do zastosowania.",
+    "flow": "Uczniowie zapisują, po czym poznają u siebie stres: ciało, myśli, zachowanie, relacje. Wychowawca rozróżnia stres krótkotrwały, który mobilizuje, i przewlekłe przeciążenie. Następnie klasa tworzy bank sposobów regeneracji: sen, ruch, rozmowa, ograniczenie bodźców, planowanie nauki, kontakt ze specjalistą.",
+    "activity": "`Mój sygnał ostrzegawczy`: każdy wybiera jeden sygnał i jedną reakcję ochronną.",
+    "evidence": "Prywatna karta `Kiedy widzę..., robię...`.",
+    "safety": "Nie diagnozować uczniów. Przy sygnałach kryzysu wychowawca kieruje do specjalisty.",
+    "must_be_said": [
+      "Stres bywa normalną reakcją, ale przeciążenie wymaga reakcji i odpoczynku.",
+      "Regeneracja to nie lenistwo; to warunek uczenia się i zdrowia.",
+      "Jeżeli stres odbiera sen, jedzenie, bezpieczeństwo lub chęć życia, trzeba powiedzieć dorosłemu."
     ],
-    "prep": [
-      "Wybierz przykłady bliskie klasie: technikum, BS I stopnia, praktyki, pracodawca, frekwencja.",
-      "Nie używaj realnych spraw uczniów jako studiów przypadku.",
-      "Zdecyduj, czy efekt lekcji zostaje w teczce wychowawcy, czy u ucznia."
+    "source_keys": [
+      "zpe_zdrowie"
     ],
-    "schedule": [
-      [
-        "0-4 min",
-        "Start",
-        "Jedno pytanie otwierające i szybka diagnoza skojarzeń."
-      ],
-      [
-        "4-10 min",
-        "Priorytet MEN po ludzku",
-        "Nauczyciel tłumaczy sens priorytetu na przykład z życia szkoły."
-      ],
-      [
-        "10-21 min",
-        "Ćwiczenie główne",
-        "Mapa zawodu: uczniowie wybierają kompetencję zawodową i dopisują, gdzie ją ćwiczą: szkoła, praktyka, dom, projekt."
-      ],
-      [
-        "21-27 min",
-        "Przeniesienie na klasę",
-        "Co z tego wynika dla naszej frekwencji, relacji, praktyk lub bezpieczeństwa?"
-      ],
-      [
-        "27-30 min",
-        "Zamknięcie",
-        "Exit ticket: jedna decyzja, jedna prośba, jedno pytanie."
-      ]
+    "sources": [
+      {
+        "key": "zpe_zdrowie",
+        "name": "ZPE: edukacja zdrowotna",
+        "url": "https://zpe.gov.pl/edukacja-zdrowotna",
+        "note": "Programy, scenariusze i materiały dla nauczycieli oraz uczniów."
+      }
     ],
-    "key_points": [
-      "zawód",
-      "praktyki",
-      "kompetencje",
-      "pracodawca",
-      "frekwencja"
-    ],
-    "activity": "Mapa zawodu: uczniowie wybierają kompetencję zawodową i dopisują, gdzie ją ćwiczą: szkoła, praktyka, dom, projekt.",
-    "privacy": "Uczniowie mogą pracować na przykładach fikcyjnych. Nie ujawniamy danych zdrowotnych, rodzinnych, ocen, sytuacji kryzysowych ani nazwisk.",
-    "assessment": "Krótka karta wyjścia: 'rozumiem...', 'mogę zrobić...', 'potrzebuję zapytać...'.",
-    "slides": [
-      [
-        "Temat",
-        [
-          "Decyzje edukacyjno-zawodowe: zawód, praktyki i rynek pracy",
-          "30 minut rozmowy i konkretu wychowawczego"
-        ]
-      ],
-      [
-        "Priorytet MEN",
-        [
-          "Świadome decyzje edukacyjno-zawodowe; doradztwo zawodowe; promocja kształcenia zawodowego; nowa oferta szkół branżowych i techników."
-        ]
-      ],
-      [
-        "Po co nam to w ZSZ5",
-        [
-          "Uczeń widzi związek między frekwencją, praktyką, relacją z pracodawcą i przyszłą ścieżką zawodową."
-        ]
-      ],
-      [
-        "Słowa kluczowe",
-        [
-          "zawód",
-          "praktyki",
-          "kompetencje",
-          "pracodawca",
-          "frekwencja"
-        ]
-      ],
-      [
-        "Ćwiczenie",
-        [
-          "Mapa zawodu: uczniowie wybierają kompetencję zawodową i dopisują, gdzie ją ćwiczą: szkoła, praktyka, dom, projekt."
-        ]
-      ],
-      [
-        "Połączenie z frekwencją",
-        [
-          "obecność daje kontakt",
-          "kontakt daje wsparcie",
-          "wsparcie pomaga utrzymać naukę i praktyki"
-        ]
-      ],
-      [
-        "Wyjście z lekcji",
-        [
-          "jedna decyzja",
-          "jedna prośba",
-          "jedno pytanie"
-        ]
-      ]
-    ]
+    "teacher_video": {
+      "title": "Stres wróg czy przyjaciel?",
+      "url": "https://www.youtube.com/watch?v=7Tg81LhIFTU"
+    }
   },
   {
     "id": "11",
-    "slug": "11_praca_projektowa_ocenianie_ksztaltujace",
-    "title": "Ciekawość, projekt i informacja zwrotna",
-    "group": "Wszystkie klasy",
-    "men": "Ciekawość i aktywność poznawcza; interdyscyplinarność; praca projektowa; ocenianie kształtujące i informacja zwrotna.",
-    "purpose": "Uczeń rozumie, że dobra informacja zwrotna i praca projektowa pomagają uczyć się także po błędzie.",
+    "slug": "11-odpowiedzialne-decyzje-prozdrowotne",
+    "url": "lekcje/11-odpowiedzialne-decyzje-prozdrowotne.html",
+    "title": "Odpowiedzialne decyzje prozdrowotne",
+    "goal": 3,
+    "month": "Kwiecień",
+    "area": "Edukacja zdrowotna",
+    "duration": "30 minut",
+    "purpose": "Temat wzmacnia umiejętność przewidywania skutków wyborów zdrowotnych: snu, używek, ruchu, jedzenia, ekranów i bezpieczeństwa.",
     "outcomes": [
-      "formułuje prosty cel projektu",
-      "odróżnia ocenę od informacji zwrotnej",
-      "umie dać koledze informację: plus, pytanie, propozycja poprawy"
+      "Uczeń potrafi przeanalizować decyzję zdrowotną przez skutki krótko-",
+      "długoterminowe."
     ],
-    "materials": [
-      "tablica lub wspólny dokument bez danych osobowych",
-      "karta pracy z pytaniami do refleksji",
-      "fragment priorytetu MEN 2026/2027 w języku ucznia"
+    "results_text": "Uczeń potrafi przeanalizować decyzję zdrowotną przez skutki krótko- i długoterminowe.",
+    "flow": "Wychowawca podaje przykłady decyzji: zarwana noc, energetyk zamiast posiłku, jazda bez kasku, lekceważenie objawów, brak ruchu. Grupy analizują decyzję w tabeli: zysk teraz, koszt teraz, koszt później, lepsza alternatywa. Klasa wybiera najczęstsze ryzyka i tworzy listę rozsądnych zamienników.",
+    "activity": "`Decyzja i konsekwencje`: uczniowie opracowują jedną sytuację prozdrowotną.",
+    "evidence": "Wypełniona karta analizy decyzji.",
+    "safety": "Nie prowadzić lekcji jako straszenia. Skuteczniejsze są realistyczne wybory i małe korekty.",
+    "must_be_said": [
+      "Decyzje zdrowotne mają skutki krótko- i długoterminowe.",
+      "Rozsądna alternatywa jest skuteczniejsza niż samo straszenie konsekwencjami.",
+      "W razie problemów zdrowotnych uczeń nie zostaje sam: rodzic, wychowawca, pielęgniarka, lekarz, pedagog lub psycholog."
     ],
-    "prep": [
-      "Wybierz przykłady bliskie klasie: technikum, BS I stopnia, praktyki, pracodawca, frekwencja.",
-      "Nie używaj realnych spraw uczniów jako studiów przypadku.",
-      "Zdecyduj, czy efekt lekcji zostaje w teczce wychowawcy, czy u ucznia."
+    "source_keys": [
+      "zpe_zdrowie"
     ],
-    "schedule": [
-      [
-        "0-4 min",
-        "Start",
-        "Jedno pytanie otwierające i szybka diagnoza skojarzeń."
-      ],
-      [
-        "4-10 min",
-        "Priorytet MEN po ludzku",
-        "Nauczyciel tłumaczy sens priorytetu na przykład z życia szkoły."
-      ],
-      [
-        "10-21 min",
-        "Ćwiczenie główne",
-        "Mini-projekt klasy: wybór problemu szkolnego, szybki cel, kryteria sukcesu i jedna informacja zwrotna w parze."
-      ],
-      [
-        "21-27 min",
-        "Przeniesienie na klasę",
-        "Co z tego wynika dla naszej frekwencji, relacji, praktyk lub bezpieczeństwa?"
-      ],
-      [
-        "27-30 min",
-        "Zamknięcie",
-        "Exit ticket: jedna decyzja, jedna prośba, jedno pytanie."
-      ]
+    "sources": [
+      {
+        "key": "zpe_zdrowie",
+        "name": "ZPE: edukacja zdrowotna",
+        "url": "https://zpe.gov.pl/edukacja-zdrowotna",
+        "note": "Programy, scenariusze i materiały dla nauczycieli oraz uczniów."
+      }
     ],
-    "key_points": [
-      "ciekawość",
-      "projekt",
-      "cel",
-      "kryteria sukcesu",
-      "informacja zwrotna"
+    "teacher_video": {
+      "title": "Edukacja zdrowotna - materiały ZPE",
+      "url": "https://zpe.gov.pl/edukacja-zdrowotna"
+    }
+  },
+  {
+    "id": "12",
+    "slug": "12-moje-dane-w-sieci-jak-je-chronic",
+    "url": "lekcje/12-moje-dane-w-sieci-jak-je-chronic.html",
+    "title": "Moje dane w sieci – jak je chronić?",
+    "goal": 4,
+    "month": "Październik",
+    "area": "Bezpieczeństwo cyfrowe",
+    "duration": "30 minut",
+    "purpose": "Lekcja uczy, że dane osobowe, zdjęcia, lokalizacja i hasła mają konsekwencje poza Internetem.",
+    "outcomes": [
+      "Uczeń wskazuje dane, których nie należy publikować,",
+      "zna podstawowe sposoby ograniczania ryzyka."
     ],
-    "activity": "Mini-projekt klasy: wybór problemu szkolnego, szybki cel, kryteria sukcesu i jedna informacja zwrotna w parze.",
-    "privacy": "Uczniowie mogą pracować na przykładach fikcyjnych. Nie ujawniamy danych zdrowotnych, rodzinnych, ocen, sytuacji kryzysowych ani nazwisk.",
-    "assessment": "Krótka karta wyjścia: 'rozumiem...', 'mogę zrobić...', 'potrzebuję zapytać...'.",
-    "slides": [
-      [
-        "Temat",
-        [
-          "Ciekawość, projekt i informacja zwrotna",
-          "30 minut rozmowy i konkretu wychowawczego"
-        ]
-      ],
-      [
-        "Priorytet MEN",
-        [
-          "Ciekawość i aktywność poznawcza; interdyscyplinarność; praca projektowa; ocenianie kształtujące i informacja zwrotna."
-        ]
-      ],
-      [
-        "Po co nam to w ZSZ5",
-        [
-          "Uczeń rozumie, że dobra informacja zwrotna i praca projektowa pomagają uczyć się także po błędzie."
-        ]
-      ],
-      [
-        "Słowa kluczowe",
-        [
-          "ciekawość",
-          "projekt",
-          "cel",
-          "kryteria sukcesu",
-          "informacja zwrotna"
-        ]
-      ],
-      [
-        "Ćwiczenie",
-        [
-          "Mini-projekt klasy: wybór problemu szkolnego, szybki cel, kryteria sukcesu i jedna informacja zwrotna w parze."
-        ]
-      ],
-      [
-        "Połączenie z frekwencją",
-        [
-          "obecność daje kontakt",
-          "kontakt daje wsparcie",
-          "wsparcie pomaga utrzymać naukę i praktyki"
-        ]
-      ],
-      [
-        "Wyjście z lekcji",
-        [
-          "jedna decyzja",
-          "jedna prośba",
-          "jedno pytanie"
-        ]
-      ]
-    ]
+    "results_text": "Uczeń wskazuje dane, których nie należy publikować, oraz zna podstawowe sposoby ograniczania ryzyka.",
+    "flow": "Start od pytania: `Co obca osoba może ustalić o mnie po 10 minutach przeglądania profilu?` Uczniowie analizują fikcyjny profil i zaznaczają ryzyka: adres, szkoła, plan dnia, zdjęcia dokumentów, lokalizacja, numer telefonu, dane rodziny. Potem tworzą listę zasad ochrony.",
+    "activity": "`Audyt fikcyjnego profilu`: co usunąć, co ukryć, czego nigdy nie publikować.",
+    "evidence": "Lista `5 zasad ochrony danych w sieci`.",
+    "safety": "Nie analizować prawdziwych profili uczniów na forum klasy.",
+    "must_be_said": [
+      "Dane osobowe, zdjęcia, lokalizacja i hasła mogą mieć konsekwencje poza Internetem.",
+      "Nie publikujemy dokumentów, planu dnia, danych rodziny ani informacji umożliwiających identyfikację.",
+      "Ochrona danych to codzienny nawyk, nie tylko formalny przepis."
+    ],
+    "source_keys": [
+      "uodo",
+      "zpe_ai",
+      "nask_dezinformacja"
+    ],
+    "sources": [
+      {
+        "key": "uodo",
+        "name": "UODO: ochrona danych osobowych",
+        "url": "https://uodo.gov.pl/",
+        "note": "Instytucjonalne źródło zasad ochrony danych osobowych."
+      },
+      {
+        "key": "zpe_ai",
+        "name": "ZPE: Nauka z AI - cyberbezpieczne środowisko w szkole",
+        "url": "https://zpe.gov.pl/b/nauka-z-ai---cyberbezpieczne-srodowisko-w-szkole/P99FNDS7U",
+        "note": "Praktyczny kontekst dla tematów o AI, danych i bezpieczeństwie cyfrowym."
+      },
+      {
+        "key": "nask_dezinformacja",
+        "name": "NASK: zjawisko dezinformacji - materiały edukacyjne",
+        "url": "https://www.gov.pl/web/nauka/zjawisko-dezinformacji--materialy-edukacyjne-nask",
+        "note": "Ćwiczenia i pomoce dydaktyczne do pracy z uczniami nad fake newsami."
+      }
+    ],
+    "teacher_video": {
+      "title": "CyberBezpieczni - bezpieczeństwo w sieci",
+      "url": "https://www.youtube.com/watch?v=wH92EtBAJzU"
+    }
+  },
+  {
+    "id": "13",
+    "slug": "13-sztuczna-inteligencja-korzystam-odpowiedzialnie",
+    "url": "lekcje/13-sztuczna-inteligencja-korzystam-odpowiedzialnie.html",
+    "title": "Sztuczna inteligencja – korzystam odpowiedzialnie",
+    "goal": 4,
+    "month": "Listopad",
+    "area": "Bezpieczeństwo cyfrowe",
+    "duration": "30 minut",
+    "purpose": "Lekcja ma pokazać AI jako narzędzie wspierające uczenie się, ale wymagające krytycznego myślenia, ochrony danych i uczciwości.",
+    "outcomes": [
+      "Uczeń wie, czego nie wpisywać do narzędzi AI, jak sprawdzać odpowiedzi",
+      "gdzie przebiega granica między pomocą a oddaniem własnej pracy."
+    ],
+    "results_text": "Uczeń wie, czego nie wpisywać do narzędzi AI, jak sprawdzać odpowiedzi i gdzie przebiega granica między pomocą a oddaniem własnej pracy.",
+    "flow": "Wychowawca przedstawia trzy sytuacje: AI poprawia plan wypowiedzi, AI pisze całą pracę za ucznia, uczeń wkleja dane kolegi do czatu. Klasa ocenia ryzyko i proponuje bezpieczniejszą wersję. Potem uczniowie układają zasady odpowiedzialnego użycia AI.",
+    "activity": "`Pomaga czy zastępuje?`: uczniowie klasyfikują przykłady użycia AI.",
+    "evidence": "Klasowe zasady `AI w nauce: wolno, ostrożnie, nie wolno`.",
+    "safety": "Nie wpisywać danych uczniów, ocen, spraw rodzinnych ani dokumentów szkolnych do publicznych narzędzi.",
+    "must_be_said": [
+      "AI może pomagać w uczeniu się, ale nie zastępuje myślenia i odpowiedzialności ucznia.",
+      "Do publicznych narzędzi AI nie wpisujemy danych osobowych ani spraw szkolnych innych osób.",
+      "Odpowiedzi AI trzeba sprawdzać w źródłach, bo mogą być błędne lub nieaktualne."
+    ],
+    "source_keys": [
+      "zpe_ai",
+      "zpe",
+      "uodo"
+    ],
+    "sources": [
+      {
+        "key": "zpe_ai",
+        "name": "ZPE: Nauka z AI - cyberbezpieczne środowisko w szkole",
+        "url": "https://zpe.gov.pl/b/nauka-z-ai---cyberbezpieczne-srodowisko-w-szkole/P99FNDS7U",
+        "note": "Praktyczny kontekst dla tematów o AI, danych i bezpieczeństwie cyfrowym."
+      },
+      {
+        "key": "zpe",
+        "name": "Zintegrowana Platforma Edukacyjna",
+        "url": "https://zpe.gov.pl/",
+        "note": "Materiały edukacyjne, kursy i zasoby do wykorzystania przez nauczyciela."
+      },
+      {
+        "key": "uodo",
+        "name": "UODO: ochrona danych osobowych",
+        "url": "https://uodo.gov.pl/",
+        "note": "Instytucjonalne źródło zasad ochrony danych osobowych."
+      }
+    ],
+    "teacher_video": {
+      "title": "Sztuczna inteligencja a edukacja",
+      "url": "https://www.youtube.com/watch?v=nO2qXnUDfus"
+    }
+  },
+  {
+    "id": "14",
+    "slug": "14-fake-news-i-manipulacja-jak-rozpoznac-ze-ktos-chce-mnie-wprowadzic-w-blad",
+    "url": "lekcje/14-fake-news-i-manipulacja-jak-rozpoznac-ze-ktos-chce-mnie-wprowadzic-w-blad.html",
+    "title": "Fake news i manipulacja – jak rozpoznać, że ktoś chce mnie wprowadzić w błąd?",
+    "goal": 4,
+    "month": "Marzec",
+    "area": "Bezpieczeństwo cyfrowe",
+    "duration": "30 minut",
+    "purpose": "Lekcja wzmacnia odporność informacyjną: uczeń ma umieć zatrzymać się przed udostępnieniem treści.",
+    "outcomes": [
+      "Uczeń stosuje prosty schemat: sprawdź autora, źródło, datę, emocje, dowody",
+      "inne potwierdzenie."
+    ],
+    "results_text": "Uczeń stosuje prosty schemat: sprawdź autora, źródło, datę, emocje, dowody i inne potwierdzenie.",
+    "flow": "Nauczyciel pokazuje fikcyjną sensacyjną wiadomość. Uczniowie wskazują, co budzi podejrzenia: silne emocje, brak autora, niejasne źródło, presja udostępnienia, zmanipulowany obraz. Następnie grupy dostają krótkie przykłady i oceniają je według schematu weryfikacji.",
+    "activity": "`STOP przed udostępnieniem`: S - sprawdź źródło, T - treść i ton, O - odnajdź potwierdzenie, P - pomyśl o skutkach.",
+    "evidence": "Wypełniona karta weryfikacji informacji.",
+    "safety": "Używać przykładów neutralnych politycznie lub fikcyjnych, żeby lekcja nie zamieniła się w spór światopoglądowy.",
+    "must_be_said": [
+      "Silne emocje, presja udostępnienia i brak źródła to sygnały ostrzegawcze.",
+      "Przed podaniem dalej sprawdzamy autora, datę, źródło i potwierdzenie w innym miejscu.",
+      "Udostępnianie fałszywych treści może szkodzić innym, nawet jeśli robimy to bez złej intencji."
+    ],
+    "source_keys": [
+      "nask_dezinformacja",
+      "zpe"
+    ],
+    "sources": [
+      {
+        "key": "nask_dezinformacja",
+        "name": "NASK: zjawisko dezinformacji - materiały edukacyjne",
+        "url": "https://www.gov.pl/web/nauka/zjawisko-dezinformacji--materialy-edukacyjne-nask",
+        "note": "Ćwiczenia i pomoce dydaktyczne do pracy z uczniami nad fake newsami."
+      },
+      {
+        "key": "zpe",
+        "name": "Zintegrowana Platforma Edukacyjna",
+        "url": "https://zpe.gov.pl/",
+        "note": "Materiały edukacyjne, kursy i zasoby do wykorzystania przez nauczyciela."
+      }
+    ],
+    "teacher_video": {
+      "title": "W co wierzyć w internecie? Kurs NASK dla nauczycieli",
+      "url": "https://www.nask.pl/aktualnosci/w-co-wierzyc-w-internecie-nowy-kurs-dla-nauczycieli-na-ose-it-szkole"
+    }
+  },
+  {
+    "id": "15",
+    "slug": "15-aktywnosc-off-line-jak-zachowac-rownowage-cyfrowa",
+    "url": "lekcje/15-aktywnosc-off-line-jak-zachowac-rownowage-cyfrowa.html",
+    "title": "Aktywność off-line – jak zachować równowagę cyfrową?",
+    "goal": 4,
+    "month": "Maj",
+    "area": "Bezpieczeństwo cyfrowe",
+    "duration": "30 minut",
+    "purpose": "Temat nie ma demonizować technologii, tylko pomóc uczniom odzyskać kontrolę nad czasem, snem, uwagą i relacjami.",
+    "outcomes": [
+      "Uczeń rozpoznaje jedną sytuację, w której ekran zabiera mu uwagę lub odpoczynek,",
+      "planuje aktywność poza ekranem."
+    ],
+    "results_text": "Uczeń rozpoznaje jedną sytuację, w której ekran zabiera mu uwagę lub odpoczynek, i planuje aktywność poza ekranem.",
+    "flow": "Uczniowie szacują, w jakich momentach telefon najbardziej przeszkadza: przed snem, przy nauce, przy posiłkach, w rozmowie, na praktykach. Wychowawca omawia pojęcie nawyku cyfrowego. Potem klasa tworzy listę aktywności off-line, które są realne, krótkie i dostępne bez kosztów.",
+    "activity": "`Zamiana 20 minut`: wybieram jedną aktywność bez telefonu przez 20 minut dziennie.",
+    "evidence": "Prywatny plan off-line na tydzień.",
+    "safety": "Dla części uczniów telefon jest też narzędziem bezpieczeństwa i kontaktu, więc celem jest równowaga, nie zakaz absolutny.",
+    "must_be_said": [
+      "Telefon jest narzędziem, ale może zabierać sen, uwagę i relacje.",
+      "Równowaga cyfrowa nie oznacza zakazu, tylko świadomy wybór czasu i sytuacji.",
+      "Aktywność off-line musi być realna dla ucznia, krótka i możliwa do powtórzenia."
+    ],
+    "source_keys": [
+      "zpe_ai",
+      "men_2026"
+    ],
+    "sources": [
+      {
+        "key": "zpe_ai",
+        "name": "ZPE: Nauka z AI - cyberbezpieczne środowisko w szkole",
+        "url": "https://zpe.gov.pl/b/nauka-z-ai---cyberbezpieczne-srodowisko-w-szkole/P99FNDS7U",
+        "note": "Praktyczny kontekst dla tematów o AI, danych i bezpieczeństwie cyfrowym."
+      },
+      {
+        "key": "men_2026",
+        "name": "MEN: podstawowe kierunki polityki oświatowej 2026/2027",
+        "url": "https://www.gov.pl/web/edukacja/podstawowe-kierunki-realizacji-polityki-oswiatowej-panstwa-w-roku-szkolnym-20262027",
+        "note": "Punkt odniesienia dla całego planu wychowawczo-profilaktycznego."
+      }
+    ],
+    "teacher_video": {
+      "title": "10 zasad higieny cyfrowej",
+      "url": "https://www.youtube.com/watch?v=QvylySSkZ8M"
+    }
+  },
+  {
+    "id": "16",
+    "slug": "16-jak-mowic-o-swoich-potrzebach-i-trudnosciach",
+    "url": "lekcje/16-jak-mowic-o-swoich-potrzebach-i-trudnosciach.html",
+    "title": "Jak mówić o swoich potrzebach i trudnościach?",
+    "goal": 5,
+    "month": "Wrzesień",
+    "area": "Wsparcie ucznia",
+    "duration": "30 minut",
+    "purpose": "Lekcja uczy, że proszenie o pomoc jest kompetencją, a nie słabością.",
+    "outcomes": [
+      "Uczeń potrafi nazwać trudność w sposób bezpieczny",
+      "sformułować krótką prośbę o wsparcie."
+    ],
+    "results_text": "Uczeń potrafi nazwać trudność w sposób bezpieczny i sformułować krótką prośbę o wsparcie.",
+    "flow": "Nauczyciel pokazuje różnicę między milczeniem, wybuchem i konkretną prośbą. Uczniowie ćwiczą zdania: `Mam trudność z...`, `Potrzebuję...`, `Mogę zrobić pierwszy krok...`, `Proszę o...`. W parach przerabiają fikcyjne sytuacje: zaległości, konflikt, stres przed praktykami, problem z frekwencją.",
+    "activity": "`Cztery zdania do dorosłego`: uczniowie tworzą wersję wiadomości do wychowawcy lub pedagoga.",
+    "evidence": "Karta z przykładową wiadomością bez danych prywatnych.",
+    "safety": "Uczniowie nie muszą ujawniać swoich realnych trudności.",
+    "must_be_said": [
+      "Proszenie o pomoc jest umiejętnością, nie słabością.",
+      "Trudność można nazwać prosto: mam problem z..., potrzebuję..., proszę o...",
+      "Uczeń nie musi opowiadać prywatnych spraw na forum klasy."
+    ],
+    "source_keys": [
+      "men_2026",
+      "zsz5"
+    ],
+    "sources": [
+      {
+        "key": "men_2026",
+        "name": "MEN: podstawowe kierunki polityki oświatowej 2026/2027",
+        "url": "https://www.gov.pl/web/edukacja/podstawowe-kierunki-realizacji-polityki-oswiatowej-panstwa-w-roku-szkolnym-20262027",
+        "note": "Punkt odniesienia dla całego planu wychowawczo-profilaktycznego."
+      },
+      {
+        "key": "zsz5",
+        "name": "ZSZ nr 5 we Wrocławiu",
+        "url": "https://zsz5.edupage.org/",
+        "note": "Lokalne dokumenty szkoły, statut, komunikaty i informacje organizacyjne."
+      }
+    ],
+    "teacher_video": {
+      "title": "Mówię językiem żyrafy - porozumienie bez przemocy",
+      "url": "https://www.youtube.com/watch?v=Q20hHA8YSyE"
+    }
+  },
+  {
+    "id": "17",
+    "slug": "17-kto-moze-mi-pomoc-w-szkole",
+    "url": "lekcje/17-kto-moze-mi-pomoc-w-szkole.html",
+    "title": "Kto może mi pomóc w szkole?",
+    "goal": 5,
+    "month": "Listopad",
+    "area": "Wsparcie ucznia",
+    "duration": "30 minut",
+    "purpose": "Lekcja porządkuje szkolną mapę wsparcia, żeby uczeń wiedział, do kogo iść przed eskalacją problemu.",
+    "outcomes": [
+      "Uczeń rozróżnia role: wychowawca, nauczyciel przedmiotu, pedagog, psycholog, doradca zawodowy, pielęgniarka, dyrekcja, rodzic/opiekun."
+    ],
+    "results_text": "Uczeń rozróżnia role: wychowawca, nauczyciel przedmiotu, pedagog, psycholog, doradca zawodowy, pielęgniarka, dyrekcja, rodzic/opiekun.",
+    "flow": "Klasa tworzy mapę problemów: nauka, frekwencja, konflikt, zdrowie, praktyki, kryzys, wybór zawodu. Do każdego problemu przypisuje pierwszą osobę kontaktu i osobę wspierającą. Wychowawca doprecyzowuje lokalne procedury szkoły.",
+    "activity": "`Do kogo z tym?`: uczniowie dopasowują fikcyjne sytuacje do właściwej osoby lub miejsca wsparcia.",
+    "evidence": "Mapa wsparcia klasy.",
+    "safety": "Warto uzupełnić mapę o aktualne gabinety, godziny dostępności i sposób kontaktu.",
+    "must_be_said": [
+      "W szkole jest kilka ścieżek pomocy: wychowawca, nauczyciel, pedagog, psycholog, doradca, pielęgniarka, dyrekcja.",
+      "Nie każdy problem trzeba rozwiązywać samodzielnie.",
+      "W sytuacji zagrożenia zdrowia lub życia pomoc dorosłego jest natychmiastowa."
+    ],
+    "source_keys": [
+      "zsz5",
+      "men_2026"
+    ],
+    "sources": [
+      {
+        "key": "zsz5",
+        "name": "ZSZ nr 5 we Wrocławiu",
+        "url": "https://zsz5.edupage.org/",
+        "note": "Lokalne dokumenty szkoły, statut, komunikaty i informacje organizacyjne."
+      },
+      {
+        "key": "men_2026",
+        "name": "MEN: podstawowe kierunki polityki oświatowej 2026/2027",
+        "url": "https://www.gov.pl/web/edukacja/podstawowe-kierunki-realizacji-polityki-oswiatowej-panstwa-w-roku-szkolnym-20262027",
+        "note": "Punkt odniesienia dla całego planu wychowawczo-profilaktycznego."
+      }
+    ],
+    "teacher_video": {
+      "title": "Jak budować relacje i wzmacniać uczniów w klasie",
+      "url": "https://www.youtube.com/watch?v=QcmBRziAyRk"
+    }
+  },
+  {
+    "id": "18",
+    "slug": "18-wspolpraca-ucznia-rodzica-i-szkoly-dlaczego-jest-wazna",
+    "url": "lekcje/18-wspolpraca-ucznia-rodzica-i-szkoly-dlaczego-jest-wazna.html",
+    "title": "Współpraca ucznia, rodzica i szkoły – dlaczego jest ważna?",
+    "goal": 5,
+    "month": "Marzec",
+    "area": "Wsparcie ucznia",
+    "duration": "30 minut",
+    "purpose": "Lekcja pokazuje, że wsparcie działa wtedy, gdy uczeń, dom i szkoła wymieniają informacje i mają wspólny plan.",
+    "outcomes": [
+      "Uczeń rozumie, jakie informacje powinny trafić do rodzica",
+      "wychowawcy oraz jak unikać ukrywania problemów do momentu kryzysu."
+    ],
+    "results_text": "Uczeń rozumie, jakie informacje powinny trafić do rodzica i wychowawcy oraz jak unikać ukrywania problemów do momentu kryzysu.",
+    "flow": "Nauczyciel przedstawia fikcyjną sytuację: uczeń ma nieobecności, zaległości i stres, ale nikt nie ma pełnej informacji. Klasa analizuje, co wie uczeń, co wie rodzic, co wie szkoła i czego brakuje. Następnie uczniowie tworzą model rozmowy: fakt, skutek, plan, termin sprawdzenia.",
+    "activity": "`Trójkąt wsparcia`: uczeń - rodzic - szkoła; co każdy może zrobić?",
+    "evidence": "Schemat rozmowy wspierającej.",
+    "safety": "Nie omawiać realnych konfliktów rodzinnych ani indywidualnych spraw uczniów.",
+    "must_be_said": [
+      "Wsparcie działa lepiej, gdy uczeń, rodzic i szkoła mają wspólne informacje.",
+      "Ukrywanie problemu zwykle zwiększa jego koszt.",
+      "Rozmowa wspierająca opiera się na faktach, planie i terminie sprawdzenia."
+    ],
+    "source_keys": [
+      "men_2026",
+      "zsz5"
+    ],
+    "sources": [
+      {
+        "key": "men_2026",
+        "name": "MEN: podstawowe kierunki polityki oświatowej 2026/2027",
+        "url": "https://www.gov.pl/web/edukacja/podstawowe-kierunki-realizacji-polityki-oswiatowej-panstwa-w-roku-szkolnym-20262027",
+        "note": "Punkt odniesienia dla całego planu wychowawczo-profilaktycznego."
+      },
+      {
+        "key": "zsz5",
+        "name": "ZSZ nr 5 we Wrocławiu",
+        "url": "https://zsz5.edupage.org/",
+        "note": "Lokalne dokumenty szkoły, statut, komunikaty i informacje organizacyjne."
+      }
+    ],
+    "teacher_video": {
+      "title": "Jak rodzic może budować relację z nauczycielami?",
+      "url": "https://www.youtube.com/watch?v=MR-uhRVFxG4"
+    }
+  },
+  {
+    "id": "19",
+    "slug": "19-moje-mocne-strony-i-obszary-w-ktorych-potrzebuje-wsparcia",
+    "url": "lekcje/19-moje-mocne-strony-i-obszary-w-ktorych-potrzebuje-wsparcia.html",
+    "title": "Moje mocne strony i obszary, w których potrzebuję wsparcia",
+    "goal": 5,
+    "month": "Maj",
+    "area": "Wsparcie ucznia",
+    "duration": "30 minut",
+    "purpose": "Lekcja łączy samoocenę z planowaniem rozwoju i proszeniem o pomoc.",
+    "outcomes": [
+      "Uczeń wskazuje co najmniej dwie mocne strony, jeden obszar do rozwoju",
+      "jedną osobę lub działanie wspierające."
+    ],
+    "results_text": "Uczeń wskazuje co najmniej dwie mocne strony, jeden obszar do rozwoju i jedną osobę lub działanie wspierające.",
+    "flow": "Uczniowie wybierają mocne strony z listy: dokładność, komunikacja, praktyczne działanie, systematyczność, kreatywność, cierpliwość, sprawność techniczna, współpraca. Potem zapisują obszar, w którym potrzebują wsparcia: nauka, organizacja, relacje, frekwencja, stres, praktyki. Na koniec łączą to z działaniem: rozmowa, plan, konsultacja, pomoc koleżeńska.",
+    "activity": "`Mocna strona plus następny krok`: moje zasoby, moja trudność, pierwszy krok.",
+    "evidence": "Prywatna karta rozwoju ucznia.",
+    "safety": "Nie porównywać uczniów publicznie. Karta może zostać u ucznia.",
+    "must_be_said": [
+      "Każdy uczeń ma zasoby, które można nazwać i wykorzystać.",
+      "Obszar do rozwoju nie jest etykietą; to informacja, gdzie potrzebny jest plan lub wsparcie.",
+      "Nie porównujemy uczniów publicznie."
+    ],
+    "source_keys": [
+      "ore_doradztwo",
+      "ore_filmy"
+    ],
+    "sources": [
+      {
+        "key": "ore_doradztwo",
+        "name": "ORE: materiały z doradztwa zawodowego",
+        "url": "https://doradztwo.ore.edu.pl/materialy/",
+        "note": "Materiały do pracy z uczniami i rodzicami w obszarze doradztwa zawodowego."
+      },
+      {
+        "key": "ore_filmy",
+        "name": "ORE: cykl filmów Drogi Zawodowe",
+        "url": "https://doradztwo.ore.edu.pl/cykl-filmow-drogi-zawodowe/",
+        "note": "Filmy o zainteresowaniach, mocnych stronach, doświadczeniach i decyzjach."
+      }
+    ],
+    "teacher_video": {
+      "title": "Jaki jestem? Oto jest pytanie?",
+      "url": "https://www.youtube.com/watch?v=4gp_EQ7F_bo"
+    }
+  },
+  {
+    "id": "20",
+    "slug": "20-przemoc-rowiesnicza-jak-reagowac-gdy-ktos-przekracza-granice",
+    "url": "lekcje/20-przemoc-rowiesnicza-jak-reagowac-gdy-ktos-przekracza-granice.html",
+    "title": "Przemoc rówieśnicza – jak reagować, gdy ktoś przekracza granice?",
+    "goal": 6,
+    "month": "Październik",
+    "area": "Profilaktyka kryzysów",
+    "duration": "30 minut",
+    "purpose": "Lekcja ma pomóc odróżnić konflikt od przemocy oraz wskazać sposoby bezpiecznego reagowania świadka i osoby pokrzywdzonej.",
+    "outcomes": [
+      "Uczeń zna cechy przemocy: intencjonalność, powtarzalność lub poważne naruszenie granic, nierównowaga sił, szkoda. Wie, komu zgłosić sytuację."
+    ],
+    "results_text": "Uczeń zna cechy przemocy: intencjonalność, powtarzalność lub poważne naruszenie granic, nierównowaga sił, szkoda. Wie, komu zgłosić sytuację.",
+    "flow": "Wychowawca omawia trzy fikcyjne sytuacje: jednorazowa kłótnia, powtarzające się wyśmiewanie, publikacja kompromitującego zdjęcia. Klasa klasyfikuje je i ustala reakcje. Nauczyciel podkreśla rolę świadka: nie wzmacniać, nie nagrywać, nie udostępniać, szukać dorosłego.",
+    "activity": "`Granica została przekroczona`: co mówi osoba pokrzywdzona, co robi świadek, co robi dorosły?",
+    "evidence": "Karta `Nie zostawiam bez reakcji`.",
+    "safety": "Przy ujawnieniu realnej przemocy trzeba działać zgodnie z procedurami szkoły, nie prowadzić dalszej dyskusji klasowej o szczegółach.",
+    "must_be_said": [
+      "Konflikt i przemoc to nie to samo.",
+      "Świadek ma wpływ: nie nagrywa, nie wzmacnia, nie udostępnia, szuka dorosłego.",
+      "Przemocy nie rozwiązujemy publicznym zawstydzaniem ani odwetem."
+    ],
+    "source_keys": [
+      "fdds",
+      "men_przemoc"
+    ],
+    "sources": [
+      {
+        "key": "fdds",
+        "name": "Fundacja Dajemy Dzieciom Siłę: przemoc rówieśnicza i cyberprzemoc",
+        "url": "https://fdds.pl/cyberprzemoc-nie-chodzi-na-wagary-program-rowiesnicy-fundacji-dajemy-dzieciom-sile-pomaga-jej-przeciwdzialac/",
+        "note": "Materiał do kontekstu profilaktyki przemocy i cyberprzemocy."
+      },
+      {
+        "key": "men_przemoc",
+        "name": "MEN: ścieżka pomocy dla szkoły - przemoc rówieśnicza",
+        "url": "https://dokumenty.men.gov.pl/SCIEZKA-POMOCY-DLA-SZKOLY-przemoc-rowiesnicza-68c43ef1af0a9.docx",
+        "note": "Dokument pomocniczy do reagowania na przemoc rówieśniczą w szkole."
+      }
+    ],
+    "teacher_video": {
+      "title": "Przemoc rówieśnicza online i offline",
+      "url": "https://www.youtube.com/watch?v=UbEoIa1E1-k"
+    }
+  },
+  {
+    "id": "21",
+    "slug": "21-uzaleznienia-behawioralne-kiedy-korzystanie-staje-sie-problemem",
+    "url": "lekcje/21-uzaleznienia-behawioralne-kiedy-korzystanie-staje-sie-problemem.html",
+    "title": "Uzależnienia behawioralne – kiedy korzystanie staje się problemem?",
+    "goal": 6,
+    "month": "Listopad",
+    "area": "Profilaktyka kryzysów",
+    "duration": "30 minut",
+    "purpose": "Temat pokazuje, że problemem może być nie tylko substancja, ale także utrata kontroli nad zachowaniem: graniem, telefonem, zakupami, mediami społecznościowymi czy hazardem.",
+    "outcomes": [
+      "Uczeń rozpoznaje sygnały ostrzegawcze: utrata kontroli, zaniedbywanie obowiązków, konflikty, ukrywanie, drażliwość po ograniczeniu, szkody mimo kontynuowania."
+    ],
+    "results_text": "Uczeń rozpoznaje sygnały ostrzegawcze: utrata kontroli, zaniedbywanie obowiązków, konflikty, ukrywanie, drażliwość po ograniczeniu, szkody mimo kontynuowania.",
+    "flow": "Wychowawca omawia fikcyjną historię ucznia, który coraz częściej rezygnuje ze snu, nauki i relacji przez jedną aktywność. Klasa wskazuje momenty, w których zachowanie staje się ryzykowne. Następnie uczniowie tworzą listę form pomocy.",
+    "activity": "`Sygnały ryzyka`: zielone - kontroluję, żółte - uważam, czerwone - potrzebna pomoc.",
+    "evidence": "Uczniowie zapisują trzy sygnały, przy których warto porozmawiać z dorosłym.",
+    "safety": "Nie diagnozować uczniów i nie pytać publicznie o prywatne nawyki.",
+    "must_be_said": [
+      "Problem zaczyna się wtedy, gdy tracimy kontrolę i mimo szkód kontynuujemy zachowanie.",
+      "Sygnały ryzyka to zaniedbywanie snu, szkoły, relacji, obowiązków i ukrywanie zachowania.",
+      "Rozmowa z dorosłym jest sposobem przerwania spirali, nie karą."
+    ],
+    "source_keys": [
+      "zpe_zdrowie",
+      "zpe_ai"
+    ],
+    "sources": [
+      {
+        "key": "zpe_zdrowie",
+        "name": "ZPE: edukacja zdrowotna",
+        "url": "https://zpe.gov.pl/edukacja-zdrowotna",
+        "note": "Programy, scenariusze i materiały dla nauczycieli oraz uczniów."
+      },
+      {
+        "key": "zpe_ai",
+        "name": "ZPE: Nauka z AI - cyberbezpieczne środowisko w szkole",
+        "url": "https://zpe.gov.pl/b/nauka-z-ai---cyberbezpieczne-srodowisko-w-szkole/P99FNDS7U",
+        "note": "Praktyczny kontekst dla tematów o AI, danych i bezpieczeństwie cyfrowym."
+      }
+    ],
+    "teacher_video": {
+      "title": "Higiena cyfrowa, czyli profilaktyka e-uzależnień",
+      "url": "https://www.youtube.com/watch?v=JEGFYp4OVcQ"
+    }
+  },
+  {
+    "id": "22",
+    "slug": "22-zdrowie-psychiczne-gdzie-i-jak-szukac-pomocy",
+    "url": "lekcje/22-zdrowie-psychiczne-gdzie-i-jak-szukac-pomocy.html",
+    "title": "Zdrowie psychiczne – gdzie i jak szukać pomocy?",
+    "goal": 6,
+    "month": "Luty",
+    "area": "Profilaktyka kryzysów",
+    "duration": "30 minut",
+    "purpose": "Lekcja ma obniżyć barierę szukania pomocy i pokazać, że kryzys psychiczny wymaga reakcji tak samo jak uraz fizyczny.",
+    "outcomes": [
+      "Uczeń zna podstawowe sygnały alarmowe",
+      "wie, do kogo zwrócić się w szkole oraz poza szkołą w sytuacji zagrożenia."
+    ],
+    "results_text": "Uczeń zna podstawowe sygnały alarmowe i wie, do kogo zwrócić się w szkole oraz poza szkołą w sytuacji zagrożenia.",
+    "flow": "Nauczyciel omawia różnicę między gorszym dniem, dłuższym przeciążeniem i kryzysem wymagającym pilnej pomocy. Uczniowie pracują na fikcyjnych opisach i wybierają właściwą reakcję: rozmowa z bliskim, wychowawca, pedagog/psycholog, rodzic/opiekun, natychmiastowa pomoc dorosłego.",
+    "activity": "`Nie zostaję z tym sam`: uczniowie tworzą prywatną listę trzech osób lub miejsc, do których mogą zwrócić się o pomoc.",
+    "evidence": "Karta wsparcia ucznia, prywatna.",
+    "safety": "Jeżeli uczeń ujawnia zagrożenie życia lub zdrowia, wychowawca natychmiast uruchamia procedury pomocy. Nie obiecywać tajemnicy w sytuacji zagrożenia.",
+    "must_be_said": [
+      "Kryzys psychiczny wymaga pomocy tak samo jak uraz fizyczny.",
+      "Nie obiecujemy tajemnicy, jeżeli zagrożone jest zdrowie lub życie.",
+      "Uczeń może zacząć od jednej osoby dorosłej, której ufa."
+    ],
+    "source_keys": [
+      "zpe_zdrowie",
+      "zsz5"
+    ],
+    "sources": [
+      {
+        "key": "zpe_zdrowie",
+        "name": "ZPE: edukacja zdrowotna",
+        "url": "https://zpe.gov.pl/edukacja-zdrowotna",
+        "note": "Programy, scenariusze i materiały dla nauczycieli oraz uczniów."
+      },
+      {
+        "key": "zsz5",
+        "name": "ZSZ nr 5 we Wrocławiu",
+        "url": "https://zsz5.edupage.org/",
+        "note": "Lokalne dokumenty szkoły, statut, komunikaty i informacje organizacyjne."
+      }
+    ],
+    "teacher_video": {
+      "title": "Jak rozmawiać z nastolatkiem, żeby chciał słuchać?",
+      "url": "https://www.youtube.com/watch?v=Dh3EGv9Vimc"
+    }
+  },
+  {
+    "id": "23",
+    "slug": "23-konflikt-bez-agresji-jak-rozwiazywac-trudne-sytuacje",
+    "url": "lekcje/23-konflikt-bez-agresji-jak-rozwiazywac-trudne-sytuacje.html",
+    "title": "Konflikt bez agresji – jak rozwiązywać trudne sytuacje?",
+    "goal": 6,
+    "month": "Kwiecień",
+    "area": "Profilaktyka kryzysów",
+    "duration": "30 minut",
+    "purpose": "Temat uczy zatrzymania eskalacji i szukania rozwiązania, które nie upokarza żadnej strony.",
+    "outcomes": [
+      "Uczeń potrafi zaproponować kroki rozmowy konfliktowej: zatrzymanie, fakty, potrzeby, propozycja, umowa."
+    ],
+    "results_text": "Uczeń potrafi zaproponować kroki rozmowy konfliktowej: zatrzymanie, fakty, potrzeby, propozycja, umowa.",
+    "flow": "Wychowawca przedstawia konflikt o pracę w grupie. Klasa rozpoznaje zachowania eskalujące: ironia, wyzwiska, publiczne zawstydzanie, ignorowanie, groźby. Potem uczniowie ćwiczą rozmowę według schematu: co się stało, jak to wpływa na pracę, czego potrzebuję, co proponuję.",
+    "activity": "`Mediator w klasie`: trójki odgrywają krótkie scenki z mediatorem pilnującym zasad rozmowy.",
+    "evidence": "Lista zdań, które pomagają zatrzymać konflikt.",
+    "safety": "Nie odgrywać realnych konfliktów z klasy bez przygotowania i zgody stron.",
+    "must_be_said": [
+      "Celem rozmowy konfliktowej nie jest wygrana, tylko zatrzymanie szkody i ustalenie kolejnego kroku.",
+      "Agresja, ironia i publiczne upokarzanie zwykle eskalują problem.",
+      "Dobra rozmowa opiera się na faktach, potrzebach i propozycji rozwiązania."
+    ],
+    "source_keys": [
+      "fdds",
+      "men_przemoc"
+    ],
+    "sources": [
+      {
+        "key": "fdds",
+        "name": "Fundacja Dajemy Dzieciom Siłę: przemoc rówieśnicza i cyberprzemoc",
+        "url": "https://fdds.pl/cyberprzemoc-nie-chodzi-na-wagary-program-rowiesnicy-fundacji-dajemy-dzieciom-sile-pomaga-jej-przeciwdzialac/",
+        "note": "Materiał do kontekstu profilaktyki przemocy i cyberprzemocy."
+      },
+      {
+        "key": "men_przemoc",
+        "name": "MEN: ścieżka pomocy dla szkoły - przemoc rówieśnicza",
+        "url": "https://dokumenty.men.gov.pl/SCIEZKA-POMOCY-DLA-SZKOLY-przemoc-rowiesnicza-68c43ef1af0a9.docx",
+        "note": "Dokument pomocniczy do reagowania na przemoc rówieśniczą w szkole."
+      }
+    ],
+    "teacher_video": {
+      "title": "Konflikt w grupie - fakty i mity",
+      "url": "https://www.youtube.com/watch?v=_cXiIE4Pnr4"
+    }
+  },
+  {
+    "id": "24",
+    "slug": "24-moje-mocne-strony-i-przyszly-zawod",
+    "url": "lekcje/24-moje-mocne-strony-i-przyszly-zawod.html",
+    "title": "Moje mocne strony i przyszły zawód",
+    "goal": 7,
+    "month": "Październik",
+    "area": "Doradztwo zawodowe",
+    "duration": "30 minut",
+    "purpose": "Lekcja łączy samoświadomość ucznia z wyborem i rozwijaniem kompetencji zawodowych.",
+    "outcomes": [
+      "Uczeń wskazuje swoje mocne strony",
+      "ich znaczenie w wybranym zawodzie lub branży."
+    ],
+    "results_text": "Uczeń wskazuje swoje mocne strony oraz ich znaczenie w wybranym zawodzie lub branży.",
+    "flow": "Uczniowie wybierają 3 mocne strony i dopisują, gdzie mogą je wykorzystać: szkoła, praktyki, praca, projekt, obsługa klienta, praca techniczna. Następnie wskazują jedną mocną stronę, którą chcą pokazać na praktykach lub w przyszłej pracy.",
+    "activity": "`Most do zawodu`: mocna strona - sytuacja zawodowa - dowód, że ją mam.",
+    "evidence": "Karta `Moje zasoby zawodowe`.",
+    "safety": "Warto odnieść przykłady do kierunków kształcenia w klasie.",
+    "must_be_said": [
+      "Mocne strony są punktem wyjścia do wyborów edukacyjno-zawodowych.",
+      "W zawodzie liczą się zarówno umiejętności techniczne, jak i postawa.",
+      "Uczeń powinien umieć podać dowód swojej mocnej strony."
+    ],
+    "source_keys": [
+      "ore_doradztwo",
+      "ore_filmy",
+      "szkola_mistrzow"
+    ],
+    "sources": [
+      {
+        "key": "ore_doradztwo",
+        "name": "ORE: materiały z doradztwa zawodowego",
+        "url": "https://doradztwo.ore.edu.pl/materialy/",
+        "note": "Materiały do pracy z uczniami i rodzicami w obszarze doradztwa zawodowego."
+      },
+      {
+        "key": "ore_filmy",
+        "name": "ORE: cykl filmów Drogi Zawodowe",
+        "url": "https://doradztwo.ore.edu.pl/cykl-filmow-drogi-zawodowe/",
+        "note": "Filmy o zainteresowaniach, mocnych stronach, doświadczeniach i decyzjach."
+      },
+      {
+        "key": "szkola_mistrzow",
+        "name": "Szkoła Mistrzów",
+        "url": "https://www.szkolamistrzow.info/",
+        "note": "Informacje o ofercie kształcenia zawodowego szkoły."
+      }
+    ],
+    "teacher_video": {
+      "title": "Drogi Zawodowe - Mocne strony",
+      "url": "https://doradztwo.ore.edu.pl/cykl-filmow-drogi-zawodowe/"
+    }
+  },
+  {
+    "id": "25",
+    "slug": "25-kompetencje-ktorych-oczekuje-pracodawca",
+    "url": "lekcje/25-kompetencje-ktorych-oczekuje-pracodawca.html",
+    "title": "Kompetencje, których oczekuje pracodawca",
+    "goal": 7,
+    "month": "Listopad",
+    "area": "Doradztwo zawodowe",
+    "duration": "30 minut",
+    "purpose": "Lekcja pokazuje, że pracodawca ocenia nie tylko umiejętności techniczne, ale też postawę, komunikację i odpowiedzialność.",
+    "outcomes": [
+      "Uczeń wskazuje kompetencje cenione przez pracodawców",
+      "ocenia, którą z nich powinien rozwijać."
+    ],
+    "results_text": "Uczeń wskazuje kompetencje cenione przez pracodawców i ocenia, którą z nich powinien rozwijać.",
+    "flow": "Wychowawca pyta: `Co sprawia, że z uczniem lub pracownikiem chce się współpracować?` Klasa tworzy listę: punktualność, bezpieczeństwo, dokładność, pytanie o instrukcję, kultura osobista, umiejętność przyjęcia feedbacku, praca zespołowa. Grupy analizują sytuacje z praktyk i wybierają właściwą reakcję.",
+    "activity": "`Pracodawca patrzy na...`: uczniowie układają ranking 5 kompetencji i dopisują konkretne zachowania.",
+    "evidence": "Indywidualny wybór jednej kompetencji do rozwijania w miesiącu.",
+    "safety": "Nie sprowadzać lekcji do oceniania uczniów. Chodzi o rozwój kompetencji.",
+    "must_be_said": [
+      "Pracodawca patrzy na umiejętności zawodowe i na zachowania: punktualność, odpowiedzialność, komunikację.",
+      "Kompetencje miękkie widać w konkretnych sytuacjach, nie w deklaracjach.",
+      "Praktyki są miejscem budowania opinii o sobie."
+    ],
+    "source_keys": [
+      "ore_doradztwo",
+      "ore_filmy",
+      "szkola_mistrzow"
+    ],
+    "sources": [
+      {
+        "key": "ore_doradztwo",
+        "name": "ORE: materiały z doradztwa zawodowego",
+        "url": "https://doradztwo.ore.edu.pl/materialy/",
+        "note": "Materiały do pracy z uczniami i rodzicami w obszarze doradztwa zawodowego."
+      },
+      {
+        "key": "ore_filmy",
+        "name": "ORE: cykl filmów Drogi Zawodowe",
+        "url": "https://doradztwo.ore.edu.pl/cykl-filmow-drogi-zawodowe/",
+        "note": "Filmy o zainteresowaniach, mocnych stronach, doświadczeniach i decyzjach."
+      },
+      {
+        "key": "szkola_mistrzow",
+        "name": "Szkoła Mistrzów",
+        "url": "https://www.szkolamistrzow.info/",
+        "note": "Informacje o ofercie kształcenia zawodowego szkoły."
+      }
+    ],
+    "teacher_video": {
+      "title": "Kompetencje miękkie - co pracodawcy cenią najbardziej",
+      "url": "https://www.youtube.com/playlist?list=PLb3ouxXjeRieChrhVYJarKFnrDH6i3-xU"
+    }
+  },
+  {
+    "id": "26",
+    "slug": "26-praktyki-zawodowe-jak-wykorzystac-je-do-budowania-swojej-przyszlosci",
+    "url": "lekcje/26-praktyki-zawodowe-jak-wykorzystac-je-do-budowania-swojej-przyszlosci.html",
+    "title": "Praktyki zawodowe – jak wykorzystać je do budowania swojej przyszłości?",
+    "goal": 7,
+    "month": "Marzec",
+    "area": "Doradztwo zawodowe",
+    "duration": "30 minut",
+    "purpose": "Praktyki mają być przedstawione jako miejsce uczenia się, budowania reputacji, zdobywania doświadczenia i sprawdzania wyborów zawodowych.",
+    "outcomes": [
+      "Uczeń rozumie, jak frekwencja, postawa",
+      "dokumentowanie doświadczeń wpływają na jego przyszłość zawodową."
+    ],
+    "results_text": "Uczeń rozumie, jak frekwencja, postawa i dokumentowanie doświadczeń wpływają na jego przyszłość zawodową.",
+    "flow": "Klasa analizuje fikcyjne profile dwóch uczniów na praktykach: jeden bierny i spóźnialski, drugi pytający, punktualny i dokumentujący zadania. Uczniowie wskazują, co każdy z nich zyskuje lub traci. Następnie tworzą listę dobrych praktyk zawodowych.",
+    "activity": "`Mój dziennik doświadczeń`: zadanie, czego się nauczyłem, co mogę pokazać pracodawcy, o co zapytam następnym razem.",
+    "evidence": "Lista 5 zasad wykorzystania praktyk.",
+    "safety": "Dostosować do typu szkoły i aktualnych zasad praktycznej nauki zawodu.",
+    "must_be_said": [
+      "Praktyki są doświadczeniem zawodowym, a nie tylko obowiązkiem do zaliczenia.",
+      "Punktualność, pytania i dokumentowanie zadań pomagają budować przyszłe referencje.",
+      "Uczeń ma wpływ na to, co wyniesie z praktyk."
+    ],
+    "source_keys": [
+      "ore_doradztwo",
+      "ore_filmy",
+      "szkola_mistrzow"
+    ],
+    "sources": [
+      {
+        "key": "ore_doradztwo",
+        "name": "ORE: materiały z doradztwa zawodowego",
+        "url": "https://doradztwo.ore.edu.pl/materialy/",
+        "note": "Materiały do pracy z uczniami i rodzicami w obszarze doradztwa zawodowego."
+      },
+      {
+        "key": "ore_filmy",
+        "name": "ORE: cykl filmów Drogi Zawodowe",
+        "url": "https://doradztwo.ore.edu.pl/cykl-filmow-drogi-zawodowe/",
+        "note": "Filmy o zainteresowaniach, mocnych stronach, doświadczeniach i decyzjach."
+      },
+      {
+        "key": "szkola_mistrzow",
+        "name": "Szkoła Mistrzów",
+        "url": "https://www.szkolamistrzow.info/",
+        "note": "Informacje o ofercie kształcenia zawodowego szkoły."
+      }
+    ],
+    "teacher_video": {
+      "title": "Drogi Zawodowe - Pierwsze doświadczenia",
+      "url": "https://doradztwo.ore.edu.pl/cykl-filmow-drogi-zawodowe/"
+    }
+  },
+  {
+    "id": "27",
+    "slug": "27-jak-podejmowac-swiadome-decyzje-dotyczace-swojej-kariery",
+    "url": "lekcje/27-jak-podejmowac-swiadome-decyzje-dotyczace-swojej-kariery.html",
+    "title": "Jak podejmować świadome decyzje dotyczące swojej kariery?",
+    "goal": 7,
+    "month": "Maj",
+    "area": "Doradztwo zawodowe",
+    "duration": "30 minut",
+    "purpose": "Lekcja daje uczniowi prosty model decyzyjny, który można zastosować przy wyborze pracy, szkoły, kursu, specjalizacji lub praktyk.",
+    "outcomes": [
+      "Uczeń potrafi porównać opcje kariery według informacji, konsekwencji, ryzyk",
+      "dostępnego wsparcia."
+    ],
+    "results_text": "Uczeń potrafi porównać opcje kariery według informacji, konsekwencji, ryzyk i dostępnego wsparcia.",
+    "flow": "Wychowawca przedstawia model: wiem, czego chcę; zbieram informacje; porównuję opcje; sprawdzam konsekwencje; pytam osoby kompetentne; wybieram pierwszy krok. Uczniowie ćwiczą na przykładzie: praca po szkole, dalsza nauka, kurs, zmiana miejsca praktyk, dodatkowe kwalifikacje.",
+    "activity": "`Tabela decyzji`: opcja, plusy, koszty, potrzebne informacje, pierwszy krok.",
+    "evidence": "Wypełniona tabela jednej decyzji edukacyjno-zawodowej.",
+    "safety": "Nie sugerować jednej ścieżki jako najlepszej dla wszystkich.",
+    "must_be_said": [
+      "Decyzja zawodowa wymaga informacji, porównania opcji i rozmowy z osobami kompetentnymi.",
+      "Nie ma jednej dobrej ścieżki dla wszystkich.",
+      "Pierwszy krok jest ważniejszy niż idealny plan na całe życie."
+    ],
+    "source_keys": [
+      "ore_doradztwo",
+      "ore_filmy",
+      "szkola_mistrzow"
+    ],
+    "sources": [
+      {
+        "key": "ore_doradztwo",
+        "name": "ORE: materiały z doradztwa zawodowego",
+        "url": "https://doradztwo.ore.edu.pl/materialy/",
+        "note": "Materiały do pracy z uczniami i rodzicami w obszarze doradztwa zawodowego."
+      },
+      {
+        "key": "ore_filmy",
+        "name": "ORE: cykl filmów Drogi Zawodowe",
+        "url": "https://doradztwo.ore.edu.pl/cykl-filmow-drogi-zawodowe/",
+        "note": "Filmy o zainteresowaniach, mocnych stronach, doświadczeniach i decyzjach."
+      },
+      {
+        "key": "szkola_mistrzow",
+        "name": "Szkoła Mistrzów",
+        "url": "https://www.szkolamistrzow.info/",
+        "note": "Informacje o ofercie kształcenia zawodowego szkoły."
+      }
+    ],
+    "teacher_video": {
+      "title": "Drogi Zawodowe - Wybory i decyzje",
+      "url": "https://doradztwo.ore.edu.pl/cykl-filmow-drogi-zawodowe/"
+    }
+  },
+  {
+    "id": "28",
+    "slug": "28-ciekawosc-prowadzi-do-wiedzy-jak-samodzielnie-szukac-odpowiedzi",
+    "url": "lekcje/28-ciekawosc-prowadzi-do-wiedzy-jak-samodzielnie-szukac-odpowiedzi.html",
+    "title": "Ciekawość prowadzi do wiedzy – jak samodzielnie szukać odpowiedzi?",
+    "goal": 8,
+    "month": "Październik",
+    "area": "Uczenie się i projekt",
+    "duration": "30 minut",
+    "purpose": "Lekcja wzmacnia aktywność poznawczą: uczeń ma umieć zamienić ciekawość w pytanie i poszukiwanie wiarygodnej odpowiedzi.",
+    "outcomes": [
+      "Uczeń formułuje pytanie badawcze",
+      "wskazuje co najmniej dwa możliwe źródła odpowiedzi."
+    ],
+    "results_text": "Uczeń formułuje pytanie badawcze i wskazuje co najmniej dwa możliwe źródła odpowiedzi.",
+    "flow": "Uczniowie zapisują pytania zaczynające się od `dlaczego`, `jak`, `co by było, gdyby`. Wychowawca pokazuje różnicę między pytaniem zbyt ogólnym a pytaniem możliwym do sprawdzenia. Grupy wybierają jedno pytanie i planują, gdzie szukać odpowiedzi: nauczyciel, podręcznik, ZPE, instrukcja, ekspert, doświadczenie, źródła branżowe.",
+    "activity": "`Od ciekawości do planu`: pytanie, źródła, sposób sprawdzenia, forma odpowiedzi.",
+    "evidence": "Mini-plan poszukiwania odpowiedzi.",
+    "safety": "Warto połączyć temat z krytycznym myśleniem i weryfikacją źródeł.",
+    "must_be_said": [
+      "Dobre pytanie pomaga znaleźć dobrą odpowiedź.",
+      "Nie wystarczy pierwszy wynik z Internetu; trzeba sprawdzić źródło i sens informacji.",
+      "Ciekawość można zamienić w mały plan poszukiwania."
+    ],
+    "source_keys": [
+      "zpe",
+      "nask_dezinformacja"
+    ],
+    "sources": [
+      {
+        "key": "zpe",
+        "name": "Zintegrowana Platforma Edukacyjna",
+        "url": "https://zpe.gov.pl/",
+        "note": "Materiały edukacyjne, kursy i zasoby do wykorzystania przez nauczyciela."
+      },
+      {
+        "key": "nask_dezinformacja",
+        "name": "NASK: zjawisko dezinformacji - materiały edukacyjne",
+        "url": "https://www.gov.pl/web/nauka/zjawisko-dezinformacji--materialy-edukacyjne-nask",
+        "note": "Ćwiczenia i pomoce dydaktyczne do pracy z uczniami nad fake newsami."
+      }
+    ],
+    "teacher_video": {
+      "title": "ZPE - zasoby edukacyjne do samodzielnej pracy",
+      "url": "https://zpe.gov.pl/"
+    }
+  },
+  {
+    "id": "29",
+    "slug": "29-od-pomyslu-do-dzialania-jak-stworzyc-dobry-projekt",
+    "url": "lekcje/29-od-pomyslu-do-dzialania-jak-stworzyc-dobry-projekt.html",
+    "title": "Od pomysłu do działania – jak stworzyć dobry projekt?",
+    "goal": 8,
+    "month": "Listopad",
+    "area": "Uczenie się i projekt",
+    "duration": "30 minut",
+    "purpose": "Lekcja pokazuje projekt jako uporządkowaną drogę od pomysłu do efektu, a nie jako chaotyczne działanie na ostatnią chwilę.",
+    "outcomes": [
+      "Uczeń potrafi określić cel projektu, odbiorcę, zadania, termin, zasoby",
+      "kryterium sukcesu."
+    ],
+    "results_text": "Uczeń potrafi określić cel projektu, odbiorcę, zadania, termin, zasoby i kryterium sukcesu.",
+    "flow": "Wychowawca pyta: `Co odróżnia pomysł od projektu?` Klasa odpowiada: cel, plan, odpowiedzialność, termin, efekt. Grupy wybierają mały projekt klasowy, np. pomoc młodszym uczniom, akcja ekologiczna, informacja o zawodzie, poprawa przestrzeni klasy. Następnie wypełniają kartę projektu.",
+    "activity": "`Projekt w jednej kartce`: problem, cel, działania, role, termin, dowód efektu.",
+    "evidence": "Karta mini-projektu.",
+    "safety": "Projekt powinien być realny do wykonania w warunkach klasy.",
+    "must_be_said": [
+      "Pomysł staje się projektem dopiero wtedy, gdy ma cel, role, termin i kryterium sukcesu.",
+      "Projekt wymaga współpracy, konsultacji i sprawdzania postępu.",
+      "Nauczyciel wspiera proces, ale nie wykonuje pracy za uczniów."
+    ],
+    "source_keys": [
+      "projekt"
+    ],
+    "sources": [
+      {
+        "key": "projekt",
+        "name": "Jak pracować metodą projektu krok po kroku",
+        "url": "https://photon.education/pl/praca-metoda-projektu/",
+        "note": "Przystępny opis planowania i prowadzenia pracy projektowej."
+      }
+    ],
+    "teacher_video": {
+      "title": "Metoda projektu - webinaria",
+      "url": "https://www.youtube.com/playlist?list=PL_2UCJJebQEQYYi6Tn6pm8vGB68Z0hwxT"
+    }
+  },
+  {
+    "id": "30",
+    "slug": "30-informacja-zwrotna-jak-wykorzystac-ja-do-rozwoju",
+    "url": "lekcje/30-informacja-zwrotna-jak-wykorzystac-ja-do-rozwoju.html",
+    "title": "Informacja zwrotna – jak wykorzystać ją do rozwoju?",
+    "goal": 8,
+    "month": "Marzec",
+    "area": "Uczenie się i projekt",
+    "duration": "30 minut",
+    "purpose": "Lekcja uczy, że feedback nie jest tylko oceną, ale informacją, co działa, co poprawić i jaki jest następny krok.",
+    "outcomes": [
+      "Uczeń odróżnia ocenę od informacji zwrotnej",
+      "potrafi zaplanować działanie po otrzymaniu feedbacku."
+    ],
+    "results_text": "Uczeń odróżnia ocenę od informacji zwrotnej i potrafi zaplanować działanie po otrzymaniu feedbacku.",
+    "flow": "Nauczyciel pokazuje trzy komunikaty: `Słabo`, `Masz 3`, `Dobrze wyjaśniłeś początek, ale brakuje przykładu; dodaj go i sprawdź zapis`. Uczniowie porównują, który komunikat pomaga się poprawić. Następnie ćwiczą model: plus, pytanie, propozycja.",
+    "activity": "`Feedback, który da się wykorzystać`: uczniowie poprawiają ogólne komentarze na konkretne.",
+    "evidence": "Jedna informacja zwrotna napisana według modelu: mocna strona, wskazówka, następny krok.",
+    "safety": "Feedback ma dotyczyć pracy lub zachowania, nie wartości osoby.",
+    "must_be_said": [
+      "Informacja zwrotna mówi, co działa, co poprawić i jaki jest następny krok.",
+      "Feedback dotyczy pracy lub zachowania, nie wartości osoby.",
+      "Uczeń korzysta z informacji zwrotnej dopiero wtedy, gdy robi po niej konkretne działanie."
+    ],
+    "source_keys": [
+      "ceo_feedback"
+    ],
+    "sources": [
+      {
+        "key": "ceo_feedback",
+        "name": "CEO: informacja zwrotna, czyli ocena kształtująca",
+        "url": "https://biblioteka.ceo.org.pl/informacja-zwrotna-czyli-ocena-ksztaltujaca/",
+        "note": "Praktyczne wyjaśnienie roli informacji zwrotnej w uczeniu się."
+      }
+    ],
+    "teacher_video": {
+      "title": "Ocenianie kształtujące - współpraca nauczycieli",
+      "url": "https://www.youtube.com/playlist?list=PLD4KSOFXmjZuF-xOYwcn89_PJI2Pt2hV9"
+    }
+  },
+  {
+    "id": "31",
+    "slug": "31-wiedza-nie-ma-granic-jak-laczyc-informacje-z-roznych-dziedzin",
+    "url": "lekcje/31-wiedza-nie-ma-granic-jak-laczyc-informacje-z-roznych-dziedzin.html",
+    "title": "Wiedza nie ma granic – jak łączyć informacje z różnych dziedzin?",
+    "goal": 8,
+    "month": "Maj",
+    "area": "Uczenie się i projekt",
+    "duration": "30 minut",
+    "purpose": "Lekcja pokazuje, że wiedza zawodowa, ogólna, społeczna i cyfrowa łączy się w realnych sytuacjach.",
+    "outcomes": [
+      "Uczeń potrafi pokazać, jak różne przedmioty",
+      "kompetencje wspierają jedno zadanie praktyczne."
+    ],
+    "results_text": "Uczeń potrafi pokazać, jak różne przedmioty i kompetencje wspierają jedno zadanie praktyczne.",
+    "flow": "Wychowawca wybiera przykład bliski klasie: zaplanowanie usługi, wykonanie zadania technicznego, obsługa klienta, przygotowanie projektu, rozwiązanie problemu w pracy. Uczniowie wskazują, jaka wiedza jest potrzebna: matematyka, język polski, zawodowe, BHP, informatyka, komunikacja, język obcy. Potem tworzą mapę połączeń.",
+    "activity": "`Jedno zadanie - wiele dziedzin`: grupy rysują mapę kompetencji potrzebnych do wykonania zadania.",
+    "evidence": "Mapa interdyscyplinarna jednego zadania.",
+    "safety": "Najlepiej użyć przykładów z konkretnych zawodów uczniów.",
+    "must_be_said": [
+      "Realne zadania rzadko należą do jednego przedmiotu.",
+      "Wiedza zawodowa, ogólna, cyfrowa i społeczna wzajemnie się uzupełnia.",
+      "Łączenie dziedzin pomaga rozwiązywać praktyczne problemy."
+    ],
+    "source_keys": [
+      "zpe",
+      "projekt"
+    ],
+    "sources": [
+      {
+        "key": "zpe",
+        "name": "Zintegrowana Platforma Edukacyjna",
+        "url": "https://zpe.gov.pl/",
+        "note": "Materiały edukacyjne, kursy i zasoby do wykorzystania przez nauczyciela."
+      },
+      {
+        "key": "projekt",
+        "name": "Jak pracować metodą projektu krok po kroku",
+        "url": "https://photon.education/pl/praca-metoda-projektu/",
+        "note": "Przystępny opis planowania i prowadzenia pracy projektowej."
+      }
+    ],
+    "teacher_video": {
+      "title": "Uczenie się metodą uczniowskiego projektu",
+      "url": "https://www.edunews.pl/narzedzia-i-projekty/narzedzia-edukacyjne/1136-uczenie-sie-metoda-uczniowskiego-projektu"
+    }
+  },
+  {
+    "id": "32",
+    "slug": "32-oszczedzanie-energii-i-wody-co-mozemy-zrobic-w-szkole-i-w-domu",
+    "url": "lekcje/32-oszczedzanie-energii-i-wody-co-mozemy-zrobic-w-szkole-i-w-domu.html",
+    "title": "Oszczędzanie energii i wody – co możemy zrobić w szkole i w domu?",
+    "goal": 9,
+    "month": "Październik",
+    "area": "Edukacja ekologiczna",
+    "duration": "30 minut",
+    "purpose": "Temat sprowadza edukację ekologiczną do codziennych nawyków i kosztów, które uczniowie rozumieją.",
+    "outcomes": [
+      "Uczeń wskazuje konkretne działania ograniczające zużycie energii",
+      "wody w domu, szkole lub pracowni."
+    ],
+    "results_text": "Uczeń wskazuje konkretne działania ograniczające zużycie energii i wody w domu, szkole lub pracowni.",
+    "flow": "Klasa tworzy listę miejsc zużycia energii i wody: światło, ładowarki, ogrzewanie, komputery, krany, sprzątanie, pracownie. Następnie uczniowie dzielą działania na trzy kategorie: łatwe od dziś, wymagające umowy klasy, wymagające decyzji szkoły.",
+    "activity": "`Ekologiczny audyt sali`: uczniowie sprawdzają, co w sali można poprawić bez kosztów.",
+    "evidence": "Lista 3 działań klasy i 3 działań indywidualnych.",
+    "safety": "Unikać ogólnych haseł. Każde działanie ma mieć wykonawcę i warunek realizacji.",
+    "must_be_said": [
+      "Oszczędzanie energii i wody zaczyna się od małych, powtarzalnych zachowań.",
+      "Działanie ekologiczne musi być konkretne: kto, co, gdzie i od kiedy.",
+      "W szkole szukamy rozwiązań realnych, nie tylko deklaracji."
+    ],
+    "source_keys": [
+      "pah_woda",
+      "zpe_odpady"
+    ],
+    "sources": [
+      {
+        "key": "pah_woda",
+        "name": "PAH: Woda nie tylko w kranie",
+        "url": "https://www.youtube.com/watch?v=AB0RFjndmWU",
+        "note": "Animacja edukacyjna pomocna przy rozmowie o wodzie i odpowiedzialności."
+      },
+      {
+        "key": "zpe_odpady",
+        "name": "ZPE: film - w jaki sposób radzić sobie z odpadami?",
+        "url": "https://zpe.gov.pl/a/film/Df0T0zIDT",
+        "note": "Film i ćwiczenia o rodzajach odpadów i gospodarowaniu odpadami."
+      }
+    ],
+    "teacher_video": {
+      "title": "Woda nie tylko w kranie",
+      "url": "https://www.youtube.com/watch?v=AB0RFjndmWU"
+    }
+  },
+  {
+    "id": "33",
+    "slug": "33-jak-codzienne-decyzje-wplywaja-na-srodowisko",
+    "url": "lekcje/33-jak-codzienne-decyzje-wplywaja-na-srodowisko.html",
+    "title": "Jak codzienne decyzje wpływają na środowisko?",
+    "goal": 9,
+    "month": "Listopad",
+    "area": "Edukacja ekologiczna",
+    "duration": "30 minut",
+    "purpose": "Lekcja pokazuje związek między małymi wyborami a większym skutkiem środowiskowym.",
+    "outcomes": [
+      "Uczeń analizuje codzienne decyzje w obszarach: odpady, energia, woda, transport, zakupy",
+      "jedzenie."
+    ],
+    "results_text": "Uczeń analizuje codzienne decyzje w obszarach: odpady, energia, woda, transport, zakupy i jedzenie.",
+    "flow": "Uczniowie wybierają jeden dzień z życia fikcyjnego ucznia i zaznaczają decyzje środowiskowe: jednorazowe opakowania, dojazd, marnowanie jedzenia, światło, woda, naprawa zamiast wyrzucenia. Następnie proponują lepsze alternatywy, ale realistyczne dla młodego człowieka.",
+    "activity": "`Dzień decyzji`: co wybieram, jaki jest skutek, jaka jest rozsądna alternatywa.",
+    "evidence": "Karta analizy jednego dnia.",
+    "safety": "Nie sprowadzać tematu do obwiniania uczniów za problemy globalne. Celem jest sprawczość w zasięgu ucznia.",
+    "must_be_said": [
+      "Codzienne decyzje dotyczą odpadów, wody, energii, transportu i zakupów.",
+      "Uczeń nie odpowiada za cały problem globalny, ale ma wpływ na swoje nawyki.",
+      "Lepsza alternatywa musi być możliwa do wykonania w realnym życiu ucznia."
+    ],
+    "source_keys": [
+      "zpe_odpady",
+      "pah_woda"
+    ],
+    "sources": [
+      {
+        "key": "zpe_odpady",
+        "name": "ZPE: film - w jaki sposób radzić sobie z odpadami?",
+        "url": "https://zpe.gov.pl/a/film/Df0T0zIDT",
+        "note": "Film i ćwiczenia o rodzajach odpadów i gospodarowaniu odpadami."
+      },
+      {
+        "key": "pah_woda",
+        "name": "PAH: Woda nie tylko w kranie",
+        "url": "https://www.youtube.com/watch?v=AB0RFjndmWU",
+        "note": "Animacja edukacyjna pomocna przy rozmowie o wodzie i odpowiedzialności."
+      }
+    ],
+    "teacher_video": {
+      "title": "Ekologia w życiu EKO bohatera",
+      "url": "https://www.youtube.com/watch?v=wxZ6JKXTX4U"
+    }
+  },
+  {
+    "id": "34",
+    "slug": "34-segregacja-odpadow-w-praktyce",
+    "url": "lekcje/34-segregacja-odpadow-w-praktyce.html",
+    "title": "Segregacja odpadów w praktyce",
+    "goal": 9,
+    "month": "Marzec",
+    "area": "Edukacja ekologiczna",
+    "duration": "30 minut",
+    "purpose": "Lekcja ma przełożyć ogólną wiedzę o segregacji na praktyczne decyzje w szkole.",
+    "outcomes": [
+      "Uczeń potrafi przypisać typowe odpady szkolne do właściwych kategorii",
+      "wie, że zabrudzenie lub mieszanie może utrudnić recykling."
+    ],
+    "results_text": "Uczeń potrafi przypisać typowe odpady szkolne do właściwych kategorii i wie, że zabrudzenie lub mieszanie może utrudnić recykling.",
+    "flow": "Wychowawca przygotowuje listę typowych odpadów: kartka, butelka, puszka, chusteczka, opakowanie po jedzeniu, kubek, resztki jedzenia, bateria. Uczniowie przypisują je do pojemników i omawiają przypadki problemowe. Następnie klasa sprawdza, gdzie w szkole są pojemniki i czy oznaczenia są zrozumiałe.",
+    "activity": "`Co do którego kosza?`: szybki quiz z uzasadnieniem.",
+    "evidence": "Mini-instrukcja segregacji dla klasy.",
+    "safety": "Zasady mogą zależeć od lokalnego systemu odbioru odpadów, więc warto dopasować przykłady do oznaczeń w szkole.",
+    "must_be_said": [
+      "Segregacja działa tylko wtedy, gdy odpady trafiają do właściwych pojemników.",
+      "Zabrudzone lub źle posegregowane odpady mogą utrudniać recykling.",
+      "Najpierw ograniczamy ilość odpadów, a dopiero potem je segregujemy."
+    ],
+    "source_keys": [
+      "zpe_odpady"
+    ],
+    "sources": [
+      {
+        "key": "zpe_odpady",
+        "name": "ZPE: film - w jaki sposób radzić sobie z odpadami?",
+        "url": "https://zpe.gov.pl/a/film/Df0T0zIDT",
+        "note": "Film i ćwiczenia o rodzajach odpadów i gospodarowaniu odpadami."
+      }
+    ],
+    "teacher_video": {
+      "title": "W jaki sposób radzić sobie z odpadami?",
+      "url": "https://zpe.gov.pl/a/film/Df0T0zIDT"
+    }
+  },
+  {
+    "id": "35",
+    "slug": "35-szkola-odpowiedzialna-za-srodowisko",
+    "url": "lekcje/35-szkola-odpowiedzialna-za-srodowisko.html",
+    "title": "Szkoła odpowiedzialna za środowisko",
+    "goal": 9,
+    "month": "Maj",
+    "area": "Edukacja ekologiczna",
+    "duration": "30 minut",
+    "purpose": "Ostatni temat ekologiczny powinien zakończyć się propozycją działania, nie tylko rozmową.",
+    "outcomes": [
+      "Klasa wybiera jedno realistyczne działanie ekologiczne do wdrożenia lub zgłoszenia w szkole."
+    ],
+    "results_text": "Klasa wybiera jedno realistyczne działanie ekologiczne do wdrożenia lub zgłoszenia w szkole.",
+    "flow": "Uczniowie analizują szkołę jako miejsce: sale, korytarze, pracownie, odpady, energia, woda, zieleń, wydarzenia. W grupach proponują działanie, które spełnia trzy warunki: jest realne, ma opiekuna, można sprawdzić efekt. Klasa wybiera jedną propozycję do przekazania samorządowi, wychowawcy lub dyrekcji.",
+    "activity": "`Eko-projekt klasy`: problem, działanie, odpowiedzialni, potrzebna zgoda, miernik efektu.",
+    "evidence": "Jedna karta propozycji działania ekologicznego.",
+    "safety": "Nie wybierać działań, których szkoła nie ma możliwości wdrożyć. Lepiej mały projekt wykonany niż duża deklaracja. ## Rekomendacja wdrożeniowa Najbardziej praktyczny model wykorzystania tego opracowania: 1. Wychowawca wybiera temat zgodnie z miesiącem z planu. 2. Przed lekcją skraca kartę do jednej strony: cel, 3 rezultaty, ćwiczenie i dowód realizacji. 3. Po lekcji do kolumny `Efekty działania` w planie wpisuje konkretny dowód, np. `uczniowie opracowali mapę wsparcia`, `klasa ustaliła trzy zasady komunikacji`, `uczniowie przygotowali plan 7 dni`, `powstała karta projektu`. 4. Przy tematach wrażliwych wychowawca nie zbiera prywatnych kart uczniów, tylko odnotowuje formę pracy i ogólny efekt. 5. Raz na semestr warto sprawdzić, czy tematy nie są tylko zrealizowane formalnie, ale czy dały klasie realne narzędzia: zasadę, procedurę, mapę decyzji, plan działania albo ścieżkę wsparcia.",
+    "must_be_said": [
+      "Odpowiedzialność ekologiczna szkoły wymaga małych projektów, które da się wdrożyć i sprawdzić.",
+      "Dobry projekt ma opiekuna, zgodę, termin i miernik efektu.",
+      "Lepiej zrobić jedno małe działanie niż zapisać dużą deklarację bez wykonania."
+    ],
+    "source_keys": [
+      "zpe_odpady",
+      "projekt"
+    ],
+    "sources": [
+      {
+        "key": "zpe_odpady",
+        "name": "ZPE: film - w jaki sposób radzić sobie z odpadami?",
+        "url": "https://zpe.gov.pl/a/film/Df0T0zIDT",
+        "note": "Film i ćwiczenia o rodzajach odpadów i gospodarowaniu odpadami."
+      },
+      {
+        "key": "projekt",
+        "name": "Jak pracować metodą projektu krok po kroku",
+        "url": "https://photon.education/pl/praca-metoda-projektu/",
+        "note": "Przystępny opis planowania i prowadzenia pracy projektowej."
+      }
+    ],
+    "teacher_video": {
+      "title": "Młodzież promuje ekologiczne zachowania",
+      "url": "https://eog-szkoly.zory.pl/mlodziez-nakrecila-filmy-by-promowac-ekologiczne-zachowania/"
+    }
   }
 ]
