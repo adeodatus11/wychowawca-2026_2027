@@ -4,7 +4,6 @@
 
 ## Źródła merytoryczne
 
-- [MEN: podstawowe kierunki polityki oświatowej 2026/2027](https://www.gov.pl/web/edukacja/podstawowe-kierunki-realizacji-polityki-oswiatowej-panstwa-w-roku-szkolnym-20262027) - Punkt odniesienia dla całego planu wychowawczo-profilaktycznego.
 - [Zintegrowana Platforma Edukacyjna](https://zpe.gov.pl/) - Materiały edukacyjne, kursy i zasoby do wykorzystania przez nauczyciela.
 - [ZPE: Nauka z AI - cyberbezpieczne środowisko w szkole](https://zpe.gov.pl/b/nauka-z-ai---cyberbezpieczne-srodowisko-w-szkole/P99FNDS7U) - Praktyczny kontekst dla tematów o AI, danych i bezpieczeństwie cyfrowym.
 - [NASK: zjawisko dezinformacji - materiały edukacyjne](https://www.gov.pl/web/nauka/zjawisko-dezinformacji--materialy-edukacyjne-nask) - Ćwiczenia i pomoce dydaktyczne do pracy z uczniami nad fake newsami.
@@ -22,6 +21,26 @@
 - [PAH: Woda nie tylko w kranie](https://www.youtube.com/watch?v=AB0RFjndmWU) - Animacja edukacyjna pomocna przy rozmowie o wodzie i odpowiedzialności.
 - [ZSZ nr 5 we Wrocławiu](https://zsz5.edupage.org/) - Lokalne dokumenty szkoły, statut, komunikaty i informacje organizacyjne.
 - [Szkoła Mistrzów](https://www.szkolamistrzow.info/) - Informacje o ofercie kształcenia zawodowego szkoły.
+- [Polskie Centrum Programu Safer Internet: materiały edukacyjne](https://www.saferinternet.pl/menu/materialy-edukacyjne.html) - Poradniki, scenariusze, raporty i materiały multimedialne o bezpieczeństwie online.
+- [Safer Internet: poradniki i broszury o cyfrowym dobrostanie](https://www.saferinternet.pl/menu/materialy-edukacyjne/poradniki-i-broszury.html) - Praktyczne publikacje o higienie cyfrowej, śladzie cyfrowym, hejcie i dobrostanie online.
+- [Cyberprofilaktyka NASK](https://akademia.nask.pl/) - Biblioteka poradników, scenariuszy i szkoleń o bezpieczeństwie dzieci i młodzieży w internecie.
+- [NASK: kurs dla nauczycieli o dezinformacji](https://www.nask.pl/aktualnosci/w-co-wierzyc-w-internecie-nowy-kurs-dla-nauczycieli-na-ose-it-szkole) - Opis kursu pokazującego metody dezinformacji i sposoby rozmowy z uczniami o wiarygodności treści.
+- [FDDS: przemoc rówieśnicza - scenariusz dla młodzieży 13-18 lat](https://edukacja.fdds.pl/course/view.php?id=902) - Scenariusz zajęć o przemocy offline i online oraz reagowaniu z perspektywy świadka i osoby pokrzywdzonej.
+- [FDDS: #ramięwramię - scenariusze o przemocy rówieśniczej](https://edukacja.fdds.pl/course/view.php?id=683) - Materiały do rozmowy o roli świadka, granicach, zachowaniach raniących i szukaniu pomocy.
+- [Fundacja Szkoła z Klasą: biblioteka materiałów](https://www.szkolazklasa.org.pl/materialy/) - Biblioteka poradników, scenariuszy, kart pracy i pomysłów wzmacniających relacje oraz aktywność uczniów.
+- [Szkoła z Klasą: Razem w Klasie - przewodnik dla szkół](https://www.szkolazklasa.org.pl/materialy/razem-w-klasie-przewodnik-dla-szkol/) - Przewodnik o integracji, pracy z różnorodną klasą i budowaniu relacji.
+- [Szkoła z Klasą: materiały o odporności psychicznej](https://www.szkolazklasa.org.pl/obszary/szkola-z-klasa/materialy-edukacyjne/) - Materiały dla nauczycieli o dialogu, odporności psychicznej i relacjach w klasie.
+- [CEO: jak udzielać informacji zwrotnej](https://ceo.org.pl/co-warto-wiedziec-o-informacji-zwrotnej/) - Krótki artykuł o informacji zwrotnej jako komunikacie odnoszącym się do pracy, aktywności lub zachowania.
+- [CEO: metoda projektu edukacyjnego](https://alosus.ceo.org.pl/sites/alosus.ceo.org.pl/files/metoda_projektu_edukacyjnego_katarzyna_soltan-mlodozeniec.pdf) - Praktyczny poradnik o planowaniu projektu, rolach, kryteriach sukcesu i ewaluacji.
+- [ORE: materiały edukacyjne dla doradców zawodowych](https://ore.edu.pl/2023/12/materialy-edukacyjne-dla-doradcow-zawodowych/) - Publikacje, scenariusze i karty pracy dla osób prowadzących doradztwo zawodowe.
+- [ORE: zasoby do pracy z uczniami](https://doradztwo.ore.edu.pl/zasoby-pracy-uczniami-klas-7-8-szkoly-podstawowej-oraz-gimnazjum/) - Materiały metodyczne o potencjale uczniów, zdolnościach, twórczości i wyborach edukacyjnych.
+- [Uzależnienia behawioralne: portal wiedzy i artykułów](https://uzaleznieniabehawioralne.pl/) - Artykuły i materiały o zachowaniach ryzykownych, grach, hazardzie, sieci i profilaktyce.
+- [WHO: adolescent mental health](https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health) - Zwięzłe omówienie zdrowia psychicznego nastolatków, czynników ryzyka i znaczenia wsparcia.
+- [UNICEF: supporting your teen's mental health](https://www.unicef.org/parenting/health/four-things-you-can-do-support-your-teens-mental-health) - Praktyczne wskazówki dotyczące słuchania nastolatka, spokojnego konfliktu i wspierania sprawczości.
+- [UNICEF: what is stress?](https://www.unicef.org/parenting/mental-health/what-is-stress) - Materiał pomagający zrozumieć stres nastolatków i rolę dorosłych w regulacji napięcia.
+- [PAH: edukacja globalna](https://www.pah.org.pl/zaangazuj-sie/edukacjaglobalna/) - Materiały i szkolenia o edukacji globalnej, odpowiedzialności, wodzie i kryzysach humanitarnych.
+- [PAH: programy dla szkół](https://www.pah.org.pl/zaangazuj-sie/dla-szkol/) - Programy edukacyjne dla szkół, m.in. Lekcje Pomagania i Godziny Wychowawcze ze Światem.
+- [PAH: Światowy Dzień Wody - materiały](https://www.pah.org.pl/akcja-swiatowy-dzien-wody/) - Scenariusze, quizy, karty dyskusji i materiały merytoryczne o wodzie.
 
 ## Filmy i inspiracje wideo dla nauczyciela
 

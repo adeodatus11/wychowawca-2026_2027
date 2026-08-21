@@ -135,6 +135,126 @@ SOURCES = {
         "https://www.szkolamistrzow.info/",
         "Informacje o ofercie kształcenia zawodowego szkoły.",
     ),
+    "saferinternet": Source(
+        "saferinternet",
+        "Polskie Centrum Programu Safer Internet: materiały edukacyjne",
+        "https://www.saferinternet.pl/menu/materialy-edukacyjne.html",
+        "Poradniki, scenariusze, raporty i materiały multimedialne o bezpieczeństwie online.",
+    ),
+    "saferinternet_dobrostan": Source(
+        "saferinternet_dobrostan",
+        "Safer Internet: poradniki i broszury o cyfrowym dobrostanie",
+        "https://www.saferinternet.pl/menu/materialy-edukacyjne/poradniki-i-broszury.html",
+        "Praktyczne publikacje o higienie cyfrowej, śladzie cyfrowym, hejcie i dobrostanie online.",
+    ),
+    "nask_cyberprofilaktyka": Source(
+        "nask_cyberprofilaktyka",
+        "Cyberprofilaktyka NASK",
+        "https://akademia.nask.pl/",
+        "Biblioteka poradników, scenariuszy i szkoleń o bezpieczeństwie dzieci i młodzieży w internecie.",
+    ),
+    "nask_kurs_dezinformacja": Source(
+        "nask_kurs_dezinformacja",
+        "NASK: kurs dla nauczycieli o dezinformacji",
+        "https://www.nask.pl/aktualnosci/w-co-wierzyc-w-internecie-nowy-kurs-dla-nauczycieli-na-ose-it-szkole",
+        "Opis kursu pokazującego metody dezinformacji i sposoby rozmowy z uczniami o wiarygodności treści.",
+    ),
+    "fdds_przemoc_scenariusz": Source(
+        "fdds_przemoc_scenariusz",
+        "FDDS: przemoc rówieśnicza - scenariusz dla młodzieży 13-18 lat",
+        "https://edukacja.fdds.pl/course/view.php?id=902",
+        "Scenariusz zajęć o przemocy offline i online oraz reagowaniu z perspektywy świadka i osoby pokrzywdzonej.",
+    ),
+    "fdds_ramie": Source(
+        "fdds_ramie",
+        "FDDS: #ramięwramię - scenariusze o przemocy rówieśniczej",
+        "https://edukacja.fdds.pl/course/view.php?id=683",
+        "Materiały do rozmowy o roli świadka, granicach, zachowaniach raniących i szukaniu pomocy.",
+    ),
+    "szkola_z_klasa_materialy": Source(
+        "szkola_z_klasa_materialy",
+        "Fundacja Szkoła z Klasą: biblioteka materiałów",
+        "https://www.szkolazklasa.org.pl/materialy/",
+        "Biblioteka poradników, scenariuszy, kart pracy i pomysłów wzmacniających relacje oraz aktywność uczniów.",
+    ),
+    "szkola_z_klasa_razem": Source(
+        "szkola_z_klasa_razem",
+        "Szkoła z Klasą: Razem w Klasie - przewodnik dla szkół",
+        "https://www.szkolazklasa.org.pl/materialy/razem-w-klasie-przewodnik-dla-szkol/",
+        "Przewodnik o integracji, pracy z różnorodną klasą i budowaniu relacji.",
+    ),
+    "szkola_z_klasa_odpornosc": Source(
+        "szkola_z_klasa_odpornosc",
+        "Szkoła z Klasą: materiały o odporności psychicznej",
+        "https://www.szkolazklasa.org.pl/obszary/szkola-z-klasa/materialy-edukacyjne/",
+        "Materiały dla nauczycieli o dialogu, odporności psychicznej i relacjach w klasie.",
+    ),
+    "ceo_feedback_blog": Source(
+        "ceo_feedback_blog",
+        "CEO: jak udzielać informacji zwrotnej",
+        "https://ceo.org.pl/co-warto-wiedziec-o-informacji-zwrotnej/",
+        "Krótki artykuł o informacji zwrotnej jako komunikacie odnoszącym się do pracy, aktywności lub zachowania.",
+    ),
+    "ceo_project_pdf": Source(
+        "ceo_project_pdf",
+        "CEO: metoda projektu edukacyjnego",
+        "https://alosus.ceo.org.pl/sites/alosus.ceo.org.pl/files/metoda_projektu_edukacyjnego_katarzyna_soltan-mlodozeniec.pdf",
+        "Praktyczny poradnik o planowaniu projektu, rolach, kryteriach sukcesu i ewaluacji.",
+    ),
+    "ore_doradcy_2023": Source(
+        "ore_doradcy_2023",
+        "ORE: materiały edukacyjne dla doradców zawodowych",
+        "https://ore.edu.pl/2023/12/materialy-edukacyjne-dla-doradcow-zawodowych/",
+        "Publikacje, scenariusze i karty pracy dla osób prowadzących doradztwo zawodowe.",
+    ),
+    "ore_zasoby": Source(
+        "ore_zasoby",
+        "ORE: zasoby do pracy z uczniami",
+        "https://doradztwo.ore.edu.pl/zasoby-pracy-uczniami-klas-7-8-szkoly-podstawowej-oraz-gimnazjum/",
+        "Materiały metodyczne o potencjale uczniów, zdolnościach, twórczości i wyborach edukacyjnych.",
+    ),
+    "uzaleznienia": Source(
+        "uzaleznienia",
+        "Uzależnienia behawioralne: portal wiedzy i artykułów",
+        "https://uzaleznieniabehawioralne.pl/",
+        "Artykuły i materiały o zachowaniach ryzykownych, grach, hazardzie, sieci i profilaktyce.",
+    ),
+    "who_mental": Source(
+        "who_mental",
+        "WHO: adolescent mental health",
+        "https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health",
+        "Zwięzłe omówienie zdrowia psychicznego nastolatków, czynników ryzyka i znaczenia wsparcia.",
+    ),
+    "unicef_teen": Source(
+        "unicef_teen",
+        "UNICEF: supporting your teen's mental health",
+        "https://www.unicef.org/parenting/health/four-things-you-can-do-support-your-teens-mental-health",
+        "Praktyczne wskazówki dotyczące słuchania nastolatka, spokojnego konfliktu i wspierania sprawczości.",
+    ),
+    "unicef_stress": Source(
+        "unicef_stress",
+        "UNICEF: what is stress?",
+        "https://www.unicef.org/parenting/mental-health/what-is-stress",
+        "Materiał pomagający zrozumieć stres nastolatków i rolę dorosłych w regulacji napięcia.",
+    ),
+    "pah_edukacja": Source(
+        "pah_edukacja",
+        "PAH: edukacja globalna",
+        "https://www.pah.org.pl/zaangazuj-sie/edukacjaglobalna/",
+        "Materiały i szkolenia o edukacji globalnej, odpowiedzialności, wodzie i kryzysach humanitarnych.",
+    ),
+    "pah_dla_szkol": Source(
+        "pah_dla_szkol",
+        "PAH: programy dla szkół",
+        "https://www.pah.org.pl/zaangazuj-sie/dla-szkol/",
+        "Programy edukacyjne dla szkół, m.in. Lekcje Pomagania i Godziny Wychowawcze ze Światem.",
+    ),
+    "pah_woda_materialy": Source(
+        "pah_woda_materialy",
+        "PAH: Światowy Dzień Wody - materiały",
+        "https://www.pah.org.pl/akcja-swiatowy-dzien-wody/",
+        "Scenariusze, quizy, karty dyskusji i materiały merytoryczne o wodzie.",
+    ),
 }
 
 
@@ -672,6 +792,131 @@ SHORT_TITLES = [
 ]
 
 
+GOAL_CONTEXT = {
+    1: "Ten obszar dotyczy klasy jako środowiska codziennego funkcjonowania, a nie tylko formalnej grupy uczniów. Dla wychowawcy ważne jest uchwycenie, czy uczniowie czują się w klasie widziani, czy potrafią prosić o pomoc i czy mają wspólne, zrozumiałe zasady współpracy.",
+    2: "Odpowiedzialność społeczna warto pokazywać przez konkretne zachowania: reagowanie, troskę o wspólną przestrzeń, szacunek do ludzi i gotowość do małego działania. Uczniowie szybciej rozumieją ten cel, gdy widzą związek między postawą obywatelską a zwykłym dniem w szkole.",
+    3: "Edukacja zdrowotna nie powinna brzmieć jak lista zakazów. Jej sens polega na tym, żeby uczeń rozumiał wpływ codziennych decyzji na sen, koncentrację, emocje, relacje i bezpieczeństwo oraz umiał wybrać jeden realny krok, który może wykonać bez poczucia zawstydzenia.",
+    4: "Bezpieczeństwo cyfrowe wymaga języka bliskiego doświadczeniu uczniów. Wychowawca nie musi znać każdej aplikacji, ale powinien pomóc klasie zobaczyć mechanizmy: ślad cyfrowy, presję reakcji, manipulację, prywatność, odpowiedzialność za publikowanie i granice korzystania z narzędzi AI.",
+    5: "Wsparcie ucznia zaczyna się od obniżenia progu proszenia o pomoc. Lekcje z tego obszaru mają pokazać, że trudność można nazwać prosto, bez publicznego zwierzania się, oraz że szkoła ma konkretne osoby i procedury, które pomagają działać bez chaosu.",
+    6: "Profilaktyka kryzysów wymaga spokoju i precyzji. Wychowawca powinien oddzielać konflikt od przemocy, trudny nastrój od kryzysu, korzystanie od utraty kontroli oraz reakcję pomocową od karania. Najważniejsze jest uczenie uczniów, kiedy nie wolno zostać samemu z problemem.",
+    7: "Doradztwo zawodowe ma sens wtedy, gdy łączy samoocenę ucznia z realnym światem pracy. Nie chodzi o szybkie wskazanie jednego zawodu, ale o uczenie zbierania informacji, nazywania swoich zasobów, rozumienia oczekiwań pracodawcy i wykorzystywania praktyk jako doświadczenia.",
+    8: "Uczenie się i projekt warto prowadzić przez pytania, próbowanie i poprawianie. Ten obszar pomaga uczniom widzieć wiedzę jako narzędzie działania: szukają informacji, sprawdzają źródła, planują zadania, korzystają z informacji zwrotnej i łączą różne dziedziny.",
+    9: "Edukacja ekologiczna powinna zejść z poziomu ogólnych haseł do poziomu decyzji, procedur i małych wdrożeń. Uczniowie potrzebują zobaczyć, że odpowiedzialność środowiskowa w szkole oznacza konkret: mniej strat, lepszą segregację, oszczędzanie zasobów i sprawdzanie efektu.",
+}
+
+
+LESSON_FOCUS = [
+    "W tej lekcji kluczowe jest stworzenie klasy, w której uczniowie mogą wejść w rozmowę bez presji odsłaniania prywatnych spraw. Wychowawca powinien obserwować, kto łatwo zabiera głos, kto zostaje na marginesie i jakie zachowania klasa sama uznaje za wspierające lub utrudniające współpracę.",
+    "Komunikację warto pokazać jako umiejętność, której można się nauczyć, a nie jako cechę charakteru. Najważniejsze jest przesunięcie rozmowy z etykietowania osoby na opis faktu, skutku, potrzeby i prośby.",
+    "Rozwiązywanie trudności w klasie nie powinno zaczynać się od szukania winnego. Wychowawca pomaga klasie nazwać fakty, ustalić realny wpływ problemu na codzienność i wybrać jeden mały krok, który można sprawdzić po określonym czasie.",
+    "Odpowiedzialność za społeczność szkolną warto odczarować jako coś większego niż dyżury i regulaminy. Chodzi o zauważanie skutków własnych zachowań dla innych: hałasu, spóźnień, obojętności, komentarzy, dbania o przestrzeń i reagowania, gdy komuś dzieje się krzywda.",
+    "Bezpieczeństwo swoje i innych wymaga szybkiego rozpoznawania sytuacji, których uczeń nie powinien rozwiązywać sam. Lekcja ma wzmocnić prosty odruch: zatrzymaj ryzykowne zachowanie, nie nagrywaj, wezwij dorosłego, pomóż bez dokładania chaosu.",
+    "Patriotyzm współczesny dobrze wybrzmiewa wtedy, gdy nie zostaje zamknięty w akademiach i symbolach. Warto pokazać go jako odpowiedzialność za język, pracę, uczciwość, lokalną wspólnotę i sposób traktowania ludzi, z którymi się nie zgadzamy.",
+    "Wolontariat nie jest tylko spontanicznym pomaganiem. Nauczyciel powinien pokazać, że dobre działanie społeczne ma odbiorcę, cel, granice, opiekuna i sprawdzalny efekt, a pomaganie bez słuchania potrzeb może być nieskuteczne.",
+    "Rozmowa o śnie, ruchu i odżywianiu łatwo może wejść w ocenianie wyglądu lub stylu życia. Trzeba trzymać ją przy funkcjonowaniu: energii, koncentracji, nastroju, regeneracji i jednym nawyku, który uczeń może realnie zmienić.",
+    "Pierwsza pomoc na lekcji wychowawczej ma zbudować gotowość do reakcji, nie zastępować szkolenia ratowniczego. Uczeń powinien wiedzieć, że najważniejsze są bezpieczeństwo miejsca, wezwanie pomocy i nierobienie rzeczy, które pogarszają sytuację.",
+    "Stres warto omawiać bez straszenia i bez banalizowania. Uczniowie potrzebują zrozumieć różnicę między mobilizacją a przeciążeniem oraz rozpoznać sygnały, przy których odpoczynek, rozmowa i pomoc dorosłego są konieczne.",
+    "Decyzje prozdrowotne są dobrym tematem do uczenia przewidywania skutków. Wychowawca prowadzi uczniów od pytania „co chcę teraz?” do pytania „co mi to zrobi za tydzień, miesiąc, rok i kto może mi pomóc wybrać rozsądniej?”.",
+    "Dane w sieci trzeba pokazać konkretnie: zdjęcie, lokalizacja, plan dnia, dokument, hasło, informacja o rodzinie. Uczeń powinien zobaczyć, że prywatność nie jest abstrakcyjnym przepisem, tylko ochroną realnych osób i relacji.",
+    "AI najlepiej omawiać jako narzędzie, które może pomagać, ale wymaga kontroli użytkownika. Najważniejsze jest rozróżnienie: można użyć do pomysłu, treningu i porządkowania myśli, ale nie wolno oddawać odpowiedzialności ani danych innych osób.",
+    "Fake news i manipulacja działają często przez emocje, pośpiech i pozór autorytetu. Wychowawca powinien pomóc uczniom zatrzymać automatyczne udostępnianie i przećwiczyć proste pytania: kto mówi, skąd to wie, kiedy to powstało, kto jeszcze to potwierdza.",
+    "Równowaga cyfrowa nie oznacza moralizowania o telefonach. Chodzi o zauważenie, kiedy ekran zaczyna wypierać sen, ruch, rozmowę, koncentrację i odpoczynek, oraz o zaplanowanie małego, wykonalnego eksperymentu offline.",
+    "Mówienie o potrzebach warto ćwiczyć w bezpiecznych, fikcyjnych sytuacjach. Uczeń nie ma obowiązku ujawniać prywatnej historii, ale powinien poznać prosty schemat komunikatu, który można wykorzystać w rozmowie z dorosłym.",
+    "Mapa pomocy w szkole powinna być maksymalnie konkretna. Uczniowie mają wiedzieć, do kogo iść z problemem edukacyjnym, emocjonalnym, zdrowotnym, przemocowym lub organizacyjnym oraz kiedy sprawa wymaga natychmiastowej reakcji.",
+    "Współpraca ucznia, rodzica i szkoły często zaczyna się dopiero w kryzysie. Ta lekcja ma pokazać, że wcześniejsza rozmowa oparta na faktach i planie zmniejsza napięcie, porządkuje odpowiedzialność i daje uczniowi większe poczucie wpływu.",
+    "Mocne strony trzeba odróżnić od pochwał ogólnych. Uczeń powinien nauczyć się podawać dowód: sytuację, zachowanie, efekt. Równie ważne jest nazwanie obszaru wsparcia bez robienia z niego etykiety.",
+    "Przemoc rówieśnicza wymaga jasnych granic językowych. Wychowawca powinien pokazać różnicę między konfliktem a przemocą oraz szczególnie mocno omówić rolę świadka, bo to świadkowie często wzmacniają albo zatrzymują krzywdzenie.",
+    "Uzależnienia behawioralne warto omawiać przez utratę kontroli i koszty, a nie przez demonizowanie gier czy telefonu. Uczniowie powinni rozpoznawać sygnały: zaniedbywanie snu, szkoły, relacji, ukrywanie zachowania i kontynuowanie mimo szkód.",
+    "Zdrowie psychiczne trzeba przedstawić jako część zdrowia, a nie temat wstydliwy. Najważniejsze jest pokazanie, że kryzys nie musi być rozwiązywany na forum klasy, ale nie wolno zostawać z nim samemu, gdy pojawia się zagrożenie.",
+    "Konflikt bez agresji wymaga zatrzymania eskalacji i powrotu do faktów. Nauczyciel pomaga uczniom zobaczyć, że celem rozmowy nie jest publiczne zwycięstwo, tylko ograniczenie szkody i ustalenie następnego kroku.",
+    "Mocne strony w kontekście zawodu powinny być połączone z przykładami działania. Uczeń ma zobaczyć, że punktualność, dokładność, komunikacja, ciekawość techniczna czy odporność na stres mają znaczenie dopiero wtedy, gdy widać je w praktyce.",
+    "Kompetencje pracownicze warto omawiać przez konkretne sytuacje z praktyk i pracy, nie przez listę cech. Pracodawca ocenia nie tylko wiedzę zawodową, lecz także komunikację, odpowiedzialność, uczenie się na błędach i stosunek do zespołu.",
+    "Praktyki zawodowe są pierwszym miejscem budowania reputacji zawodowej. Uczeń powinien rozumieć, że pytania, punktualność, dokumentowanie zadań i kultura komunikacji mogą później zamienić się w referencje lub realną ofertę pracy.",
+    "Decyzje dotyczące kariery rzadko są jednorazowe. Warto uczyć uczniów porównywania opcji, zbierania informacji, rozmowy z praktykami i przyjmowania, że pierwsza decyzja może być krokiem, a nie wyrokiem na całe życie.",
+    "Samodzielne szukanie odpowiedzi to nie tylko użycie wyszukiwarki. Uczeń powinien nauczyć się formułować pytanie, rozpoznawać dobre źródło, notować wnioski i sprawdzać, czy odpowiedź rzeczywiście pasuje do problemu.",
+    "Dobry projekt zaczyna się od celu i odbiorcy. Wychowawca powinien pilnować, żeby uczniowie nie zostali na poziomie hasła, lecz określili role, termin, zasoby, kryterium sukcesu i sposób sprawdzenia efektu.",
+    "Informacja zwrotna ma rozwijać, a nie tylko oceniać. Uczniowie powinni zobaczyć różnicę między komentarzem, który rani albo zamyka, a informacją, która wskazuje mocną stronę, konkretną poprawkę i następny krok.",
+    "Łączenie wiedzy z różnych dziedzin warto pokazać przez realny problem, np. zadanie zawodowe, projekt ekologiczny albo analizę informacji. Uczniowie mają zobaczyć, że matematyka, język, technologia i kompetencje społeczne pracują razem.",
+    "Oszczędzanie energii i wody powinno zejść do poziomu zachowań w klasie, warsztacie, domu i internacie. Najlepiej działa pytanie: gdzie tracimy zasób, kto ma wpływ i jak sprawdzimy, czy coś się zmieniło.",
+    "Codzienne decyzje środowiskowe warto omawiać bez przerzucania na uczniów odpowiedzialności za cały kryzys klimatyczny. Chodzi o rozumienie wpływu i wybór alternatywy możliwej do wykonania w ich realnym życiu.",
+    "Segregacja odpadów jest praktyką, która wymaga znajomości lokalnych zasad i konsekwencji błędów. Uczniowie powinni zrozumieć, że recykling zaczyna się od ograniczenia odpadów, a dopiero potem od właściwego pojemnika.",
+    "Szkoła odpowiedzialna za środowisko to nie deklaracja w gablocie, tylko mały projekt z opiekunem, terminem i miernikiem efektu. Wychowawca pomaga klasie wybrać działanie, które da się wdrożyć, sprawdzić i utrzymać.",
+]
+
+
+VIDEO_NOTES = [
+    "Materiał pomaga wejść w temat relacji i pokazuje, że klasa potrzebuje świadomie budowanych zasad, nie tylko formalnego bycia razem. Warto obejrzeć go pod kątem jednego przykładu do rozmowy o atmosferze w grupie.",
+    "Film jest dobrym punktem wyjścia do rozmowy o języku, który otwiera albo zamyka kontakt. Nauczyciel może zwrócić uwagę na przykłady komunikatów, które łatwo przełożyć na sytuacje klasowe.",
+    "Materiał porządkuje myślenie o konflikcie i pomaga nie mylić trudności grupowej z szukaniem winnego. Przyda się do przygotowania pytań o fakty, emocje i możliwe kroki naprawcze.",
+    "Film można potraktować jako inspirację do rozmowy o tym, po co ludziom wspólnota i zasady współżycia. Warto wyłapać przykłady zachowań, które budują odpowiedzialność w codziennych sytuacjach.",
+    "Materiał o pierwszej pomocy pokazuje prosty schemat reakcji w sytuacji zagrożenia. Dobrze obejrzeć go przed lekcją, żeby mówić uczniom krótko: zabezpiecz, sprawdź, wezwij pomoc.",
+    "Film pomaga odsunąć temat patriotyzmu od samej symboliki i rozpocząć rozmowę o postawie obywatelskiej. Warto wykorzystać go jako pretekst do pytania, jak wygląda odpowiedzialność za wspólnotę dziś.",
+    "Materiał pokazuje pomaganie jako działanie wymagające sensu, granic i szacunku. Nauczyciel może poszukać w nim przykładów do odróżnienia realnej pomocy od działania wyłącznie na pokaz.",
+    "Film wspiera rozmowę o higienie snu i wpływie ekranów na regenerację. Przyda się zwłaszcza do pokazania, że zdrowie zaczyna się od małych codziennych wyborów.",
+    "Materiał wzmacnia najważniejszy komunikat: uczeń nie musi być ratownikiem, żeby rozpocząć właściwe działanie. Warto obejrzeć go pod kątem spokojnego języka instrukcji.",
+    "Film pomaga pokazać stres jako reakcję organizmu, która może mobilizować albo przeciążać. Nauczyciel może wykorzystać go do rozmowy o sygnałach ostrzegawczych i regeneracji.",
+    "Strona ZPE prowadzi do materiałów o edukacji zdrowotnej. Warto przejrzeć ją, żeby dobrać przykład decyzji zdrowotnej bliski klasie, bez moralizowania i zawstydzania.",
+    "Film może posłużyć jako wprowadzenie do rozmowy o podstawowych zasadach cyberbezpieczeństwa. Najważniejsze jest wyłapanie prostych zachowań chroniących dane i prywatność.",
+    "Materiał pomaga zrozumieć, że AI jest narzędziem wymagającym kontroli, źródeł i odpowiedzialności. Warto obejrzeć go pod kątem przykładów, kiedy AI pomaga, a kiedy może zaszkodzić.",
+    "To inspiracja dla nauczyciela do rozmowy o dezinformacji i mechanizmach manipulacji. Warto szukać przykładów pytań, które uczniowie mogą zadać przed udostępnieniem treści.",
+    "Film o higienie cyfrowej pomaga przenieść rozmowę z zakazów na równowagę i samoregulację. Dobry do przygotowania krótkiego eksperymentu offline dla uczniów.",
+    "Materiał o porozumieniu bez przemocy pomaga zobaczyć, jak mówić o potrzebach bez ataku i oskarżeń. Nauczyciel może przełożyć go na prosty schemat komunikatu ucznia do dorosłego.",
+    "Film można potraktować jako inspirację do myślenia o relacji uczeń-dorosły. Warto wyłapać przykłady zachowań nauczyciela, które obniżają próg proszenia o pomoc.",
+    "Materiał pomaga przygotować rozmowę o tym, że rodzic i szkoła nie są przeciwnymi stronami. Warto wykorzystać go do nazwania roli faktów, planu i spokojnego kontaktu.",
+    "Film z cyklu doradczego pomaga uczniom myśleć o sobie przez pytania i obserwację, a nie przez etykiety. Nauczyciel może wykorzystać go do rozmowy o mocnych stronach i wsparciu.",
+    "Materiał o przemocy online i offline pomaga rozdzielić konflikt, żart i krzywdzenie. Warto obejrzeć go szczególnie pod kątem roli świadka i reakcji dorosłych.",
+    "Film o higienie cyfrowej i e-uzależnieniach porządkuje temat utraty kontroli. Nauczyciel może wyłapać sygnały ryzyka, które uczniowie łatwo rozpoznają w codzienności.",
+    "Materiał pomaga przygotować spokojny język rozmowy z nastolatkiem w trudnościach. Warto obejrzeć go pod kątem tego, jak słuchać bez natychmiastowego oceniania.",
+    "Film o konflikcie w grupie pozwala zobaczyć, że nie każda trudność wymaga eskalacji. Nauczyciel może z niego wziąć przykłady pytań, które zatrzymują agresję.",
+    "Film z cyklu ORE pomaga mówić o mocnych stronach jako o zasobach zawodowych. Warto obejrzeć go przed lekcją, żeby przygotować pytania o dowody i przykłady działań.",
+    "Playlista o kompetencjach miękkich pokazuje, czego pracodawcy oczekują poza wiedzą techniczną. Nauczyciel może wybrać jeden fragment do przygotowania rozmowy o praktykach.",
+    "Film z cyklu ORE o pierwszych doświadczeniach zawodowych pomaga pokazać praktyki jako element budowania reputacji. Warto wykorzystać go do rozmowy o postawie w miejscu pracy.",
+    "Materiał ORE może pomóc nauczycielowi rozmawiać o decyzjach bez presji idealnego wyboru. Przygotowuje do pytań o opcje, informacje i pierwszy możliwy krok.",
+    "ZPE jest tu inspiracją do pokazania uczniom, że dobre źródło ma autora, kontekst i cel. Warto przed lekcją wybrać jeden przykład materiału do wspólnej oceny wiarygodności.",
+    "Webinary o metodzie projektu pomagają nauczycielowi uporządkować przejście od pomysłu do działania. Warto zwrócić uwagę na role, harmonogram i kryteria sukcesu.",
+    "Materiały CEO pokazują informację zwrotną jako narzędzie rozwoju, a nie oceniania osoby. Nauczyciel może przygotować jeden model zdania: mocna strona, wskazówka, następny krok.",
+    "Artykuł o metodzie projektu pomaga zobaczyć uczenie się jako łączenie dziedzin i działanie. Warto użyć go do przygotowania przykładu zadania, które wymaga kilku typów wiedzy.",
+    "Animacja PAH o wodzie dobrze wspiera rozmowę o zasobach, których nie widać w codziennym pośpiechu. Nauczyciel może wykorzystać ją do pytań o straty w domu i szkole.",
+    "Film o ekologii w codzienności pozwala przejść od ogólnych haseł do zwykłych decyzji. Warto obejrzeć go pod kątem przykładów, które uczniowie mogą odnieść do jednego dnia.",
+    "Materiał ZPE o odpadach porządkuje podstawowe pojęcia i pokazuje praktyczny sens segregacji. Przyda się do przygotowania krótkiego ćwiczenia z typowymi błędami.",
+    "Materiał o działaniach młodzieży pokazuje, że ekologia może być projektem uczniowskim, a nie tylko tematem rozmowy. Warto poszukać w nim inspiracji do małego działania klasowego.",
+]
+
+
+AREA_SOURCE_KEYS = {
+    "Integracja klasy": ["szkola_z_klasa_razem", "szkola_z_klasa_materialy", "szkola_z_klasa_odpornosc"],
+    "Odpowiedzialność społeczna": ["pah_dla_szkol", "pah_edukacja", "szkola_z_klasa_materialy"],
+    "Edukacja zdrowotna": ["zpe_zdrowie", "szkola_z_klasa_odpornosc", "unicef_stress"],
+    "Bezpieczeństwo cyfrowe": ["saferinternet", "saferinternet_dobrostan", "nask_cyberprofilaktyka"],
+    "Wsparcie ucznia": ["szkola_z_klasa_odpornosc", "unicef_teen", "zsz5"],
+    "Profilaktyka kryzysów": ["fdds_przemoc_scenariusz", "fdds_ramie", "who_mental"],
+    "Doradztwo zawodowe": ["ore_doradztwo", "ore_doradcy_2023", "ore_zasoby", "szkola_mistrzow"],
+    "Uczenie się i projekt": ["ceo_project_pdf", "ceo_feedback_blog", "zpe"],
+    "Edukacja ekologiczna": ["pah_edukacja", "pah_dla_szkol", "pah_woda_materialy", "zpe_odpady"],
+}
+
+
+MONTH_ORDER = ["Wrzesień", "Październik", "Listopad", "Luty", "Marzec", "Kwiecień", "Maj"]
+
+
+LESSON_EXTRA_SOURCE_KEYS = {
+    3: ["fdds_przemoc_scenariusz"],
+    5: ["zpe_pierwsza_pomoc", "wosp"],
+    9: ["zpe_pierwsza_pomoc", "wosp"],
+    12: ["uodo", "nask_cyberprofilaktyka"],
+    13: ["zpe_ai", "uodo"],
+    14: ["nask_kurs_dezinformacja", "nask_dezinformacja"],
+    15: ["saferinternet_dobrostan", "uzaleznienia"],
+    20: ["men_przemoc", "fdds_przemoc_scenariusz", "fdds_ramie"],
+    21: ["uzaleznienia", "saferinternet_dobrostan"],
+    22: ["who_mental", "unicef_teen", "szkola_z_klasa_odpornosc"],
+    23: ["fdds_przemoc_scenariusz", "szkola_z_klasa_odpornosc"],
+    29: ["ceo_project_pdf"],
+    30: ["ceo_feedback", "ceo_feedback_blog"],
+    32: ["pah_woda", "pah_woda_materialy"],
+}
+
+
 def clean_inline_markdown(value: str) -> str:
     return re.sub(r"`([^`]+)`", r"„\1”", value)
 
@@ -699,6 +944,49 @@ def prep_items(lesson: dict) -> list[str]:
         "Przygotuj tablicę, kartki samoprzylepne albo prostą kartę pracy; nie zbieraj prywatnych historii uczniów na forum klasy.",
         f"Zdecyduj, jak odnotujesz efekt: {lesson['evidence']}",
     ]
+
+
+def unique_keys(keys: list[str]) -> list[str]:
+    seen = set()
+    result = []
+    for key in keys:
+        if key in seen:
+            continue
+        seen.add(key)
+        result.append(key)
+    return result
+
+
+def source_keys_for_lesson(idx: int, item: dict) -> list[str]:
+    base = [key for key in item["sources"] if key != "men_2026"]
+    area = AREA_SOURCE_KEYS.get(item["area"], [])
+    extra = LESSON_EXTRA_SOURCE_KEYS.get(idx, [])
+    return unique_keys([*base, *area, *extra])[:6]
+
+
+def teacher_context_html(lesson: dict) -> str:
+    lesson_idx = int(lesson["id"]) - 1
+    paragraphs = [
+        GOAL_CONTEXT[lesson["goal"]],
+        LESSON_FOCUS[lesson_idx],
+        lesson["flow"],
+    ]
+    return "".join(paragraph(text) for text in paragraphs)
+
+
+def source_links_html(sources: list[dict]) -> str:
+    return "".join(
+        f'<li><a href="{esc(source["url"])}">{esc(source["name"])}</a><span>{esc(source["note"])}</span></li>'
+        for source in sources
+    )
+
+
+def lesson_count_label(count: int) -> str:
+    if count == 1:
+        return "1 lekcja"
+    if 2 <= count % 10 <= 4 and not 12 <= count % 100 <= 14:
+        return f"{count} lekcje"
+    return f"{count} lekcji"
 
 
 def schedule_html(lesson: dict) -> str:
@@ -764,6 +1052,7 @@ def build_lessons() -> list[dict]:
         if not fields:
             raise RuntimeError(f"Missing analysis section for: {title}")
         slug = f"{idx:02d}"
+        source_keys = source_keys_for_lesson(idx, item)
         lessons.append(
             {
                 "id": f"{idx:02d}",
@@ -783,9 +1072,9 @@ def build_lessons() -> list[dict]:
                 "evidence": fields["Dowód realizacji"],
                 "safety": fields["Uwaga"],
                 "must_be_said": item["must"],
-                "source_keys": item["sources"],
-                "sources": [SOURCES[key].__dict__ for key in item["sources"]],
-                "teacher_video": {"title": item["video"][0], "url": item["video"][1]},
+                "source_keys": source_keys,
+                "sources": [SOURCES[key].__dict__ for key in source_keys],
+                "teacher_video": {"title": item["video"][0], "url": item["video"][1], "note": VIDEO_NOTES[idx - 1]},
             }
         )
     return lessons
@@ -809,10 +1098,7 @@ def page_shell(title: str, body: str, rel_prefix: str = "") -> str:
 
 
 def render_lesson(lesson: dict, prev_lesson: dict | None, next_lesson: dict | None) -> str:
-    source_links = "".join(
-        f'<li><a href="{esc(source["url"])}">{esc(source["name"])}</a><span>{esc(source["note"])}</span></li>'
-        for source in lesson["sources"]
-    )
+    source_links = source_links_html(lesson["sources"])
     nav_prev = f'<a class="nav-link" href="{esc(prev_lesson["slug"])}.html">Poprzednia lekcja</a>' if prev_lesson else ""
     nav_next = f'<a class="nav-link" href="{esc(next_lesson["slug"])}.html">Następna lekcja</a>' if next_lesson else ""
     body = f"""
@@ -834,8 +1120,13 @@ def render_lesson(lesson: dict, prev_lesson: dict | None, next_lesson: dict | No
         <span>{esc(lesson["evidence"])}</span>
       </div>
       <div class="aside-card video-card">
-        <strong>Film lub inspiracja wideo</strong>
-        <a href="{esc(lesson["teacher_video"]["url"])}">{esc(lesson["teacher_video"]["title"])}</a>
+        <strong>Film dla nauczyciela</strong>
+        <span>{esc(lesson["teacher_video"]["note"])}</span>
+        <a class="resource-link" href="{esc(lesson["teacher_video"]["url"])}">Otwórz: {esc(lesson["teacher_video"]["title"])}</a>
+      </div>
+      <div class="aside-card resource-card">
+        <strong>Do pogłębienia tematu</strong>
+        <ul class="compact-source-list">{source_links}</ul>
       </div>
     </aside>
     <article class="lesson-content">
@@ -860,8 +1151,8 @@ def render_lesson(lesson: dict, prev_lesson: dict | None, next_lesson: dict | No
         {schedule_html(lesson)}
       </section>
       <section>
-        <h2>Szczegółowy opis pracy</h2>
-        {paragraph(lesson["flow"])}
+        <h2>Szczegółowy opis dla nauczyciela</h2>
+        {teacher_context_html(lesson)}
       </section>
       <section>
         <h2>Ćwiczenie główne</h2>
@@ -870,10 +1161,6 @@ def render_lesson(lesson: dict, prev_lesson: dict | None, next_lesson: dict | No
       <section>
         <h2>Uwaga dla wychowawcy</h2>
         {paragraph(lesson["safety"])}
-      </section>
-      <section>
-        <h2>Materiały rozszerzające</h2>
-        <ul class="source-list">{source_links}</ul>
       </section>
       <nav class="lesson-nav">
         {nav_prev}
@@ -887,12 +1174,13 @@ def render_lesson(lesson: dict, prev_lesson: dict | None, next_lesson: dict | No
 
 
 def render_index(lessons: list[dict], sources_href: str = "../zrodla.md") -> str:
-    goal_sections = []
-    for goal in range(1, 10):
-        group = [lesson for lesson in lessons if lesson["goal"] == goal]
+    month_sections = []
+    for month in MONTH_ORDER:
+        group = [lesson for lesson in lessons if lesson["month"] == month]
         if not group:
             continue
         areas = sorted({lesson["area"] for lesson in group})
+        goals = ", ".join(f"Cel {goal}" for goal in sorted({lesson["goal"] for lesson in group}))
         cards = []
         for lesson in group:
             cards.append(
@@ -900,7 +1188,7 @@ def render_index(lessons: list[dict], sources_href: str = "../zrodla.md") -> str
           <a class="lesson-card" href="{esc(lesson["url"])}" data-goal="{lesson["goal"]}" data-month="{esc(lesson["month"])}" data-area="{esc(lesson["area"])}">
             <span class="card-top">
               <span class="lesson-id">{lesson["id"]}</span>
-              <span class="lesson-meta">{esc(lesson["month"])} · {esc(lesson["area"])}</span>
+              <span class="lesson-meta">Cel {lesson["goal"]} · {esc(lesson["area"])}</span>
             </span>
             <strong>{esc(lesson["display_title"])}</strong>
             <span class="full-topic">Temat z planu: {esc(lesson["title"])}</span>
@@ -908,15 +1196,16 @@ def render_index(lessons: list[dict], sources_href: str = "../zrodla.md") -> str
             <span class="open-label">Otwórz lekcję</span>
           </a>"""
             )
-        goal_sections.append(
+        month_sections.append(
             f"""
-      <section class="goal-section" data-goal-section="{goal}">
-        <div class="goal-heading">
+      <section class="month-section" data-month-section="{esc(month)}">
+        <div class="month-heading">
           <div>
-            <span class="goal-kicker">Cel {goal}</span>
-            <h2>{esc(" / ".join(areas))}</h2>
+            <span class="month-kicker">{esc(goals)}</span>
+            <h2>{esc(month)}</h2>
+            <p>{esc(" / ".join(areas))}</p>
           </div>
-          <span>{len(group)} lekcje</span>
+          <span>{esc(lesson_count_label(len(group)))}</span>
         </div>
         <div class="lesson-grid">
           {''.join(cards)}
@@ -927,7 +1216,7 @@ def render_index(lessons: list[dict], sources_href: str = "../zrodla.md") -> str
   <header class="site-header">
     <p class="kicker">ZSZ5 · materiały dla wychowawcy</p>
     <h1>Plan pracy wychowawczo-profilaktycznej 2026/2027</h1>
-    <p class="subtitle">35 tematów z najnowszego pliku DOCX opracowanych jako osobne strony WWW. Każda lekcja zawiera cel, przewidywane rezultaty, przebieg, ćwiczenie, komunikaty, które muszą wybrzmieć, źródła i film albo inspirację wideo dla nauczyciela.</p>
+    <p class="subtitle">35 tematów z najnowszego pliku DOCX opracowanych jako osobne strony WWW i ułożonych miesiącami. Każda lekcja zawiera cel, przewidywane rezultaty, przebieg, ćwiczenie, komunikaty, które muszą wybrzmieć, źródła i film albo inspirację wideo dla nauczyciela.</p>
     <div class="metrics" aria-label="Podsumowanie">
       <div><strong>35</strong><span>lekcji</span></div>
       <div><strong>9</strong><span>celów</span></div>
@@ -947,9 +1236,9 @@ def render_index(lessons: list[dict], sources_href: str = "../zrodla.md") -> str
       <p id="count" class="count">35 lekcji</p>
     </section>
     <section>
-      <h2>Lista lekcji według celów</h2>
-      <div id="lessonGrid" class="goal-list">
-        {''.join(goal_sections)}
+      <h2>Lista lekcji według miesięcy</h2>
+      <div id="lessonGrid" class="month-list">
+        {''.join(month_sections)}
       </div>
     </section>
     <section class="note">
@@ -1072,15 +1361,15 @@ input, select {
   padding: 6px 10px;
   font-weight: 800;
 }
-.goal-list {
+.month-list {
   display: grid;
   gap: 20px;
 }
-.goal-section {
+.month-section {
   display: grid;
   gap: 12px;
 }
-.goal-heading {
+.month-heading {
   display: flex;
   align-items: end;
   justify-content: space-between;
@@ -1088,14 +1377,19 @@ input, select {
   padding-bottom: 8px;
   border-bottom: 1px solid var(--line);
 }
-.goal-heading h2 { margin: 3px 0 0; }
-.goal-heading > span {
+.month-heading h2 { margin: 3px 0 0; }
+.month-heading p {
+  margin: 4px 0 0;
+  color: var(--muted);
+  font-size: .92rem;
+}
+.month-heading > span {
   flex: 0 0 auto;
   color: var(--muted);
   font-size: .9rem;
   font-weight: 800;
 }
-.goal-kicker {
+.month-kicker {
   color: var(--accent);
   font-size: .78rem;
   font-weight: 900;
@@ -1197,6 +1491,30 @@ input, select {
 .aside-card { padding: 14px; }
 .aside-card strong { display: block; margin-bottom: 8px; }
 .video-card { background: var(--amber-soft); }
+.video-card span, .resource-card span {
+  display: block;
+  margin-bottom: 10px;
+  font-size: .92rem;
+}
+.resource-link {
+  display: inline-flex;
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  padding: 8px 10px;
+  font-weight: 850;
+  text-decoration: none;
+}
+.compact-source-list {
+  display: grid;
+  gap: 11px;
+  margin: 0;
+  padding-left: 18px;
+}
+.compact-source-list a {
+  display: inline-block;
+  font-weight: 850;
+  line-height: 1.25;
+}
 .lesson-content {
   padding: 22px;
   min-width: 0;
@@ -1268,7 +1586,7 @@ li + li { margin-top: 6px; }
   .metrics, .index-layout, .lesson-layout { grid-template-columns: 1fr; }
   .toolbar, .lesson-aside { position: static; }
   .note { grid-column: auto; }
-  .goal-heading { align-items: start; flex-direction: column; }
+  .month-heading { align-items: start; flex-direction: column; }
   .schedule { display: block; overflow-x: auto; }
 }
 """
@@ -1278,7 +1596,7 @@ JS = """
 const search = document.querySelector('#search');
 const goalFilter = document.querySelector('#goalFilter');
 const cards = Array.from(document.querySelectorAll('.lesson-card'));
-const goalSections = Array.from(document.querySelectorAll('.goal-section'));
+const monthSections = Array.from(document.querySelectorAll('.month-section'));
 const count = document.querySelector('#count');
 
 function normalize(value) {
@@ -1297,7 +1615,7 @@ function applyFilters() {
     card.hidden = !show;
     if (show) visible += 1;
   });
-  goalSections.forEach((section) => {
+  monthSections.forEach((section) => {
     const hasVisibleCard = Boolean(section.querySelector('.lesson-card:not([hidden])'));
     section.hidden = !hasVisibleCard;
   });

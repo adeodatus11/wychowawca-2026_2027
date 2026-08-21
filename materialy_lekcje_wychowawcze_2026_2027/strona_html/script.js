@@ -1,7 +1,7 @@
 const search = document.querySelector('#search');
 const goalFilter = document.querySelector('#goalFilter');
 const cards = Array.from(document.querySelectorAll('.lesson-card'));
-const goalSections = Array.from(document.querySelectorAll('.goal-section'));
+const monthSections = Array.from(document.querySelectorAll('.month-section'));
 const count = document.querySelector('#count');
 
 function normalize(value) {
@@ -20,7 +20,7 @@ function applyFilters() {
     card.hidden = !show;
     if (show) visible += 1;
   });
-  goalSections.forEach((section) => {
+  monthSections.forEach((section) => {
     const hasVisibleCard = Boolean(section.querySelector('.lesson-card:not([hidden])'));
     section.hidden = !hasVisibleCard;
   });

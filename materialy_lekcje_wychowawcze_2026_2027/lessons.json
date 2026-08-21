@@ -25,26 +25,41 @@
       "Zasady współpracy mają sens tylko wtedy, gdy klasa potrafi do nich wrócić po konflikcie."
     ],
     "source_keys": [
-      "men_2026",
-      "zsz5"
+      "zsz5",
+      "szkola_z_klasa_razem",
+      "szkola_z_klasa_materialy",
+      "szkola_z_klasa_odpornosc"
     ],
     "sources": [
-      {
-        "key": "men_2026",
-        "name": "MEN: podstawowe kierunki polityki oświatowej 2026/2027",
-        "url": "https://www.gov.pl/web/edukacja/podstawowe-kierunki-realizacji-polityki-oswiatowej-panstwa-w-roku-szkolnym-20262027",
-        "note": "Punkt odniesienia dla całego planu wychowawczo-profilaktycznego."
-      },
       {
         "key": "zsz5",
         "name": "ZSZ nr 5 we Wrocławiu",
         "url": "https://zsz5.edupage.org/",
         "note": "Lokalne dokumenty szkoły, statut, komunikaty i informacje organizacyjne."
+      },
+      {
+        "key": "szkola_z_klasa_razem",
+        "name": "Szkoła z Klasą: Razem w Klasie - przewodnik dla szkół",
+        "url": "https://www.szkolazklasa.org.pl/materialy/razem-w-klasie-przewodnik-dla-szkol/",
+        "note": "Przewodnik o integracji, pracy z różnorodną klasą i budowaniu relacji."
+      },
+      {
+        "key": "szkola_z_klasa_materialy",
+        "name": "Fundacja Szkoła z Klasą: biblioteka materiałów",
+        "url": "https://www.szkolazklasa.org.pl/materialy/",
+        "note": "Biblioteka poradników, scenariuszy, kart pracy i pomysłów wzmacniających relacje oraz aktywność uczniów."
+      },
+      {
+        "key": "szkola_z_klasa_odpornosc",
+        "name": "Szkoła z Klasą: materiały o odporności psychicznej",
+        "url": "https://www.szkolazklasa.org.pl/obszary/szkola-z-klasa/materialy-edukacyjne/",
+        "note": "Materiały dla nauczycieli o dialogu, odporności psychicznej i relacjach w klasie."
       }
     ],
     "teacher_video": {
       "title": "Wspólnie łatwiej. Jak budować dobre relacje w klasie",
-      "url": "https://www.youtube.com/watch?v=Cs3UpXMJ0Ko"
+      "url": "https://www.youtube.com/watch?v=Cs3UpXMJ0Ko",
+      "note": "Materiał pomaga wejść w temat relacji i pokazuje, że klasa potrzebuje świadomie budowanych zasad, nie tylko formalnego bycia razem. Warto obejrzeć go pod kątem jednego przykładu do rozmowy o atmosferze w grupie."
     }
   },
   {
@@ -73,19 +88,34 @@
       "Ostry komentarz często zamyka rozmowę; konkretna prośba daje szansę na zmianę."
     ],
     "source_keys": [
-      "men_2026"
+      "szkola_z_klasa_razem",
+      "szkola_z_klasa_materialy",
+      "szkola_z_klasa_odpornosc"
     ],
     "sources": [
       {
-        "key": "men_2026",
-        "name": "MEN: podstawowe kierunki polityki oświatowej 2026/2027",
-        "url": "https://www.gov.pl/web/edukacja/podstawowe-kierunki-realizacji-polityki-oswiatowej-panstwa-w-roku-szkolnym-20262027",
-        "note": "Punkt odniesienia dla całego planu wychowawczo-profilaktycznego."
+        "key": "szkola_z_klasa_razem",
+        "name": "Szkoła z Klasą: Razem w Klasie - przewodnik dla szkół",
+        "url": "https://www.szkolazklasa.org.pl/materialy/razem-w-klasie-przewodnik-dla-szkol/",
+        "note": "Przewodnik o integracji, pracy z różnorodną klasą i budowaniu relacji."
+      },
+      {
+        "key": "szkola_z_klasa_materialy",
+        "name": "Fundacja Szkoła z Klasą: biblioteka materiałów",
+        "url": "https://www.szkolazklasa.org.pl/materialy/",
+        "note": "Biblioteka poradników, scenariuszy, kart pracy i pomysłów wzmacniających relacje oraz aktywność uczniów."
+      },
+      {
+        "key": "szkola_z_klasa_odpornosc",
+        "name": "Szkoła z Klasą: materiały o odporności psychicznej",
+        "url": "https://www.szkolazklasa.org.pl/obszary/szkola-z-klasa/materialy-edukacyjne/",
+        "note": "Materiały dla nauczycieli o dialogu, odporności psychicznej i relacjach w klasie."
       }
     ],
     "teacher_video": {
       "title": "Język a relacje",
-      "url": "https://www.youtube.com/watch?v=e9AlT3kJeAw"
+      "url": "https://www.youtube.com/watch?v=e9AlT3kJeAw",
+      "note": "Film jest dobrym punktem wyjścia do rozmowy o języku, który otwiera albo zamyka kontakt. Nauczyciel może zwrócić uwagę na przykłady komunikatów, które łatwo przełożyć na sytuacje klasowe."
     }
   },
   {
@@ -114,26 +144,48 @@
       "Jeżeli trudność dotyczy przemocy lub zagrożenia, uruchamiamy pomoc dorosłych."
     ],
     "source_keys": [
-      "men_2026",
-      "men_przemoc"
+      "men_przemoc",
+      "szkola_z_klasa_razem",
+      "szkola_z_klasa_materialy",
+      "szkola_z_klasa_odpornosc",
+      "fdds_przemoc_scenariusz"
     ],
     "sources": [
-      {
-        "key": "men_2026",
-        "name": "MEN: podstawowe kierunki polityki oświatowej 2026/2027",
-        "url": "https://www.gov.pl/web/edukacja/podstawowe-kierunki-realizacji-polityki-oswiatowej-panstwa-w-roku-szkolnym-20262027",
-        "note": "Punkt odniesienia dla całego planu wychowawczo-profilaktycznego."
-      },
       {
         "key": "men_przemoc",
         "name": "MEN: ścieżka pomocy dla szkoły - przemoc rówieśnicza",
         "url": "https://dokumenty.men.gov.pl/SCIEZKA-POMOCY-DLA-SZKOLY-przemoc-rowiesnicza-68c43ef1af0a9.docx",
         "note": "Dokument pomocniczy do reagowania na przemoc rówieśniczą w szkole."
+      },
+      {
+        "key": "szkola_z_klasa_razem",
+        "name": "Szkoła z Klasą: Razem w Klasie - przewodnik dla szkół",
+        "url": "https://www.szkolazklasa.org.pl/materialy/razem-w-klasie-przewodnik-dla-szkol/",
+        "note": "Przewodnik o integracji, pracy z różnorodną klasą i budowaniu relacji."
+      },
+      {
+        "key": "szkola_z_klasa_materialy",
+        "name": "Fundacja Szkoła z Klasą: biblioteka materiałów",
+        "url": "https://www.szkolazklasa.org.pl/materialy/",
+        "note": "Biblioteka poradników, scenariuszy, kart pracy i pomysłów wzmacniających relacje oraz aktywność uczniów."
+      },
+      {
+        "key": "szkola_z_klasa_odpornosc",
+        "name": "Szkoła z Klasą: materiały o odporności psychicznej",
+        "url": "https://www.szkolazklasa.org.pl/obszary/szkola-z-klasa/materialy-edukacyjne/",
+        "note": "Materiały dla nauczycieli o dialogu, odporności psychicznej i relacjach w klasie."
+      },
+      {
+        "key": "fdds_przemoc_scenariusz",
+        "name": "FDDS: przemoc rówieśnicza - scenariusz dla młodzieży 13-18 lat",
+        "url": "https://edukacja.fdds.pl/course/view.php?id=902",
+        "note": "Scenariusz zajęć o przemocy offline i online oraz reagowaniu z perspektywy świadka i osoby pokrzywdzonej."
       }
     ],
     "teacher_video": {
       "title": "Konflikt w grupie - fakty i mity",
-      "url": "https://www.youtube.com/watch?v=_cXiIE4Pnr4"
+      "url": "https://www.youtube.com/watch?v=_cXiIE4Pnr4",
+      "note": "Materiał porządkuje myślenie o konflikcie i pomaga nie mylić trudności grupowej z szukaniem winnego. Przyda się do przygotowania pytań o fakty, emocje i możliwe kroki naprawcze."
     }
   },
   {
@@ -162,26 +214,41 @@
       "Reagowanie na zagrożenie jest elementem odpowiedzialności, nie donoszeniem."
     ],
     "source_keys": [
-      "men_2026",
-      "zsz5"
+      "zsz5",
+      "pah_dla_szkol",
+      "pah_edukacja",
+      "szkola_z_klasa_materialy"
     ],
     "sources": [
-      {
-        "key": "men_2026",
-        "name": "MEN: podstawowe kierunki polityki oświatowej 2026/2027",
-        "url": "https://www.gov.pl/web/edukacja/podstawowe-kierunki-realizacji-polityki-oswiatowej-panstwa-w-roku-szkolnym-20262027",
-        "note": "Punkt odniesienia dla całego planu wychowawczo-profilaktycznego."
-      },
       {
         "key": "zsz5",
         "name": "ZSZ nr 5 we Wrocławiu",
         "url": "https://zsz5.edupage.org/",
         "note": "Lokalne dokumenty szkoły, statut, komunikaty i informacje organizacyjne."
+      },
+      {
+        "key": "pah_dla_szkol",
+        "name": "PAH: programy dla szkół",
+        "url": "https://www.pah.org.pl/zaangazuj-sie/dla-szkol/",
+        "note": "Programy edukacyjne dla szkół, m.in. Lekcje Pomagania i Godziny Wychowawcze ze Światem."
+      },
+      {
+        "key": "pah_edukacja",
+        "name": "PAH: edukacja globalna",
+        "url": "https://www.pah.org.pl/zaangazuj-sie/edukacjaglobalna/",
+        "note": "Materiały i szkolenia o edukacji globalnej, odpowiedzialności, wodzie i kryzysach humanitarnych."
+      },
+      {
+        "key": "szkola_z_klasa_materialy",
+        "name": "Fundacja Szkoła z Klasą: biblioteka materiałów",
+        "url": "https://www.szkolazklasa.org.pl/materialy/",
+        "note": "Biblioteka poradników, scenariuszy, kart pracy i pomysłów wzmacniających relacje oraz aktywność uczniów."
       }
     ],
     "teacher_video": {
       "title": "Po co nam relacje z innymi?",
-      "url": "https://www.youtube.com/watch?v=xnKobxzTKd4"
+      "url": "https://www.youtube.com/watch?v=xnKobxzTKd4",
+      "note": "Film można potraktować jako inspirację do rozmowy o tym, po co ludziom wspólnota i zasady współżycia. Warto wyłapać przykłady zachowań, które budują odpowiedzialność w codziennych sytuacjach."
     }
   },
   {
@@ -210,17 +277,14 @@
       "Uczeń ma prawo i obowiązek wezwać dorosłego, gdy ktoś może ucierpieć."
     ],
     "source_keys": [
-      "men_2026",
       "zsz5",
-      "zpe_pierwsza_pomoc"
+      "zpe_pierwsza_pomoc",
+      "pah_dla_szkol",
+      "pah_edukacja",
+      "szkola_z_klasa_materialy",
+      "wosp"
     ],
     "sources": [
-      {
-        "key": "men_2026",
-        "name": "MEN: podstawowe kierunki polityki oświatowej 2026/2027",
-        "url": "https://www.gov.pl/web/edukacja/podstawowe-kierunki-realizacji-polityki-oswiatowej-panstwa-w-roku-szkolnym-20262027",
-        "note": "Punkt odniesienia dla całego planu wychowawczo-profilaktycznego."
-      },
       {
         "key": "zsz5",
         "name": "ZSZ nr 5 we Wrocławiu",
@@ -232,11 +296,36 @@
         "name": "ZPE: ABC pierwszej pomocy",
         "url": "https://zpe.gov.pl/a/abc-pierwszej-pomocy/DtLX9npeZ",
         "note": "Film i materiał edukacyjny o podstawach pierwszej pomocy."
+      },
+      {
+        "key": "pah_dla_szkol",
+        "name": "PAH: programy dla szkół",
+        "url": "https://www.pah.org.pl/zaangazuj-sie/dla-szkol/",
+        "note": "Programy edukacyjne dla szkół, m.in. Lekcje Pomagania i Godziny Wychowawcze ze Światem."
+      },
+      {
+        "key": "pah_edukacja",
+        "name": "PAH: edukacja globalna",
+        "url": "https://www.pah.org.pl/zaangazuj-sie/edukacjaglobalna/",
+        "note": "Materiały i szkolenia o edukacji globalnej, odpowiedzialności, wodzie i kryzysach humanitarnych."
+      },
+      {
+        "key": "szkola_z_klasa_materialy",
+        "name": "Fundacja Szkoła z Klasą: biblioteka materiałów",
+        "url": "https://www.szkolazklasa.org.pl/materialy/",
+        "note": "Biblioteka poradników, scenariuszy, kart pracy i pomysłów wzmacniających relacje oraz aktywność uczniów."
+      },
+      {
+        "key": "wosp",
+        "name": "WOŚP: Ratujemy i Uczymy Ratować",
+        "url": "https://www.wosp.org.pl/uczymy-ratowac",
+        "note": "Materiały edukacyjne i program pierwszej pomocy."
       }
     ],
     "teacher_video": {
       "title": "ABC pierwszej pomocy",
-      "url": "https://zpe.gov.pl/a/abc-pierwszej-pomocy/DtLX9npeZ"
+      "url": "https://zpe.gov.pl/a/abc-pierwszej-pomocy/DtLX9npeZ",
+      "note": "Materiał o pierwszej pomocy pokazuje prosty schemat reakcji w sytuacji zagrożenia. Dobrze obejrzeć go przed lekcją, żeby mówić uczniom krótko: zabezpiecz, sprawdź, wezwij pomoc."
     }
   },
   {
@@ -265,19 +354,34 @@
       "Współczesny patriotyzm można pokazać przez uczciwość, pracę, pomoc i troskę o otoczenie."
     ],
     "source_keys": [
-      "men_2026"
+      "pah_dla_szkol",
+      "pah_edukacja",
+      "szkola_z_klasa_materialy"
     ],
     "sources": [
       {
-        "key": "men_2026",
-        "name": "MEN: podstawowe kierunki polityki oświatowej 2026/2027",
-        "url": "https://www.gov.pl/web/edukacja/podstawowe-kierunki-realizacji-polityki-oswiatowej-panstwa-w-roku-szkolnym-20262027",
-        "note": "Punkt odniesienia dla całego planu wychowawczo-profilaktycznego."
+        "key": "pah_dla_szkol",
+        "name": "PAH: programy dla szkół",
+        "url": "https://www.pah.org.pl/zaangazuj-sie/dla-szkol/",
+        "note": "Programy edukacyjne dla szkół, m.in. Lekcje Pomagania i Godziny Wychowawcze ze Światem."
+      },
+      {
+        "key": "pah_edukacja",
+        "name": "PAH: edukacja globalna",
+        "url": "https://www.pah.org.pl/zaangazuj-sie/edukacjaglobalna/",
+        "note": "Materiały i szkolenia o edukacji globalnej, odpowiedzialności, wodzie i kryzysach humanitarnych."
+      },
+      {
+        "key": "szkola_z_klasa_materialy",
+        "name": "Fundacja Szkoła z Klasą: biblioteka materiałów",
+        "url": "https://www.szkolazklasa.org.pl/materialy/",
+        "note": "Biblioteka poradników, scenariuszy, kart pracy i pomysłów wzmacniających relacje oraz aktywność uczniów."
       }
     ],
     "teacher_video": {
       "title": "Co to jest patriotyzm?",
-      "url": "https://www.youtube.com/watch?v=rP7IBvMJICc"
+      "url": "https://www.youtube.com/watch?v=rP7IBvMJICc",
+      "note": "Film pomaga odsunąć temat patriotyzmu od samej symboliki i rozpocząć rozmowę o postawie obywatelskiej. Warto wykorzystać go jako pretekst do pytania, jak wygląda odpowiedzialność za wspólnotę dziś."
     }
   },
   {
@@ -306,19 +410,34 @@
       "Dobre działanie społeczne ma cel, opiekuna, granice i bezpieczny sposób wykonania."
     ],
     "source_keys": [
-      "men_2026"
+      "pah_dla_szkol",
+      "pah_edukacja",
+      "szkola_z_klasa_materialy"
     ],
     "sources": [
       {
-        "key": "men_2026",
-        "name": "MEN: podstawowe kierunki polityki oświatowej 2026/2027",
-        "url": "https://www.gov.pl/web/edukacja/podstawowe-kierunki-realizacji-polityki-oswiatowej-panstwa-w-roku-szkolnym-20262027",
-        "note": "Punkt odniesienia dla całego planu wychowawczo-profilaktycznego."
+        "key": "pah_dla_szkol",
+        "name": "PAH: programy dla szkół",
+        "url": "https://www.pah.org.pl/zaangazuj-sie/dla-szkol/",
+        "note": "Programy edukacyjne dla szkół, m.in. Lekcje Pomagania i Godziny Wychowawcze ze Światem."
+      },
+      {
+        "key": "pah_edukacja",
+        "name": "PAH: edukacja globalna",
+        "url": "https://www.pah.org.pl/zaangazuj-sie/edukacjaglobalna/",
+        "note": "Materiały i szkolenia o edukacji globalnej, odpowiedzialności, wodzie i kryzysach humanitarnych."
+      },
+      {
+        "key": "szkola_z_klasa_materialy",
+        "name": "Fundacja Szkoła z Klasą: biblioteka materiałów",
+        "url": "https://www.szkolazklasa.org.pl/materialy/",
+        "note": "Biblioteka poradników, scenariuszy, kart pracy i pomysłów wzmacniających relacje oraz aktywność uczniów."
       }
     ],
     "teacher_video": {
       "title": "Sztuka pomagania - animacja edukacyjna",
-      "url": "https://www.youtube.com/watch?v=R--NSyvsI0o"
+      "url": "https://www.youtube.com/watch?v=R--NSyvsI0o",
+      "note": "Materiał pokazuje pomaganie jako działanie wymagające sensu, granic i szacunku. Nauczyciel może poszukać w nim przykładów do odróżnienia realnej pomocy od działania wyłącznie na pokaz."
     }
   },
   {
@@ -346,26 +465,34 @@
       "Nie komentujemy wyglądu ani masy ciała; rozmawiamy o funkcjonowaniu i zdrowiu."
     ],
     "source_keys": [
-      "men_2026",
-      "zpe_zdrowie"
+      "zpe_zdrowie",
+      "szkola_z_klasa_odpornosc",
+      "unicef_stress"
     ],
     "sources": [
-      {
-        "key": "men_2026",
-        "name": "MEN: podstawowe kierunki polityki oświatowej 2026/2027",
-        "url": "https://www.gov.pl/web/edukacja/podstawowe-kierunki-realizacji-polityki-oswiatowej-panstwa-w-roku-szkolnym-20262027",
-        "note": "Punkt odniesienia dla całego planu wychowawczo-profilaktycznego."
-      },
       {
         "key": "zpe_zdrowie",
         "name": "ZPE: edukacja zdrowotna",
         "url": "https://zpe.gov.pl/edukacja-zdrowotna",
         "note": "Programy, scenariusze i materiały dla nauczycieli oraz uczniów."
+      },
+      {
+        "key": "szkola_z_klasa_odpornosc",
+        "name": "Szkoła z Klasą: materiały o odporności psychicznej",
+        "url": "https://www.szkolazklasa.org.pl/obszary/szkola-z-klasa/materialy-edukacyjne/",
+        "note": "Materiały dla nauczycieli o dialogu, odporności psychicznej i relacjach w klasie."
+      },
+      {
+        "key": "unicef_stress",
+        "name": "UNICEF: what is stress?",
+        "url": "https://www.unicef.org/parenting/mental-health/what-is-stress",
+        "note": "Materiał pomagający zrozumieć stres nastolatków i rolę dorosłych w regulacji napięcia."
       }
     ],
     "teacher_video": {
       "title": "Co się dzieje, gdy długo korzystamy z telefonu przed snem?",
-      "url": "https://www.youtube.com/watch?v=e3VZvoDyghY"
+      "url": "https://www.youtube.com/watch?v=e3VZvoDyghY",
+      "note": "Film wspiera rozmowę o higienie snu i wpływie ekranów na regenerację. Przyda się zwłaszcza do pokazania, że zdrowie zaczyna się od małych codziennych wyborów."
     }
   },
   {
@@ -394,7 +521,10 @@
     ],
     "source_keys": [
       "zpe_pierwsza_pomoc",
-      "wosp"
+      "wosp",
+      "zpe_zdrowie",
+      "szkola_z_klasa_odpornosc",
+      "unicef_stress"
     ],
     "sources": [
       {
@@ -408,11 +538,30 @@
         "name": "WOŚP: Ratujemy i Uczymy Ratować",
         "url": "https://www.wosp.org.pl/uczymy-ratowac",
         "note": "Materiały edukacyjne i program pierwszej pomocy."
+      },
+      {
+        "key": "zpe_zdrowie",
+        "name": "ZPE: edukacja zdrowotna",
+        "url": "https://zpe.gov.pl/edukacja-zdrowotna",
+        "note": "Programy, scenariusze i materiały dla nauczycieli oraz uczniów."
+      },
+      {
+        "key": "szkola_z_klasa_odpornosc",
+        "name": "Szkoła z Klasą: materiały o odporności psychicznej",
+        "url": "https://www.szkolazklasa.org.pl/obszary/szkola-z-klasa/materialy-edukacyjne/",
+        "note": "Materiały dla nauczycieli o dialogu, odporności psychicznej i relacjach w klasie."
+      },
+      {
+        "key": "unicef_stress",
+        "name": "UNICEF: what is stress?",
+        "url": "https://www.unicef.org/parenting/mental-health/what-is-stress",
+        "note": "Materiał pomagający zrozumieć stres nastolatków i rolę dorosłych w regulacji napięcia."
       }
     ],
     "teacher_video": {
       "title": "Film, dzięki któremu możesz uratować komuś życie",
-      "url": "https://www.youtube.com/watch?v=k1KswfV4qwU"
+      "url": "https://www.youtube.com/watch?v=k1KswfV4qwU",
+      "note": "Materiał wzmacnia najważniejszy komunikat: uczeń nie musi być ratownikiem, żeby rozpocząć właściwe działanie. Warto obejrzeć go pod kątem spokojnego języka instrukcji."
     }
   },
   {
@@ -441,7 +590,9 @@
       "Jeżeli stres odbiera sen, jedzenie, bezpieczeństwo lub chęć życia, trzeba powiedzieć dorosłemu."
     ],
     "source_keys": [
-      "zpe_zdrowie"
+      "zpe_zdrowie",
+      "szkola_z_klasa_odpornosc",
+      "unicef_stress"
     ],
     "sources": [
       {
@@ -449,11 +600,24 @@
         "name": "ZPE: edukacja zdrowotna",
         "url": "https://zpe.gov.pl/edukacja-zdrowotna",
         "note": "Programy, scenariusze i materiały dla nauczycieli oraz uczniów."
+      },
+      {
+        "key": "szkola_z_klasa_odpornosc",
+        "name": "Szkoła z Klasą: materiały o odporności psychicznej",
+        "url": "https://www.szkolazklasa.org.pl/obszary/szkola-z-klasa/materialy-edukacyjne/",
+        "note": "Materiały dla nauczycieli o dialogu, odporności psychicznej i relacjach w klasie."
+      },
+      {
+        "key": "unicef_stress",
+        "name": "UNICEF: what is stress?",
+        "url": "https://www.unicef.org/parenting/mental-health/what-is-stress",
+        "note": "Materiał pomagający zrozumieć stres nastolatków i rolę dorosłych w regulacji napięcia."
       }
     ],
     "teacher_video": {
       "title": "Stres wróg czy przyjaciel?",
-      "url": "https://www.youtube.com/watch?v=7Tg81LhIFTU"
+      "url": "https://www.youtube.com/watch?v=7Tg81LhIFTU",
+      "note": "Film pomaga pokazać stres jako reakcję organizmu, która może mobilizować albo przeciążać. Nauczyciel może wykorzystać go do rozmowy o sygnałach ostrzegawczych i regeneracji."
     }
   },
   {
@@ -482,7 +646,9 @@
       "W razie problemów zdrowotnych uczeń nie zostaje sam: rodzic, wychowawca, pielęgniarka, lekarz, pedagog lub psycholog."
     ],
     "source_keys": [
-      "zpe_zdrowie"
+      "zpe_zdrowie",
+      "szkola_z_klasa_odpornosc",
+      "unicef_stress"
     ],
     "sources": [
       {
@@ -490,11 +656,24 @@
         "name": "ZPE: edukacja zdrowotna",
         "url": "https://zpe.gov.pl/edukacja-zdrowotna",
         "note": "Programy, scenariusze i materiały dla nauczycieli oraz uczniów."
+      },
+      {
+        "key": "szkola_z_klasa_odpornosc",
+        "name": "Szkoła z Klasą: materiały o odporności psychicznej",
+        "url": "https://www.szkolazklasa.org.pl/obszary/szkola-z-klasa/materialy-edukacyjne/",
+        "note": "Materiały dla nauczycieli o dialogu, odporności psychicznej i relacjach w klasie."
+      },
+      {
+        "key": "unicef_stress",
+        "name": "UNICEF: what is stress?",
+        "url": "https://www.unicef.org/parenting/mental-health/what-is-stress",
+        "note": "Materiał pomagający zrozumieć stres nastolatków i rolę dorosłych w regulacji napięcia."
       }
     ],
     "teacher_video": {
       "title": "Edukacja zdrowotna - materiały ZPE",
-      "url": "https://zpe.gov.pl/edukacja-zdrowotna"
+      "url": "https://zpe.gov.pl/edukacja-zdrowotna",
+      "note": "Strona ZPE prowadzi do materiałów o edukacji zdrowotnej. Warto przejrzeć ją, żeby dobrać przykład decyzji zdrowotnej bliski klasie, bez moralizowania i zawstydzania."
     }
   },
   {
@@ -525,7 +704,10 @@
     "source_keys": [
       "uodo",
       "zpe_ai",
-      "nask_dezinformacja"
+      "nask_dezinformacja",
+      "saferinternet",
+      "saferinternet_dobrostan",
+      "nask_cyberprofilaktyka"
     ],
     "sources": [
       {
@@ -545,11 +727,30 @@
         "name": "NASK: zjawisko dezinformacji - materiały edukacyjne",
         "url": "https://www.gov.pl/web/nauka/zjawisko-dezinformacji--materialy-edukacyjne-nask",
         "note": "Ćwiczenia i pomoce dydaktyczne do pracy z uczniami nad fake newsami."
+      },
+      {
+        "key": "saferinternet",
+        "name": "Polskie Centrum Programu Safer Internet: materiały edukacyjne",
+        "url": "https://www.saferinternet.pl/menu/materialy-edukacyjne.html",
+        "note": "Poradniki, scenariusze, raporty i materiały multimedialne o bezpieczeństwie online."
+      },
+      {
+        "key": "saferinternet_dobrostan",
+        "name": "Safer Internet: poradniki i broszury o cyfrowym dobrostanie",
+        "url": "https://www.saferinternet.pl/menu/materialy-edukacyjne/poradniki-i-broszury.html",
+        "note": "Praktyczne publikacje o higienie cyfrowej, śladzie cyfrowym, hejcie i dobrostanie online."
+      },
+      {
+        "key": "nask_cyberprofilaktyka",
+        "name": "Cyberprofilaktyka NASK",
+        "url": "https://akademia.nask.pl/",
+        "note": "Biblioteka poradników, scenariuszy i szkoleń o bezpieczeństwie dzieci i młodzieży w internecie."
       }
     ],
     "teacher_video": {
       "title": "CyberBezpieczni - bezpieczeństwo w sieci",
-      "url": "https://www.youtube.com/watch?v=wH92EtBAJzU"
+      "url": "https://www.youtube.com/watch?v=wH92EtBAJzU",
+      "note": "Film może posłużyć jako wprowadzenie do rozmowy o podstawowych zasadach cyberbezpieczeństwa. Najważniejsze jest wyłapanie prostych zachowań chroniących dane i prywatność."
     }
   },
   {
@@ -580,7 +781,10 @@
     "source_keys": [
       "zpe_ai",
       "zpe",
-      "uodo"
+      "uodo",
+      "saferinternet",
+      "saferinternet_dobrostan",
+      "nask_cyberprofilaktyka"
     ],
     "sources": [
       {
@@ -600,11 +804,30 @@
         "name": "UODO: ochrona danych osobowych",
         "url": "https://uodo.gov.pl/",
         "note": "Instytucjonalne źródło zasad ochrony danych osobowych."
+      },
+      {
+        "key": "saferinternet",
+        "name": "Polskie Centrum Programu Safer Internet: materiały edukacyjne",
+        "url": "https://www.saferinternet.pl/menu/materialy-edukacyjne.html",
+        "note": "Poradniki, scenariusze, raporty i materiały multimedialne o bezpieczeństwie online."
+      },
+      {
+        "key": "saferinternet_dobrostan",
+        "name": "Safer Internet: poradniki i broszury o cyfrowym dobrostanie",
+        "url": "https://www.saferinternet.pl/menu/materialy-edukacyjne/poradniki-i-broszury.html",
+        "note": "Praktyczne publikacje o higienie cyfrowej, śladzie cyfrowym, hejcie i dobrostanie online."
+      },
+      {
+        "key": "nask_cyberprofilaktyka",
+        "name": "Cyberprofilaktyka NASK",
+        "url": "https://akademia.nask.pl/",
+        "note": "Biblioteka poradników, scenariuszy i szkoleń o bezpieczeństwie dzieci i młodzieży w internecie."
       }
     ],
     "teacher_video": {
       "title": "Sztuczna inteligencja a edukacja",
-      "url": "https://www.youtube.com/watch?v=nO2qXnUDfus"
+      "url": "https://www.youtube.com/watch?v=nO2qXnUDfus",
+      "note": "Materiał pomaga zrozumieć, że AI jest narzędziem wymagającym kontroli, źródeł i odpowiedzialności. Warto obejrzeć go pod kątem przykładów, kiedy AI pomaga, a kiedy może zaszkodzić."
     }
   },
   {
@@ -634,7 +857,11 @@
     ],
     "source_keys": [
       "nask_dezinformacja",
-      "zpe"
+      "zpe",
+      "saferinternet",
+      "saferinternet_dobrostan",
+      "nask_cyberprofilaktyka",
+      "nask_kurs_dezinformacja"
     ],
     "sources": [
       {
@@ -648,11 +875,36 @@
         "name": "Zintegrowana Platforma Edukacyjna",
         "url": "https://zpe.gov.pl/",
         "note": "Materiały edukacyjne, kursy i zasoby do wykorzystania przez nauczyciela."
+      },
+      {
+        "key": "saferinternet",
+        "name": "Polskie Centrum Programu Safer Internet: materiały edukacyjne",
+        "url": "https://www.saferinternet.pl/menu/materialy-edukacyjne.html",
+        "note": "Poradniki, scenariusze, raporty i materiały multimedialne o bezpieczeństwie online."
+      },
+      {
+        "key": "saferinternet_dobrostan",
+        "name": "Safer Internet: poradniki i broszury o cyfrowym dobrostanie",
+        "url": "https://www.saferinternet.pl/menu/materialy-edukacyjne/poradniki-i-broszury.html",
+        "note": "Praktyczne publikacje o higienie cyfrowej, śladzie cyfrowym, hejcie i dobrostanie online."
+      },
+      {
+        "key": "nask_cyberprofilaktyka",
+        "name": "Cyberprofilaktyka NASK",
+        "url": "https://akademia.nask.pl/",
+        "note": "Biblioteka poradników, scenariuszy i szkoleń o bezpieczeństwie dzieci i młodzieży w internecie."
+      },
+      {
+        "key": "nask_kurs_dezinformacja",
+        "name": "NASK: kurs dla nauczycieli o dezinformacji",
+        "url": "https://www.nask.pl/aktualnosci/w-co-wierzyc-w-internecie-nowy-kurs-dla-nauczycieli-na-ose-it-szkole",
+        "note": "Opis kursu pokazującego metody dezinformacji i sposoby rozmowy z uczniami o wiarygodności treści."
       }
     ],
     "teacher_video": {
       "title": "W co wierzyć w internecie? Kurs NASK dla nauczycieli",
-      "url": "https://www.nask.pl/aktualnosci/w-co-wierzyc-w-internecie-nowy-kurs-dla-nauczycieli-na-ose-it-szkole"
+      "url": "https://www.nask.pl/aktualnosci/w-co-wierzyc-w-internecie-nowy-kurs-dla-nauczycieli-na-ose-it-szkole",
+      "note": "To inspiracja dla nauczyciela do rozmowy o dezinformacji i mechanizmach manipulacji. Warto szukać przykładów pytań, które uczniowie mogą zadać przed udostępnieniem treści."
     }
   },
   {
@@ -682,7 +934,10 @@
     ],
     "source_keys": [
       "zpe_ai",
-      "men_2026"
+      "saferinternet",
+      "saferinternet_dobrostan",
+      "nask_cyberprofilaktyka",
+      "uzaleznienia"
     ],
     "sources": [
       {
@@ -692,15 +947,34 @@
         "note": "Praktyczny kontekst dla tematów o AI, danych i bezpieczeństwie cyfrowym."
       },
       {
-        "key": "men_2026",
-        "name": "MEN: podstawowe kierunki polityki oświatowej 2026/2027",
-        "url": "https://www.gov.pl/web/edukacja/podstawowe-kierunki-realizacji-polityki-oswiatowej-panstwa-w-roku-szkolnym-20262027",
-        "note": "Punkt odniesienia dla całego planu wychowawczo-profilaktycznego."
+        "key": "saferinternet",
+        "name": "Polskie Centrum Programu Safer Internet: materiały edukacyjne",
+        "url": "https://www.saferinternet.pl/menu/materialy-edukacyjne.html",
+        "note": "Poradniki, scenariusze, raporty i materiały multimedialne o bezpieczeństwie online."
+      },
+      {
+        "key": "saferinternet_dobrostan",
+        "name": "Safer Internet: poradniki i broszury o cyfrowym dobrostanie",
+        "url": "https://www.saferinternet.pl/menu/materialy-edukacyjne/poradniki-i-broszury.html",
+        "note": "Praktyczne publikacje o higienie cyfrowej, śladzie cyfrowym, hejcie i dobrostanie online."
+      },
+      {
+        "key": "nask_cyberprofilaktyka",
+        "name": "Cyberprofilaktyka NASK",
+        "url": "https://akademia.nask.pl/",
+        "note": "Biblioteka poradników, scenariuszy i szkoleń o bezpieczeństwie dzieci i młodzieży w internecie."
+      },
+      {
+        "key": "uzaleznienia",
+        "name": "Uzależnienia behawioralne: portal wiedzy i artykułów",
+        "url": "https://uzaleznieniabehawioralne.pl/",
+        "note": "Artykuły i materiały o zachowaniach ryzykownych, grach, hazardzie, sieci i profilaktyce."
       }
     ],
     "teacher_video": {
       "title": "10 zasad higieny cyfrowej",
-      "url": "https://www.youtube.com/watch?v=QvylySSkZ8M"
+      "url": "https://www.youtube.com/watch?v=QvylySSkZ8M",
+      "note": "Film o higienie cyfrowej pomaga przenieść rozmowę z zakazów na równowagę i samoregulację. Dobry do przygotowania krótkiego eksperymentu offline dla uczniów."
     }
   },
   {
@@ -729,26 +1003,34 @@
       "Uczeń nie musi opowiadać prywatnych spraw na forum klasy."
     ],
     "source_keys": [
-      "men_2026",
-      "zsz5"
+      "zsz5",
+      "szkola_z_klasa_odpornosc",
+      "unicef_teen"
     ],
     "sources": [
-      {
-        "key": "men_2026",
-        "name": "MEN: podstawowe kierunki polityki oświatowej 2026/2027",
-        "url": "https://www.gov.pl/web/edukacja/podstawowe-kierunki-realizacji-polityki-oswiatowej-panstwa-w-roku-szkolnym-20262027",
-        "note": "Punkt odniesienia dla całego planu wychowawczo-profilaktycznego."
-      },
       {
         "key": "zsz5",
         "name": "ZSZ nr 5 we Wrocławiu",
         "url": "https://zsz5.edupage.org/",
         "note": "Lokalne dokumenty szkoły, statut, komunikaty i informacje organizacyjne."
+      },
+      {
+        "key": "szkola_z_klasa_odpornosc",
+        "name": "Szkoła z Klasą: materiały o odporności psychicznej",
+        "url": "https://www.szkolazklasa.org.pl/obszary/szkola-z-klasa/materialy-edukacyjne/",
+        "note": "Materiały dla nauczycieli o dialogu, odporności psychicznej i relacjach w klasie."
+      },
+      {
+        "key": "unicef_teen",
+        "name": "UNICEF: supporting your teen's mental health",
+        "url": "https://www.unicef.org/parenting/health/four-things-you-can-do-support-your-teens-mental-health",
+        "note": "Praktyczne wskazówki dotyczące słuchania nastolatka, spokojnego konfliktu i wspierania sprawczości."
       }
     ],
     "teacher_video": {
       "title": "Mówię językiem żyrafy - porozumienie bez przemocy",
-      "url": "https://www.youtube.com/watch?v=Q20hHA8YSyE"
+      "url": "https://www.youtube.com/watch?v=Q20hHA8YSyE",
+      "note": "Materiał o porozumieniu bez przemocy pomaga zobaczyć, jak mówić o potrzebach bez ataku i oskarżeń. Nauczyciel może przełożyć go na prosty schemat komunikatu ucznia do dorosłego."
     }
   },
   {
@@ -777,7 +1059,8 @@
     ],
     "source_keys": [
       "zsz5",
-      "men_2026"
+      "szkola_z_klasa_odpornosc",
+      "unicef_teen"
     ],
     "sources": [
       {
@@ -787,15 +1070,22 @@
         "note": "Lokalne dokumenty szkoły, statut, komunikaty i informacje organizacyjne."
       },
       {
-        "key": "men_2026",
-        "name": "MEN: podstawowe kierunki polityki oświatowej 2026/2027",
-        "url": "https://www.gov.pl/web/edukacja/podstawowe-kierunki-realizacji-polityki-oswiatowej-panstwa-w-roku-szkolnym-20262027",
-        "note": "Punkt odniesienia dla całego planu wychowawczo-profilaktycznego."
+        "key": "szkola_z_klasa_odpornosc",
+        "name": "Szkoła z Klasą: materiały o odporności psychicznej",
+        "url": "https://www.szkolazklasa.org.pl/obszary/szkola-z-klasa/materialy-edukacyjne/",
+        "note": "Materiały dla nauczycieli o dialogu, odporności psychicznej i relacjach w klasie."
+      },
+      {
+        "key": "unicef_teen",
+        "name": "UNICEF: supporting your teen's mental health",
+        "url": "https://www.unicef.org/parenting/health/four-things-you-can-do-support-your-teens-mental-health",
+        "note": "Praktyczne wskazówki dotyczące słuchania nastolatka, spokojnego konfliktu i wspierania sprawczości."
       }
     ],
     "teacher_video": {
       "title": "Jak budować relacje i wzmacniać uczniów w klasie",
-      "url": "https://www.youtube.com/watch?v=QcmBRziAyRk"
+      "url": "https://www.youtube.com/watch?v=QcmBRziAyRk",
+      "note": "Film można potraktować jako inspirację do myślenia o relacji uczeń-dorosły. Warto wyłapać przykłady zachowań nauczyciela, które obniżają próg proszenia o pomoc."
     }
   },
   {
@@ -824,26 +1114,34 @@
       "Rozmowa wspierająca opiera się na faktach, planie i terminie sprawdzenia."
     ],
     "source_keys": [
-      "men_2026",
-      "zsz5"
+      "zsz5",
+      "szkola_z_klasa_odpornosc",
+      "unicef_teen"
     ],
     "sources": [
-      {
-        "key": "men_2026",
-        "name": "MEN: podstawowe kierunki polityki oświatowej 2026/2027",
-        "url": "https://www.gov.pl/web/edukacja/podstawowe-kierunki-realizacji-polityki-oswiatowej-panstwa-w-roku-szkolnym-20262027",
-        "note": "Punkt odniesienia dla całego planu wychowawczo-profilaktycznego."
-      },
       {
         "key": "zsz5",
         "name": "ZSZ nr 5 we Wrocławiu",
         "url": "https://zsz5.edupage.org/",
         "note": "Lokalne dokumenty szkoły, statut, komunikaty i informacje organizacyjne."
+      },
+      {
+        "key": "szkola_z_klasa_odpornosc",
+        "name": "Szkoła z Klasą: materiały o odporności psychicznej",
+        "url": "https://www.szkolazklasa.org.pl/obszary/szkola-z-klasa/materialy-edukacyjne/",
+        "note": "Materiały dla nauczycieli o dialogu, odporności psychicznej i relacjach w klasie."
+      },
+      {
+        "key": "unicef_teen",
+        "name": "UNICEF: supporting your teen's mental health",
+        "url": "https://www.unicef.org/parenting/health/four-things-you-can-do-support-your-teens-mental-health",
+        "note": "Praktyczne wskazówki dotyczące słuchania nastolatka, spokojnego konfliktu i wspierania sprawczości."
       }
     ],
     "teacher_video": {
       "title": "Jak rodzic może budować relację z nauczycielami?",
-      "url": "https://www.youtube.com/watch?v=MR-uhRVFxG4"
+      "url": "https://www.youtube.com/watch?v=MR-uhRVFxG4",
+      "note": "Materiał pomaga przygotować rozmowę o tym, że rodzic i szkoła nie są przeciwnymi stronami. Warto wykorzystać go do nazwania roli faktów, planu i spokojnego kontaktu."
     }
   },
   {
@@ -873,7 +1171,10 @@
     ],
     "source_keys": [
       "ore_doradztwo",
-      "ore_filmy"
+      "ore_filmy",
+      "szkola_z_klasa_odpornosc",
+      "unicef_teen",
+      "zsz5"
     ],
     "sources": [
       {
@@ -887,11 +1188,30 @@
         "name": "ORE: cykl filmów Drogi Zawodowe",
         "url": "https://doradztwo.ore.edu.pl/cykl-filmow-drogi-zawodowe/",
         "note": "Filmy o zainteresowaniach, mocnych stronach, doświadczeniach i decyzjach."
+      },
+      {
+        "key": "szkola_z_klasa_odpornosc",
+        "name": "Szkoła z Klasą: materiały o odporności psychicznej",
+        "url": "https://www.szkolazklasa.org.pl/obszary/szkola-z-klasa/materialy-edukacyjne/",
+        "note": "Materiały dla nauczycieli o dialogu, odporności psychicznej i relacjach w klasie."
+      },
+      {
+        "key": "unicef_teen",
+        "name": "UNICEF: supporting your teen's mental health",
+        "url": "https://www.unicef.org/parenting/health/four-things-you-can-do-support-your-teens-mental-health",
+        "note": "Praktyczne wskazówki dotyczące słuchania nastolatka, spokojnego konfliktu i wspierania sprawczości."
+      },
+      {
+        "key": "zsz5",
+        "name": "ZSZ nr 5 we Wrocławiu",
+        "url": "https://zsz5.edupage.org/",
+        "note": "Lokalne dokumenty szkoły, statut, komunikaty i informacje organizacyjne."
       }
     ],
     "teacher_video": {
       "title": "Jaki jestem? Oto jest pytanie?",
-      "url": "https://www.youtube.com/watch?v=4gp_EQ7F_bo"
+      "url": "https://www.youtube.com/watch?v=4gp_EQ7F_bo",
+      "note": "Film z cyklu doradczego pomaga uczniom myśleć o sobie przez pytania i obserwację, a nie przez etykiety. Nauczyciel może wykorzystać go do rozmowy o mocnych stronach i wsparciu."
     }
   },
   {
@@ -920,7 +1240,10 @@
     ],
     "source_keys": [
       "fdds",
-      "men_przemoc"
+      "men_przemoc",
+      "fdds_przemoc_scenariusz",
+      "fdds_ramie",
+      "who_mental"
     ],
     "sources": [
       {
@@ -934,11 +1257,30 @@
         "name": "MEN: ścieżka pomocy dla szkoły - przemoc rówieśnicza",
         "url": "https://dokumenty.men.gov.pl/SCIEZKA-POMOCY-DLA-SZKOLY-przemoc-rowiesnicza-68c43ef1af0a9.docx",
         "note": "Dokument pomocniczy do reagowania na przemoc rówieśniczą w szkole."
+      },
+      {
+        "key": "fdds_przemoc_scenariusz",
+        "name": "FDDS: przemoc rówieśnicza - scenariusz dla młodzieży 13-18 lat",
+        "url": "https://edukacja.fdds.pl/course/view.php?id=902",
+        "note": "Scenariusz zajęć o przemocy offline i online oraz reagowaniu z perspektywy świadka i osoby pokrzywdzonej."
+      },
+      {
+        "key": "fdds_ramie",
+        "name": "FDDS: #ramięwramię - scenariusze o przemocy rówieśniczej",
+        "url": "https://edukacja.fdds.pl/course/view.php?id=683",
+        "note": "Materiały do rozmowy o roli świadka, granicach, zachowaniach raniących i szukaniu pomocy."
+      },
+      {
+        "key": "who_mental",
+        "name": "WHO: adolescent mental health",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health",
+        "note": "Zwięzłe omówienie zdrowia psychicznego nastolatków, czynników ryzyka i znaczenia wsparcia."
       }
     ],
     "teacher_video": {
       "title": "Przemoc rówieśnicza online i offline",
-      "url": "https://www.youtube.com/watch?v=UbEoIa1E1-k"
+      "url": "https://www.youtube.com/watch?v=UbEoIa1E1-k",
+      "note": "Materiał o przemocy online i offline pomaga rozdzielić konflikt, żart i krzywdzenie. Warto obejrzeć go szczególnie pod kątem roli świadka i reakcji dorosłych."
     }
   },
   {
@@ -967,7 +1309,11 @@
     ],
     "source_keys": [
       "zpe_zdrowie",
-      "zpe_ai"
+      "zpe_ai",
+      "fdds_przemoc_scenariusz",
+      "fdds_ramie",
+      "who_mental",
+      "uzaleznienia"
     ],
     "sources": [
       {
@@ -981,11 +1327,36 @@
         "name": "ZPE: Nauka z AI - cyberbezpieczne środowisko w szkole",
         "url": "https://zpe.gov.pl/b/nauka-z-ai---cyberbezpieczne-srodowisko-w-szkole/P99FNDS7U",
         "note": "Praktyczny kontekst dla tematów o AI, danych i bezpieczeństwie cyfrowym."
+      },
+      {
+        "key": "fdds_przemoc_scenariusz",
+        "name": "FDDS: przemoc rówieśnicza - scenariusz dla młodzieży 13-18 lat",
+        "url": "https://edukacja.fdds.pl/course/view.php?id=902",
+        "note": "Scenariusz zajęć o przemocy offline i online oraz reagowaniu z perspektywy świadka i osoby pokrzywdzonej."
+      },
+      {
+        "key": "fdds_ramie",
+        "name": "FDDS: #ramięwramię - scenariusze o przemocy rówieśniczej",
+        "url": "https://edukacja.fdds.pl/course/view.php?id=683",
+        "note": "Materiały do rozmowy o roli świadka, granicach, zachowaniach raniących i szukaniu pomocy."
+      },
+      {
+        "key": "who_mental",
+        "name": "WHO: adolescent mental health",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health",
+        "note": "Zwięzłe omówienie zdrowia psychicznego nastolatków, czynników ryzyka i znaczenia wsparcia."
+      },
+      {
+        "key": "uzaleznienia",
+        "name": "Uzależnienia behawioralne: portal wiedzy i artykułów",
+        "url": "https://uzaleznieniabehawioralne.pl/",
+        "note": "Artykuły i materiały o zachowaniach ryzykownych, grach, hazardzie, sieci i profilaktyce."
       }
     ],
     "teacher_video": {
       "title": "Higiena cyfrowa, czyli profilaktyka e-uzależnień",
-      "url": "https://www.youtube.com/watch?v=JEGFYp4OVcQ"
+      "url": "https://www.youtube.com/watch?v=JEGFYp4OVcQ",
+      "note": "Film o higienie cyfrowej i e-uzależnieniach porządkuje temat utraty kontroli. Nauczyciel może wyłapać sygnały ryzyka, które uczniowie łatwo rozpoznają w codzienności."
     }
   },
   {
@@ -1015,7 +1386,11 @@
     ],
     "source_keys": [
       "zpe_zdrowie",
-      "zsz5"
+      "zsz5",
+      "fdds_przemoc_scenariusz",
+      "fdds_ramie",
+      "who_mental",
+      "unicef_teen"
     ],
     "sources": [
       {
@@ -1029,11 +1404,36 @@
         "name": "ZSZ nr 5 we Wrocławiu",
         "url": "https://zsz5.edupage.org/",
         "note": "Lokalne dokumenty szkoły, statut, komunikaty i informacje organizacyjne."
+      },
+      {
+        "key": "fdds_przemoc_scenariusz",
+        "name": "FDDS: przemoc rówieśnicza - scenariusz dla młodzieży 13-18 lat",
+        "url": "https://edukacja.fdds.pl/course/view.php?id=902",
+        "note": "Scenariusz zajęć o przemocy offline i online oraz reagowaniu z perspektywy świadka i osoby pokrzywdzonej."
+      },
+      {
+        "key": "fdds_ramie",
+        "name": "FDDS: #ramięwramię - scenariusze o przemocy rówieśniczej",
+        "url": "https://edukacja.fdds.pl/course/view.php?id=683",
+        "note": "Materiały do rozmowy o roli świadka, granicach, zachowaniach raniących i szukaniu pomocy."
+      },
+      {
+        "key": "who_mental",
+        "name": "WHO: adolescent mental health",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health",
+        "note": "Zwięzłe omówienie zdrowia psychicznego nastolatków, czynników ryzyka i znaczenia wsparcia."
+      },
+      {
+        "key": "unicef_teen",
+        "name": "UNICEF: supporting your teen's mental health",
+        "url": "https://www.unicef.org/parenting/health/four-things-you-can-do-support-your-teens-mental-health",
+        "note": "Praktyczne wskazówki dotyczące słuchania nastolatka, spokojnego konfliktu i wspierania sprawczości."
       }
     ],
     "teacher_video": {
       "title": "Jak rozmawiać z nastolatkiem, żeby chciał słuchać?",
-      "url": "https://www.youtube.com/watch?v=Dh3EGv9Vimc"
+      "url": "https://www.youtube.com/watch?v=Dh3EGv9Vimc",
+      "note": "Materiał pomaga przygotować spokojny język rozmowy z nastolatkiem w trudnościach. Warto obejrzeć go pod kątem tego, jak słuchać bez natychmiastowego oceniania."
     }
   },
   {
@@ -1062,7 +1462,11 @@
     ],
     "source_keys": [
       "fdds",
-      "men_przemoc"
+      "men_przemoc",
+      "fdds_przemoc_scenariusz",
+      "fdds_ramie",
+      "who_mental",
+      "szkola_z_klasa_odpornosc"
     ],
     "sources": [
       {
@@ -1076,11 +1480,36 @@
         "name": "MEN: ścieżka pomocy dla szkoły - przemoc rówieśnicza",
         "url": "https://dokumenty.men.gov.pl/SCIEZKA-POMOCY-DLA-SZKOLY-przemoc-rowiesnicza-68c43ef1af0a9.docx",
         "note": "Dokument pomocniczy do reagowania na przemoc rówieśniczą w szkole."
+      },
+      {
+        "key": "fdds_przemoc_scenariusz",
+        "name": "FDDS: przemoc rówieśnicza - scenariusz dla młodzieży 13-18 lat",
+        "url": "https://edukacja.fdds.pl/course/view.php?id=902",
+        "note": "Scenariusz zajęć o przemocy offline i online oraz reagowaniu z perspektywy świadka i osoby pokrzywdzonej."
+      },
+      {
+        "key": "fdds_ramie",
+        "name": "FDDS: #ramięwramię - scenariusze o przemocy rówieśniczej",
+        "url": "https://edukacja.fdds.pl/course/view.php?id=683",
+        "note": "Materiały do rozmowy o roli świadka, granicach, zachowaniach raniących i szukaniu pomocy."
+      },
+      {
+        "key": "who_mental",
+        "name": "WHO: adolescent mental health",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health",
+        "note": "Zwięzłe omówienie zdrowia psychicznego nastolatków, czynników ryzyka i znaczenia wsparcia."
+      },
+      {
+        "key": "szkola_z_klasa_odpornosc",
+        "name": "Szkoła z Klasą: materiały o odporności psychicznej",
+        "url": "https://www.szkolazklasa.org.pl/obszary/szkola-z-klasa/materialy-edukacyjne/",
+        "note": "Materiały dla nauczycieli o dialogu, odporności psychicznej i relacjach w klasie."
       }
     ],
     "teacher_video": {
       "title": "Konflikt w grupie - fakty i mity",
-      "url": "https://www.youtube.com/watch?v=_cXiIE4Pnr4"
+      "url": "https://www.youtube.com/watch?v=_cXiIE4Pnr4",
+      "note": "Film o konflikcie w grupie pozwala zobaczyć, że nie każda trudność wymaga eskalacji. Nauczyciel może z niego wziąć przykłady pytań, które zatrzymują agresję."
     }
   },
   {
@@ -1111,7 +1540,9 @@
     "source_keys": [
       "ore_doradztwo",
       "ore_filmy",
-      "szkola_mistrzow"
+      "szkola_mistrzow",
+      "ore_doradcy_2023",
+      "ore_zasoby"
     ],
     "sources": [
       {
@@ -1131,11 +1562,24 @@
         "name": "Szkoła Mistrzów",
         "url": "https://www.szkolamistrzow.info/",
         "note": "Informacje o ofercie kształcenia zawodowego szkoły."
+      },
+      {
+        "key": "ore_doradcy_2023",
+        "name": "ORE: materiały edukacyjne dla doradców zawodowych",
+        "url": "https://ore.edu.pl/2023/12/materialy-edukacyjne-dla-doradcow-zawodowych/",
+        "note": "Publikacje, scenariusze i karty pracy dla osób prowadzących doradztwo zawodowe."
+      },
+      {
+        "key": "ore_zasoby",
+        "name": "ORE: zasoby do pracy z uczniami",
+        "url": "https://doradztwo.ore.edu.pl/zasoby-pracy-uczniami-klas-7-8-szkoly-podstawowej-oraz-gimnazjum/",
+        "note": "Materiały metodyczne o potencjale uczniów, zdolnościach, twórczości i wyborach edukacyjnych."
       }
     ],
     "teacher_video": {
       "title": "Drogi Zawodowe - Mocne strony",
-      "url": "https://doradztwo.ore.edu.pl/cykl-filmow-drogi-zawodowe/"
+      "url": "https://doradztwo.ore.edu.pl/cykl-filmow-drogi-zawodowe/",
+      "note": "Film z cyklu ORE pomaga mówić o mocnych stronach jako o zasobach zawodowych. Warto obejrzeć go przed lekcją, żeby przygotować pytania o dowody i przykłady działań."
     }
   },
   {
@@ -1166,7 +1610,9 @@
     "source_keys": [
       "ore_doradztwo",
       "ore_filmy",
-      "szkola_mistrzow"
+      "szkola_mistrzow",
+      "ore_doradcy_2023",
+      "ore_zasoby"
     ],
     "sources": [
       {
@@ -1186,11 +1632,24 @@
         "name": "Szkoła Mistrzów",
         "url": "https://www.szkolamistrzow.info/",
         "note": "Informacje o ofercie kształcenia zawodowego szkoły."
+      },
+      {
+        "key": "ore_doradcy_2023",
+        "name": "ORE: materiały edukacyjne dla doradców zawodowych",
+        "url": "https://ore.edu.pl/2023/12/materialy-edukacyjne-dla-doradcow-zawodowych/",
+        "note": "Publikacje, scenariusze i karty pracy dla osób prowadzących doradztwo zawodowe."
+      },
+      {
+        "key": "ore_zasoby",
+        "name": "ORE: zasoby do pracy z uczniami",
+        "url": "https://doradztwo.ore.edu.pl/zasoby-pracy-uczniami-klas-7-8-szkoly-podstawowej-oraz-gimnazjum/",
+        "note": "Materiały metodyczne o potencjale uczniów, zdolnościach, twórczości i wyborach edukacyjnych."
       }
     ],
     "teacher_video": {
       "title": "Kompetencje miękkie - co pracodawcy cenią najbardziej",
-      "url": "https://www.youtube.com/playlist?list=PLb3ouxXjeRieChrhVYJarKFnrDH6i3-xU"
+      "url": "https://www.youtube.com/playlist?list=PLb3ouxXjeRieChrhVYJarKFnrDH6i3-xU",
+      "note": "Playlista o kompetencjach miękkich pokazuje, czego pracodawcy oczekują poza wiedzą techniczną. Nauczyciel może wybrać jeden fragment do przygotowania rozmowy o praktykach."
     }
   },
   {
@@ -1221,7 +1680,9 @@
     "source_keys": [
       "ore_doradztwo",
       "ore_filmy",
-      "szkola_mistrzow"
+      "szkola_mistrzow",
+      "ore_doradcy_2023",
+      "ore_zasoby"
     ],
     "sources": [
       {
@@ -1241,11 +1702,24 @@
         "name": "Szkoła Mistrzów",
         "url": "https://www.szkolamistrzow.info/",
         "note": "Informacje o ofercie kształcenia zawodowego szkoły."
+      },
+      {
+        "key": "ore_doradcy_2023",
+        "name": "ORE: materiały edukacyjne dla doradców zawodowych",
+        "url": "https://ore.edu.pl/2023/12/materialy-edukacyjne-dla-doradcow-zawodowych/",
+        "note": "Publikacje, scenariusze i karty pracy dla osób prowadzących doradztwo zawodowe."
+      },
+      {
+        "key": "ore_zasoby",
+        "name": "ORE: zasoby do pracy z uczniami",
+        "url": "https://doradztwo.ore.edu.pl/zasoby-pracy-uczniami-klas-7-8-szkoly-podstawowej-oraz-gimnazjum/",
+        "note": "Materiały metodyczne o potencjale uczniów, zdolnościach, twórczości i wyborach edukacyjnych."
       }
     ],
     "teacher_video": {
       "title": "Drogi Zawodowe - Pierwsze doświadczenia",
-      "url": "https://doradztwo.ore.edu.pl/cykl-filmow-drogi-zawodowe/"
+      "url": "https://doradztwo.ore.edu.pl/cykl-filmow-drogi-zawodowe/",
+      "note": "Film z cyklu ORE o pierwszych doświadczeniach zawodowych pomaga pokazać praktyki jako element budowania reputacji. Warto wykorzystać go do rozmowy o postawie w miejscu pracy."
     }
   },
   {
@@ -1276,7 +1750,9 @@
     "source_keys": [
       "ore_doradztwo",
       "ore_filmy",
-      "szkola_mistrzow"
+      "szkola_mistrzow",
+      "ore_doradcy_2023",
+      "ore_zasoby"
     ],
     "sources": [
       {
@@ -1296,11 +1772,24 @@
         "name": "Szkoła Mistrzów",
         "url": "https://www.szkolamistrzow.info/",
         "note": "Informacje o ofercie kształcenia zawodowego szkoły."
+      },
+      {
+        "key": "ore_doradcy_2023",
+        "name": "ORE: materiały edukacyjne dla doradców zawodowych",
+        "url": "https://ore.edu.pl/2023/12/materialy-edukacyjne-dla-doradcow-zawodowych/",
+        "note": "Publikacje, scenariusze i karty pracy dla osób prowadzących doradztwo zawodowe."
+      },
+      {
+        "key": "ore_zasoby",
+        "name": "ORE: zasoby do pracy z uczniami",
+        "url": "https://doradztwo.ore.edu.pl/zasoby-pracy-uczniami-klas-7-8-szkoly-podstawowej-oraz-gimnazjum/",
+        "note": "Materiały metodyczne o potencjale uczniów, zdolnościach, twórczości i wyborach edukacyjnych."
       }
     ],
     "teacher_video": {
       "title": "Drogi Zawodowe - Wybory i decyzje",
-      "url": "https://doradztwo.ore.edu.pl/cykl-filmow-drogi-zawodowe/"
+      "url": "https://doradztwo.ore.edu.pl/cykl-filmow-drogi-zawodowe/",
+      "note": "Materiał ORE może pomóc nauczycielowi rozmawiać o decyzjach bez presji idealnego wyboru. Przygotowuje do pytań o opcje, informacje i pierwszy możliwy krok."
     }
   },
   {
@@ -1330,7 +1819,9 @@
     ],
     "source_keys": [
       "zpe",
-      "nask_dezinformacja"
+      "nask_dezinformacja",
+      "ceo_project_pdf",
+      "ceo_feedback_blog"
     ],
     "sources": [
       {
@@ -1344,11 +1835,24 @@
         "name": "NASK: zjawisko dezinformacji - materiały edukacyjne",
         "url": "https://www.gov.pl/web/nauka/zjawisko-dezinformacji--materialy-edukacyjne-nask",
         "note": "Ćwiczenia i pomoce dydaktyczne do pracy z uczniami nad fake newsami."
+      },
+      {
+        "key": "ceo_project_pdf",
+        "name": "CEO: metoda projektu edukacyjnego",
+        "url": "https://alosus.ceo.org.pl/sites/alosus.ceo.org.pl/files/metoda_projektu_edukacyjnego_katarzyna_soltan-mlodozeniec.pdf",
+        "note": "Praktyczny poradnik o planowaniu projektu, rolach, kryteriach sukcesu i ewaluacji."
+      },
+      {
+        "key": "ceo_feedback_blog",
+        "name": "CEO: jak udzielać informacji zwrotnej",
+        "url": "https://ceo.org.pl/co-warto-wiedziec-o-informacji-zwrotnej/",
+        "note": "Krótki artykuł o informacji zwrotnej jako komunikacie odnoszącym się do pracy, aktywności lub zachowania."
       }
     ],
     "teacher_video": {
       "title": "ZPE - zasoby edukacyjne do samodzielnej pracy",
-      "url": "https://zpe.gov.pl/"
+      "url": "https://zpe.gov.pl/",
+      "note": "ZPE jest tu inspiracją do pokazania uczniom, że dobre źródło ma autora, kontekst i cel. Warto przed lekcją wybrać jeden przykład materiału do wspólnej oceny wiarygodności."
     }
   },
   {
@@ -1377,7 +1881,10 @@
       "Nauczyciel wspiera proces, ale nie wykonuje pracy za uczniów."
     ],
     "source_keys": [
-      "projekt"
+      "projekt",
+      "ceo_project_pdf",
+      "ceo_feedback_blog",
+      "zpe"
     ],
     "sources": [
       {
@@ -1385,11 +1892,30 @@
         "name": "Jak pracować metodą projektu krok po kroku",
         "url": "https://photon.education/pl/praca-metoda-projektu/",
         "note": "Przystępny opis planowania i prowadzenia pracy projektowej."
+      },
+      {
+        "key": "ceo_project_pdf",
+        "name": "CEO: metoda projektu edukacyjnego",
+        "url": "https://alosus.ceo.org.pl/sites/alosus.ceo.org.pl/files/metoda_projektu_edukacyjnego_katarzyna_soltan-mlodozeniec.pdf",
+        "note": "Praktyczny poradnik o planowaniu projektu, rolach, kryteriach sukcesu i ewaluacji."
+      },
+      {
+        "key": "ceo_feedback_blog",
+        "name": "CEO: jak udzielać informacji zwrotnej",
+        "url": "https://ceo.org.pl/co-warto-wiedziec-o-informacji-zwrotnej/",
+        "note": "Krótki artykuł o informacji zwrotnej jako komunikacie odnoszącym się do pracy, aktywności lub zachowania."
+      },
+      {
+        "key": "zpe",
+        "name": "Zintegrowana Platforma Edukacyjna",
+        "url": "https://zpe.gov.pl/",
+        "note": "Materiały edukacyjne, kursy i zasoby do wykorzystania przez nauczyciela."
       }
     ],
     "teacher_video": {
       "title": "Metoda projektu - webinaria",
-      "url": "https://www.youtube.com/playlist?list=PL_2UCJJebQEQYYi6Tn6pm8vGB68Z0hwxT"
+      "url": "https://www.youtube.com/playlist?list=PL_2UCJJebQEQYYi6Tn6pm8vGB68Z0hwxT",
+      "note": "Webinary o metodzie projektu pomagają nauczycielowi uporządkować przejście od pomysłu do działania. Warto zwrócić uwagę na role, harmonogram i kryteria sukcesu."
     }
   },
   {
@@ -1418,7 +1944,10 @@
       "Uczeń korzysta z informacji zwrotnej dopiero wtedy, gdy robi po niej konkretne działanie."
     ],
     "source_keys": [
-      "ceo_feedback"
+      "ceo_feedback",
+      "ceo_project_pdf",
+      "ceo_feedback_blog",
+      "zpe"
     ],
     "sources": [
       {
@@ -1426,11 +1955,30 @@
         "name": "CEO: informacja zwrotna, czyli ocena kształtująca",
         "url": "https://biblioteka.ceo.org.pl/informacja-zwrotna-czyli-ocena-ksztaltujaca/",
         "note": "Praktyczne wyjaśnienie roli informacji zwrotnej w uczeniu się."
+      },
+      {
+        "key": "ceo_project_pdf",
+        "name": "CEO: metoda projektu edukacyjnego",
+        "url": "https://alosus.ceo.org.pl/sites/alosus.ceo.org.pl/files/metoda_projektu_edukacyjnego_katarzyna_soltan-mlodozeniec.pdf",
+        "note": "Praktyczny poradnik o planowaniu projektu, rolach, kryteriach sukcesu i ewaluacji."
+      },
+      {
+        "key": "ceo_feedback_blog",
+        "name": "CEO: jak udzielać informacji zwrotnej",
+        "url": "https://ceo.org.pl/co-warto-wiedziec-o-informacji-zwrotnej/",
+        "note": "Krótki artykuł o informacji zwrotnej jako komunikacie odnoszącym się do pracy, aktywności lub zachowania."
+      },
+      {
+        "key": "zpe",
+        "name": "Zintegrowana Platforma Edukacyjna",
+        "url": "https://zpe.gov.pl/",
+        "note": "Materiały edukacyjne, kursy i zasoby do wykorzystania przez nauczyciela."
       }
     ],
     "teacher_video": {
       "title": "Ocenianie kształtujące - współpraca nauczycieli",
-      "url": "https://www.youtube.com/playlist?list=PLD4KSOFXmjZuF-xOYwcn89_PJI2Pt2hV9"
+      "url": "https://www.youtube.com/playlist?list=PLD4KSOFXmjZuF-xOYwcn89_PJI2Pt2hV9",
+      "note": "Materiały CEO pokazują informację zwrotną jako narzędzie rozwoju, a nie oceniania osoby. Nauczyciel może przygotować jeden model zdania: mocna strona, wskazówka, następny krok."
     }
   },
   {
@@ -1460,7 +2008,9 @@
     ],
     "source_keys": [
       "zpe",
-      "projekt"
+      "projekt",
+      "ceo_project_pdf",
+      "ceo_feedback_blog"
     ],
     "sources": [
       {
@@ -1474,11 +2024,24 @@
         "name": "Jak pracować metodą projektu krok po kroku",
         "url": "https://photon.education/pl/praca-metoda-projektu/",
         "note": "Przystępny opis planowania i prowadzenia pracy projektowej."
+      },
+      {
+        "key": "ceo_project_pdf",
+        "name": "CEO: metoda projektu edukacyjnego",
+        "url": "https://alosus.ceo.org.pl/sites/alosus.ceo.org.pl/files/metoda_projektu_edukacyjnego_katarzyna_soltan-mlodozeniec.pdf",
+        "note": "Praktyczny poradnik o planowaniu projektu, rolach, kryteriach sukcesu i ewaluacji."
+      },
+      {
+        "key": "ceo_feedback_blog",
+        "name": "CEO: jak udzielać informacji zwrotnej",
+        "url": "https://ceo.org.pl/co-warto-wiedziec-o-informacji-zwrotnej/",
+        "note": "Krótki artykuł o informacji zwrotnej jako komunikacie odnoszącym się do pracy, aktywności lub zachowania."
       }
     ],
     "teacher_video": {
       "title": "Uczenie się metodą uczniowskiego projektu",
-      "url": "https://www.edunews.pl/narzedzia-i-projekty/narzedzia-edukacyjne/1136-uczenie-sie-metoda-uczniowskiego-projektu"
+      "url": "https://www.edunews.pl/narzedzia-i-projekty/narzedzia-edukacyjne/1136-uczenie-sie-metoda-uczniowskiego-projektu",
+      "note": "Artykuł o metodzie projektu pomaga zobaczyć uczenie się jako łączenie dziedzin i działanie. Warto użyć go do przygotowania przykładu zadania, które wymaga kilku typów wiedzy."
     }
   },
   {
@@ -1508,7 +2071,10 @@
     ],
     "source_keys": [
       "pah_woda",
-      "zpe_odpady"
+      "zpe_odpady",
+      "pah_edukacja",
+      "pah_dla_szkol",
+      "pah_woda_materialy"
     ],
     "sources": [
       {
@@ -1522,11 +2088,30 @@
         "name": "ZPE: film - w jaki sposób radzić sobie z odpadami?",
         "url": "https://zpe.gov.pl/a/film/Df0T0zIDT",
         "note": "Film i ćwiczenia o rodzajach odpadów i gospodarowaniu odpadami."
+      },
+      {
+        "key": "pah_edukacja",
+        "name": "PAH: edukacja globalna",
+        "url": "https://www.pah.org.pl/zaangazuj-sie/edukacjaglobalna/",
+        "note": "Materiały i szkolenia o edukacji globalnej, odpowiedzialności, wodzie i kryzysach humanitarnych."
+      },
+      {
+        "key": "pah_dla_szkol",
+        "name": "PAH: programy dla szkół",
+        "url": "https://www.pah.org.pl/zaangazuj-sie/dla-szkol/",
+        "note": "Programy edukacyjne dla szkół, m.in. Lekcje Pomagania i Godziny Wychowawcze ze Światem."
+      },
+      {
+        "key": "pah_woda_materialy",
+        "name": "PAH: Światowy Dzień Wody - materiały",
+        "url": "https://www.pah.org.pl/akcja-swiatowy-dzien-wody/",
+        "note": "Scenariusze, quizy, karty dyskusji i materiały merytoryczne o wodzie."
       }
     ],
     "teacher_video": {
       "title": "Woda nie tylko w kranie",
-      "url": "https://www.youtube.com/watch?v=AB0RFjndmWU"
+      "url": "https://www.youtube.com/watch?v=AB0RFjndmWU",
+      "note": "Animacja PAH o wodzie dobrze wspiera rozmowę o zasobach, których nie widać w codziennym pośpiechu. Nauczyciel może wykorzystać ją do pytań o straty w domu i szkole."
     }
   },
   {
@@ -1556,7 +2141,10 @@
     ],
     "source_keys": [
       "zpe_odpady",
-      "pah_woda"
+      "pah_woda",
+      "pah_edukacja",
+      "pah_dla_szkol",
+      "pah_woda_materialy"
     ],
     "sources": [
       {
@@ -1570,11 +2158,30 @@
         "name": "PAH: Woda nie tylko w kranie",
         "url": "https://www.youtube.com/watch?v=AB0RFjndmWU",
         "note": "Animacja edukacyjna pomocna przy rozmowie o wodzie i odpowiedzialności."
+      },
+      {
+        "key": "pah_edukacja",
+        "name": "PAH: edukacja globalna",
+        "url": "https://www.pah.org.pl/zaangazuj-sie/edukacjaglobalna/",
+        "note": "Materiały i szkolenia o edukacji globalnej, odpowiedzialności, wodzie i kryzysach humanitarnych."
+      },
+      {
+        "key": "pah_dla_szkol",
+        "name": "PAH: programy dla szkół",
+        "url": "https://www.pah.org.pl/zaangazuj-sie/dla-szkol/",
+        "note": "Programy edukacyjne dla szkół, m.in. Lekcje Pomagania i Godziny Wychowawcze ze Światem."
+      },
+      {
+        "key": "pah_woda_materialy",
+        "name": "PAH: Światowy Dzień Wody - materiały",
+        "url": "https://www.pah.org.pl/akcja-swiatowy-dzien-wody/",
+        "note": "Scenariusze, quizy, karty dyskusji i materiały merytoryczne o wodzie."
       }
     ],
     "teacher_video": {
       "title": "Ekologia w życiu EKO bohatera",
-      "url": "https://www.youtube.com/watch?v=wxZ6JKXTX4U"
+      "url": "https://www.youtube.com/watch?v=wxZ6JKXTX4U",
+      "note": "Film o ekologii w codzienności pozwala przejść od ogólnych haseł do zwykłych decyzji. Warto obejrzeć go pod kątem przykładów, które uczniowie mogą odnieść do jednego dnia."
     }
   },
   {
@@ -1603,7 +2210,10 @@
       "Najpierw ograniczamy ilość odpadów, a dopiero potem je segregujemy."
     ],
     "source_keys": [
-      "zpe_odpady"
+      "zpe_odpady",
+      "pah_edukacja",
+      "pah_dla_szkol",
+      "pah_woda_materialy"
     ],
     "sources": [
       {
@@ -1611,11 +2221,30 @@
         "name": "ZPE: film - w jaki sposób radzić sobie z odpadami?",
         "url": "https://zpe.gov.pl/a/film/Df0T0zIDT",
         "note": "Film i ćwiczenia o rodzajach odpadów i gospodarowaniu odpadami."
+      },
+      {
+        "key": "pah_edukacja",
+        "name": "PAH: edukacja globalna",
+        "url": "https://www.pah.org.pl/zaangazuj-sie/edukacjaglobalna/",
+        "note": "Materiały i szkolenia o edukacji globalnej, odpowiedzialności, wodzie i kryzysach humanitarnych."
+      },
+      {
+        "key": "pah_dla_szkol",
+        "name": "PAH: programy dla szkół",
+        "url": "https://www.pah.org.pl/zaangazuj-sie/dla-szkol/",
+        "note": "Programy edukacyjne dla szkół, m.in. Lekcje Pomagania i Godziny Wychowawcze ze Światem."
+      },
+      {
+        "key": "pah_woda_materialy",
+        "name": "PAH: Światowy Dzień Wody - materiały",
+        "url": "https://www.pah.org.pl/akcja-swiatowy-dzien-wody/",
+        "note": "Scenariusze, quizy, karty dyskusji i materiały merytoryczne o wodzie."
       }
     ],
     "teacher_video": {
       "title": "W jaki sposób radzić sobie z odpadami?",
-      "url": "https://zpe.gov.pl/a/film/Df0T0zIDT"
+      "url": "https://zpe.gov.pl/a/film/Df0T0zIDT",
+      "note": "Materiał ZPE o odpadach porządkuje podstawowe pojęcia i pokazuje praktyczny sens segregacji. Przyda się do przygotowania krótkiego ćwiczenia z typowymi błędami."
     }
   },
   {
@@ -1644,7 +2273,10 @@
     ],
     "source_keys": [
       "zpe_odpady",
-      "projekt"
+      "projekt",
+      "pah_edukacja",
+      "pah_dla_szkol",
+      "pah_woda_materialy"
     ],
     "sources": [
       {
@@ -1658,11 +2290,30 @@
         "name": "Jak pracować metodą projektu krok po kroku",
         "url": "https://photon.education/pl/praca-metoda-projektu/",
         "note": "Przystępny opis planowania i prowadzenia pracy projektowej."
+      },
+      {
+        "key": "pah_edukacja",
+        "name": "PAH: edukacja globalna",
+        "url": "https://www.pah.org.pl/zaangazuj-sie/edukacjaglobalna/",
+        "note": "Materiały i szkolenia o edukacji globalnej, odpowiedzialności, wodzie i kryzysach humanitarnych."
+      },
+      {
+        "key": "pah_dla_szkol",
+        "name": "PAH: programy dla szkół",
+        "url": "https://www.pah.org.pl/zaangazuj-sie/dla-szkol/",
+        "note": "Programy edukacyjne dla szkół, m.in. Lekcje Pomagania i Godziny Wychowawcze ze Światem."
+      },
+      {
+        "key": "pah_woda_materialy",
+        "name": "PAH: Światowy Dzień Wody - materiały",
+        "url": "https://www.pah.org.pl/akcja-swiatowy-dzien-wody/",
+        "note": "Scenariusze, quizy, karty dyskusji i materiały merytoryczne o wodzie."
       }
     ],
     "teacher_video": {
       "title": "Młodzież promuje ekologiczne zachowania",
-      "url": "https://eog-szkoly.zory.pl/mlodziez-nakrecila-filmy-by-promowac-ekologiczne-zachowania/"
+      "url": "https://eog-szkoly.zory.pl/mlodziez-nakrecila-filmy-by-promowac-ekologiczne-zachowania/",
+      "note": "Materiał o działaniach młodzieży pokazuje, że ekologia może być projektem uczniowskim, a nie tylko tematem rozmowy. Warto poszukać w nim inspiracji do małego działania klasowego."
     }
   }
 ]

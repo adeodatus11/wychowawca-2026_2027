@@ -106,15 +106,15 @@ input, select {
   padding: 6px 10px;
   font-weight: 800;
 }
-.goal-list {
+.month-list {
   display: grid;
   gap: 20px;
 }
-.goal-section {
+.month-section {
   display: grid;
   gap: 12px;
 }
-.goal-heading {
+.month-heading {
   display: flex;
   align-items: end;
   justify-content: space-between;
@@ -122,14 +122,19 @@ input, select {
   padding-bottom: 8px;
   border-bottom: 1px solid var(--line);
 }
-.goal-heading h2 { margin: 3px 0 0; }
-.goal-heading > span {
+.month-heading h2 { margin: 3px 0 0; }
+.month-heading p {
+  margin: 4px 0 0;
+  color: var(--muted);
+  font-size: .92rem;
+}
+.month-heading > span {
   flex: 0 0 auto;
   color: var(--muted);
   font-size: .9rem;
   font-weight: 800;
 }
-.goal-kicker {
+.month-kicker {
   color: var(--accent);
   font-size: .78rem;
   font-weight: 900;
@@ -231,6 +236,30 @@ input, select {
 .aside-card { padding: 14px; }
 .aside-card strong { display: block; margin-bottom: 8px; }
 .video-card { background: var(--amber-soft); }
+.video-card span, .resource-card span {
+  display: block;
+  margin-bottom: 10px;
+  font-size: .92rem;
+}
+.resource-link {
+  display: inline-flex;
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  padding: 8px 10px;
+  font-weight: 850;
+  text-decoration: none;
+}
+.compact-source-list {
+  display: grid;
+  gap: 11px;
+  margin: 0;
+  padding-left: 18px;
+}
+.compact-source-list a {
+  display: inline-block;
+  font-weight: 850;
+  line-height: 1.25;
+}
 .lesson-content {
   padding: 22px;
   min-width: 0;
@@ -302,6 +331,6 @@ li + li { margin-top: 6px; }
   .metrics, .index-layout, .lesson-layout { grid-template-columns: 1fr; }
   .toolbar, .lesson-aside { position: static; }
   .note { grid-column: auto; }
-  .goal-heading { align-items: start; flex-direction: column; }
+  .month-heading { align-items: start; flex-direction: column; }
   .schedule { display: block; overflow-x: auto; }
 }
