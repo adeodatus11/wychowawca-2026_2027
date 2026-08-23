@@ -1345,8 +1345,8 @@ def render_index(lessons: list[dict]) -> str:
     <section class="overview" aria-labelledby="overview-title">
       <div class="overview-block">
         <h2 id="overview-title">Jak pracować z tą stroną</h2>
-        <p>Strona jest praktycznym przewodnikiem dla wychowawcy. Najpierw wybierz miesiąc albo obszar po lewej, potem otwórz temat i przeczytaj krótki opis sensu lekcji. Ten opis pomaga zrozumieć, po co dana rozmowa jest prowadzona i czego warto pilnować w klasie.</p>
-        <p>Na stronie lekcji zacznij od pytania otwierającego, skorzystaj z proponowanego ćwiczenia i koniecznie wypowiedz komunikaty z sekcji „Co musi wybrzmieć”. Film traktuj przede wszystkim jako przygotowanie dla nauczyciela; można go wykorzystać także z klasą, jeśli pasuje do wieku i sytuacji grupy.</p>
+        <p>Strona jest praktycznym przewodnikiem dla wychowawcy. Najpierw wybierz miesiąc albo obszar po lewej, potem otwórz temat i przeczytaj krótki opis celu lekcji. Ten opis pomaga zrozumieć, po co dana rozmowa jest prowadzona i czego warto pilnować w klasie.</p>
+        <p>Na stronie lekcji zacznij od pytania otwierającego, skorzystaj z proponowanego ćwiczenia i koniecznie wypowiedz komunikaty z sekcji „Co musi wybrzmieć”. Film traktuj przede wszystkim jako przygotowanie dla nauczyciela; można go wykorzystać także z klasą, jeśli pasuje do potrzeb lub sytuacji w klasie.</p>
       </div>
       <div class="overview-block">
         <h2>Cele programu w skrócie</h2>
