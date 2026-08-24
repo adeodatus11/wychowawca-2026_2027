@@ -1192,13 +1192,17 @@ def render_lesson(lesson: dict, prev_lesson: dict | None, next_lesson: dict | No
     nav_prev = f'<a class="nav-link" href="{esc(prev_lesson["slug"])}.html">Poprzednia lekcja</a>' if prev_lesson else ""
     nav_next = f'<a class="nav-link" href="{esc(next_lesson["slug"])}.html">Następna lekcja</a>' if next_lesson else ""
     body = f"""
-  <header class="site-header compact">
-    {brand_html("../")}
-    <a class="back-link" href="../index.html">← Plan pracy wychowawczo-profilaktycznej 2026/2027</a>
-    <p class="kicker">Cel {lesson["goal"]} · {esc(lesson["area"])} · {esc(lesson["month"])}</p>
-    <h1>{esc(lesson["display_title"])}</h1>
-    <p class="subtitle"><strong>Temat z planu:</strong> {esc(lesson["title"])}</p>
-    <p class="subtitle">Materiał dla wychowawcy: kontekst tematu, konkretne pytanie startowe, przebieg rozmowy, ćwiczenie i komunikaty, które trzeba powiedzieć uczniom wprost.</p>
+  <header class="site-header compact lesson-header">
+    <div class="lesson-header-inner">
+      <div class="lesson-topbar">
+        {brand_html("../")}
+        <a class="back-link" href="../index.html">← Wróć do planu</a>
+      </div>
+      <p class="kicker">Cel {lesson["goal"]} · {esc(lesson["area"])} · {esc(lesson["month"])}</p>
+      <h1>{esc(lesson["display_title"])}</h1>
+      <p class="subtitle"><strong>Temat z planu:</strong> {esc(lesson["title"])}</p>
+      <p class="subtitle">Materiał dla wychowawcy: kontekst tematu, konkretne pytanie startowe, przebieg rozmowy, ćwiczenie i komunikaty, które trzeba powiedzieć uczniom wprost.</p>
+    </div>
   </header>
   <main class="lesson-layout">
     <aside class="lesson-aside">
@@ -1401,6 +1405,23 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   border-bottom: 1px solid var(--line);
 }
 .site-header.compact { padding-bottom: 22px; }
+.lesson-header {
+  padding: 20px clamp(18px, 4vw, 56px) 24px;
+}
+.lesson-header-inner {
+  width: min(100%, 1840px);
+  margin: 0 auto;
+}
+.lesson-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  margin-bottom: 18px;
+}
+.lesson-topbar .brand-strip {
+  margin-bottom: 0;
+}
 .home-header {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(280px, 430px);
@@ -1701,15 +1722,29 @@ input, select {
 }
 .back-link {
   display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  padding: 8px 12px;
+  background: #fff;
   margin-bottom: 16px;
   font-weight: 800;
   text-decoration: none;
+  white-space: nowrap;
+}
+.lesson-topbar .back-link {
+  flex: 0 0 auto;
+  margin-bottom: 0;
 }
 .lesson-layout {
   display: grid;
-  grid-template-columns: minmax(230px, 310px) minmax(0, 900px);
-  gap: 20px;
-  padding: 22px clamp(18px, 5vw, 64px) 42px;
+  grid-template-columns: minmax(260px, 340px) minmax(0, 1fr);
+  gap: 22px;
+  width: min(100%, 1840px);
+  margin: 0 auto;
+  padding: 22px clamp(18px, 4vw, 40px) 42px;
   align-items: start;
 }
 .lesson-aside {
@@ -1834,6 +1869,13 @@ li + li { margin-top: 6px; }
   .note, .overview, .lesson-list-section { grid-column: auto; }
   .month-heading { align-items: start; flex-direction: column; }
   .schedule { display: block; overflow-x: auto; }
+}
+@media (max-width: 640px) {
+  .lesson-topbar {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
+  }
 }
 @media (max-width: 520px) {
   .brand-strip {
