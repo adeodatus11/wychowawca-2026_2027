@@ -1,0 +1,5050 @@
+{
+  "source": "/Users/maciejnajwer/Library/CloudStorage/OneDrive-ZESPÓŁSZKÓŁZAWODOWYCHNR5/rok szkolny 2026_2027/program wychowaczo-profilaktyczny/wytyczne_wych_uczn_1_wrzes_2026_ost.docx",
+  "metadata": {
+    "mtime": "2026-08-28T16:07:15",
+    "size_bytes": 42158,
+    "rendered_pages": 5,
+    "paragraph_count": 94,
+    "table_count": 0,
+    "page_size_twips": {
+      "w": "11906",
+      "h": "16838"
+    },
+    "margins_twips": {
+      "top": "1417",
+      "right": "1417",
+      "bottom": "1417",
+      "left": "1417",
+      "header": "708",
+      "footer": "708",
+      "gutter": "0"
+    },
+    "comments_present": false,
+    "footnotes_xml_present": true,
+    "endnotes_xml_present": true
+  },
+  "rendered_outline": [
+    "1. Podać tygodniowy plan zajęć i nazwiska nauczycieli uczących w klasie.",
+    "2. Zapoznać uczniów z przepisami BHP obowiązującymi w szkole; potwierdzenie podpisem na liście klasy; załącznik w teczce wychowawcy.",
+    "3. Zapoznać uczniów z regulaminem wchodzenia na teren szkoły przy użyciu karty magnetycznej lub chipa; potwierdzenie podpisem; załącznik w teczce wychowawcy.",
+    "4. Zapoznać uczniów ze Standardami Ochrony Małoletnich w ZSZ nr 5; dokument na stronie szkoły w zakładce SZKOŁA - AKTUALNOŚCI.",
+    "5. Przypomnieć zakaz opuszczania terenu szkoły podczas lekcji i przerw oraz konsekwencje łamania regulaminu.",
+    "6. Poinformować o ocenianiu zachowania i trybie uzyskania wyższej rocznej oceny zachowania.",
+    "7. Zaktualizować dane o uczniach: osobno dla klas pierwszych i starszych.",
+    "8. Poinformować o zastępstwach: tablica ogłoszeń przy pokoju nauczycielskim oraz dziennik elektroniczny.",
+    "9. Dla klas pierwszych: plan szkoły i kluczowe miejsca.",
+    "10. Przedstawić ramowy kalendarz roku szkolnego 2026/2027, w tym przerwy, zakończenia, praktyki.",
+    "11. Przedstawić terminarz zebrań i konsultacji dla rodziców, szczególnie 04.09.2026 i 09.09.2026.",
+    "12. Przedstawić dni wolne od zajęć dydaktycznych.",
+    "13. Omówić zasady zwalniania z ćwiczeń na WF oraz obuwie zmienne i paznokcie.",
+    "14. Omówić zasady usprawiedliwiania nieobecności.",
+    "15. Zapoznać uczniów ze Statutem Szkoły i regulaminami oraz konsekwencjami łamania zasad.",
+    "16. Poinformować o dzienniczku zajęć praktycznych: 10 zł, konto RR, odbiór u Arkadiusza Mocarskiego, termin do 30.09.2026.",
+    "17. Poinformować o dostarczeniu umowy o pracę do 02.09.2026 do godz. 14.00.",
+    "18. Poinformować o systemie pomocy psychologiczno-pedagogicznej i składaniu opinii/orzeczeń w sekretariacie dyrektora.",
+    "19. Poinformować o wyprawce szkolnej 2026-2028 dla uczniów niepełnosprawnych z orzeczeniem.",
+    "20. Poinformować o opiece pielęgniarskiej i godzinach pracy.",
+    "21. Poinformować o świadczeniach finansowych i koncie Rady Rodziców.",
+    "22. Przedstawić zasady uczestnictwa w lekcjach religii.",
+    "Finalnie: wpisać główną tematykę spotkania do dziennika jako treść zajęć edukacyjnych."
+  ],
+  "blocks": [
+    {
+      "nr": 1,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "right",
+      "indent_twips": {},
+      "spacing_twips": {
+        "line": "360",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "  1 września 2026r.",
+      "formatted_inline": "  1 września 2026r.",
+      "runs": [
+        {
+          "text": " ",
+          "format": []
+        },
+        {
+          "text": " ",
+          "format": []
+        },
+        {
+          "text": "1",
+          "format": []
+        },
+        {
+          "text": " ",
+          "format": []
+        },
+        {
+          "text": "września",
+          "format": []
+        },
+        {
+          "text": " 202",
+          "format": []
+        },
+        {
+          "text": "6",
+          "format": []
+        },
+        {
+          "text": "r",
+          "format": []
+        },
+        {
+          "text": ".",
+          "format": [
+            "size_pt=14"
+          ]
+        }
+      ]
+    },
+    {
+      "nr": 2,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "center",
+      "indent_twips": {},
+      "spacing_twips": {
+        "line": "360",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "Tematyka spotkania wychowawcy z zespołem klasowym w dniu 1 września 2026r.",
+      "formatted_inline": "<u>**Tematyka spotkania wychowa**</u><u>**wcy z **</u><u>**zespołem**</u><u>** klasowym w dniu **</u><u>**1**</u><u>** września 202**</u><u>**6**</u><u>**r.**</u>",
+      "runs": [
+        {
+          "text": "Tematyka spotkania wychowa",
+          "format": [
+            "bold",
+            "underline",
+            "size_pt=20"
+          ]
+        },
+        {
+          "text": "wcy z ",
+          "format": [
+            "bold",
+            "underline",
+            "size_pt=20"
+          ]
+        },
+        {
+          "text": "zespołem",
+          "format": [
+            "bold",
+            "underline",
+            "size_pt=20"
+          ]
+        },
+        {
+          "text": " klasowym w dniu ",
+          "format": [
+            "bold",
+            "underline",
+            "size_pt=20"
+          ]
+        },
+        {
+          "text": "1",
+          "format": [
+            "bold",
+            "underline",
+            "size_pt=20"
+          ]
+        },
+        {
+          "text": " września 202",
+          "format": [
+            "bold",
+            "underline",
+            "size_pt=20"
+          ]
+        },
+        {
+          "text": "6",
+          "format": [
+            "bold",
+            "underline",
+            "size_pt=20"
+          ]
+        },
+        {
+          "text": "r.",
+          "format": [
+            "bold",
+            "underline",
+            "size_pt=20"
+          ]
+        }
+      ]
+    },
+    {
+      "nr": 3,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {},
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": {
+        "ilvl": "0",
+        "numId": "2"
+      },
+      "pageBreakBefore": false,
+      "text_with_markers": "Podać tygodniowy plan zajęć i nazwiska nauczycieli uczących w klasie.",
+      "formatted_inline": "Podać tygodniowy plan zajęć i nazwiska nauczycieli uczących w klasie.",
+      "runs": [
+        {
+          "text": "Podać tygodniowy plan zajęć i nazwiska nauczycieli uczących w klasie.",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 4,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {},
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": {
+        "ilvl": "0",
+        "numId": "2"
+      },
+      "pageBreakBefore": false,
+      "text_with_markers": "Zapoznać uczniów z przepisami BHP obowiązującymi w szkole (uczniowie powinni potwierdzić przeszkolenie podpisem na liście klasy) – załącznik-teczka wychowawcy ",
+      "formatted_inline": "Zapoznać uczniów z przepisami BHP obowiązującymi w szkole (uczniowie powinni potwierdzić przeszkolenie podpisem na liście klasy) – załącznik-teczka wychowawcy ",
+      "runs": [
+        {
+          "text": "Zapoznać uczniów z przepisam",
+          "format": []
+        },
+        {
+          "text": "i BHP obowiązującymi w szkole (",
+          "format": []
+        },
+        {
+          "text": "uczniowie powinni potwierdzić przeszkol",
+          "format": []
+        },
+        {
+          "text": "enie podpisem na liście klasy",
+          "format": []
+        },
+        {
+          "text": ")",
+          "format": []
+        },
+        {
+          "text": " ",
+          "format": []
+        },
+        {
+          "text": "–",
+          "format": []
+        },
+        {
+          "text": " ",
+          "format": []
+        },
+        {
+          "text": "załącz",
+          "format": []
+        },
+        {
+          "text": "nik",
+          "format": []
+        },
+        {
+          "text": "-teczka wychowawcy",
+          "format": []
+        },
+        {
+          "text": " ",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 5,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {},
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": {
+        "ilvl": "0",
+        "numId": "2"
+      },
+      "pageBreakBefore": false,
+      "text_with_markers": "Zapoznać uczniów z regulaminem wchodzenia na teren szkoły przy użyciu karty magnetycznej lub chipa (uczniowie powinni potwierdzić zapoznanie się podpisem na liście klasy)  -załącznik-teczka wychowawcy",
+      "formatted_inline": "Zapoznać uczniów z regulaminem wchodzenia na teren szkoły przy użyciu karty magnetycznej lub chipa (uczniowie powinni potwierdzić zapoznanie się podpisem na liście klasy)  -załącznik-teczka wychowawcy",
+      "runs": [
+        {
+          "text": "Zapoznać uczniów z regulaminem wchodzenia na teren szkoły przy użyciu karty magnetycznej",
+          "format": []
+        },
+        {
+          "text": " lub chipa",
+          "format": []
+        },
+        {
+          "text": " (",
+          "format": []
+        },
+        {
+          "text": "uczniow",
+          "format": []
+        },
+        {
+          "text": "ie powinni potw",
+          "format": []
+        },
+        {
+          "text": "ierdzić zapoznanie się podpisem na liście ",
+          "format": []
+        },
+        {
+          "text": "klasy",
+          "format": []
+        },
+        {
+          "text": ")",
+          "format": []
+        },
+        {
+          "text": " ",
+          "format": []
+        },
+        {
+          "text": " -załącznik-teczka wychowawcy",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 6,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {},
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": {
+        "ilvl": "0",
+        "numId": "2"
+      },
+      "pageBreakBefore": false,
+      "text_with_markers": "Zapoznać uczniów z dokumentem STANDARDY OCHRONY MAŁOLETNICH ",
+      "formatted_inline": "Zapoznać uczniów z dokumentem STANDARDY OCHRONY MAŁOLETNICH ",
+      "runs": [
+        {
+          "text": "Zapoznać uczniów z dokumentem S",
+          "format": []
+        },
+        {
+          "text": "TANDARDY OCHRONY MAŁOLETNICH ",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 7,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360"
+      },
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "w Zespole Szkół Zawodowych nr 5, który zamieszczony jest na stronie szkoły w zakładce SZKOŁA - AKTUALNOŚCI.",
+      "formatted_inline": "w Zespole Szkół Zawodowych nr 5, który zamieszczony jest na stronie szkoły w zakładce SZKOŁA - AKTUALNOŚCI.",
+      "runs": [
+        {
+          "text": "w Zespole Szkół Zawodowych nr 5",
+          "format": []
+        },
+        {
+          "text": ", który zamieszczony jest na stronie szkoły w zakładce ",
+          "format": []
+        },
+        {
+          "text": "SZKOŁA - ",
+          "format": []
+        },
+        {
+          "text": "AKTUALNOŚCI.",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 8,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {},
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": {
+        "ilvl": "0",
+        "numId": "2"
+      },
+      "pageBreakBefore": false,
+      "text_with_markers": "Poinformować/przypomnieć o zakazie opuszczania terenu szkoły podczas lekcji i przerw oraz o konsekwencjach nieprzestrzegania regulaminu.",
+      "formatted_inline": "Poinformować/przypomnieć o zakazie opuszczania terenu szkoły podczas lekcji i przerw oraz o konsekwencjach nieprzestrzegania regulaminu.",
+      "runs": [
+        {
+          "text": "Poinformować/przypomnieć o zakazie opuszczania terenu",
+          "format": []
+        },
+        {
+          "text": " szkoły podczas lekcji i przerw oraz o konsekwencjach nieprzestrzegania regulaminu.",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 9,
+      "type": "paragraph",
+      "style_id": "xmsonormal",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "340"
+      },
+      "spacing_twips": {
+        "before": "0",
+        "beforeAutospacing": "0",
+        "after": "0",
+        "afterAutospacing": "0"
+      },
+      "numPr": {
+        "ilvl": "0",
+        "numId": "2"
+      },
+      "pageBreakBefore": false,
+      "text_with_markers": "Poinformować uczniów o: ",
+      "formatted_inline": "Poinformować uczniów o: ",
+      "runs": [
+        {
+          "text": "P",
+          "format": []
+        },
+        {
+          "text": "oi",
+          "format": []
+        },
+        {
+          "text": "nformować",
+          "format": []
+        },
+        {
+          "text": " uczniów o: ",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 10,
+      "type": "paragraph",
+      "style_id": "xmsonormal",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "340"
+      },
+      "spacing_twips": {
+        "before": "0",
+        "beforeAutospacing": "0",
+        "after": "0",
+        "afterAutospacing": "0"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "- warunkach i sposobie oraz kryteriach oceniania zachowania ",
+      "formatted_inline": "- warunkach i sposobie oraz kryteriach oceniania zachowania ",
+      "runs": [
+        {
+          "text": "- warunkach i sposobie oraz kryteriach oceniania zachowania ",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 11,
+      "type": "paragraph",
+      "style_id": "xmsonormal",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "340"
+      },
+      "spacing_twips": {
+        "before": "0",
+        "beforeAutospacing": "0",
+        "after": "0",
+        "afterAutospacing": "0"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "-  warunkach i trybie otrzymania wyższej niż przewidywana rocznej oceny klasyfikacyjnej zachowania (art. 44 b ust. 8 i 9 ustawy z dnia 7 września 1991 r. o systemie oświaty (tekst jednolity: Dz. U. z 2022 r. poz. 2230) ",
+      "formatted_inline": "-  warunkach i trybie otrzymania wyższej niż przewidywana rocznej oceny klasyfikacyjnej zachowania (art. 44 b ust. 8 i 9 ustawy z dnia 7 września 1991 r. o systemie oświaty (tekst jednolity: Dz. U. z 2022 r. poz. 2230) ",
+      "runs": [
+        {
+          "text": "-  warunkach i trybie otrzymania wyższej niż przewidywana rocznej o",
+          "format": []
+        },
+        {
+          "text": "ceny klasyfikacyjnej zachowania",
+          "format": []
+        },
+        {
+          "text": " (art. 44 b ust. 8 i 9 ustawy z dnia 7 września 1991 r. o systemie oświaty (tekst jednolity: Dz. U. z 2022 r. poz. 2230) ",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 12,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {},
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": {
+        "ilvl": "0",
+        "numId": "2"
+      },
+      "pageBreakBefore": false,
+      "text_with_markers": "Zaktualizować dane o uczniach: ",
+      "formatted_inline": "Zaktualizować dane o uczniach: ",
+      "runs": [
+        {
+          "text": "Zaktualizować dane o uczniach",
+          "format": []
+        },
+        {
+          "text": ":",
+          "format": []
+        },
+        {
+          "text": " ",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 13,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360"
+      },
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "-wychowawcy klas pierwszych zobowiązani są do zapoznania się z informacjami  \\no swoich uczniach znajdującymi się w sekretariacie uczniowskim",
+      "formatted_inline": "-wychowawcy klas pierwszych zobowiązani są do zapoznania się z informacjami  [BR]o swoich uczniach znajdującymi się w sekretariacie uczniowskim",
+      "runs": [
+        {
+          "text": "-w",
+          "format": []
+        },
+        {
+          "text": "ychowawcy klas pierwszych zobowiązani są do zapoznania się",
+          "format": []
+        },
+        {
+          "text": " z ",
+          "format": []
+        },
+        {
+          "text": "informacjami ",
+          "format": []
+        },
+        {
+          "text": " ",
+          "format": []
+        },
+        {
+          "text": "\\n",
+          "format": []
+        },
+        {
+          "text": "o swoich uczniach znajdującymi s",
+          "format": []
+        },
+        {
+          "text": "i",
+          "format": []
+        },
+        {
+          "text": "ę w sekretariacie uczniowskim",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 14,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360"
+      },
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "-wychowawcy klas starszych na podstawie dokumentów i list w sekretariacie uczniowskim oraz uchwał rady pedagogicznej z 31.08.2026r.",
+      "formatted_inline": "-wychowawcy klas starszych na podstawie dokumentów i list w sekretariacie uczniowskim oraz uchwał rady pedagogicznej z 31.08.2026r.",
+      "runs": [
+        {
+          "text": "-wychowawcy klas starszych na podstawie dokumentów i list w sekretariacie uczniowskim ora",
+          "format": []
+        },
+        {
+          "text": "z uchwał",
+          "format": []
+        },
+        {
+          "text": " rady pedagogicznej z ",
+          "format": []
+        },
+        {
+          "text": "31",
+          "format": []
+        },
+        {
+          "text": ".08.202",
+          "format": []
+        },
+        {
+          "text": "6",
+          "format": []
+        },
+        {
+          "text": "r.",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 15,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {},
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": {
+        "ilvl": "0",
+        "numId": "2"
+      },
+      "pageBreakBefore": false,
+      "text_with_markers": "Poinformować uczniów, że zastępstwa za nieobecnych nauczycieli znajdują się na/przy tablicy ogłoszeń (I piętro, obok pokoju nauczycielskiego) oraz w dzienniku elektronicznym.",
+      "formatted_inline": "Poinformować uczniów, że zastępstwa za nieobecnych nauczycieli znajdują się na/przy tablicy ogłoszeń (I piętro, obok pokoju nauczycielskiego) oraz w dzienniku elektronicznym.",
+      "runs": [
+        {
+          "text": "Poinform",
+          "format": []
+        },
+        {
+          "text": "ować uczniów, że zastępstwa za nieobecnych nauczycieli znajdują się",
+          "format": []
+        },
+        {
+          "text": " na",
+          "format": []
+        },
+        {
+          "text": "/przy",
+          "format": []
+        },
+        {
+          "text": " tablicy ogłoszeń (I piętro, obok ",
+          "format": []
+        },
+        {
+          "text": "pokoju nauczycielskiego) oraz w dzienniku elektronicznym.",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 16,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {},
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": {
+        "ilvl": "0",
+        "numId": "2"
+      },
+      "pageBreakBefore": false,
+      "text_with_markers": "Zapoznać uczniów klas pierwszych z planem szkoły, wskazać kluczowe miejsca                         (sekretariaty, biblioteka, gabinety pedagogów i psychologa szkolnego oraz pielęgniarki szkolnej). ",
+      "formatted_inline": "Zapoznać uczniów klas pierwszych z planem szkoły, wskazać kluczowe miejsca                         (sekretariaty, biblioteka, gabinety pedagogów i psychologa szkolnego oraz pielęgniarki szkolnej). ",
+      "runs": [
+        {
+          "text": "Zapoznać uczniów klas pierwszych z planem szkoły, wskazać kluczowe miejsca ",
+          "format": []
+        },
+        {
+          "text": "                        ",
+          "format": []
+        },
+        {
+          "text": "(",
+          "format": []
+        },
+        {
+          "text": "sekretariaty, ",
+          "format": []
+        },
+        {
+          "text": "biblioteka, gabinety pedagog",
+          "format": []
+        },
+        {
+          "text": "ów",
+          "format": []
+        },
+        {
+          "text": " i psychologa szkol",
+          "format": []
+        },
+        {
+          "text": "nego oraz pielęgniarki szkolnej",
+          "format": []
+        },
+        {
+          "text": ").",
+          "format": []
+        },
+        {
+          "text": " ",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 17,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {},
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": {
+        "ilvl": "0",
+        "numId": "2"
+      },
+      "pageBreakBefore": false,
+      "text_with_markers": "Przedstawić ramowy kalendarz roku szkolnego 2026 / 2027:",
+      "formatted_inline": "Przedstawić ramowy kalendarz roku szkolnego **202****6**** / 202****7****:**",
+      "runs": [
+        {
+          "text": "Przedstawić ramo",
+          "format": []
+        },
+        {
+          "text": "wy kalendarz roku szkolnego ",
+          "format": []
+        },
+        {
+          "text": "202",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "6",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " / 202",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "7",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ":",
+          "format": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "nr": 18,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360"
+      },
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "- zimowa przerwa świąteczna – 23.12.2026 – 31.12.2026",
+      "formatted_inline": "- zimowa przerwa świąteczna – **2****3****.12.202****6**** ****–**** ****31.12.202****6**",
+      "runs": [
+        {
+          "text": "- zimowa przerwa świąteczna – ",
+          "format": []
+        },
+        {
+          "text": "2",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "3",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ".12.202",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "6",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " ",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "–",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " ",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "31.12.202",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "6",
+          "format": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "nr": 19,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360"
+      },
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "- ferie zimowe – 18.01.2027 – 31.01.2027",
+      "formatted_inline": "- ferie zimowe – **18****.0****1****.202****7**** ****– ****31****.****0****1****.202****7**",
+      "runs": [
+        {
+          "text": "- ferie zimowe – ",
+          "format": []
+        },
+        {
+          "text": "18",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ".0",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "1",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ".202",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "7",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " ",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "– ",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "31",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ".",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "0",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "1",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ".202",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "7",
+          "format": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "nr": 20,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360"
+      },
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "- wiosenna przerwa świąteczna – 25.03.2027 – 30.03.2027",
+      "formatted_inline": "- wiosenna przerwa świąteczna – **25****.0****3****.202****7**** ****–**** ****30****.****0****3****.202****7**",
+      "runs": [
+        {
+          "text": "- wiosenna przerwa świąteczna – ",
+          "format": []
+        },
+        {
+          "text": "25",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ".0",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "3",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ".202",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "7",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " ",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "–",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " ",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "30",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ".",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "0",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "3",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ".202",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "7",
+          "format": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "nr": 21,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360"
+      },
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "- koniec roku szkolnego dla klas: 5TFB i 5TH – 30.04.2027, dla pozostałych – 25.06.2027",
+      "formatted_inline": "- koniec roku szkolnego **dla klas****: ****5TF****B**** i 5TH**** – ****30****.04.202****7****, dla pozostałych – 2****5****.06.202****7**",
+      "runs": [
+        {
+          "text": "- koniec roku szkolnego ",
+          "format": []
+        },
+        {
+          "text": "dla klas",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ": ",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "5TF",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "B",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " i 5TH",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " – ",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "30",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ".04.202",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "7",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ", dla pozostałych – 2",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "5",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ".06.202",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "7",
+          "format": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "nr": 22,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360"
+      },
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "- zakończenie I semestru- 11.12.2026 dla klas: 5TFB, 5TH , dla pozostałych 15.01.2027",
+      "formatted_inline": "- zakończenie I semestru- **11****.****12****.202****6**** dla**** klas: ****5TF****B****, 5TH**** ****, dla pozostałych ****15****.01.202****7**",
+      "runs": [
+        {
+          "text": "- ",
+          "format": []
+        },
+        {
+          "text": "zakończenie I ",
+          "format": []
+        },
+        {
+          "text": "semestru- ",
+          "format": []
+        },
+        {
+          "text": "11",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ".",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "12",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ".202",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "6",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " dla",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " klas: ",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "5TF",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "B",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ", 5TH",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " ",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ", dla pozostałych ",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "15",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ".01.202",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "7",
+          "format": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "nr": 23,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360"
+      },
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "- praktyka zawodowa:",
+      "formatted_inline": "**- praktyka zawodowa:**",
+      "runs": [
+        {
+          "text": "- praktyka zawodowa:",
+          "format": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "nr": 24,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360"
+      },
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "-- klasy 3 technikum: 3TFA, 3TFB – technik usług fryzjerskich i 3TH – technik handlowiec  16.11.2026 – 11.12.2026 ",
+      "formatted_inline": "**-- ****klasy 3 technikum****:**** 3TF****A****, 3TFB**** – technik usług fryzjerskich i 3TH – technik handlowiec****  ****1****6****.1****1****.202****6**** – ****1****1****.1****2****.202****6**** **",
+      "runs": [
+        {
+          "text": "-- ",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "klasy 3 technikum",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ":",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " 3TF",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "A",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ", 3TFB",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " – technik usług fryzjerskich i 3TH – technik handlowiec",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "  ",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "1",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "6",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ".1",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "1",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ".202",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "6",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " – ",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "1",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "1",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ".1",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "2",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ".202",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "6",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " ",
+          "format": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "nr": 25,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360"
+      },
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "-- klasy 4 technikum – 4TFB – technik usług fryzjerskich i 4TH – technik handlowiec -  22.02.2027 – 19.03.2027",
+      "formatted_inline": "**-- klasy 4 technikum –**** 4TF****B**** – technik usług fryzjerskich**** i 4TH – technik handlowiec**** - **** ****22****.0****2****.202****7**** – ****19****.03.202****7**",
+      "runs": [
+        {
+          "text": "-- klasy 4 technikum –",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " 4TF",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "B",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " – technik usług fryzjerskich",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " i 4TH – technik handlowiec",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " - ",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " ",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "22",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ".0",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "2",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ".202",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "7",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " – ",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "19",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ".03.202",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "7",
+          "format": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "nr": 26,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360"
+      },
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "",
+      "formatted_inline": "",
+      "runs": []
+    },
+    {
+      "nr": 27,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360"
+      },
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "",
+      "formatted_inline": "",
+      "runs": []
+    },
+    {
+      "nr": 28,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {},
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": {
+        "ilvl": "0",
+        "numId": "2"
+      },
+      "pageBreakBefore": false,
+      "text_with_markers": "Wspomnieć o  terminarzu zebrań i konsultacji dla rodziców  - pierwsze spotkanie   ",
+      "formatted_inline": "Wspomnieć o  terminarzu zebrań i konsultacji dla rodziców  - pierwsze spotkanie   ",
+      "runs": [
+        {
+          "text": "Wspomnieć o  terminarzu zebrań i konsultacji dla rodziców ",
+          "format": []
+        },
+        {
+          "text": " ",
+          "format": []
+        },
+        {
+          "text": "- pierwsze spotkanie",
+          "format": []
+        },
+        {
+          "text": "   ",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 29,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360"
+      },
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "z rodzicami uczniów klas I odbędzie się 04.09.2026r. o godzinie 16.00 w sali gimnastycznej (budynek B) – dyrekcja, kierownik szkolenia praktycznego – szkolenie dotyczące młodocianego pracownika, przedstawiciele cechów, wychowawcy klas I. Po spotkaniu w sali gimnastycznej dalszy ciąg spotkania z wychowawcami  w wyznaczonych salach.",
+      "formatted_inline": "z rodzicami uczniów klas I odbędzie się <u>**0**</u><u>**4**</u><u>**.09.202**</u><u>**6**</u><u>**r.**</u><u>** o godzinie 1**</u><u>**6**</u><u>**.**</u><u>**00**</u> w sali gimnastycznej (budynek B) – dyrekcja, kierownik szkolenia praktycznego – szkolenie dotyczące młodocianego pracownika, przedstawiciele cechów, wychowawcy klas I. Po spotkaniu w sali gimnastycznej dalszy ciąg spotkania z wychowawcami  w wyznaczonych salach.",
+      "runs": [
+        {
+          "text": "z rodzicami",
+          "format": []
+        },
+        {
+          "text": " uczniów klas I",
+          "format": []
+        },
+        {
+          "text": " ",
+          "format": []
+        },
+        {
+          "text": "odbędzie się",
+          "format": []
+        },
+        {
+          "text": " ",
+          "format": []
+        },
+        {
+          "text": "0",
+          "format": [
+            "bold",
+            "underline"
+          ]
+        },
+        {
+          "text": "4",
+          "format": [
+            "bold",
+            "underline"
+          ]
+        },
+        {
+          "text": ".09.202",
+          "format": [
+            "bold",
+            "underline"
+          ]
+        },
+        {
+          "text": "6",
+          "format": [
+            "bold",
+            "underline"
+          ]
+        },
+        {
+          "text": "r.",
+          "format": [
+            "bold",
+            "underline"
+          ]
+        },
+        {
+          "text": " o godzinie 1",
+          "format": [
+            "bold",
+            "underline"
+          ]
+        },
+        {
+          "text": "6",
+          "format": [
+            "bold",
+            "underline"
+          ]
+        },
+        {
+          "text": ".",
+          "format": [
+            "bold",
+            "underline"
+          ]
+        },
+        {
+          "text": "00",
+          "format": [
+            "bold",
+            "underline"
+          ]
+        },
+        {
+          "text": " w ",
+          "format": []
+        },
+        {
+          "text": "sali gimnastycznej (budynek",
+          "format": []
+        },
+        {
+          "text": " B",
+          "format": []
+        },
+        {
+          "text": ") – dyrekcja, kierownik szkolenia p",
+          "format": []
+        },
+        {
+          "text": "raktycznego – szkolenie dotyczące",
+          "format": []
+        },
+        {
+          "text": " młodocianego pracownika, ",
+          "format": []
+        },
+        {
+          "text": "przedstawiciele cechów, ",
+          "format": []
+        },
+        {
+          "text": "wychowawcy klas I. Po spotkaniu ",
+          "format": []
+        },
+        {
+          "text": "w sali gimnastycznej ",
+          "format": []
+        },
+        {
+          "text": "dalszy ciąg",
+          "format": []
+        },
+        {
+          "text": " spotkania z wychowawcami ",
+          "format": []
+        },
+        {
+          "text": " w",
+          "format": []
+        },
+        {
+          "text": " wyznaczonych salach",
+          "format": []
+        },
+        {
+          "text": ".",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 30,
+      "type": "paragraph",
+      "style_id": "Akapitzlist",
+      "alignment": "both",
+      "indent_twips": {},
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": {
+        "ilvl": "0",
+        "numId": "13"
+      },
+      "pageBreakBefore": false,
+      "text_with_markers": "04.09.2026 o godzinie 16.00 – zebrania z rodzicami dla klas pierwszych technikum i szkoły branżowej w sali gimnastycznej a następnie w wyznaczonych salach",
+      "formatted_inline": "**0****4****.09.202****6**** o godzinie 1****6****.****0****0 – **zebrania z rodzicami dla klas pierwszych technikum i szkoły branżowej w sali gimnastycznej a następnie w wyznaczonych salach",
+      "runs": [
+        {
+          "text": "0",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "4",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ".09.202",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "6",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " o godzinie 1",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "6",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ".",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "0",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "0 – ",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "zebrania z rodzicami dla klas ",
+          "format": []
+        },
+        {
+          "text": "pierwszych technikum",
+          "format": []
+        },
+        {
+          "text": " i szkoły branżowej",
+          "format": []
+        },
+        {
+          "text": " ",
+          "format": []
+        },
+        {
+          "text": "w ",
+          "format": []
+        },
+        {
+          "text": "s",
+          "format": []
+        },
+        {
+          "text": "ali gimnastycznej ",
+          "format": []
+        },
+        {
+          "text": "a następnie ",
+          "format": []
+        },
+        {
+          "text": "w wyznaczonych salach",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 31,
+      "type": "paragraph",
+      "style_id": "Akapitzlist",
+      "alignment": "both",
+      "indent_twips": {},
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": {
+        "ilvl": "0",
+        "numId": "13"
+      },
+      "pageBreakBefore": false,
+      "text_with_markers": "09.09.2026 o godzinie 17.00 – zebrania z rodzicami dla klas II, III, IV i V technikum i szkoły branżowej w wyznaczonych salach",
+      "formatted_inline": "**09****.09.202****6**** o godzinie ****17.00** – zebrania z rodzicami dla klas II, III, IV i V technikum i szkoły branżowej w wyznaczonych salach",
+      "runs": [
+        {
+          "text": "09",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ".09.202",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "6",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " o godzinie ",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "17.00",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " – zebrania z rodzicami dla klas ",
+          "format": []
+        },
+        {
+          "text": "II, III, IV i V technikum i szkoły branżowej w wyznaczonych salach",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 32,
+      "type": "paragraph",
+      "style_id": "Akapitzlist",
+      "alignment": "both",
+      "indent_twips": {},
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": {
+        "ilvl": "0",
+        "numId": "13"
+      },
+      "pageBreakBefore": false,
+      "text_with_markers": "09.09.2026 o godzinie 18.00 – zebranie Rady Rodziców w sali kinowej – poziom\\n -1 (uczestniczą przedstawiciele trójek klasowych wszystkich klas), ewentualnie sala 39 – do uzgodnienia",
+      "formatted_inline": "**09****.09.202****6**** o godzinie 1****8.00**** – **zebranie Rady Rodziców w sali kinowej – poziom[BR] -1 (uczestniczą przedstawiciele trójek klasowych wszystkich klas), ewentualnie sala 39 – do uzgodnienia",
+      "runs": [
+        {
+          "text": "09",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ".09.202",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "6",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " o godzinie 1",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "8.00",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " – ",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "zebranie Rady Rodziców",
+          "format": []
+        },
+        {
+          "text": " w sali kinowej – poziom",
+          "format": []
+        },
+        {
+          "text": "\\n -1",
+          "format": []
+        },
+        {
+          "text": " (uczestniczą przedstawiciele trójek klasowych wszystkich klas)",
+          "format": []
+        },
+        {
+          "text": ", ",
+          "format": []
+        },
+        {
+          "text": "ewentualnie sala 39 – do uzgodnienia",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 33,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {},
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "Pozostałe spotkania:",
+      "formatted_inline": "<u>**Pozostałe spotkania**</u>**:**",
+      "runs": [
+        {
+          "text": "Pozostałe spotkania",
+          "format": [
+            "bold",
+            "underline"
+          ]
+        },
+        {
+          "text": ":",
+          "format": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "nr": 34,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360"
+      },
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "- 09.12.2026 – wywiadówka dla klas: 5TF i 5TH, konsultacje dla pozostałych klas",
+      "formatted_inline": "**- 09.12.2026** – wywiadówka dla klas: 5TF i 5TH, konsultacje dla pozostałych klas",
+      "runs": [
+        {
+          "text": "- 09.12.2026",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " – wywiadówka dla klas",
+          "format": []
+        },
+        {
+          "text": ": 5TF i 5TH",
+          "format": []
+        },
+        {
+          "text": ", konsultacje dla pozostałych klas",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 35,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360"
+      },
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "- 15.01.2027 – wywiadówka śródroczna",
+      "formatted_inline": "- **15****.01.202****7** – wywiadówka śródroczna",
+      "runs": [
+        {
+          "text": "- ",
+          "format": []
+        },
+        {
+          "text": "15",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ".01.202",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "7",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " – wywiadówka ",
+          "format": []
+        },
+        {
+          "text": "śródroczna",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 36,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360"
+      },
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "- 09.04.2027 - wywiadówka dla klas: 5TF i 5TH, konsultacje dla pozostałych klas",
+      "formatted_inline": "- **09****.0****4****.202****7** - wywiadówka dla klas: 5TF i 5TH, konsultacje dla pozostałych klas",
+      "runs": [
+        {
+          "text": "- ",
+          "format": []
+        },
+        {
+          "text": "09",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ".0",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "4",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ".202",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "7",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " - wywiadówka dla klas: 5",
+          "format": []
+        },
+        {
+          "text": "TF i 5TH",
+          "format": []
+        },
+        {
+          "text": ", k",
+          "format": []
+        },
+        {
+          "text": "onsultacje dla pozostałych klas",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 37,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360"
+      },
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "- 25.05.2027 – wywiadówka roczna",
+      "formatted_inline": "- **2****5****.05.202****7** – wywiadówka roczna",
+      "runs": [
+        {
+          "text": "- ",
+          "format": []
+        },
+        {
+          "text": "2",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "5",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ".05.202",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "7",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " – wywiadówka",
+          "format": []
+        },
+        {
+          "text": " ",
+          "format": []
+        },
+        {
+          "text": "roczna",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 38,
+      "type": "paragraph",
+      "style_id": "Akapitzlist",
+      "alignment": "both",
+      "indent_twips": {},
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": {
+        "ilvl": "0",
+        "numId": "2"
+      },
+      "pageBreakBefore": false,
+      "text_with_markers": "Dni wolne od zajęć dydaktycznych: ",
+      "formatted_inline": "<u>**Dni wolne od zajęć dydaktycznych**</u>**: **",
+      "runs": [
+        {
+          "text": "Dni wolne od zajęć dydaktycznych",
+          "format": [
+            "bold",
+            "underline"
+          ]
+        },
+        {
+          "text": ": ",
+          "format": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "nr": 39,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360"
+      },
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "01.09.2026 – rozpoczęcie roku szkolnego",
+      "formatted_inline": "**0****1****.09.202****6** – rozpoczęcie roku szkolnego",
+      "runs": [
+        {
+          "text": "0",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "1",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ".09.202",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "6",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " – rozpoczęcie roku szkolnego",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 40,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360"
+      },
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "14.10.2026 – Dzień Edukacji Narodowej",
+      "formatted_inline": "**14.10.2026** – Dzień Edukacji Narodowej",
+      "runs": [
+        {
+          "text": "14.10.2026",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " – Dzień Edukacji Narodowej",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 41,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360"
+      },
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "11.11.2026 – Narodowe Święto Niepodległości",
+      "formatted_inline": "**11.11.2026** – Narodowe Święto Niepodległości",
+      "runs": [
+        {
+          "text": "11.11.2026",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " ",
+          "format": []
+        },
+        {
+          "text": "–",
+          "format": []
+        },
+        {
+          "text": " ",
+          "format": []
+        },
+        {
+          "text": "Narodowe Święto Niepodległości",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 42,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360"
+      },
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "08.01.2027 i 03-04.06.2027 – egzamin zawodowy (klasy technikum - brak zajęć dydaktycznych, klasy branżowe u pracodawców)",
+      "formatted_inline": "**08****.01.202****7**** i 0****3****-0****4****.06.202****7**** **– egzamin zawodowy (klasy technikum - brak zajęć dydaktycznych, klasy branżowe u pracodawców)",
+      "runs": [
+        {
+          "text": "08",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ".01.202",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "7",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " i 0",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "3",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "-0",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "4",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ".06.202",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "7",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " ",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "– egzamin zawodowy (klasy technikum - brak zajęć dydaktycznych, klasy branżowe u pracodawców)",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 43,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360"
+      },
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "22.04.2027 – Gala finałowa 32 Ogólnopolskiego Turnieju na Najlepszego Ucznia w Zawodzie Cukiernik i Piekarz",
+      "formatted_inline": "**22.04.2027** – Gala finałowa 32 Ogólnopolskiego Turnieju na Najlepszego Ucznia w Zawodzie Cukiernik i Piekarz",
+      "runs": [
+        {
+          "text": "22.04.2027",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " – Gala finałowa 32 Ogólnopolskiego Turnieju na Najlepszego Ucznia w Zawodzie Cukiernik i Piekarz",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 44,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360"
+      },
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "04-06.05.2027 – matury (klasy technikum-brak zajęć dydaktycznych, klasy branżowe ",
+      "formatted_inline": "**0****4****-0****6****.05.202****7** – matury (klasy technikum-brak zajęć dydaktycznych, klasy branżowe ",
+      "runs": [
+        {
+          "text": "0",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "4",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "-0",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "6",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ".05.202",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "7",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " ",
+          "format": []
+        },
+        {
+          "text": "– matury (",
+          "format": []
+        },
+        {
+          "text": "klasy technikum",
+          "format": []
+        },
+        {
+          "text": "-brak zajęć dydaktycznych",
+          "format": []
+        },
+        {
+          "text": ", klasy branżowe ",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 45,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360"
+      },
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "u pracodawców)",
+      "formatted_inline": "u pracodawców)",
+      "runs": [
+        {
+          "text": "u pracodawców)",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 46,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360"
+      },
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "28.05.2027 – piątek po Bożym Ciele (odpracowanie 22.05.2027 – zajęcia wg. Piątkowego planu)",
+      "formatted_inline": "**28****.0****5****.202****7** – piątek po Bożym Ciele (odpracowanie 22.05.2027 – zajęcia wg. Piątkowego planu)",
+      "runs": [
+        {
+          "text": "28",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ".0",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "5",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ".202",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "7",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " – piątek",
+          "format": []
+        },
+        {
+          "text": " po Bożym Ciele (odpracowanie ",
+          "format": []
+        },
+        {
+          "text": "22",
+          "format": []
+        },
+        {
+          "text": ".0",
+          "format": []
+        },
+        {
+          "text": "5",
+          "format": []
+        },
+        {
+          "text": ".202",
+          "format": []
+        },
+        {
+          "text": "7",
+          "format": []
+        },
+        {
+          "text": " ",
+          "format": []
+        },
+        {
+          "text": "– ",
+          "format": []
+        },
+        {
+          "text": "zajęcia wg. Piątkowego planu",
+          "format": []
+        },
+        {
+          "text": ")",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 47,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360"
+      },
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "25.06.2027 – zakończenie roku szkolnego",
+      "formatted_inline": "**2****5****.06.202****7** – zakończenie roku szkolnego",
+      "runs": [
+        {
+          "text": "2",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "5",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ".06.202",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "7",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " – zakończenie roku szkolnego",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 48,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {},
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": {
+        "ilvl": "0",
+        "numId": "2"
+      },
+      "pageBreakBefore": false,
+      "text_with_markers": "Poinformować o zasadach zwalniania ucznia z ćwiczeń na zajęciach wychowania fizycznego: ",
+      "formatted_inline": "Poinformować o zasadach zwalniania ucznia z ćwiczeń na zajęciach wychowania fizycznego: ",
+      "runs": [
+        {
+          "text": "Poinformować o zasadach zwalniania ucznia z ćwiczeń na zajęciach wychowania fizy",
+          "format": []
+        },
+        {
+          "text": "cznego: ",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 49,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360"
+      },
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "- posiadanie zaświadczenia lekarskiego z określonym zakresem zwolnienia i czasem obowiązywania ,",
+      "formatted_inline": "- posiadanie zaświadczenia lekarskiego z określonym zakresem zwolnienia i czasem obowiązywania ,",
+      "runs": [
+        {
+          "text": "- posiadanie zaświadczenia lekarskiego z określonym zakresem zwolnienia i czasem obowiązywania ,",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 50,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360"
+      },
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "- złożenie wypełnionego na podstawie zaświadczenia wniosku do dyrektora szkoły,",
+      "formatted_inline": "- złożenie wypełnionego na podstawie zaświadczenia wniosku do dyrektora szkoły,",
+      "runs": [
+        {
+          "text": "- złożenie wypełnionego na podstawie zaświadczenia wniosku do dyrektora szkoły,",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 51,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360"
+      },
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "- pisemna decyzja dyrektora szkoły o zwolnieniu.",
+      "formatted_inline": "- pisemna decyzja dyrektora szkoły o zwolnieniu.",
+      "runs": [
+        {
+          "text": "- pisemna decyzja dyrektora szkoły ",
+          "format": []
+        },
+        {
+          "text": "o zwolnieniu.",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 52,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360"
+      },
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "* Poinformować uczniów o obowiązku noszenia obuwia zmiennego na lekcje wychowania fizycznego oraz o zakazie posiadania długich paznokci ze względów bezpieczeństwa !!! ",
+      "formatted_inline": "* Poinformować uczniów o obowiązku noszenia obuwia zmiennego na lekcje wychowania fizycznego oraz o zakazie posiadania długich paznokci ze względów bezpieczeństwa !!! ",
+      "runs": [
+        {
+          "text": "* Poinformować uczniów o obowiązku noszenia obuwia zmiennego",
+          "format": []
+        },
+        {
+          "text": " na lekcje wychowania fizycznego ",
+          "format": []
+        },
+        {
+          "text": "oraz o zakazie posiadania długich paznokci ze względów bezpieczeństwa !!!",
+          "format": []
+        },
+        {
+          "text": " ",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 53,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {},
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": {
+        "ilvl": "0",
+        "numId": "2"
+      },
+      "pageBreakBefore": false,
+      "text_with_markers": "Zapoznać z zasadami usprawiedliwiania nieobecności na zajęciach szkolnych:                    - pracownicy młodociani (szkoła branżowa) tylko na podstawie zwolnienia lekarskiego",
+      "formatted_inline": "Zapoznać z zasadami usprawiedliwiania nieobecności na zajęciach szkolnych:                    - pracownicy młodociani (szkoła branżowa) tylko na podstawie zwolnienia lekarskiego",
+      "runs": [
+        {
+          "text": "Zapoznać z zasadami usprawiedliw",
+          "format": []
+        },
+        {
+          "text": "iania nieobecności na zajęciach ",
+          "format": []
+        },
+        {
+          "text": "szkolnych",
+          "format": []
+        },
+        {
+          "text": ":",
+          "format": []
+        },
+        {
+          "text": " ",
+          "format": []
+        },
+        {
+          "text": "                   ",
+          "format": []
+        },
+        {
+          "text": "- pracownicy młodociani",
+          "format": []
+        },
+        {
+          "text": " (szkoła branżowa",
+          "format": []
+        },
+        {
+          "text": ") ",
+          "format": []
+        },
+        {
+          "text": "tylko na podstawie zwolnienia ",
+          "format": []
+        },
+        {
+          "text": "lekarskiego",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 54,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360"
+      },
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": " (L-4).",
+      "formatted_inline": " (L-4).",
+      "runs": [
+        {
+          "text": " (",
+          "format": []
+        },
+        {
+          "text": "L-4",
+          "format": []
+        },
+        {
+          "text": ")",
+          "format": []
+        },
+        {
+          "text": ".",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 55,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360"
+      },
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "- uczniowie klas technikum wg ustaleń wychowawcy z rodzicami sposobu usprawiedliwiania nieobecności na zajęciach lekcyjnych (deklaracja rodziców na pierwszym zebraniu w formie pisemnej z czytelnym ich podpisem).",
+      "formatted_inline": "- uczniowie klas technikum wg ustaleń wychowawcy z rodzicami sposobu usprawiedliwiania nieobecności na zajęciach lekcyjnych (deklaracja rodziców na pierwszym zebraniu w formie pisemnej z czytelnym ich podpisem).",
+      "runs": [
+        {
+          "text": "- uczniowie ",
+          "format": []
+        },
+        {
+          "text": "klas technikum ",
+          "format": []
+        },
+        {
+          "text": "wg ustaleń wychowawcy z rodzicami sposo",
+          "format": []
+        },
+        {
+          "text": "b",
+          "format": []
+        },
+        {
+          "text": "u",
+          "format": []
+        },
+        {
+          "text": " usprawiedliwia",
+          "format": []
+        },
+        {
+          "text": "nia nieobecności",
+          "format": []
+        },
+        {
+          "text": " na zajęciach lekcyjnych ",
+          "format": []
+        },
+        {
+          "text": "(",
+          "format": []
+        },
+        {
+          "text": "deklaracja rodziców na pierwszym zebraniu ",
+          "format": []
+        },
+        {
+          "text": "w formie pisemnej z czytelnym ",
+          "format": []
+        },
+        {
+          "text": "ich podpisem",
+          "format": []
+        },
+        {
+          "text": ").",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 56,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360"
+      },
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "",
+      "formatted_inline": "",
+      "runs": []
+    },
+    {
+      "nr": 57,
+      "type": "paragraph",
+      "style_id": "Akapitzlist",
+      "alignment": "both",
+      "indent_twips": {},
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": {
+        "ilvl": "0",
+        "numId": "2"
+      },
+      "pageBreakBefore": false,
+      "text_with_markers": "Zapoznać uczniów  ze Statutem Szkoły i zawartych w nim regulaminach (m.in. zasadach oceniania) oraz o konsekwencjach ich łamania (punkty ujemne i ich wpływ na ocenę zachowania, wykroczenia za które grozi komisja do spraw wychowania i dyscypliny czy skreślenie z listy uczniów). ",
+      "formatted_inline": "Zapoznać uczniów  ze Statutem Szkoły i zawartych w nim regulaminach (m.in. zasadach oceniania) oraz o konsekwencjach ich łamania (punkty ujemne i ich wpływ na ocenę zachowania, wykroczenia za które grozi komisja do spraw wychowania i dyscypliny czy skreślenie z listy uczniów). ",
+      "runs": [
+        {
+          "text": "Zapoznać ",
+          "format": []
+        },
+        {
+          "text": "uczniów ",
+          "format": []
+        },
+        {
+          "text": " ze Statutem Szkoły i zawartych ",
+          "format": []
+        },
+        {
+          "text": "w nim regulaminach (",
+          "format": []
+        },
+        {
+          "text": "m",
+          "format": []
+        },
+        {
+          "text": ".in. zasadach",
+          "format": []
+        },
+        {
+          "text": " oceniania",
+          "format": []
+        },
+        {
+          "text": ") oraz o konsekwencjach ich łamania (punkty ujemne i ich wpływ na ocenę zachowania, wykroczenia za",
+          "format": []
+        },
+        {
+          "text": " które grozi komisja do spraw wychowania i dyscypliny czy skreślenie z listy uczniów",
+          "format": []
+        },
+        {
+          "text": ").",
+          "format": []
+        },
+        {
+          "text": " ",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 58,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {},
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": {
+        "ilvl": "0",
+        "numId": "2"
+      },
+      "pageBreakBefore": false,
+      "text_with_markers": "Poinformować o obowiązku prowadzenia dzienniczka zajęć praktycznych, cena dzienniczka 10 zł, wpłata na konto RR,  dzienniczki odbiera wychowawca od   Kierownika Szkolenia Praktycznego Arkadiusza Mocarskiego (gabinet 25/I piętro) – do 30.09.2026 na podstawie listy sporządzonej i podpisanej przez wychowawcę.",
+      "formatted_inline": "Poinformować o obowiązku prowadzenia dzienniczka zajęć praktycznych,** **cena dzienniczka **10** **zł,** wpłata na konto RR,  dzienniczki odbiera wychowawca od   Kierownika Szkolenia Praktycznego Arkadiusza Mocarskiego (gabinet 25/I piętro) – **do ****30****.09.202****6**** na podstawie ****listy sporządzonej**** i podpisanej**** przez wychowawcę****.**",
+      "runs": [
+        {
+          "text": "Poinformować o obowiązku prowadzenia dzienniczka zajęć praktycznych,",
+          "format": []
+        },
+        {
+          "text": " ",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "cena ",
+          "format": []
+        },
+        {
+          "text": "dzienniczka ",
+          "format": []
+        },
+        {
+          "text": "10",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " ",
+          "format": []
+        },
+        {
+          "text": "zł,",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " wpłata na konto RR",
+          "format": []
+        },
+        {
+          "text": ",  dzienniczki odbiera",
+          "format": []
+        },
+        {
+          "text": " wychowawca",
+          "format": []
+        },
+        {
+          "text": " od  ",
+          "format": []
+        },
+        {
+          "text": " Kierownik",
+          "format": []
+        },
+        {
+          "text": "a",
+          "format": []
+        },
+        {
+          "text": " Szkolenia Praktycznego",
+          "format": []
+        },
+        {
+          "text": " ",
+          "format": []
+        },
+        {
+          "text": "Arkadiusza Mocarskiego",
+          "format": []
+        },
+        {
+          "text": " (gab",
+          "format": []
+        },
+        {
+          "text": "inet",
+          "format": []
+        },
+        {
+          "text": " 25",
+          "format": []
+        },
+        {
+          "text": "/I",
+          "format": []
+        },
+        {
+          "text": " ",
+          "format": []
+        },
+        {
+          "text": "piętro",
+          "format": []
+        },
+        {
+          "text": ") ",
+          "format": []
+        },
+        {
+          "text": "– ",
+          "format": []
+        },
+        {
+          "text": "do ",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "30",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ".09.202",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "6",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " na podstawie ",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "listy sporządzonej",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " i podpisanej",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " przez wychowawcę",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ".",
+          "format": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "nr": 59,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {},
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": {
+        "ilvl": "0",
+        "numId": "2"
+      },
+      "pageBreakBefore": false,
+      "text_with_markers": "Poinformować o obowiązku dostarczenia do szkoły umowy o pracę w celu przygotowania zawodowego do 02.09.2026 do godziny 14.00. Umowy uczniowie lub rodzice przekazują do pana Arkadiusza Mocarskiego lub do sekretariatu dyrektora.",
+      "formatted_inline": "Poinformować o obowiązku dostarczenia do szkoły umowy o pracę w celu przygotowania zawodowego do **0****2****.09.****202****6** **do godziny 14****.00**. Umowy uczniowie lub rodzice przekazują do pana Arkadiusza Mocarskiego lub do sekretariatu dyrektora.",
+      "runs": [
+        {
+          "text": "Poinformować o obowiązku dostarczenia do szkoły umowy o pracę w celu przygotowania zawodowego do ",
+          "format": []
+        },
+        {
+          "text": "0",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "2",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ".09.",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "202",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "6",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " ",
+          "format": []
+        },
+        {
+          "text": "do godziny 14",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ".00",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ". Umowy ",
+          "format": []
+        },
+        {
+          "text": "uczniowie lub rodzice przekazują ",
+          "format": []
+        },
+        {
+          "text": "do pana Arkadiusza Mocarskiego lub ",
+          "format": []
+        },
+        {
+          "text": "do sekretariatu dyrektora",
+          "format": []
+        },
+        {
+          "text": ".",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 60,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {},
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": {
+        "ilvl": "0",
+        "numId": "2"
+      },
+      "pageBreakBefore": false,
+      "text_with_markers": "Poinformować o systemie pomocy psychologiczno-pedagogicznej oraz wspierania uczniów w szkole – uczniowie posiadający opinie z poradni PPP oraz aktualne orzeczenia o potrzebie kształcenia specjalnego winni je złożyć w sekretariacie Dyrektora szkoły ( gabinet 12/I piętro). ",
+      "formatted_inline": "Poinformować o systemie pomocy psychologiczno-pedagogicznej oraz wspierania uczniów w szkole – uczniowie posiadający opinie z poradni PPP oraz aktualne orzeczenia o potrzebie kształcenia specjalnego winni je złożyć w sekretariacie Dyrektora szkoły ( gabinet 12/I piętro). ",
+      "runs": [
+        {
+          "text": "Poinformować o systemie pomocy psychologiczno-pedagogicznej ",
+          "format": []
+        },
+        {
+          "text": "oraz wspierania uczniów w szkole – uczniow",
+          "format": []
+        },
+        {
+          "text": "ie posiadający opinie",
+          "format": []
+        },
+        {
+          "text": " z",
+          "format": []
+        },
+        {
+          "text": " poradni PP",
+          "format": []
+        },
+        {
+          "text": "P",
+          "format": []
+        },
+        {
+          "text": " oraz aktualne ",
+          "format": []
+        },
+        {
+          "text": "orzeczenia o potrzebie kształcenia specjalnego",
+          "format": []
+        },
+        {
+          "text": " winni je złożyć ",
+          "format": []
+        },
+        {
+          "text": "w sekretariacie Dyrektora",
+          "format": []
+        },
+        {
+          "text": " szkoły ( gabinet 12",
+          "format": []
+        },
+        {
+          "text": "/I piętro",
+          "format": []
+        },
+        {
+          "text": ")",
+          "format": []
+        },
+        {
+          "text": ".",
+          "format": []
+        },
+        {
+          "text": " ",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 61,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {},
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "Informacje dla wychowawcy, który na pierwszym spotkaniu przekazuje je uczniom:",
+      "formatted_inline": "**Informacje dla wychowawcy, który na pierwszym spotkaniu przekazuje je uczniom****:**",
+      "runs": [
+        {
+          "text": "Informacje dla wychowawcy, który na pierwszym spotkaniu przekazuje je uczniom",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ":",
+          "format": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "nr": 62,
+      "type": "paragraph",
+      "style_id": "paragraph",
+      "alignment": "both",
+      "indent_twips": {
+        "hanging": "105"
+      },
+      "spacing_twips": {
+        "before": "0",
+        "beforeAutospacing": "0",
+        "after": "0",
+        "afterAutospacing": "0"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "     Wychowawca: ",
+      "formatted_inline": "**     ****Wychowawca:** ",
+      "runs": [
+        {
+          "text": "     ",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "Wychowawca:",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " ",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 63,
+      "type": "paragraph",
+      "style_id": "paragraph",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360",
+        "hanging": "105"
+      },
+      "spacing_twips": {
+        "before": "0",
+        "beforeAutospacing": "0",
+        "after": "0",
+        "afterAutospacing": "0"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "- zakłada dla każdego ucznia objętego pomocą psychologiczno-pedagogiczną  indywidualną teczkę/koszulkę, gdzie gromadzi wszystkie dokumenty dotyczące ucznia (ksero opinii, ewentualna dokumentacja medyczna i karta dokumentowania udzielania pomocy psychologiczno-pedagogicznej) ",
+      "formatted_inline": "**-** zakłada dla każdego ucznia objętego pomocą psychologiczno-pedagogiczną  indywidualną teczkę/koszulkę, gdzie gromadzi wszystkie dokumenty dotyczące ucznia (ksero opinii, ewentualna dokumentacja medyczna i karta dokumentowania udzielania pomocy psychologiczno-pedagogicznej) ",
+      "runs": [
+        {
+          "text": "-",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " zakłada dla każdego ucznia objętego pomocą psychologiczno-pedagogiczną  indywidualną teczkę/koszulkę, gdzie gromadzi wszystkie dokumenty dotyczące ucznia (ksero opinii, ewentualna dokumentacja medyczna i karta dokumentowania udzielania pomocy psychologiczno-pedagogicznej)",
+          "format": []
+        },
+        {
+          "text": " ",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 64,
+      "type": "paragraph",
+      "style_id": "paragraph",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360",
+        "hanging": "105"
+      },
+      "spacing_twips": {
+        "before": "0",
+        "beforeAutospacing": "0",
+        "after": "0",
+        "afterAutospacing": "0"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "- zawartość karty monitorowania: imię i nazwisko ucznia, klasa, numer opinii, rozpoznanie, zgoda rodzica/opiekuna prawnego/pełnoletniego ucznia, formy i zakres udzielanej pomocy w oparciu o zalecenia zawarte w opinii, podpisy wszystkich nauczycieli uczących o zapoznaniu się z formą i zakresem udzielanej pomocy, ocena  postawy ucznia objętego pomocą (frekwencja, oceny, motywacja, zachowanie), efekty udzielanej pomocy (postępy w nauce, wykaz przedmiotów, z których uczeń jest zagrożony, frekwencja), działania podejmowane przez wychowawcę związane z brakiem motywacji ucznia (telefony do rodziców, pracodawców, wiadomości) -  analiza sporządzana przez wychowawcę pod koniec I semestru i na zakończenie roku szkolnego. ",
+      "formatted_inline": "**-** zawartość karty monitorowania: imię i nazwisko ucznia, klasa, numer opinii, rozpoznanie, zgoda rodzica/opiekuna prawnego/pełnoletniego ucznia, formy i zakres udzielanej pomocy w oparciu o zalecenia zawarte w opinii, podpisy wszystkich nauczycieli uczących o zapoznaniu się z formą i zakresem udzielanej pomocy, ocena  postawy ucznia objętego pomocą (frekwencja, oceny, motywacja, zachowanie), efekty udzielanej pomocy (postępy w nauce, wykaz przedmiotów, z których uczeń jest zagrożony, frekwencja), działania podejmowane przez wychowawcę związane z brakiem motywacji ucznia (telefony do rodziców, pracodawców, wiadomości) -  analiza sporządzana przez wychowawcę pod koniec I semestru i na zakończenie roku szkolnego. ",
+      "runs": [
+        {
+          "text": "-",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " zawartość karty monitorowania: imię i nazwisko ucznia, klasa, numer opinii, rozpoznanie, zgoda rodzica/opiekuna prawnego/pełnoletniego ucznia, formy i zakres udzielanej pomocy w oparciu o zalecenia zawarte w opinii, podpisy wszystkich nauczycieli uczących o zapoznaniu się z formą i zakresem udzielanej pomocy, ocena  postawy ucznia objętego pomocą (frekwencja, oceny, motywacja, zachowanie), efekty udzielanej pomocy (postępy w nauce, wykaz przedmiotów, z których uczeń jest zagrożony, frekwencja), działania podejmowane przez wychowawcę związane z brakiem motywacji ucznia (telefony do rodziców, pracodawców, wiadomości) -  analiza sporządzana przez wychowawcę pod koniec I semestru i na zakończenie roku szkolnego.",
+          "format": []
+        },
+        {
+          "text": " ",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 65,
+      "type": "paragraph",
+      "style_id": "paragraph",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360",
+        "hanging": "105"
+      },
+      "spacing_twips": {
+        "before": "0",
+        "beforeAutospacing": "0",
+        "after": "0",
+        "afterAutospacing": "0"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "- teczki klasy winny być przechowywane i zabezpieczone przez wychowawcę ",
+      "formatted_inline": "**-** teczki klasy winny być przechowywane i zabezpieczone przez wychowawcę ",
+      "runs": [
+        {
+          "text": "-",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " teczki klasy winny być przechowywane i zabezpieczone przez wychowawcę",
+          "format": []
+        },
+        {
+          "text": " ",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 66,
+      "type": "paragraph",
+      "style_id": "paragraph",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360",
+        "hanging": "105"
+      },
+      "spacing_twips": {
+        "before": "0",
+        "beforeAutospacing": "0",
+        "after": "0",
+        "afterAutospacing": "0"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "- specjaliści wprowadzają do dziennika elektronicznego informacje dotyczące opinii poradni psychologiczno-pedagogicznej w zakładce SPECJALNE POTRZEBY oraz przenosi zalecenia do zakładki DODATKOWE INFORMACJE, dzięki temu każdy nauczyciel uczący widzi na liście obecności ikonkę, która informuje nauczycieli, że dany uczeń objęty jest pomocą ",
+      "formatted_inline": "**-** specjaliści wprowadzają do dziennika elektronicznego informacje dotyczące opinii poradni psychologiczno-pedagogicznej w zakładce SPECJALNE POTRZEBY oraz przenosi zalecenia do zakładki DODATKOWE INFORMACJE, dzięki temu każdy nauczyciel uczący widzi na liście obecności ikonkę, która informuje nauczycieli, że dany uczeń objęty jest pomocą ",
+      "runs": [
+        {
+          "text": "-",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " ",
+          "format": []
+        },
+        {
+          "text": "specjaliści",
+          "format": []
+        },
+        {
+          "text": " wprowadza",
+          "format": []
+        },
+        {
+          "text": "ją",
+          "format": []
+        },
+        {
+          "text": " do dziennika elektronicznego informacje dotyczące opinii poradni psychologiczno-pedagogicznej w zakładce SPECJALNE POTRZEBY oraz przenosi zalecenia do zakładki DODATKOWE INFORMACJ",
+          "format": []
+        },
+        {
+          "text": "E",
+          "format": []
+        },
+        {
+          "text": ", dzięki temu każdy nauczyciel uczący widzi na liście obecności ikonkę, która informuje ",
+          "format": []
+        },
+        {
+          "text": "nauczycieli",
+          "format": []
+        },
+        {
+          "text": ", że dany uczeń objęty jest pomocą",
+          "format": []
+        },
+        {
+          "text": " ",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 67,
+      "type": "paragraph",
+      "style_id": "paragraph",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360",
+        "hanging": "105"
+      },
+      "spacing_twips": {
+        "before": "0",
+        "beforeAutospacing": "0",
+        "after": "0",
+        "afterAutospacing": "0"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "- wychowawca klasy informuje rodziców/opiekunów prawnych uczniów posiadających opinie poradni o ustalonych dla ucznia formach, okresie oraz wymiarze godzin, w których poszczególne formy będą realizowane poprzez wiadomość w dzienniku elektronicznym oraz na najbliższym zebraniu z rodzicami po dostarczeniu opinii do szkoły oczywiście  \\nz zachowaniem RODO ",
+      "formatted_inline": "**-** wychowawca klasy informuje rodziców/opiekunów prawnych uczniów posiadających opinie poradni o ustalonych dla ucznia formach, okresie oraz wymiarze godzin, w których poszczególne formy będą realizowane poprzez wiadomość w dzienniku elektronicznym oraz na najbliższym zebraniu z rodzicami po dostarczeniu opinii do szkoły oczywiście  [BR]z zachowaniem RODO ",
+      "runs": [
+        {
+          "text": "-",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " wychowawca klasy informuje rodziców/opiekunów prawnych uczniów posiadających opinie poradni o ustalonych dla ucznia formach, okresie oraz wymiarze godzin, w których poszczególne formy będą realizowane poprzez wiadomość w dzienniku elektronicznym oraz na najbliższym zebraniu z rodzicami po dostarczeniu opinii do szkoły oczywiście ",
+          "format": []
+        },
+        {
+          "text": " ",
+          "format": []
+        },
+        {
+          "text": "\\n",
+          "format": []
+        },
+        {
+          "text": "z zachowaniem RODO",
+          "format": []
+        },
+        {
+          "text": " ",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 68,
+      "type": "paragraph",
+      "style_id": "paragraph",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360",
+        "hanging": "105"
+      },
+      "spacing_twips": {
+        "before": "0",
+        "beforeAutospacing": "0",
+        "after": "0",
+        "afterAutospacing": "0"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "- za realizację tych zadań odpowiada wychowawca a szkolni specjaliści i wicedyrektor ds. wychowania koordynują realizację zadań wychowawcy",
+      "formatted_inline": "**-** za realizację tych zadań odpowiada wychowawca a szkolni specjaliści i wicedyrektor ds. wychowania koordynują realizację zadań wychowawcy",
+      "runs": [
+        {
+          "text": "-",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " za realizację tych zadań odpowiada wychowawca ",
+          "format": []
+        },
+        {
+          "text": "a szkolni specjaliści",
+          "format": []
+        },
+        {
+          "text": " i wicedyrektor ds. wychowania",
+          "format": []
+        },
+        {
+          "text": " koo",
+          "format": []
+        },
+        {
+          "text": "rdynują realizację zadań wychowawcy",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 69,
+      "type": "paragraph",
+      "style_id": "paragraph",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360",
+        "hanging": "105"
+      },
+      "spacing_twips": {
+        "before": "0",
+        "beforeAutospacing": "0",
+        "after": "0",
+        "afterAutospacing": "0"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "- rodzic jest zobowiązany do podpisania pisemnej zgody na objęcie dziecka pomocą psychologiczno-pedagogiczną w szkole oraz do ścisłej współpracy ze szkołą. Dokument ten przechowywany będzie w teczce wychowawcy. Jeśli rodzic/opiekun prawny nie jest obecny na zebraniu musi uzupełnić zgodę na spotkaniu indywidualnym z wychowawcą w możliwie jak najszybszym terminie albo najpóźniej na kolejnym zebraniu lub konsultacjach.",
+      "formatted_inline": "**-** rodzic jest zobowiązany do podpisania pisemnej zgody na objęcie dziecka pomocą psychologiczno-pedagogiczną w szkole oraz do ścisłej współpracy ze szkołą. Dokument ten przechowywany będzie w teczce wychowawcy. Jeśli rodzic/opiekun prawny nie jest obecny na zebraniu musi uzupełnić zgodę na spotkaniu indywidualnym z wychowawcą w możliwie jak najszybszym terminie albo najpóźniej na kolejnym zebraniu lub konsultacjach.",
+      "runs": [
+        {
+          "text": "-",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " rodzic jest zobowiązany do podpisania pisemnej zgody na objęcie dziecka pomocą psychologiczno-pedagogiczną w szkole oraz do ścisłej współpracy ze szkołą. Dokument ten przechowywany będzie w teczce wychowawcy. Jeśli rodzic/opiekun prawny nie jest obecny na zebraniu ",
+          "format": []
+        },
+        {
+          "text": "musi ",
+          "format": []
+        },
+        {
+          "text": "uzupełnić zgodę na spotkaniu indywidualnym z wychowawcą",
+          "format": []
+        },
+        {
+          "text": " w możliwie jak najszybszym terminie albo na",
+          "format": []
+        },
+        {
+          "text": "jpóźniej na kolejnym zebraniu lub konsultacjach.",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 70,
+      "type": "paragraph",
+      "style_id": "paragraph",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360",
+        "hanging": "105"
+      },
+      "spacing_twips": {
+        "before": "0",
+        "beforeAutospacing": "0",
+        "after": "0",
+        "afterAutospacing": "0"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "- jeżeli w opinii lub orzeczeniu jest informacja o zwolnieniu ucznia z nauki drugiego języka obcego, to takie zwolnienie jest możliwe wyłącznie na wniosek rodziców/prawnych opiekunów na podstawie opinii (dotyczy wyłącznie uczniów technikum).",
+      "formatted_inline": "**-** jeżeli w opinii lub orzeczeniu jest informacja o zwolnieniu ucznia z nauki drugiego języka obcego, to takie zwolnienie jest możliwe wyłącznie na wniosek rodziców/prawnych opiekunów na podstawie opinii (dotyczy wyłącznie uczniów technikum).",
+      "runs": [
+        {
+          "text": "-",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " ",
+          "format": []
+        },
+        {
+          "text": "jeżeli w opinii lub orzeczeniu jest informacja o zwolnieniu ucznia z nauki drugiego języka obcego, to takie",
+          "format": []
+        },
+        {
+          "text": " zwolnienie jest możliwe wyłącznie na wniosek rodziców/prawnych opiekunów",
+          "format": []
+        },
+        {
+          "text": " na podstawie opinii (dotyczy wyłącznie uczniów technikum).",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 71,
+      "type": "paragraph",
+      "style_id": "paragraph",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360",
+        "hanging": "105"
+      },
+      "spacing_twips": {
+        "before": "0",
+        "beforeAutospacing": "0",
+        "after": "0",
+        "afterAutospacing": "0"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "Specjaliści (pedagodzy, psycholog): ",
+      "formatted_inline": "**Specjaliści (pedagodzy, psycholog):** ",
+      "runs": [
+        {
+          "text": "Specjaliści (pedagodzy, psycholog):",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " ",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 72,
+      "type": "paragraph",
+      "style_id": "paragraph",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360",
+        "hanging": "105"
+      },
+      "spacing_twips": {
+        "before": "0",
+        "beforeAutospacing": "0",
+        "after": "0",
+        "afterAutospacing": "0"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "- spotkania ucznia z psychologiem/pedagogiem odnotowywane będą przez specjalistę  \\nw dzienniku elektronicznym z ogólną informacją na temat spotkania a szczegóły spotkań, ponieważ są to dane wrażliwe, w indywidualnych teczkach przygotowanych dla danego ucznia przez pedagoga/psychologa, przechowywane i zabezpieczone w gabinecie specjalisty. ",
+      "formatted_inline": "**- **spotkania ucznia z psychologiem/pedagogiem odnotowywane będą przez specjalistę  [BR]w dzienniku elektronicznym z ogólną informacją na temat spotkania a szczegóły spotkań, ponieważ są to dane wrażliwe, w indywidualnych teczkach przygotowanych dla danego ucznia przez pedagoga/psychologa, przechowywane i zabezpieczone w gabinecie specjalisty. ",
+      "runs": [
+        {
+          "text": "- ",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "spotkania ucznia z psychologiem/pedagogiem odnotowywane będą przez specjalistę ",
+          "format": []
+        },
+        {
+          "text": " ",
+          "format": []
+        },
+        {
+          "text": "\\n",
+          "format": []
+        },
+        {
+          "text": "w dzienniku elektronicznym z ogólną informacją na temat spotkania a szczegóły spotkań, ponieważ są to dane wrażliwe, w indywidualnych teczkach przygotowanych dla danego ucznia przez pedagoga/psychologa, przechowywane i zabezpieczone w gabinecie specjalisty.",
+          "format": []
+        },
+        {
+          "text": " ",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 73,
+      "type": "paragraph",
+      "style_id": "paragraph",
+      "alignment": "both",
+      "indent_twips": {
+        "hanging": "105"
+      },
+      "spacing_twips": {
+        "before": "0",
+        "beforeAutospacing": "0",
+        "after": "0",
+        "afterAutospacing": "0"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "      Nauczyciele uczący: ",
+      "formatted_inline": "**      ****Nauczyciele uczący:** ",
+      "runs": [
+        {
+          "text": "      ",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "Nauczyciele uczący:",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " ",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 74,
+      "type": "paragraph",
+      "style_id": "paragraph",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360",
+        "hanging": "105"
+      },
+      "spacing_twips": {
+        "before": "0",
+        "beforeAutospacing": "0",
+        "after": "0",
+        "afterAutospacing": "0"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "- każdy nauczyciel uczący w danej klasie przygotowuje dostosowania dla przedmiotu dla każdego ucznia objętego pomocą psychologiczno-pedagogiczną i zapoznaje z nimi uczniów i rodziców (uczniowie w szkole a rodzice  poprzez wiadomość w dzienniku elektronicznym). Dokument zawierający dostosowania dla uczniów będzie znajdował się w MS TEAMS. ",
+      "formatted_inline": "- każdy nauczyciel uczący w danej klasie przygotowuje dostosowania dla przedmiotu dla każdego ucznia objętego pomocą psychologiczno-pedagogiczną i zapoznaje z nimi uczniów i rodziców (uczniowie w szkole a rodzice  poprzez wiadomość w dzienniku elektronicznym). Dokument zawierający dostosowania dla uczniów będzie znajdował się w MS TEAMS. ",
+      "runs": [
+        {
+          "text": "- każdy nauczyciel uczący w danej klasie przygotowuje dostosowania dla przedmiotu dla każdego ucznia objętego pomocą psychologiczno-pedagogiczną i zapoznaje z nimi uczniów i rodziców (uczniowie w szkole a rodzice  poprzez wiadomość w dzienniku elektronicznym). ",
+          "format": []
+        },
+        {
+          "text": "Dokument ",
+          "format": []
+        },
+        {
+          "text": "zawierający dostosowania dla uczniów będzie znajdował się w MS TEAMS",
+          "format": []
+        },
+        {
+          "text": ". ",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 75,
+      "type": "paragraph",
+      "style_id": "paragraph",
+      "alignment": "both",
+      "indent_twips": {},
+      "spacing_twips": {
+        "before": "0",
+        "beforeAutospacing": "0",
+        "after": "0",
+        "afterAutospacing": "0"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "   * Aktualne orzeczenia na rok szkolny 2026/2027 rodzice/opiekunowie prawni MUSZĄ",
+      "formatted_inline": "   * Aktualne orzeczenia na rok szkolny 2026/2027 rodzice/opiekunowie prawni MUSZĄ",
+      "runs": [
+        {
+          "text": "   ",
+          "format": []
+        },
+        {
+          "text": "*",
+          "format": []
+        },
+        {
+          "text": " Aktualne orzeczenia na rok szkolny 2026/2027 rodzice/opiekunowie prawni MUSZĄ",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 76,
+      "type": "paragraph",
+      "style_id": "paragraph",
+      "alignment": "both",
+      "indent_twips": {},
+      "spacing_twips": {
+        "before": "0",
+        "beforeAutospacing": "0",
+        "after": "0",
+        "afterAutospacing": "0"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "      NIEZWŁOCZNIE dostarczyć do szkoły.",
+      "formatted_inline": "      NIEZWŁOCZNIE dostarczyć do szkoły.",
+      "runs": [
+        {
+          "text": "      NIEZWŁOCZNIE dostarczyć do szkoły.",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 77,
+      "type": "paragraph",
+      "style_id": "Akapitzlist",
+      "alignment": "both",
+      "indent_twips": {},
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": {
+        "ilvl": "0",
+        "numId": "2"
+      },
+      "pageBreakBefore": false,
+      "text_with_markers": "Uczniowie niepełnosprawni posiadający orzeczenie o potrzebie kształcenia specjalnego są uprawnieni do otrzymania wyprawki szkolnej 2026-2028 (Program Rządowy- informacje \\nu pedagoga szkolnego w gabinecie 04 oraz na stronie internetowej szkoły),",
+      "formatted_inline": "Uczniowie niepełnosprawni posiadający orzeczenie o potrzebie kształcenia specjalnego są uprawnieni do otrzymania wyprawki szkolnej 2026-2028 (Program Rządowy- informacje [BR]u pedagoga szkolnego w gabinecie 04 oraz na stronie internetowej szkoły),",
+      "runs": [
+        {
+          "text": "Uczniowie",
+          "format": []
+        },
+        {
+          "text": " niepełnosprawni",
+          "format": []
+        },
+        {
+          "text": " posiadający orzeczenie o potrzebie kształcenia specjalnego są uprawnieni do o",
+          "format": []
+        },
+        {
+          "text": "trzymania wyprawki ",
+          "format": []
+        },
+        {
+          "text": "szkolnej 202",
+          "format": []
+        },
+        {
+          "text": "6-2028",
+          "format": []
+        },
+        {
+          "text": " ",
+          "format": []
+        },
+        {
+          "text": "(",
+          "format": []
+        },
+        {
+          "text": "Program Rządowy- informacje ",
+          "format": []
+        },
+        {
+          "text": "\\n",
+          "format": []
+        },
+        {
+          "text": "u pedagoga szkolnego w gabinecie 04",
+          "format": []
+        },
+        {
+          "text": " oraz na stronie internetowej szk",
+          "format": []
+        },
+        {
+          "text": "oły)",
+          "format": []
+        },
+        {
+          "text": ",",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 78,
+      "type": "paragraph",
+      "style_id": "Akapitzlist",
+      "alignment": "both",
+      "indent_twips": {},
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": {
+        "ilvl": "1",
+        "numId": "2"
+      },
+      "pageBreakBefore": false,
+      "text_with_markers": "do 8 września 2026 r. – rodzic lub pełnoletni uczeń powinien złożyć wniosek o przyznanie dofinansowania w szkole, do której uczęszcza uczeń. Wzór wniosku oraz oświadczenie dotyczące indywidualnego zakupu podręczników i materiałów można pobrać m.in. z Portalu Edukacyjnego lub odebrać osobiście u pani pedagog specjalnej Marii Kaszak (gab.04).",
+      "formatted_inline": "do 8 września 2026 r. – rodzic lub pełnoletni uczeń powinien złożyć wniosek o przyznanie dofinansowania w szkole, do której uczęszcza uczeń. Wzór wniosku oraz oświadczenie dotyczące indywidualnego zakupu podręczników i materiałów można pobrać m.in. z Portalu Edukacyjnego lub odebrać osobiście u pani pedagog specjalnej Marii Kaszak (gab.04).",
+      "runs": [
+        {
+          "text": "do 8 września 2026 r. – rodzic lub pełnoletni uczeń powinien złożyć wniosek o przyznanie dofinansowania w szkole, do której uczęszcza uczeń. Wzór wniosku oraz oświadczenie dotyczące indywidualnego zakupu podręczników i materiałów można pobrać m.in. z Portalu Edukacyjnego lub ",
+          "format": []
+        },
+        {
+          "text": "odebrać osobiście u pani pedagog specjalnej Marii Kaszak (gab.04).",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 79,
+      "type": "paragraph",
+      "style_id": "Akapitzlist",
+      "alignment": "both",
+      "indent_twips": {},
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": {
+        "ilvl": "1",
+        "numId": "2"
+      },
+      "pageBreakBefore": false,
+      "text_with_markers": "nie dotyczy uczniów, którzy mają orzeczenia o niedostosowaniu społecznym ",
+      "formatted_inline": "nie dotyczy uczniów, którzy mają orzeczenia o niedostosowaniu społecznym ",
+      "runs": [
+        {
+          "text": "nie dotyczy uczniów, którzy mają orzeczenia o niedostosowaniu społecznym ",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 80,
+      "type": "paragraph",
+      "style_id": "Akapitzlist",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "1080"
+      },
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "i zagrożeniem niedostosowaniem społecznym",
+      "formatted_inline": "i zagrożeniem niedostosowaniem społecznym",
+      "runs": [
+        {
+          "text": "i zagrożeniem niedostosowaniem społecznym",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 81,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {},
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": {
+        "ilvl": "0",
+        "numId": "2"
+      },
+      "pageBreakBefore": false,
+      "text_with_markers": "Poinformować o opiece pielęgniarskiej (poniedziałek, wtorek, czwartek i piątek ",
+      "formatted_inline": "Poinformować o opiece pielęgniarskiej (poniedziałek, wtorek, czwartek i piątek ",
+      "runs": [
+        {
+          "text": "Poinformować o opiece pielęgniarskiej",
+          "format": []
+        },
+        {
+          "text": " (poniedziałek",
+          "format": []
+        },
+        {
+          "text": ", wtorek, czwartek i piątek ",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 82,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360"
+      },
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "w godzinach 8.00 – 15.00, środa w godzinach 12.00 – 15.00).",
+      "formatted_inline": "w godzinach 8.00 – 15.00, środa w godzinach 12.00 – 15.00).",
+      "runs": [
+        {
+          "text": "w godzinach 8.00 – 15.00",
+          "format": []
+        },
+        {
+          "text": ", środa w godzinach 12.00",
+          "format": []
+        },
+        {
+          "text": " – 15.00).",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 83,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {},
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": {
+        "ilvl": "0",
+        "numId": "2"
+      },
+      "pageBreakBefore": false,
+      "text_with_markers": "Poinformować o świadczeniach finansowych (możliwość wpłaty w ratach):",
+      "formatted_inline": "Poinformować o świadczeniach finansowych (możliwość wpłaty w ratach):",
+      "runs": [
+        {
+          "text": "Poinformować o świadczeniach finansowych (możliwość wpłaty w ratach):",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 84,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360"
+      },
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "Rada Rodziców\\t            60 zł \\t                      przy 2 lub kolejnym dziecku w szkole 30zł",
+      "formatted_inline": "Rada Rodziców[TAB]            60 zł [TAB]                      przy 2 lub kolejnym dziecku w szkole 30zł",
+      "runs": [
+        {
+          "text": "Rada Rodziców",
+          "format": []
+        },
+        {
+          "text": "\\t",
+          "format": []
+        },
+        {
+          "text": "      ",
+          "format": []
+        },
+        {
+          "text": " ",
+          "format": []
+        },
+        {
+          "text": "    ",
+          "format": []
+        },
+        {
+          "text": " ",
+          "format": []
+        },
+        {
+          "text": "6",
+          "format": []
+        },
+        {
+          "text": "0",
+          "format": []
+        },
+        {
+          "text": " zł ",
+          "format": []
+        },
+        {
+          "text": "\\t                      przy 2 lub kolejnym dziecku w szkole 30zł",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 85,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360"
+      },
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "Monitorowanie szkoły  \\t15 zł\\t\\t\\t                        wpłata do końca I semestru",
+      "formatted_inline": "Monitorowanie szkoły  [TAB]15 zł[TAB][TAB][TAB]                        wpłata do końca I semestru",
+      "runs": [
+        {
+          "text": "Monitorowanie szkoły  ",
+          "format": []
+        },
+        {
+          "text": "\\t",
+          "format": []
+        },
+        {
+          "text": "15 zł",
+          "format": []
+        },
+        {
+          "text": "\\t",
+          "format": []
+        },
+        {
+          "text": "\\t",
+          "format": []
+        },
+        {
+          "text": "\\t",
+          "format": []
+        },
+        {
+          "text": "                       ",
+          "format": []
+        },
+        {
+          "text": " ",
+          "format": []
+        },
+        {
+          "text": "wpłata do końca I semestru",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 86,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360"
+      },
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "Ubezpieczenie \\t            65 zł                                                       wpłata do końca września",
+      "formatted_inline": "Ubezpieczenie [TAB]            65 zł                                                       wpłata do końca września",
+      "runs": [
+        {
+          "text": "Ubezpieczenie ",
+          "format": []
+        },
+        {
+          "text": "\\t",
+          "format": []
+        },
+        {
+          "text": "           ",
+          "format": []
+        },
+        {
+          "text": " ",
+          "format": []
+        },
+        {
+          "text": "6",
+          "format": []
+        },
+        {
+          "text": "5",
+          "format": []
+        },
+        {
+          "text": " ",
+          "format": []
+        },
+        {
+          "text": "zł",
+          "format": []
+        },
+        {
+          "text": " ",
+          "format": []
+        },
+        {
+          "text": "           ",
+          "format": []
+        },
+        {
+          "text": "                       ",
+          "format": []
+        },
+        {
+          "text": " ",
+          "format": []
+        },
+        {
+          "text": "             ",
+          "format": []
+        },
+        {
+          "text": "      ",
+          "format": []
+        },
+        {
+          "text": "wpłata do końca",
+          "format": []
+        },
+        {
+          "text": " ",
+          "format": []
+        },
+        {
+          "text": "września",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 87,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360"
+      },
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "Materiały kserograficzne\\t15 zł\\t\\t\\t                           wpłata do końca września",
+      "formatted_inline": "Materiały kserograficzne[TAB]15 zł[TAB][TAB][TAB]                           wpłata do końca września",
+      "runs": [
+        {
+          "text": "Materiały kserograficzne",
+          "format": []
+        },
+        {
+          "text": "\\t",
+          "format": []
+        },
+        {
+          "text": "1",
+          "format": []
+        },
+        {
+          "text": "5",
+          "format": []
+        },
+        {
+          "text": " zł",
+          "format": []
+        },
+        {
+          "text": "\\t",
+          "format": []
+        },
+        {
+          "text": "\\t",
+          "format": []
+        },
+        {
+          "text": "\\t",
+          "format": []
+        },
+        {
+          "text": "                       ",
+          "format": []
+        },
+        {
+          "text": "  ",
+          "format": []
+        },
+        {
+          "text": "  ",
+          "format": []
+        },
+        {
+          "text": "wpłata do końca września",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 88,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360"
+      },
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "Wpłaty dokonują rodzice na konto Rady Rodziców do końca września 2026, Santander Bank 02 1090 2529 0000 0001 4875 4698. Wszystkie informacje dotyczące wpłat i numer konta znajduje się na stronie szkoły w zakładce RODZICE.",
+      "formatted_inline": "**Wpłaty dokonują rodzice na konto**** Rady Rodziców do końca września 2026****, ****Santander Bank**** ****02 1090 2529 0000 0001 4875 4698****. ****Wszystkie informacje dotyczące wpłat i numer konta znajduje się na stronie szkoły w zakładce ****RODZICE****.**",
+      "runs": [
+        {
+          "text": "Wpłaty dokonują rodzice na konto",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " Rady Rodziców do końca września 2026",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ", ",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "Santander Bank",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " ",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "02 1090 2529 0000 0001 4875 4698",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ". ",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "Wszystkie informacje dotyczące wpłat i numer konta znajduje się na stronie szkoły w zakładce ",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "RODZICE",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ".",
+          "format": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "nr": 89,
+      "type": "paragraph",
+      "style_id": "Akapitzlist",
+      "alignment": "both",
+      "indent_twips": {},
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": {
+        "ilvl": "0",
+        "numId": "2"
+      },
+      "pageBreakBefore": false,
+      "text_with_markers": "Przedstawić zasady uczestnictwa w lekcjach religii: ",
+      "formatted_inline": "Przedstawić zasady uczestnictwa w lekcjach religii: ",
+      "runs": [
+        {
+          "text": "Przedstawić zasady uczestnictwa w lekcjach r",
+          "format": []
+        },
+        {
+          "text": "eligii:",
+          "format": []
+        },
+        {
+          "text": " ",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 90,
+      "type": "paragraph",
+      "style_id": "Akapitzlist",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360"
+      },
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "- od uczniów klas pierwszych należy zebrać podpisane przez rodziców  deklaracje (oświadczenie woli)  do 04.09.2026.",
+      "formatted_inline": "- od uczniów klas pierwszych należy zebrać podpisane przez rodziców  deklaracje (oświadczenie woli)  do **0****4****.09.202****6****.**",
+      "runs": [
+        {
+          "text": "- od uczniów klas pierwszych należy zebrać podpisane przez ro",
+          "format": []
+        },
+        {
+          "text": "dziców  dekl",
+          "format": []
+        },
+        {
+          "text": "aracje",
+          "format": []
+        },
+        {
+          "text": " (oświadczenie woli) ",
+          "format": []
+        },
+        {
+          "text": " ",
+          "format": []
+        },
+        {
+          "text": "do ",
+          "format": []
+        },
+        {
+          "text": "0",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "4",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ".09.202",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "6",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ".",
+          "format": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "nr": 91,
+      "type": "paragraph",
+      "style_id": "Akapitzlist",
+      "alignment": "both",
+      "indent_twips": {
+        "left": "360"
+      },
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "- uczniowie klas wyższych kontynuują naukę religii na podstawie wcześniejszych deklaracji; każda zmiana w tej kwestii wymaga pisemnego dokumentu.",
+      "formatted_inline": "- uczniowie klas wyższych kontynuują naukę religii na podstawie wcześniejszych deklaracji; każda zmiana w tej kwestii wymaga pisemnego dokumentu.",
+      "runs": [
+        {
+          "text": "- uczniowie klas wyższych kontynuują naukę religii na podstawie wcześniejszych deklaracji; każda zmiana w tej kwestii wymaga pisemnego dokumentu.",
+          "format": []
+        }
+      ]
+    },
+    {
+      "nr": 92,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": null,
+      "indent_twips": {},
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "",
+      "formatted_inline": "",
+      "runs": []
+    },
+    {
+      "nr": 93,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "both",
+      "indent_twips": {},
+      "spacing_twips": {
+        "line": "276",
+        "lineRule": "auto"
+      },
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "Główną tematykę tego  spotkania należy wpisać do dziennika lekcyjnego jako treść zajęć edukacyjnych (informacje jak należy wpisać do dziennika zostaną przesłane pocztą przez dyrektora M. Najwera).   ",
+      "formatted_inline": "**Główną tematykę tego  spotkania należy wpisać do dziennika lekcyjneg****o**** jako treść zajęć edukacyjnych**** ****(****informacje jak należy wpisać do dziennika zostaną przesłane**** pocztą**** przez dyrektora M. Najwera****).**** **** **** **",
+      "runs": [
+        {
+          "text": "Główną tematykę tego  spotkania należy wpisać do dziennika lekcyjneg",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "o",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " jako treść zajęć edukacyjnych",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " ",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "(",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": "informacje jak należy wpisać do dziennika zostaną przesłane",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " pocztą",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " przez dyrektora M. Najwera",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": ").",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " ",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " ",
+          "format": [
+            "bold"
+          ]
+        },
+        {
+          "text": " ",
+          "format": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "nr": 94,
+      "type": "paragraph",
+      "style_id": "Normal",
+      "alignment": "center",
+      "indent_twips": {},
+      "spacing_twips": {},
+      "numPr": null,
+      "pageBreakBefore": false,
+      "text_with_markers": "",
+      "formatted_inline": "",
+      "runs": []
+    }
+  ]
+}

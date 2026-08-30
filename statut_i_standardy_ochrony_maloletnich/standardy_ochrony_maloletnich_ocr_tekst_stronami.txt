@@ -1,0 +1,918 @@
+===== STRONA 1 =====
+załącznik nr 1 do zarządzenia nr 1/2024 Dyrektora Zespołu Szkót Zawodowych nr 5 we Wrocławiu z dnia 13 lutego 2024 r.
+ZSZ
+Wrocław
+STANDARDY OCHRONY MAŁOLETNICH
+w Zespole Szkół Zawodowych nr 5 we Wroclawiu
+Wstep
+Dbanie o bezpieczeństwo małoletnich, ochrona przed krzywdzeniem, reagowanie na podejrzenie
+krzywdzenia jest jednym z zadań szkoły, w której przebywają matoletni. Niniejszy dokument ma
+na celu wdrożenie mechanizmów i zasad postępowania dotyczących bezpieczeństwa matoletnich
+w Zespole Szkół Zawodowych nr 5 we Wrocławiu oraz realizację obowiązku prawnego dotyczącego
+wprowadzenia standardów ochrony małoletnich (ustawa z 28 lipca 2023 r. o zmianie ustawy - Kodeks
+rodzinny i opiekuńczy oraz niektórych innych ustaw (Dz.U. z 2023 poz. 1606), na mocy której
+do ustawy z 13 maja 2016 r. o przeciwdziałaniu zagrożeniom przestępczością na tle seksualnym
+i ochronie małoletnich (Dz.U. z 2024 r. poz. 560) wprowadzono przepisy dotyczące standardów
+ochrony matoletnich).
+Rozdziat 1
+Objaśnienie terminów
+1. Personelem jest każda osoba zatrudniona w Zespole Szkół Zawodowych nr 5 we Wrocławiu
+(zwanego dalej szkołą lub Zespołem Szkół) na podstawie umowy o pracę, umowy cywilnoprawnej,
+a także wolontariusz, stażysta, praktykant i inna osoba, która z racji pełnionych zadań lub funkcji
+ma w Zespole Szkót kontakt z małoletnimi.
+2. Małoletnim jest każda osoba do ukończenia 18 roku życia.
+3. Opiekunem małoletniego jest osoba uprawniona do reprezentacji małoletniego, w szczególności
+jego rodzic lub opiekun prawny. W myśl niniejszego dokumentu opiekunem jest również rodzic
+zastępczy.
+4. Zgoda rodzica matoletniego, to zgoda co najmniej jednego z rodziców małoletniego. Jednak
+w przypadku braku porozumienia między rodzicami
+matoletniego należy poinformować
+ich o konieczności rozstrzygnięcia sprawy przez sąd rodzinny.
+5. Dane osobowe małoletniego, to wszelkie informacje umożliwiające identyfikację małoletniego.
+6. Krzywdzenie małoletniego, to każde zamierzone lub niezamierzone działanie osoby dorosłej bądź
+społeczności, które ma szkodliwy wpływ na zdrowie, rozwój fizyczny lub psychospołeczny dziecka*.
+Krzywdzenie może przybrać formę: przemocy fizycznej, przemocy psychicznej, wykorzystywania
+seksualnego, zaniedbania, przemocy rówieśniczej.
+1 Definicja krzywdzenia dziecka sformułowana przez Światową Organizację Zdrowia.
+1/21
+
+===== STRONA 2 =====
+7. Przemoc fizyczna, to celowe użycie siły fizycznej, uszkodzenie ciała, zadawanie bólu lub groźba
+uszkodzenia ciała, którego efektem jest lub z dużym prawdopodobieństwem może być szkoda dia
+zdrowia, życia, rozwoju i godności małoletniego np. bicie, szarpanie, popychanie, rzucanie
+przedmiotami itp. Skutkiem przemocy fizycznej mogą być m. in. złamania, siniaki, rany cięte,
+poparzenia, obrażenia wewnętrzne.
+8. Przemoc psychiczna, to szkodliwa interakcja pomiędzy dzieckiem a opiekunem, obejmująca
+zarówno działania, jak i zaniechania m.in.: niedostępność emocjonalna, okazywanie wrogości,
+umniejszanie, wyśmiewanie, straszenie, wciąganie małoletniego w konflikt osób dorosłych,
+manipulowanie nim, nieuwzględnianie indywidualności małoletniego i granic psychicznych pomiędzy
+opiekunem a małoletnim, stawianie małoletniemu wymagań i oczekiwań, którym nie jest on w stanie
+sprostać itp.
+9. Wykorzystywanie seksualne, to zaangażowanie małoletniego w aktywność seksuainą, której nie
+jest ono w stanie w pełni zrozumieć i udzielić na nią świadomej zgody, naruszająca prawo i obyczaje
+danego społeczeństwa. Z wykorzystywaniem seksualnym mamy do czynienia wtedy, gdy występuje
+ono pomiędzy małoletnim a dorosłym lub małoletnim i innym małoletnim, w sytuacji zależności, jeśli
+te osoby ze względu na wiek bądź stopień rozwoju pozostają w stosunku opieki, zależności, władzy.
+Celem takiej aktywności jest zaspokojenie potrzeb innej osoby. Aktywność taka może obejmować:
+1) nakłanianie lub zmuszanie małoletniego do udziału w jakichkolwiek prawnie zabronionych
+czynnościach seksualnych,
+2) wykorzystywanie małoletniego do prostytucji lub innych nielegalnych praktyk seksualnych,
+3) wykorzystywanie małoletniego do produkcji przedstawień i materiałów pornograficznych?,
+4) zachowania bez kontaktu fizycznego (np. ekshibicjonizm, pokazywanie małoletniemu materiałów
+pornograficznych, podglądanie).
+10. Zaniedbanie obejmuje zarówno pojedyncze sytuacje, jak i schemat, w którym rodzic/opiekun
+lub inny członek rodziny nie zapewnienia odpowiednich warunków rozwoju i dobrego samopoczucia
+małoletniego - tam, gdzie rodzic jest w stanie to zrobić. Może to dotyczyć takich obszarów jak m.in.:
+zdrowie, edukacja, rozwój emocjonalny, odżywianie, schronienie i bezpieczne warunki życia?.
+11. Przemoc rówieśnicza, to wszelkie nieprzypadkowe akty godzące w wolność osobistą jednostek
+lub przyczyniające się do fizycznej, a także psychicznej szkody osoby, wykraczające poza społeczne
+zasady wzajemnych relacji. Obejmuje:
+1) przemoc werbalną (np. przezywanie, dogadywanie, ośmieszanie);
+2) przemoc relacyjną (np. wykluczenie z grupy, ignorowanie, nastawianie innych przeciwko osobie,
+szantaż);
+3) przemoc fizyczną (np. pobicie, kopanie, popychanie, szarpanie);
+4) przemoc materialną (np. kradzież, niszczenie przedmiotów);
+5) cyberprzemoc/przemoc elektroniczną (np. złośliwe wiadomości w komunikatorach, wpis
+w serwisie społecznościowym, umieszczanie w Internecie zdjęć lub filmów ośmieszających
+ofiarę);
+6) wykorzystanie seksualne - dotykanie intymnych części ciała lub zmuszanie do stosunku płciowego
+lub innych czynności seksualnych przez rówieśnika;
+7) przemoc uwarunkowaną normami i stereotypami związanymi z płcią (np. przemoc w relacjach
+romantycznych między rówieśnikami), pochodzeniem, narodowością, orientacją seksualną,
+wyznawaną religią czy innymi cechami.
+2 Definicja wykorzystywania seksualnego sformułowana przez Światową Organizację Zdrowia.
+3 Definicja za J. Włodarczyk, Przemoc wobec dzieci i zaniedbanie dzieci (w:) Dzieci się liczą 2022. Raport o zagrożeniach bezpieczeństwa
+i rozwoju dzieci w Polsce, Warszawa 2022, s. 240.
+2/21
+
+===== STRONA 3 =====
+12. Osoba odpowiedzialna za bezpieczeństwo w Internecie to wyznaczony przez dyrektora szkoły
+pracownik, sprawujący nadzór nad zasadami korzystania z urządzeń elektronicznych z dostępem
+do Internetu oraz procedurami ochrony małoletnich przed treściami szkodliwymi w sieci.
+13.Osoba odpowiedzialna za Standardy Ochrony Małoletnich to wyznaczony przez dyrektora
+wicedyrektor sprawujący nadzór nad monitorowaniem przestrzegania standardów, ich wdrażanie
+oraz realizację w szkole.
+14.Osoba odpowiedzialna za ochronę małoletnich to wyznaczony przez dyrektora pedagog, który
+odpowiada za przyjmowanie zgłoszeń i procedowanie ich zgodnie z przyjętymi w szkole zasadami
+oraz prowadzanie dokumentacji w postaci kart interwencji.
+15. Osoba odpowiedzialna za prowadzenie interwencji to dyrektor lub pedagog/psycholog
+wyznaczony przez dyrektora odpowiedzialny za podejmowanie interwencji wewnątrz szkoły i przed
+właściwymi organami lub instytucjami. W przypadku nieobecności inna osoba wskazana
+do zastępstwa na tym stanowisku.
+16.Osoba odpowiedzialna za udzielenie wsparcia małoletniemu to wyznaczony przez dyrektora
+psycholog, który przygotowuje plan wsparcia dla małoletniego po ujawnieniu krzywdzenia i dba
+o jego realizację zgodnie z przyjętymi w Zespole Szkót zasadami.
+Rozdziat 2
+Zasady bezpiecznej rekrutacji personelu
+1. Dyrektor szkoły przed nawiązaniem z osobą stosunku pracy, niezależnie od podstawy nawiązania
+stosunku pracy (Karta Nauczyciela, Kodeks pracy) oraz terminu jego trwania lub dopuszczeniem
+do działalności, związanych z wychowaniem, edukacją, wypoczynkiem, leczeniem, świadczeniem
+porad psychologicznych, rozwojem duchowym, uprawianiem sportu lub realizacją innych
+zainteresowań przez małoletnich, lub z opieką nad nimi, realizuje obowiązki określone w art. 21
+ustawy z dnia 13 maja 2016 r. o przeciwdziałaniu zagrożeniom przestępczością na tle seksualnym
+i ochronie małoletnich (Dz.U. z 2024 r. poz. 560).
+2. Dyrektor szkoły uzyskuje informacje, czy dane osoby, z którą ma być nawiązana współpraca,
+są zamieszczone w Rejestrze z dostępem ograniczonym lub w Rejestrze osób, w stosunku do których
+Państwowa Komisja do spraw przeciwdziałania wykorzystaniu seksualnemu małoletnich poniżej
+lat 15 wydała postanowienie o wpisie w Rejestrze. Rejestry są dostępne na stronie:
+https://rps.ms.gov.pl/pl-PL/Public#/.
+3. Osoba, z którą ma być nawiązana współpraca, przedkłada dyrektorowi szkoły informację
+z Krajowego Rejestru Karnego w zakresie przestępstw określonych w rozdziale XIX i XXV Kodeksu
+karnego, w art. 189a i art. 207 Kodeksu karnego oraz w ustawie z dnia 29 lipca 2005 r.
+o przeciwdziałaniu narkomanii (Dz.U. z 2023 r. poz. 1939), lub za odpowiadające tym przestępstwom
+czyny zabronione określone w przepisach prawa obcego.
+4. Osoba, z którą ma być nawiązana współpraca, posiadająca obywatelstwo innego państwa niż
+Rzeczpospolita Polska, ponadto przedkłada pracodawcy lub innemu organizatorowi informacje
+z rejestru karnego państwa obywatelstwa uzyskiwaną do celów działalności zawodowej
+lub wolontariackiej związanej z kontaktami z małoletnimi.
+5. Osoba, z którą ma być nawiązana współpraca, składa dyrektorowi szkoły oświadczenie o państwie
+lub państwach, w których zamieszkiwała w ciągu ostatnich 20 lat, innych niż Rzeczpospolita Polska
+3/21
+
+===== STRONA 4 =====
+i państwo obywatelstwa, oraz jednocześnie przedkłada dyrektorowi szkoły informację z rejestrów
+karnych tych państw uzyskiwaną do celów działalności zawodowej lub wolontariackiej związanej
+z kontaktami z małoletnimi.
+6. Jeżeli prawo państwa, o którym mowa w ust. 4 lub 5, nie przewiduje wydawania informacji
+do celów działalności zawodowej lub wolontariackiej związanej z kontaktami z małoletnimi,
+przedkłada się informację z rejestru karnego tego państwa.
+7. W przypadku gdy prawo państwa, z którego ma być przedłożona informacja, o której mowa w ust.
+4-6, nie przewiduje jej sporządzenia lub w danym państwie nie prowadzi się rejestru karnego, osoba,
+o której mowa w ust. 1, składa dyrektorowi szkoły oświadczenie o tym fakcie wraz z oświadczeniem,
+że nie byta prawomocnie skazana w tym państwie za czyny zabronione odpowiadające
+przestępstwom określonym w rozdziale XIX i XXV Kodeksu karnego, w art. 189a i art. 207 Kodeksu
+karnego oraz w ustawie z 29.07.2005 r. o przeciwdziałaniu narkomanii (Dz.U. z 2023 r. poz. 1939)
+oraz nie wydano wobec niej innego orzeczenia, w którym stwierdzono, iż dopuściła się takich czynów
+zabronionych, oraz że nie ma obowiązku wynikającego z orzeczenia sądu, innego uprawnionego
+organu lub ustawy stosowania się do zakazu zajmowania wszelkich lub określonych stanowisk,
+wykonywania wszelkich lub określonych zawodów albo działalności, związanych z wychowaniem,
+edukacją, wypoczynkiem, leczeniem, świadczeniem porad psychologicznych, rozwojem duchowym,
+uprawianiem sportu lub realizacją innych zainteresowań przez małoletnich, lub z opieką nad nimi.
+8. Oświadczenia, o których mowa w ust. 5 i 7, składane są pod rygorem odpowiedzialności karnej
+za złożenie fałszywego oświadczenia. Składający oświadczenie jest obowiązany do zawarcia w nim
+klauzuli następującej treści: „Jestem świadomy odpowiedzialności karnej za złożenie fałszywego
+oświadczenia". Klauzula ta zastępuje pouczenie organu o odpowiedzialności karnej za złożenie
+fałszywego oświadczenia.
+9. Nie jest wymagane przedstawienie zaświadczeń, w przypadku, gdy z nauczycielem jest
+nawiązywany kolejny stosunek pracy w tej samej szkole w ciągu 3 miesięcy od dnia rozwiązania albo
+wygaśnięcia (na podstawie art. 20 ust. 5c ustawy Karta Nauczyciela) poprzedniego stosunku pracy.
+10. Pracownicy zatrudnieni na stanowiskach pedagogicznych składają przed nawiązaniem stosunku
+pracy pisemne potwierdzenie spełniania warunku:
+1) posiadania pełnej zdolności do czynności prawnych i korzystania z praw publicznych,
+2) że nie toczy się przeciwko kandydatowi postępowanie karne w sprawie o umyślne przestępstwo
+ścigane z oskarżenia publicznego lub postępowanie dyscyplinarne.
+11. Sprawdzenie osoby, z którą ma być nawiązana współpraca zamieszczone w Rejestrze z dostępem
+ograniczonym lub w Rejestrze osób, w stosunku do których Państwowa Komisja do spraw
+przeciwdziałania wykorzystaniu seksualnemu małoletnich poniżej lat 15 wydała postanowienie
+o wpisie w Rejestrze, dyrektor szkoły dokumentuje poprzez utrwalenie w formie wydruku i załączenie
+do akt osobowych pracownika albo dokumentacji osoby, z którą ma być nawiązana współpraca.
+12. Informacje oraz oświadczenia, o których mowa w ust. 4-7, pracodawca załącza do akt osobowych
+pracownika albo dokumentacji dotyczącej osoby dopuszczonej do takiej działalności.
+13. Zatrudniani pracownicy, praktykanci i wolontariusze przed
+rozpoczęciem
+pracy
+lub dopuszczeniem do kontaktu z małoletnimi są zobowiązani do zapoznania się ze Standardami
+Ochrony Małoletnich.
+4/21
+
+===== STRONA 5 =====
+Rozdział 3
+Zasady bezpiecznych relacji personel - uczeń i uczeń - uczeń
+§ 1. Zasady ogólne
+1. Personel dba o bezpieczeństwo uczniów podczas pobytu w szkole, monitoruje sytuację, chroni ich
+i zapewnia im bezpieczeństwo.
+2. Naczelną zasadą wszystkich czynności podejmowanych przez personel jest działanie dla dobra
+matoletniego i w jego najlepszym interesie.
+3. Personel traktuje każdego ucznia z szacunkiem oraz uwzględnia jego godność i potrzeby.
+Nie dyskryminuje go względu m.in. na pochodzenie, poczucie tożsamości, płeć, status materialny,
+wygląd, wyznanie, orientację seksualną.
+4. Personel, realizując te cele, działa w ramach obowiązującego prawa, przepisów wewnętrznych
+obowiązujących w Zespole Szkół oraz swoich kompetencji.
+5. Zasady bezpiecznych relacji personelu z uczniem obowiązują wszystkich jego członków. Znajomość
+i zaakceptowanie zasad są potwierdzone podpisaniem oświadczenia o zapoznaniu się ze Standardami
+Ochrony Matoletnich.
+§ 2. Komunikacja z uczniem
+1. W komunikacji z uczniem personel zachowuje cierpliwość i odnosi się do ucznia z szacunkiem,
+stucha uważnie, udziela odpowiedzi adekwatnych do danej sytuacji.
+2. Personel:
+1) nie zawstydza, nie upokarza i nie obraża ucznia;
+2) nie krzyczy w sytuacji innej, niż wynikająca z bezpieczeństwa ucznia lub innych uczniów,
+пр. w przypadku ostrzeżenia;
+3) nie obrzuca ucznia wyzwiskami, nie wyśmiewa i nie ośmiesza go, np. stosując przezwiska
+i zdrobnienia;
+4) nie stosuje gróźb wobec ucznia;
+5) nie wyraża, w sposób uwłaczający godności i poczuciu własnej wartości ucznia, zastrzeżeń wobec
+jego zachowania, wyglądu czy postępów w nauce, nie reaguje na nie złośliwościami, sarkazmem;
+6) nie utrwala wizerunku ucznia dla potrzeb prywatnych;
+7) nie kontaktuje się z uczniami poprzez wiadomości prywatne, np. media społecznościowe;
+8) nie wchodzi z uczniem w relacje romantyczne.
+§ 3. Egzekwowanie przyjętych zasad
+1. Personel reaguje bezpośrednio po naruszeniu zasad przez uczniów.
+2. W przypadku stosowania kary podaje uczniowi przyczynę jej udzielenia. Przekazuje mu jasny,
+konkretny i rzeczowy komunikat nakierowany na ocenę zachowania, a nie osobę ucznia.
+§ 4. Zachowanie personelu wobec ucznia
+1. Personel nie stosuje wobec ucznia żadnej formy przemocy fizycznej, takiej jak:
+1) zabieranie rzeczy;
+2) niszczenie rzeczy;
+3) niechciany dotyk, bicie, popychanie, szturchanie;
+4) ograniczanie swobody ruchu.
+5/21
+
+===== STRONA 6 =====
+2. Personel nie stosuje wobec ucznia żadnej formy przemocy psychicznej, takiej jak:
+1) izolowanie, pomijanie, obniżanie jego statusu w grupie;
+2) stygmatyzowanie z powodu zdrowia, osiągnięć edukacyjnych, wyglądu, orientacji seksualnej,
+światopoglądu czy sytuacji majątkowej;
+3) nadmierne, wygórowane wymagania, zastraszanie, obrażanie ich godności, stosowanie kary
+niewspółmiernej do winy;
+4) agresywne wypowiedzi, komentarze;
+5) rozpowszechnianie wszelkich nieprawdziwych lub poniżających materiałów;
+6) cyberstalking - śledzenie w sieci poczynań uczniów, upublicznianie ich.
+3. Personel nie stosuje wobec ucznia żadnej formy przemocy seksualnej, takiej jak:
+1) komentarze na temat ciała, wyglądu;
+2) dyskryminujące uwagi odnoszące się do płci;
+3) wulgarne lub niestosowne żarty, gesty;
+4) wulgarne lub dwuznaczne smsy, e-maile;
+5) angażowanie się w prywatne rozmowy uczniów w mediach społecznościowych, zamieszczanie
+komentarzy, udostępnianie zdjęć o podtekście erotycznym;
+6) naruszanie nietykalności osobistej ucznia (m.in. dotykanie, głaskanie);
+7) zmuszanie ucznia do jakiejkolwiek aktywności o charakterze seksualnym.
+4. Członek personelu zawsze jest przygotowany na wyjaśnienie swojego zachowania.
+§ 5. Zachowanie małoletnich w Zespole Szkół Zawodowych nr 5 we Wrocławiu
+1. Uczniowie mają obowiązek przestrzegania zasad i norm zachowania określonych w Statucie Szkoły
+oraz zapisanych w niniejszym dokumencie.
+2. Uczniowie uznają prawo innych osób do odmienności i zachowania tożsamości m.in. ze względu
+na pochodzenie, religię, status ekonomiczny, płeć, orientację seksualną, wygląd, niepełnosprawność.
+Nie dyskryminują ich ze względu na odmienność. Nie kpią, nie szydzą ze słabości innych,
+nie wyśmiewają, nie krytykują ich.
+3. Uczniowie są zobowiązani do respektowania praw i wolności osobistych innych osób,
+w szczególności do wyrażania własnego zdania, poszukiwań i popełniania błędów, zachowań
+(w ramach ogólnie przyjętych norm).
+4. Kontakty uczniów z innymi osobami cechuje wysoka kultura osobista, uprzejmość, życzliwość,
+poprawny, wolny od wulgaryzmów język, kontrola swojego zachowania i emocji. Relacje uczniów
+z innymi osobami opierają się na szacunku, akceptacji i zrozumieniu.
+5. Uczeń nie stosuje wobec innego ucznia ani innych osób żadnej formy przemocy fizycznej, takiej
+jak:
+1) bicie, uderzanie, popychanie, kopanie, opluwanie, rzucanie w kogoś przedmiotami;
+2) zabieranie rzeczy;
+3) niszczenie rzeczy;
+4) wymuszenia;
+5) nadużywanie swojej przewagi nad inną osobą;
+6) zmuszanie innej osoby do podejmowania niewłaściwych działań.
+6. Uczeń nie stosuje wobec innego ucznia ani innych osób żadnej formy przemocy słownej, takiej jak:
+1) obelgi, wyzwiska;
+2) wyśmiewanie, drwienie, szydzenie z innej osoby;
+6/21
+
+===== STRONA 7 =====
+3) obrażanie;
+4) plotki i obraźliwe żarty, przedrzeźnianie ofiary;
+5) groźby;
+6) stalking
+7. Uczeń nie stosuje wobec innego ucznia ani innych osób żadnej formy przemocy psychicznej, takiej
+jak:
+1) poniżanie;
+2) wykluczanie, izolacja, ignorowanie, manipulowanie, obniżanie statusu ucznia w grupie;
+3) pisanie obraźliwych, poniżających, wulgarnych, niecenzuralnych lub zawierających groźby treści
+na ścianach, meblach, drzwiach itp., a także w mediach społecznościowych, w SMSach, MMS-ach;
+4) wulgarne gesty;
+5) śledzenie, szpiegowanie;
+6) szantażowanie.
+8. Uczniowi nie wolno:
+1) zażywać substancji zabronionych (palić papierosów, używać e-papierosów, spożywać alkoholu,
+innych środków psychoaktywnych);
+2) rozprowadzać substancji zabronionych, środków odurzających;
+3) wulgarnie, obraźliwie zwracać się do kolegów lub innych osób w szkole;
+4) niszczyć, nie szanować własności innych osób;
+5) kraść, przywłaszczać sobie przedmiotów należących do kolegów czy do szkoły;
+6) wyłudzać pieniędzy lub innych korzyści od uczniów;
+7) rozwiązywać konfliktów w sposób siłowy;
+8) szykanować uczniów lub inne osoby z jakiegokolwiek powodu;
+9) znęcać się nad kolegami, zastraszać ich;
+10) fotografować lub filmować zdarzeń z udziałem innych osób bez ich zgody;
+11) upubliczniać materiałów i fotografii bez zgody obecnych na nich osób;
+12) stosować cyberprzemocy wobec innych osób.
+9. Uczeń nie może przynosić do Zespołu Szkół niebezpiecznych przedmiotów i substancji (np. ostrych
+narzędzi, łańcuchów, noży, zapalniczek, środków pirotechnicznych), używać ognia na terenie Zespołu
+Szkół, ani stwarzać innych niebezpiecznych sytuacji (np. rzucanie ciężkimi przedmiotami w inne
+osoby, okna, drzwi, meble).
+10. Uczeń nie może opuszczać sali lekcyjnej bez zgody nauczyciela, opuszczać obowiązkowych zajęć
+(wagarować), wychodzić poza teren szkoły w trakcie przerwy lub lekcji.
+11. Podczas wycieczek lub wyjść grupowych uczeń ma obowiązek przestrzegania regulaminu
+wycieczki lub wyjścia grupowego (obowiązek podporządkowania się poleceniom opiekunów, zakaz
+oddalania się od grupy, zakaz samowolnego opuszczania miejsca zakwaterowania).
+12. Jeśli uczeń jest świadkiem stosowania agresji bądź przemocy, ma obowiązek reagowania na nie,
+пр. ротос ofierze lub poszukiwanie pomocy u personelu, ochrona ofiary.
+13.Uczeń, który stał się ofiarą agresji lub przemocy uzyskuje w Zespole Szkół pomoc, zgodnie
+z funkcjonującymi procedurami.
+§ 6. Zapewnienie komfortu i poczucia bezpieczeństwa
+1. Personel zapewnia uczniom opiekę, nadzorując ich zachowanie.
+7/21
+
+===== STRONA 8 =====
+2. Personel upewnia uczniów, że w przypadku niekomfortowego samopoczucia w jakiejś sytuacji,
+wobec konkretnego zachowania czy słów, mogą o tym powiedzieć i oczekiwać odpowiedniej reakcji
+lub pomocy.
+3. Personel zachowuje szczególną ostrożność wobec uczniów, którzy doświadczyli krzywdzenia.
+4. Jeżeli małoletni dąży do nawiązania niestosownych lub nieadekwatnych kontaktów fizycznych
+z dorosłymi, personel reaguje z wyczuciem, jednak stanowczo, a takie pomaga małoletniemu
+zrozumieć znaczenie osobistych granic.
+5. Przy każdej rozmowie o charakterze indywidualnym, personel szkoły na życzenie ucznia zapewnia
+obecność innej osoby dorosłej. W każdym przypadku rozmowy odbywają się przy uchylonych
+drzwiach (nie dotyczy to rozmów z pedagogiem, pedagogiem specjalnym, psychologiem).
+6. Warunki wyjazdów i wycieczek organizowanych przez Zespół Szkół są bezpieczne, co obejmuje
+także brak dzielenia szatni, pokoju, łóżka nauczycieli z uczniami.
+7. W sytuacjach wymagających czynności pielęgnacyjnych i higienicznych wobec małoletniego,
+personel unika innego niż niezbędny kontaktu fizycznego, chyba że wymaga tego ratowanie życia lub
+zdrowia ucznia będące następstwem nieszczęśliwego wypadku lub nagłego zdarzenia, któremu nie
+dało się zapobiec w normalnych okolicznościach.
+§ 7. Zasady nawiązywania kontaktu z uczniami
+1. Kontaktując się z uczniem personel szkoły traktuje uczniów podmiotowo.
+2. Kontakt z uczniem musi być jawny, nie może wiązać się z jakąkolwiek gratyfikacją, ani wynikać
+z relacji władzy.
+3. Kontakt z uczniami powinien odbywać się w godzinach pracy szkoły i dotyczyć celów mieszczących
+si e w zakresie obowiązków personelu.
+4. Członkowie personelu nie zapraszają uczniów do swojego miejsca zamieszkania, nie spotykają się
+z uczniami prywatnie poza godzinami pracy.
+5. Personel może kontaktować się z uczniem za pośrednictwem kanałów służbowych (e-mail, telefon
+służbowy, dziennik elektroniczny).
+6. Jeżeli zachodzi taka konieczność, personel może kontaktować się z uczniami za pośrednictwem
+portali społecznościowych, pod warunkiem
+1) wyrażenia pisemnej zgody na tę formę kontaktu przez opiekuna ucznia lub pełnoletniego ucznia
+(zgoda może zostać wycofana w dowolnym momencie);
+2) korzystania z tej formy komunikacji jedynie w celach informacyjnych i organizacyjnych;
+3) przesyłania komunikatów w godzinach 07:00 - 20:00.
+7. Utrzymywanie relacji towarzyskich lub rodzinnych wymaga bezwzględnego zachowania poufności
+wszystkich informacji pozyskanych w ramach wykonywanych zadań stużbowych dotyczących uczniów
+oraz ich opiekunów.
+8. Zabronione jest przekazywanie przez personel zasłyszanych, niepotwierdzonych informacji, plotek
+na temat uczniów.
+8/21
+
+===== STRONA 9 =====
+Rozdziat 4
+Wytyczne dotyczące zasad publikacji wizerunku małoletniego
+1. Zespół Szkót, uznając prawo ucznia do prywatności i ochrony dóbr osobistych, zapewnia ochronę
+wizerunku ucznia.
+2. Wizerunek podlega ochronie na podstawie przepisów zawartych w Kodeksie cywilnym, w ustawie
+o prawie autorskim i prawach pokrewnych, a także na podstawie ustawy o ochronie danych
+osobowych (RODO) - jako tzw. dana szczególnej kategorii przetwarzania.
+3. Upublicznienie wizerunku małoletniego do 16 roku życia, utrwalonego w jakiejkolwiek formie
+(fotografia, nagranie audio-wideo), wymaga wyrażenia zgody osoby sprawującej władzę rodzicielską
+lub opiekę nad dzieckiem.
+4. Osoba małoletnia powyżej 16 roku życia ma prawo do wyrażenia zgody samodzielnie.
+5. Zgody, o których mowa w ust. 3 i 4 określają precyzyjnie miejsca i kanały upublicznienia
+wizerunku, kontekst w jakim wizerunek będzie wykorzystany (np. że umieszczony zostanie na stronie
+youtube.com w celach promocyjnych), a także okres upublicznienia.
+6. Zgody, o których mowa w ust. 3 i 4 są wyrażane w formie pisemnej. Zgody są jednocześnie
+zgodami na rozpowszechnianie wizerunku małoletniego wskazanymi w art. 81 ustawie o prawie
+autorskim i prawach pokrewnych.
+7. Osoba wyrażająca zgodę otrzymuje klauzulę informacyjną o zasadach przetwarzania danych
+osobowych w postaci wizerunku małoletniego oraz jest informowana przez osobę reprezentującą
+administratora danych osobowych o przysługujących prawach, w tym prawie do wycofania zgody
+oraz innych, zgodnie z art. 5 RODO.
+8. Jeżeli wizerunek małoletniego stanowi jedynie szczegół całości, takiej jak zgromadzenie, krajobraz,
+publiczna impreza, zgoda opiekunów małoletniego lub małoletniego powyżej 16 roku życia
+na utrwalanie wizerunku nie jest wymagana.
+9. Personelowi nie wolno umożliwiać przedstawicielom mediów (prasa telewizja)
+utrwalania
+wizerunku ucznia (filmowanie, fotografowanie, nagrywanie głosu ucznia) na terenie Zespołu Szkół
+bez zgody dyrektora szkoły.
+10. Niedopuszczalne jest podanie przedstawicielowi mediów danych kontaktowych do opiekuna
+małoletniego - bez wiedzy i zgody opiekuna.
+11. Nauczyciel może wykorzystać w celach szkoleniowych lub edukacyjnych utrwalony materiat
+z udziałem małoletnich tylko z zachowaniem ich anonimowości oraz w sposób uniemożliwiający
+identyfikację małoletniego, za wyraźną zgodą dyrektora Zespołu Szkót.
+12. Ochrona wizerunku małoletnich utrwalonego przez kamery monitoringu wizyjnego odbywa się
+na zasadach określonych w Regulaminie funkcjonowania monitoringu wizyinego.
+9/21
+
+===== STRONA 10 =====
+Rozdziat 5
+Zasady bezpiecznego korzystania z Internetu i mediów elektronicznych
+§ 1. Potencjalne zagrożenia
+1. Do potencjalnych zagrożeń płynących z użytkowania sieci należy zaliczyć:
+1) dostęp do treści niezgodnych z celami wychowania i edukacji (narkotyki, przemoc, pornografia,
+hazard);
+2) działalność innych użytkowników zagrażająca dobru uczniów;
+3) oprogramowanie umożliwiające śledzenie i pozyskanie danych osobowych użytkowników szkolnej
+sieci.
+§ 2. Zasady korzystania z urządzeń elektronicznych z dostępem do Internetu
+1. Infrastruktura sieciowa szkoły umożliwia dostęp do Internetu, zarówno personelowi, jak i uczniom
+w czasie zajęć.
+2. Rozwiązania organizacyjne na poziomie szkoły bazują na aktualnych standardach bezpieczeństwa.
+3. Na wszystkich komputerach z dostępem do Internetu na terenie Zespołu Szkół monitorowany jest
+ruch sieciowy.
+4. W szkole wyznaczony jest pracownik odpowiedzialny za bezpieczeństwo sieci.
+5. Do obowiązków pracownika, o którym mowa w ust. 4 należą:
+1) zabezpieczenie sieci internetowej przed niebezpiecznymi treściami;
+2) monitorowanie ruchu sieciowego;
+3) zgiaszanie nieetycznych incydentów do CERT.
+6. Na terenie szkoły dostęp ucznia do Internetu możliwy jest pod nadzorem nauczyciela na zajęciach
+lekcyjnych z dostępem do komputera.
+7. Korzystanie z multimediów, Internetu i programów użytkowych podczas zajęć lekcyjnych stuży
+wyłącznie celom informacyjnym i edukacyjnym.
+8. Uczeń obsługuje sprzęt komputerowy zgodnie z zaleceniami nauczyciela, z obowiązującym
+regulaminem pracowni informatycznej.
+9. Użytkownikowi komputera zabrania się:
+1) instalowania oprogramowania oraz dokonywania zmian w konfiguracji oprogramowania
+zainstalowanego w systemie;
+2) usuwania cudzych plików, odinstalowania programów, dekompletowania sprzętu,
+3) dotykania kabli, montażu i demontażu elementów komputera, drukarek, i innych urządzeń
+znajdujących się w pracowni komputerowej, z wyjątkiem uczniów realizujących praktyczną naukę
+zawodu, która przewiduje tego typu działania.
+§ 3. Zasady korzystania z telefonów komórkowych oraz innych urządzeń elektronicznych
+1. Uczeń ma prawo korzystać na terenie Zespołu Szkół z telefonu komórkowego oraz innych
+urządzeń elektronicznych zgodnie z ustalonymi zasadami.
+2. Przez pojęcie „telefon komórkowy" rozumie się także smartfon, urządzenie typu smartwatch, itp.
+3. Przez pojęcie „inne urządzenia elektroniczne" rozumie się także tablet, odtwarzacz muzyki,
+dyktafon, kamerę, aparat cyfrowy, słuchawki, itp.
+10/21
+
+===== STRONA 11 =====
+4. Uczniowie przynoszą do szkoły telefony komórkowe oraz inny sprzęt elektroniczny na własną
+odpowiedzialność i za zgodą rodziców.
+5. Szkota nie ponosi odpowiedzialności za zaginięcie lub zniszczenie, czy kradzież sprzętu
+przynoszonego przez uczniów.
+6. Uczniowie nie mogą korzystać bez zgody nauczyciela z telefonu komórkowego oraz innych
+urządzeń elektronicznych z dostępem do Internetu podczas zajęć edukacyjnych, opiekuńczych,
+treningów, uroczystości, a także zajęć pozalekcyjnych organizowanych na terenie szkoły.
+7. Telefony i inne urządzenia elektroniczne (np. tablety, laptopy, itp) można wykorzystywać podczas
+zajęć lekcyjnych w celach dydaktycznych pod opieką oraz za zgodą i w formie określonej przez
+prowadzącego zajęcia.
+8. Na terenie szkoły zakazuje się uczniom filmowania, fotografowania oraz utrwalania dźwięku
+na jakichkolwiek nośnikach cyfrowych.
+9. W szczególnych przypadkach nagrywanie zajęć edukacyjnych oraz utrwalanie ich w jakikolwiek
+sposób możliwe jest wyłącznie po uzyskaniu zgody dyrektora szkoły lub nauczyciela prowadzącego
+zajęcia edukacyjne.
+10. Nagrywanie dźwięku i obrazu za pomocą telefonu lub innych urządzeń jest możliwe jedynie
+za wyraźną zgodą osoby nagrywanej lub fotografowanej. Niedopuszczalne jest nagrywanie lub
+fotografowanie sytuacji niezgodnych z powszechnie przyjętymi normami etycznymi i społecznymi
+oraz przesyłanie treści obrażających inne osoby.
+§ 4. Zasady korzystania z telefonów i innych urządzeń elektronicznych podczas wyjść, wycieczek
+edukacyjnych organizowanych przez szkołę.
+1. Każdorazowo decyzję o zabraniu telefonów komórkowych i/lub innych urządzeń elektronicznych
+podejmuje kierownik wycieczki w porozumieniu z wychowawcami klas oraz za zgodą rodziców i na
+ich odpowiedzialność.
+2. Jeśli istnieje możliwość zabrania telefonu i/lub innego urządzenia elektronicznego na wycieczkę,
+wyjście grupowe, uczeń ma prawo korzystania z tych urządzeń wyłącznie w sposób niezakłócający
+organizację i przebieg tego przedsięwzięcia.
+3. Podczas wyjść zorganizowanych przez szkołę (np. teatr, kino, muzeum, zwiedzanie
+z przewodnikiem, lekcja w terenie, konkursy, zawody sportowe itp.) uczeń jest zobowiązany
+do wyłączenia/wyciszenia telefonu (bez wibracji) i schowania go w torbie/plecaku.
+§ 5. Zasady postępowania w przypadku naruszenia zasad korzystania z telefonów i innych urządzeń
+elektronicznych na terenie szkoły.
+1. W przypadku naruszenia przez ucznia zasad używania telefonów komórkowych na terenie szkoły,
+wychowawca klasy odnotowuje zaistniałą sytuację w e-dzienniku jako uwagę negatywną, która ma
+wpływ na ocenę z zachowania zgodnie z Wewnątrzszkolnymi Zasadami Oceniania.
+2. W przypadku gdy sytuacja powtarza się, wychowawca bezzwłocznie informuje o tym fakcie
+opiekunów ucznia i wspólnie z pedagogiem szkolnym oraz opiekunami ustala plan dalszego
+postępowania.
+§ 6. Zasady ochrony uczniów przed treściami szkodliwymi i zagrożeniami z sieci.
+1. Pod pojęciem „treści szkodliwe i zagrożenia z sieci" rozumiane są:
+11/21
+
+===== STRONA 12 =====
+1) treści szkodliwe, niedozwolone, nielegalne i niebezpieczne dla zdrowia (pornografia, treści
+obrazujące przemoc, promujące działania szkodliwe dla zdrowia i życia, popularyzujące ideologię
+faszystowską i działalność niezgodną z prawem, nawołujące do samookaleczeń i samobójstw,
+korzystania z narkotyków;
+2) treści stwarzające niebezpieczeństwo werbunku uczniów do organizacji nielegalnych
+i terrorystycznych;
+3) różne formy cyberprzemocy, np. nękanie, straszenie, szantażowanie z użyciem sieci, publikowanie
+lub rozsyłanie ośmieszających, kompromitujących informacji, zdjęć, filmów z użyciem sieci oraz
+podszywanie się w sieci pod kogoś wbrew jego woli.
+2. Podstawowe działania zabezpieczające uczniów przed dostępem do treści szkodliwych i zagrożeń
+z sieci:
+1) monitorowanie działania sieci;
+2) edukacja medialna — dostarczanie uczniom wiedzy i umiejętności dotyczących postugiwania się
+technologią komunikacyjną, prowadzenie działań profilaktycznych propagujących zasady
+bezpiecznego korzystania z sieci oraz uświadamiających zagrożenia płynące z użytkowania różnych
+technologii komunikacyjnych;
+3) prowadzenie systematycznych działań wychowawczych (integracja zespołu klasowego, budowanie
+dobrych relacji pomiędzy uczniami, wprowadzanie norm grupowych; uczenie uczniów odróżniania
+dobra od zła);
+4) włączenie rodziców uczniów w działania szkoły na rzecz zapobiegania cyberprzemocy -
+poinformowanie ich o polityce szkoły w zakresie reagowania na cyberprzemoc; edukacja na temat
+cyberprzemocy i zagrożeń z sieci: warsztaty, szkolenia dla rodziców, udostępnianie materiałów i
+publikacji, w tym polecanie i wskazywanie sposobów instalowania ochrony rodzicielskiej;
+5) podejmowanie interwencji w każdym przypadku ujawnienia lub podejrzenia cyberprzemocy
+lub ujawnienie niebezpiecznych treści, która obejmuje:
+a) ustalenie okoliczności zdarzenia;
+b) zabezpieczenie dowodów;
+c) poinformowanie o sytuacji opiekunów uczniów będących uczestnikami zdarzenia;
+d) objęcie pomocą poszkodowanego ucznia;
+e) podjęcie działań wobec agresorów, w tym zastosowanie środków dyscyplinujących zgodnie
+ze statutem szkoły i rodzajem przewinienia;
+f) powiadomienie policji, gdy sprawa jest poważna, zostało złamane prawo lub sprawca nie jest
+uczniem szkoły i jego tożsamość nie jest nikomu znana;
+g) jeśli mimo zastosowanych działań, niepożądane zachowania nadal mają miejsce, przekazanie
+informacji do sądu rodzinnego z podejrzeniem demoralizacji małoletniego.
+§ 7. Podejmowanie działań naprawczych
+1. W celu usunięcia z Internetu nielegalnych, kompromitujących lub krzywdzących materiałów należy
+poinformować opiekunów małoletnich o możliwościach ich usunięcia we współpracy z dyzurnet.pl
+oraz w trybie zgłaszania takich treści poprzez formularz na stronie, na której materiał został
+opublikowany.
+2. Należy poinformować pokrzywdzonego maloletniego o przysługującym mu prawie do bycia
+zapomnianym, wynikającym z unijnego rozporządzenia o ochronie danych osobowych , które
+w uzasadnionych przypadkach zapewnia usunięcie konkretnych linków z wyszukiwarki Google,
+w związku z czym nie będą one mogły być wyświetlone przy wpisywaniu jakiejkolwiek frazy.
+3. W przypadku udostępnienia materiałów naruszających intymność i prywatność małoletniego,
+możliwe jest również skorzystanie ze strony https://stopncii.org/, czyli Stop Non-Consensual Intimate
+12/21
+du
+
+===== STRONA 13 =====
+Image Abuse. Strona pomaga usunąć z Internetu materiały intymne z wizerunkiem osoby, która nie
+wyrazita zgody na upublicznienie treści.
+Rozdział 6
+Rozpoznawanie i reagowanie na czynniki ryzyka krzywdzenia małoletnich
+1. Personel posiada wiedzę i w ramach wykonywanych obowiązków zwraca uwagę na czynniki
+ryzyka i symptomy krzywdzenia matoletnich.
+2. Personel reaguje w przypadku, gdy małoletni:
+1) jest często brudny, nieprzyjemnie pachnie,
+2) kradnie jedzenie, pieniądze itp.,
+3) żebrze lub jest głodny,
+4) nie otrzymuje potrzebnej opieki medycznej, szczepień, okularów itp.,
+5) nie ma przyborów szkolnych, odzieży, butów i innych przedmiotów codziennego użytku,
+6) ma widoczne obrażenia ciała (siniaki, poparzenia, ugryzienia, złamania), których pochodzenie
+trudno wyjaśnić. obrażenia są w różnej fazie gojenia,
+7) podaje niewiarygodne lub niespójne wyjaśnienia dotyczące obrażeń, często je zmienia,
+8) unika zajęć wychowania fizycznego,
+9) nadmiernie zakrywa ciato, niestosownie do pogody,
+10) boi się rodzica/opiekuna, obawia się powrotu do domu lub ucieka z domu,
+11) wzdryga się, gdy podchodzi do niego osoba dorosta,
+12) cierpi na powtarzające się dolegliwości somatyczne: bóle brzucha, głowy, mdłości,
+13) jest wycofany, przestraszony, smutny lub agresywny, buntuje się, samookalecza,
+14) ma słabsze wyniki w nauce w stosunku do swoich możliwości,
+15) ucieka w świat wirtualny (gry komputerowe, Internet),
+16) używa środków psychoaktywnych,
+17) nagle zmienia swoje zachowanie,
+18) mówi o przemocy lub opowiada o trudnych sytuacjach w domu,
+oraz inne przypadki wskazujące na krzywdzenie małoletniego.
+3. Personel reaguje, gdy wraz z objawami u małoletniego występują symptomy przemocy ze strony
+opiekunów prawnych. Zwraca uwagę, gdy opiekun prawny:
+1) podaje nieprzekonujące lub sprzeczne informacje dotyczące obrażeń małoletniego, odmawia
+wyjaśnień;
+2) unika kontaktu z osobami zainteresowanymi losem małoletniego;
+3) mówi o małoletnim w negatywny sposób, obwinia je, poniża, używa obraźliwych określeń;
+4) stosuje surową dyscyplinę lub jest nadopiekuńczy, zbyt pobłażliwy lub odrzuca małoletniego;
+5) nie interesuje się losem i problemami małoletniego;
+6) nie potrafi określić miejsca przebywania małoletniego;
+7) jest apatyczny, pogrążony w depresji, zachowuje się agresywnie;
+8) reaguje nieadekwatnie do sytuacji, wypowiada się niespójnie;
+9) nie jest świadomy lub neguje potrzeby małoletniego;
+10) faworyzuje jedno z rodzeństwa;
+11) przekracza granice w kontakcie fizycznym z małoletnim;
+12) nadużywa alkoholu, narkotyków lub innych środków odurzających.
+4. W przypadku zidentyfikowania czynników ryzyka, personel podejmuje rozmowę z opiekunami,
+przekazując informacje na temat dostępnej oferty wsparcia i motywując ich do szukania pomocy.
+13/21
+
+===== STRONA 14 =====
+5. Personel monitoruje sytuację i dobrostan maloletniego.
+6. Personel zna i stosuje Zasady bezpiecznych relacji personel-uczeń i uczeń-uczeń ustalone
+w Zespole Szkót.
+7. Rekrutacja personelu odbywa się zgodnie z Zasadami bezpiecznej rekrutacji personelu.
+Rozdział 7
+Procedury interwencji w przypadku podejrzenia krzywdzenia małoletniego
+§ 1. Plan wsparcia
+1. Każdy członek personelu, który zauważy lub podejrzewa u małoletniego symptomy krzywdzenia,
+lub otrzymał zgłoszenie takiej okoliczności przez małoletniego lub opiekuna małoletniego jest
+zobowiązany do sporządzenia notatki służbowej zawierającej informację o zaobserwowanym
+zdarzeniu i przekazania uzyskanej informacji pedagogowi/ psychologowi.
+2. Notatka może zostać sporządzona na piśmie lub przesłana za pośrednictwem poczty
+elektronicznej.
+3. Pedagog/psycholog niezwłocznie powiadamia osobę odpowiedzialną za Standardy Ochrony
+Małoletnich o przyjęciu zgłoszenia i rozpoczęciu adekwatnej do zgłoszenia interwencji.
+4. Pedagog/psycholog wzywa opiekunów małoletniego, którego krzywdzenie podejrzewa,
+oraz informuje ich o podejrzeniu.
+5. Pedagog/psycholog sporządza opis sytuacji szkolnej i rodzinnej małoletniego na podstawie
+rozmów z małoletnim, nauczycielami, wychowawcą i rodzicami, oraz plan pomocy małoletniemu.
+6. Jeżeli zgłoszono krzywdzenie ze strony pedagoga/psychologa, wówczas interwencja prowadzona
+jest przez dyrektora szkoły.
+7. Dyrektor szkoły tworzy grupę wsparcia pokrzywdzonego małoletniego, w skład której
+każdorazowo wchodzi wychowawca klasy, psycholog szkolny i pedagog szkolny.
+8. W przypadkach bardziej skomplikowanych sytuacji (dotyczących wykorzystywania seksualnego
+oraz znęcania się fizycznego i psychicznego o dużym nasileniu) w skład grupy wsparcia mogą wejść:
+pedagog, psycholog, wychowawca małoletniego, dyrektor Zespołu Szkót, inni członkowie personelu
+mający wiedzę o krzywdzeniu małoletniego.
+9. W przypadku, gdy podejrzenie krzywdzenia zgłosili opiekunowie małoletniego, powołanie grupy
+wsparcia jest obligatoryjne. Grupa wsparcia wzywa opiekunów małoletniego na spotkanie
+wyjaśniające, podczas którego może zaproponować opiekunom zdiagnozowanie zgłaszanego
+podejrzenia w zewnętrznej, bezstronnej instytucji. Ze spotkania sporządza się protokół.
+10. Grupa wsparcia wraz z opiekunem małoletniego tworzy dla krzywdzonego małoletniego
+Indywidualny Plan Działania (IPD). W przypadku, gdy opiekun jest osobą krzywdzącą małoletniego,
+wówczas plan należy opracować w porozumieniu z niekrzywdzącym opiekunem małoletniego.
+11. Indywidualny Plan Działania zawiera wskazania dotyczące:
+1) podjęcia przez szkołę działań w celu zapewnienia małoletniemu bezpieczeństwa, w tym sposoby
+odizolowania go od osób podejrzewanych o krzywdzenie i możliwość swobodnego
+funkcjonowania;
+2) wsparcia, jakie szkoła zaoferuje małoletniemu oraz przypuszczalny czas trwania wsparcia;
+14/21
+
+===== STRONA 15 =====
+3) Skierowania małoletniego do specjalistycznej placówki pomocy małoletnim, jeżeli istnieje taka
+potrzeba.
+12. W przypadku podejrzenia popełnienia przestępstwa na szkodę małoletniego, szkoła składa
+zawiadomienie o podejrzeniu popełnienia przestępstwa do właściwej miejscowo policji
+lub prokuratury (załącznik nr 2, wzór_7).
+13. W przypadku zagrożenia dobra małoletniego, szkoła składa wniosek o wgląd w sytuację rodzinną
+matoletniego do właściwego miejscowo sądu rodzinnego (załącznik nr 2, wzór_6).
+14. W przypadku podejrzenia przemocy domowej wobec małoletniego, szkoła rozpoczyna procedurę
+Niebieskiej Karty i przekazuje wypełniony formularz NK-A do właściwego miejscowo Zespolu
+Interdyscyplinarnego.
+15. O zaistniałej sytuacji oraz obowiązku zgłoszenia przez szkołę podejrzenia krzywdzenia
+małoletniego do odpowiedniej instytucji (prokuratura/policja lub sąd rodzinny lub opiekuńczy,
+ośrodek pomocy społecznej) należy poinformować opiekunów małoletniego.
+16. Jeżeli poinformowanie opiekuna małoletniego jest sprzeczne z jego dobrem lub niemożliwe,
+odstępuje się od tego obowiązku.
+17. Podstawą udzielania pomocy krzywdzonemu małoletniemu jest zapewnienie mu bezpieczeństwa,
+najlepiej we współpracy z opiekunami o ile ta współpraca jest zgodna z dobrem małoletniego i leży
+w jego najlepiej pojętym interesie.
+18. Po poinformowaniu opiekuna nie będącego sprawcą przemocy zgodnie z punktem
+poprzedzającym, osoba odpowiedzialna za prowadzenie interwencji składa zawiadomienie
+o podejrzeniu popełnienia przestępstwa do prokuratury/policji lub wniosek o wgląd w sytuację
+rodziny do sądu rejonowego, wydziału rodzinnego i nieletnich, ośrodka pomocy społecznej
+lub wszczyna procedurę „Niebieskie Karty" zgodnie z ustawą z dnia 29 lipca 2005 r.
+o przeciwdziałaniu przemocy domowej (Dz. U. z 2024 r. poz. 424 z późn. zm.).
+19. Dalszy tok postępowania leży w kompetencjach instytucji wskazanych w punkcie
+poprzedzającym.
+20. Działania interwencyjne są koordynowane przez pedagoga.
+21. Pisma inicjujące interwencję prawną są podpisywane przez dyrektora lub wicedyrektora szkoły.
+22. Dokumentacja zawierająca ujawnione lub zgłoszone incydenty lub zdarzenia zagrażające dobru
+małoletniego, uwzględnia:
+1) zgłoszenie ze wskazaniem osoby zgłaszającej;
+2) osobę/osoby podejrzewane o krzywdzenie (opiekun dziecka, pracownik, inne dziecko, inna
+osoba);
+3) rodzaj podjętej interwencji (zawiadomienie o możliwości popełnienia przestępstwa, wniosek
+o wgląd w sytuację rodziny, wszczęcie procedury „Niebieskie Karty");
+4) datę interwencji;
+5) dokumenty wytworzone podczas interwencji (m.in. notatki służbowe, karty interwencji, kopie
+zawiadomień/wniosków wysyłanych do właściwych służb),
+oraz załącza się do rejestru interwencji prowadzonym przez szkołę.
+23. Dostęp do rejestru interwencji oraz kart interwencji posiada dyrektor szkoły, osoby
+odpowiedzialne za ochronę małoletnich, osoba odpowiedzialna za Standardy Ochrony Małoletnich
+oraz osoby upoważnione przez dyrektora szkoły.
+15/21
+
+===== STRONA 16 =====
+24. Wszystkie osoby, które w związku z wykonywaniem obowiązków służbowych powzięły informację
+• krzywdzeniu matoletniego lub informacje z tym związane, są zobowiązane do zachowania
+poufności, wyłączając informacje przekazywane uprawnionym instytucjom w ramach działań
+interwencyjnych.
+25. W przypadku gdy podejrzenie zagrożenia bezpieczeństwa małoletniego zgłosili jego opiekunowie,
+a podejrzenie to nie zostało potwierdzone, należy o tym fakcie poinformować opiekunów
+małoletniego na piśmie.
+§ 2. Krzywdzenie przez osobę dorosłą (personel lub osobę trzecią)
+1. W przypadku, gdy zgłoszono krzywdzenie małoletniego przez osobę trzecią, osoba odpowiedzialna
+za prowadzenie interwencji przeprowadza rozmowy: z małoletnim w obecności psychologa, innymi
+osobami mającymi lub mogącymi mieć wiedzę o zdarzeniu i o sytuacji osobistej (rodzinnej,
+zdrowotnej) małoletniego, a w szczególności z jego opiekunami. Pedagog/psycholog stara się ustalić
+przebieg zdarzenia, ale także wpływ zdarzenia na zdrowie psychiczne i fizyczne małoletniego.
+Ustalenia są spisywane w karcie interwencji (załącznik nr 2, wzór_10).
+2. Osoba odpowiedzialna za prowadzenie interwencji organizuje spotkanie/a z opiekunami
+małoletniego, którym
+przekazuje informacje o zdarzeniu, ewentualnej interwencji oraz
+o potrzebie/możliwości skorzystania ze specjalistycznego wsparcia, w tym u innych organizacji
+lub stużb.
+3. W przypadku, gdy wobec małoletniego popełniono przestępstwo osoba odpowiedzialna
+za prowadzenie interwencji sporządza zawiadomienie o możliwości popełnienia przestępstwa
+i przekazuje je do właściwej miejscowo policji lub prokuratury.
+4. W przypadku, gdy z rozmowy z opiekunami wynika, że nie są oni zainteresowani pomocą
+małoletniemu, ignorują zdarzenie lub w inny sposób nie wspierają małoletniego, które doświadczyło
+krzywdzenia osoba odpowiedzialna za prowadzenie interwencji sporządza wniosek o wgląd
+w sytuację rodziny, który kieruje do właściwego sądu rodzinnego.
+5. W przypadku gdy zgłoszono krzywdzenie małoletniego przez członka personelu, w zależności
+od sytuacji (kwalifikacji prawnej), wykonuje się zgłoszenie do odpowiednich służb zgodnie
+z obowiązującym prawem. Do czasu wyjaśnienia sprawy członek personelu podejrzewany
+o krzywdzenie matoletniego będące czynem zabronionym w rozumieniu prawa polskiego zostaje
+odsunięty od wszelkich form kontaktu nie tylko z pokrzywdzonym, ale także z pozostałymi
+małoletnimi. W pozostałych sytuacjach dyrektor podejmuje działania dyscyplinarne zgodnie
+z przepisami prawa i zasadami obowiązującymi w szkole.
+6. W przypadku gdy członek personelu dopuścił się wobec małoletniego krzywdzenia niebędącego
+przestępstwem (np. krzyk, wykluczanie, poniżanie), osoba odpowiedzialna za prowadzenie
+interwencji powinna zbadać wszystkie okoliczności sprawy, w szczególności wysłuchać osobę
+podejrzewaną o krzywdzenie, małoletniego oraz innych świadków zdarzenia. W sytuacji, gdy
+naruszenie dobra małoletniego jest znaczne, w szczególności gdy doszło do dyskryminacji
+lub naruszenia godności małoletniego, należy rozważyć wdrożenie właściwych procedur
+dyscyplinarnych w tym rozwiązanie stosunku prawnego (rozwiązanie umowy o pracę, umowy
+cywilnoprawnej, umowy praktyk lub wolontariatu) z osobą, która dopuściła się krzywdzenia,
+lub zarekomendować takie rozwiązanie zwierzchnikom tej osoby. Jeżeli osoba, która dopuściła się
+krzywdzenia nie jest bezpośrednio zatrudniona przez szkołę, lecz przez podmiot trzeci, wówczas
+należy zarekomendować zakaz wstępu tej osoby na teren szkoły, a w razie potrzeby rozwiązać
+umowę z instytucją współpracującą.
+16/21
+
+===== STRONA 17 =====
+§ 3. Krzywdzenie przez opiekuna małoletniego
+1. W przypadku, gdy zgłoszone zostało krzywdzenie małoletniego przez jego opiekuna osoba
+odpowiedzialna za prowadzenie interwencji przeprowadza rozmowę z małoletnim w obecności
+psychologa. Osoba odpowiedzialna za prowadzenie interwencji powinna też przeprowadzić rozmowy
+z innymi osobami mającymi lub mogącymi mieć wiedzę o zdarzeniu i o sytuacji osobistej (rodzinnej,
+zdrowotnej) małoletniego. Osoba odpowiedzialna za prowadzenie interwencji stara się ustalić
+przebieg zdarzenia, ale także wpływ zdarzenia na zdrowie psychiczne i fizyczne małoletniego.
+Ustalenia są spisywane w karcie interwencji.
+2. W przypadku, gdy wobec małoletniego popełniono przestępstwo osoba odpowiedzialna
+za prowadzenie interwencji sporządza zawiadomienie o możliwości popełnienia przestępstwa
+i przekazuje je do właściwej miejscowo policji lub prokuratury.
+3. W przypadku, gdy matoletni doznaje innej formy krzywdzenia niż popełnienie przestępstwa
+na jego szkodę ze strony opiekunów lub innych domowników;
+1) gdy zachowanie wobec małoletniego spełnia znamiona przemocy domowej należy wszcząć
+procedurę „Niebieskie Karty" poprzez przesłanie formularza „Niebieska Karta - A"
+do przewodniczącego zespołu interdyscyplinarnego właściwego ze względu na zamieszkanie
+osoby doznającej przemocy domowej w terminie 5 dni. W przypadku, gdy małoletni doznaje
+przemocy ze strony małoletniego - innego członka rodziny (rodzeństwo, dalsza rodzina) można
+wszcząć procedurę „Niebieskie Karty" w stosunku do opiekuna, który nie reaguje na krzywdzenie
+matoletniego.
+2) gdy zachowanie nie nosi znamion przemocy domowej, a relacje w rodzinie są w inny sposób
+nieprawidłowe (np. rodzice są niewydolni wychowawczo) - bądź gdy małoletni doświadcza
+zaniedbania należy wystąpić do sądu rodzinnego właściwego ze względu na miejsce zamieszkania
+matoletniego o wgląd w sytuację rodziny.
+4. Osoba odpowiedzialna za prowadzenie interwencji organizuje spotkanie/a z pełnoletnim
+członkiem rodziny, niebędącym sprawcą krzywdzenia, któremu przekazuje informacje o zdarzeniu,
+ewentualnej interwencji oraz o potrzebie/możliwości skorzystania ze specjalistycznego wsparcia,
+w tym u innych organizacji lub stużb.
+5. W toku prowadzonej procedury Niebieskie Karty osoba znająca najlepiej małoletniego
+(wychowawca/ nauczyciel) uczestniczy w pracach grupy diagnostyczno-pomocowej, jeśli zostanie
+poproszona o udział w jej pracach.
+6. W przypadku zagrożenia życia i zdrowia małoletniego powiadamia się policję i ośrodek pomocy
+społecznej, a następnie ustala się osoby spokrewnione, które mogłyby czasowo przejąć opiekę
+nad matoletnim.
+§ 4. Krzywdzenie rówieśnicze
+1. W przypadku podejrzenia krzywdzenia małoletniego przez innego ucznia przebywającego w szkole
+osoba odpowiedzialna za prowadzenie interwencji przeprowadza
+rozmowe
+z uczniem
+podejrzewanym o krzywdzenie oraz jego opiekunami, a także oddzielnie z małoletnim poddawanym
+krzywdzeniu i jego opiekunami. Ponadto rozmawia z innymi osobami mającymi wiedzę o zdarzeniu.
+W trakcie rozmów należy dążyć do ustalenia przebiegu zdarzenia, a także wpływu zdarzenia
+na zdrowie psychiczne i fizyczne krzywdzonego małoletniego. Ustalenia są spisywane w karcie
+interwencji. Dla krzywdzącego oraz krzywdzonego sporządza się oddzielne karty interwencji.
+17/21
+
+===== STRONA 18 =====
+2. Wspólnie z opiekunami ucznia krzywdzącego należy opracować plan naprawczy, celem zmiany
+niepożądanych zachowań. Zaleca się korzystanie z wsparcia instytucji znajdujących się w obszarze
+działania szkoty.
+3. W trakcie rozmów należy upewnić się, że uczeń podejrzewany o krzywdzenie małoletniego sam
+nie jest krzywdzony przez opiekunów, innych dorosłych bądź innych uczniów. W przypadku
+potwierdzenia takiej okoliczności należy podjąć interwencję także w stosunku do tego ucznia.
+4. W przypadku, gdy uczeń, który krzywdzi nie jest uczniem szkoły należy porozmawiać z małoletnim
+poddawanym krzywdzeniu, innymi osobami mającymi wiedzę o zdarzeniu, a także z opiekunami
+krzywdzonego matoletniego celem ustalenia przebiegu zdarzenia, a także wpływu zdarzenia
+na zdrowie psychiczne i fizyczne małoletniego. Osoba odpowiedzialna za prowadzenie interwencji
+organizuje spotkanie/a z opiekunami małoletniego, którym przekazuje informacje o zdarzeniu
+oraz o potrzebie/możliwości skorzystania ze specjalistycznego wsparcia, w tym u innych organizacji
+lub stużb oraz o sposobach reakcji na zdarzenie (poinformowanie sądu rodzinnego, poinformowanie
+szkoły, poinformowanie opiekunów ucznia, który krzywdzi małoletniego).
+5. W przypadku, gdy z rozmowy z opiekunami wynika, że nie są oni zainteresowani pomocą
+matoletniemu, ignorują zdarzenie lub w inny sposób nie wspierają małoletniego, który doświadczył
+krzywdzenia osoba odpowiedzialna za prowadzenie interwencji sporządza wniosek o wgląd
+w sytuację rodziny, który kieruje do właściwego sądu rodzinnego.
+6. Jeżeli osobą podejrzewaną o krzywdzenie jest uczeń w wieku do 17 lat, a jego zachowanie stanowi
+czyn karalny, należy ponadto poinformować właściwy miejscowo sąd rodzinny lub policję poprzez
+stosowne pisemne zawiadomienie.
+7. Jeżeli osobą podejrzewaną o krzywdzenie jest uczeń powyżej lat 17, a jego zachowanie stanowi
+przestępstwo, wówczas należy poinformować właściwą miejscowo jednostkę policji lub prokuratury
+poprzez pisemne zawiadomienie.
+Rozdział 8
+Opis sposobu realizacji procedury „Niebieskie Karty"
+§1.
+Wzory formularzy oraz procedura zamieszczone są w Rozporządzeniu Rady Ministrów z dnia
+6 września 2023 r. w sprawie procedury „Niebieskie Karty" oraz wzorów formularzy „Niebieska
+Karta".
+1. PO uzyskaniu informacji dotyczącej występowania przemocy wobec małoletniego lub w jego
+rodzinie, członek personelu przekazuje ją pedagogowi.
+2. Jeśli to konieczne, członek personelu, o którym mowa w ust. 1 udziela pomocy medycznej,
+zapewnia bezpieczeństwo małoletniemu.
+3. Pedago przeprowadza diagnoze poprzez obserwacje matolemiego, konsultacje z wyehicav.
+innymi pracownikami szkoły, a w razie możliwości - także z pracownikiem socjalnym,
+kuratorem sądowym.
+4. W przypadku podejrzenia stosowania przemocy na podstawie uzyskanych informacji, pedagog
+wszczyna procedurę „Niebieskie Karty", o których mowa w Rozporządzeniu:
+1) przeprowadza rozmowę z małoletnim w obecności psychologa oraz rodzica lub opiekuna
+prawnego, lub opiekuna faktycznego, lub osoby najbliższej, lub pełnoletniej osoby wskazanej
+przez małoletniego;
+18/21
+
+===== STRONA 19 =====
+2) wypełnia formularz „Niebieska Karta - A", której oryginał przekazuje w terminie do 5 dni
+przewodniczącemu Zespołu Interdyscyplinarnego, a kopię pozostawia w dokumentacji szkolnej;
+3) wypełnia formularz „Niebieska Karta - B", którą przekazuje się rodzicowi, opiekunowi prawnemu
+lub faktycznemu, lub osobie najbliższej, lub pełnoletniej osobie wskazanej przez małoletniego,
+z tym że formularza „Niebieska Karta - B" nie przekazuje się osobie stosującej przemoc domową.
+5. Jeśli istnieje zagrożenie niewypełniania funkcji opiekuńczo-wychowawczej przez rodziców, szkoła
+zgłasza ten fakt do sądu rodzinnego.
+6. Pedagog podejmuje i koordynuje działania wynikające z potrzeb małoletniego i jego rodziny, w tym
+przedstawia ofertę poradnictwa i konsultacji.
+7. W przypadku gdy w wyniku diagnozy nie podejrzewa się stosowania przemocy, prowadzi się dalszą
+obserwację małoletniego i podejmuje próby współpracy przynajmniej z jednym rodzicem.
+Rozdział 9
+Ewaluacja stosowania Standardów Ochrony Małoletnich
+1. Dyrektor szkoły wyznacza wicedyrektora, zwanego dalej koordynatorem, który jest
+odpowiedzialny za procedury określone w Standardach Ochrony Małoletnich w Zespole Szkół
+Zawodowych nr 5 we Wroctawiu.
+2. Koordynator jest odpowiedzialny za:
+1) monitorowanie realizacji standardów ochrony małoletnich,
+2) reagowanie na sygnały naruszenia zapisów standardów,
+3) prowadzenie rejestru zgłoszeń,
+4) dokonywanie co najmniej raz na dwa lata oceny standardów w celu zapewnienia ich dostosowania
+do aktualnych potrzeb oraz zgodności z obowiązującymi przepisami oraz przedstawienie oceny
+w formie pisemnej.
+3. Członkowie personelu mogą proponować zmiany w procedurach oraz wskazywać naruszenia
+procedur.
+4. Dyrektor w razie potrzeby wprowadza do Standardów niezbędne zmiany i ogłasza członkom
+personelu nowe brzmienie. Podczas zebrań Rady Pedagogicznej dyrektor szkoły oraz koordynator
+przypominają pracownikom o obowiązujących w szkole procedurach oraz zasadach.
+Rozdział 10
+Zasady i sposób udostępniania Standardów Ochrony Małoletnich
+1. Niniejszy dokument z dniem jego przyjęcia zostaje udostępniony w wersji elektronicznej
+na stronie internetowej szkoły.
+2. Niniejszy dokument z dniem jego przyjęcia zostaje udostepniony
+w wersji papierowej
+w sekretariacie uczniowskim.
+3. Wychowawcy klas zobowiązani są, na początku każdego roku szkolnego, do zapoznania uczniów
+z treścią Standardów Ochrony Małoletnich.
+4. Wychowawcy klas zobowiązani są, na początku każdego roku szkolnego, do udostępnienia
+standardów rodzicom uczniów poprzez wysłanie
+wiadomości
+za pośrednictwem
+dziennika
+elektronicznego.
+19/21
+dif
+
+===== STRONA 20 =====
+Rozdział 11
+Ważne telefony i adresy
+1. Telefon Zaufania - 19 288 (linia dostępna od poniedziałku do piątku w godz. 20:00 - 08:00;
+w soboty, niedziele i święta - całodobowo);
+2. Ogólnopolskie Pogotowie dla Ofiar Przemocy w Rodzinie „Niebieska Linia" - tel. 800 120 002 (linia
+dostępna 24 godziny
+na dobę
+przez
+siedem
+dni
+tygodniu),
+e-mail: niebieskalinia@niebieskalinia.info;
+3. Ogólnopolskie Pogotowie dla Ofiar Przemocy w Rodzinie „Niebieska Linia" Instytutu Psychologii
+Zdrowia - tel. 22 668 70 00 oraz 116 123 (linia dostępna 24 godziny na dobę i przez siedem dni
+w tygodniu);
+4. Fundacja Feminoteka - Telefon przeciwprzemocowy dla kobiet doświadczających przemocy
+(w tym kobiet transseksualnych) - tel. 888 88 33 88 (telefon czynny od poniedziałku do piątku
+w godz. 11 -19);
+5. Centrum Praw Kobiet - tel. 800 107 777 (telefon interwencyjny czynny całą dobę; po połączeniu
+należy wybrać 1 i potem 3);
+6. Fundacja Dajemy Dzieciom Sitę - Telefon zaufania dla dzieci i młodzieży - tel. 116 111 (linia
+dostępna 24 godziny na dobę i przez siedem dni w tygodniu) oraz Telefon dla rodziców i nauczycieli,
+którzy potrzebują wsparcia i informacji w zakresie przeciwdziałania i pomocy psychologicznej
+dzieciom przeżywającym kłopoty i trudności takie jak: agresja i przemoc w szkole - tel. 800 100 100
+(linia czynna od poniedziałku do piątku, w godz. 12 - 15);
+7. Dziecięcy Telefon Zaufania Rzecznika Praw Dziecka — tel. 800 12 12 12 (linia dostępna 24 godziny
+na dobę i przez siedem dni w tygodniu);
+8. Anonimowa Policyjna Linia Specjalna „Zatrzymaj Przemoc" - tel. 800 120 148 - (bezpłatna linia
+dostępna 24 godziny na dobę i przez siedem dni w tygodniu);
+9. Linia wsparcia psychologicznego Polskiego Czerwonego Krzyża - tel. (22) 230 22 07 (linia dostępna
+od poniedziałku do piątku w godz. 16 - 20);
+10.Bezpłatna aplikacja mobilna „Twój parasol" - https://twoiparasol.com/
+11.Punkty Informacyjno-Konsultacyjne w zakresie przeciwdziałania narkomanii (środki
+psychoaktywne - dopalacze):
+1) Stowarzyszenie MONAR Poradnia Profilaktyki, Leczenia, Terapii Uzależnień dia Młodzieży
+we Wrocławiu ul. Roosevelta 18A, tel.: 71 788 93 09, 793 853 174, e-mail: roosvelta-
+monar@wp.pl, strona: www.monar.wrocraw.pl;
+2) Stowarzyszenie MONAR Poradnia Profilaktyczno-Konsultacyjna we Wrocławiu, ul. Trzebnicka 17,
+tel: 71 780 67 45, e-mail: trzebnicka-monar@wp.pl, strona: http://trzebnicka-
+monar.wroclaw.pl/;
+3) Stowarzyszenie MONAR Ośrodek Leczenia, Terapii i Rehabilitacji Uzależnień we Wrocławiu.
+Oddział dla Dzieci i Młodzieży Al. Jarzębinowa 14/16, tel.: 71 337 24 07, e-mail: wroclaw-
+milejowice@monar.org, strona: http://www.wroclaw-milejowice.monar.org/;
+4) Stowarzyszenie Katolicki Ruch Antynarkotyczny KARAN. NZOZ Centrum Interwencji Kryzysowej -
+Poradnia ul. Skoczylasa 8, Wrocław tel.: 71 349 15 56, biuro@karan.wroc.pl www.karan.wroc.pl;
+5) Fundacja PozyTYwka ul. Gajowicka 164/1, Wrocław, tel.: 71338 30 03,
+e-mail: biuro@fundacjapozytywka.org.pl , strona: www.fundacjapozytywka.org.pl;
+12. Zespół Interdyscyplinarny ds. Przeciwdziałania Przemocy w Rodzinie we Wrocławiu,
+ul. Rydygiera 43a, tel.: 71 78 23 591, e-mail: zespol.interdyscyplinarny@mops.wroclaw.pl;
+13. Ośrodek Interwencji Kryzysowej we Wrocławiu, ul. Rydygiera 45a , tel.: 71 796 40 85,
+e-mail: stop.przemocy@mops.wroc.pl
+20/21
+
+===== STRONA 21 =====
+14. Centrum Psychoterapii i Leczenia Uzależnień:
+1) Centrum Neuropsychiatrii „Neuromed"
+we
+Wrocławiu, ul. Białowieska
+74a,
+e-mail: sekretariat@neuropsychiatria.com;
+2) Ośrodek Terapii Uzależnień we Wrocławiu, ul. Börowska 181, tel.: 71 786 43 44, 500 133 199,
+e-mail: oddzial.mlodziezowy@neuropsychiatria.com, strona: http://uzaleznienia-neuromed.pl/;
+15. Miejski Ośrodek Pomocy Społecznej we Wrocławiu, ul. Strzegomska 6, tel. 71 78 22 322, e-mail:
+sekretariat@mops.wroclaw.pl;
+16. Wsparcie dla uczniów z Ukrainy: Kalejdoskop Kultur we Wrocławiu, ul. Ruska 46 a (III piętro /
+lokal 306-308), tel.: +48
+530 664905, email: pomoc@kalejdoskopkultur.pl.
+REKTOR
+21/21
+
+===== STRONA 22 =====
+Msigi 7 walesin

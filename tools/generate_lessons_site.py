@@ -8,6 +8,8 @@ import unicodedata
 from dataclasses import dataclass
 from pathlib import Path
 
+from generate_wytyczne_document_page import main as generate_wytyczne_document_page
+
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "materialy_lekcje_wychowawcze_2026_2027"
@@ -19,6 +21,14 @@ SITE_ASSETS = SITE / "assets"
 LOGO_FILE = "logo-orzel-zsz5.png"
 LOGO_FULL_FILE = "logo-school-master-full.png"
 LOGO_FILES = (LOGO_FILE, LOGO_FULL_FILE)
+EXTRA_SITE_FILES = (
+    "spotkanie-z-uczniami-1-wrzesnia-2026.html",
+    "prezentacja-1-wrzesnia.css",
+    "prezentacja-1-wrzesnia.js",
+    "wytyczne-na-spotkanie-z-uczniami-1-wrzesnia-2026.html",
+    "wytyczne-document.css",
+    "wytyczne_wych_uczn_1_wrzes_2026_ost.docx",
+)
 ANALYSIS = ROOT / "analiza_i_opracowanie_tematow_lekcji_wychowawczych_2026_2027.md"
 DOCX_SOURCE = ROOT / "Plan pracy wychowawczo profilaktycznej szkoly 2026.2027.docx"
 
@@ -1335,6 +1345,27 @@ def render_index(lessons: list[dict]) -> str:
     </div>
   </header>
   <main class="index-layout">
+    <section class="presentation-entry" aria-labelledby="presentation-title">
+      <div>
+        <p class="kicker">Start roku szkolnego</p>
+        <h2 id="presentation-title">Prezentacja na spotkanie z uczniami 1 września 2026</h2>
+        <p>Wstęp dla wychowawcy oraz osobny tryb slajdów z przyciskiem pełnego ekranu i prostymi komunikatami dla uczniów.</p>
+      </div>
+      <div class="entry-actions">
+        <a class="presentation-button" href="spotkanie-z-uczniami-1-wrzesnia-2026.html">Otwórz prezentację</a>
+      </div>
+    </section>
+    <section class="presentation-entry document-entry" aria-labelledby="guidelines-title">
+      <div>
+        <p class="kicker">Teczka wychowawcy</p>
+        <h2 id="guidelines-title">Wytyczne na spotkanie z uczniami 1 września</h2>
+        <p>Pełna treść dokumentu Word odtworzona jeden do jednego oraz oryginalny plik do pobrania.</p>
+      </div>
+      <div class="entry-actions">
+        <a class="presentation-button" href="wytyczne-na-spotkanie-z-uczniami-1-wrzesnia-2026.html">Otwórz wytyczne</a>
+        <a class="presentation-button secondary" href="wytyczne_wych_uczn_1_wrzes_2026_ost.docx" download>Pobierz Word</a>
+      </div>
+    </section>
     <section class="toolbar" aria-label="Filtrowanie lekcji">
       <label for="search">Szukaj tematu</label>
       <input id="search" type="search" placeholder="np. AI, przemoc, praktyki, zdrowie">
@@ -1534,6 +1565,57 @@ h2 {
   grid-template-columns: minmax(260px, 340px) minmax(0, 1fr);
   gap: 20px;
   padding: 22px clamp(18px, 5vw, 64px) 40px;
+}
+.presentation-entry {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 18px;
+  align-items: center;
+  border: 1px solid #b9ddd6;
+  border-radius: 10px;
+  padding: 18px;
+  background: linear-gradient(135deg, #ffffff, #e5f4f1);
+  box-shadow: var(--shadow);
+}
+.presentation-entry h2 {
+  margin-bottom: 8px;
+}
+.presentation-entry p:not(.kicker) {
+  max-width: 900px;
+  margin: 0;
+  color: var(--muted);
+}
+.presentation-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  padding: 10px 14px;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 850;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.presentation-button.secondary {
+  background: #fff;
+  color: var(--accent);
+}
+.presentation-button:hover {
+  background: #08564d;
+}
+.presentation-button.secondary:hover {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+.entry-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-end;
 }
 .toolbar {
   align-self: start;
@@ -1863,6 +1945,9 @@ li + li { margin-top: 6px; }
 @media (max-width: 840px) {
   .metrics, .index-layout, .lesson-layout { grid-template-columns: 1fr; }
   .home-header .metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .presentation-entry { grid-template-columns: 1fr; }
+  .presentation-button { width: fit-content; }
+  .entry-actions { justify-content: flex-start; }
   .toolbar, .lesson-aside { position: static; }
   .lesson-content { order: 1; }
   .lesson-aside { order: 2; }
@@ -1971,6 +2056,8 @@ Publikacja zawiera {len(lessons)} opracowanych tematów lekcji wychowawczych wyn
 
 - osobna strona HTML dla każdej lekcji,
 - indeks główny z wyszukiwaniem i filtrowaniem po celu,
+- dodatkowa prezentacja startowa `spotkanie-z-uczniami-1-wrzesnia-2026.html`,
+- wersja dokumentu do teczki wychowawcy `wytyczne-na-spotkanie-z-uczniami-1-wrzesnia-2026.html` z pobieraniem pliku Word,
 - plik `lessons.json` z danymi lekcji,
 - zbiorcze źródła i filmy inspiracyjne w `zrodla.md`.
 
@@ -1979,6 +2066,10 @@ Foldery `scenariusze`, `prezentacje_md` i `prezentacje_pptx` mogą zawierać wcz
 ## Jak korzystać
 
 Otwórz `strona_html/index.html`, wybierz temat i prowadź lekcję według przewodnika. Każda lekcja jest zaplanowana na 30 minut i zawiera: cel, przewidywane rezultaty, przebieg, ćwiczenie, komunikaty, które muszą wybrzmieć, dowód realizacji, źródła i film albo inspirację wideo dla nauczyciela.
+
+Prezentacja startowa dla spotkania z uczniami 1 września 2026 r. działa w przeglądarce, obsługuje kliknięcie w slajd, strzałki, spację i tryb pełnoekranowy. Przed właściwą prezentacją znajduje się osobny wstęp z notatkami dla wychowawcy.
+
+Wersja do teczki wychowawcy zawiera pełną treść dokumentu `wytyczne_wych_uczn_1_wrzes_2026_ost.docx` oraz link do pobrania oryginalnego pliku Word.
 
 ## Uwaga
 
@@ -1998,11 +2089,21 @@ Publiczna strona z materiałami dla wychowawców ZSZ5 na rok szkolny 2026/2027.
 - liczba tematów: {len(lessons)},
 - format: osobna strona HTML dla każdej lekcji,
 - wejście do strony: `index.html`,
-- krótkie adresy lekcji: `lekcje/01.html`, `lekcje/02.html` itd.
+- krótkie adresy lekcji: `lekcje/01.html`, `lekcje/02.html` itd.,
+- dodatkowa prezentacja startowa: `spotkanie-z-uczniami-1-wrzesnia-2026.html`,
+- wersja dokumentu do teczki wychowawcy: `wytyczne-na-spotkanie-z-uczniami-1-wrzesnia-2026.html` z pobieraniem pliku Word.
 
 ## Zawartość lekcji
 
 Każda lekcja zawiera cel, przewidywane rezultaty, przygotowanie nauczyciela, przebieg 30 minut, ćwiczenie, sekcję `Co musi wybrzmieć`, dowód realizacji, źródła rozszerzające i film albo inspirację wideo dla nauczyciela.
+
+## Prezentacja 1 września 2026
+
+Strona zawiera dodatkową prezentację do przeprowadzenia spotkania wychowawcy z uczniami 1 września 2026 r. Prezentacja działa w przeglądarce, obsługuje kliknięcie w slajd, strzałki, spację i tryb pełnoekranowy. Przed właściwą prezentacją znajduje się osobny wstęp z notatkami dla wychowawcy.
+
+## Wytyczne do teczki wychowawcy
+
+Strona zawiera także dokument `Wytyczne na spotkanie z uczniami 1 września - wersja do teczki wychowawców`, odtworzony bezpośrednio z pliku Word. Oryginał `.docx` jest dostępny do pobrania z poziomu strony.
 
 ## Generowanie
 
@@ -2019,6 +2120,7 @@ Przed publikacją generator sprawdza zgodność listy 35 tematów z plikiem DOCX
 
 def main() -> None:
     lessons = build_lessons()
+    generate_wytyczne_document_page()
     SITE.mkdir(parents=True, exist_ok=True)
     if LESSON_PAGES.exists():
         shutil.rmtree(LESSON_PAGES)
@@ -2036,6 +2138,10 @@ def main() -> None:
     (ROOT / "styles.css").write_text(CSS.strip() + "\n", encoding="utf-8")
     (ROOT / "script.js").write_text(JS.strip() + "\n", encoding="utf-8")
     (ROOT / "index.html").write_text(render_index(lessons), encoding="utf-8")
+    for file_name in EXTRA_SITE_FILES:
+        source = ROOT / file_name
+        if source.exists():
+            shutil.copy2(source, SITE / file_name)
     for idx, lesson in enumerate(lessons):
         prev_lesson = lessons[idx - 1] if idx > 0 else None
         next_lesson = lessons[idx + 1] if idx < len(lessons) - 1 else None
