@@ -215,7 +215,23 @@ Do potwierdzenia przed publikacją:
 - Dokładna nazwa funkcji pani Sylwii Bokuniewicz w kontekście Standardów.
 - Czy w prezentacji podać gabinet, dyżur albo dodatkowy adres kontaktowy.
 
-### 8. Ocenianie zachowania od roku szkolnego 2026/2027
+### 8. Drabina pomocy i zgłaszania spraw
+
+Cel: pokazać uczniom właściwą kolejność działania, gdy pojawia się problem.
+
+Treść dla uczniów:
+
+- Jeżeli problem dotyczy lekcji, zadania, oceny albo sytuacji na zajęciach, uczeń zaczyna od rozmowy z nauczycielem.
+- Jeżeli rozmowa z nauczycielem nie rozwiązała sprawy, uczeń zgłasza się do wychowawcy.
+- Wychowawca może pomóc włączyć pedagoga lub psychologa, zwłaszcza gdy sprawa dotyczy relacji, bezpieczeństwa, kryzysu albo trudnej sytuacji.
+- Dyrektor jest ostatnim etapem, po wcześniejszej próbie rozwiązania sprawy z nauczycielem i wychowawcą.
+- Dyrektor nie jest pierwszym adresem dla każdej drobnej sprawy.
+
+Forma slajdu:
+
+- Drabina albo cztery stopnie: nauczyciel, wychowawca, pedagog/psycholog, dyrektor.
+
+### 9. Ocenianie zachowania od roku szkolnego 2026/2027
 
 Cel: wyjaśnić, że ocena zachowania nie jest prostą sumą plusów i minusów, a poważne naruszenia mają realne znaczenie.
 
@@ -240,7 +256,7 @@ Powiązanie ze statutem:
 - Rozporządzenie MEN ogłoszone w Dzienniku Ustaw 2026, poz. 1122.
 - Komunikat MEN wskazuje, że zmiany dotyczące podstawowych obszarów oceniania zachowania obowiązują od 1 września 2026 r.
 
-### 9. Zwiedzanie szkoły dla klas pierwszych
+### 10. Zwiedzanie szkoły dla klas pierwszych
 
 Cel: zadbać o praktyczną orientację uczniów w budynku i na terenie szkoły.
 
@@ -609,24 +625,22 @@ Niektóre treści, np. sprawdzanie danych kontaktowych, są bardziej instrukcją
 ## Minimalny zestaw slajdów w gotowej prezentacji
 
 1. Tytuł i cel spotkania.
-2. Notatka dla wychowawcy: dane w dzienniku i kontakty.
-3. Dziennik VULCAN: wiadomości, kontakty, wersja WWW.
-4. Plan lekcji i zastępstwa.
+2. Dziennik VULCAN: wiadomości, kontakty, wersja WWW.
+3. Plan lekcji i zastępstwa.
+4. Telefon komórkowy na lekcji.
 5. BHP i monitoring.
-6. Karta magnetyczna i wejście do szkoły.
-7. Zakaz opuszczania terenu szkoły.
+6. Zakaz opuszczania terenu szkoły.
+7. Karta magnetyczna i wejście do szkoły.
 8. Standardy Ochrony Małoletnich.
-9. Ocenianie zachowania.
-10. Zwiedzanie szkoły i nawigacja.
-11. Najważniejsze daty roku szkolnego.
-12. Zebrania z rodzicami.
+9. Drabina pomocy: nauczyciel, wychowawca, pedagog/psycholog, dyrektor.
+10. Ocenianie zachowania.
+11. Zwiedzanie szkoły i nawigacja.
+12. Najważniejsze daty roku szkolnego.
 13. WF i zwolnienia.
 14. Usprawiedliwianie nieobecności.
-15. Statut i dokumenty szkolne.
-16. BS I: umowy, praktyki, dzienniczek.
-17. Pomoc psychologiczno-pedagogiczna.
-18. Wyprawka i pielęgniarka.
-19. Religia/etyka.
-20. mLegitymacja: komunikaty w połowie września.
-21. Podsumowanie.
-20. Podsumowanie: co uczeń ma wiedzieć po spotkaniu.
+15. BS I: umowy, praktyki, dzienniczek.
+16. Pomoc psychologiczno-pedagogiczna, wyprawka i pielęgniarka.
+17. Statut i dokumenty szkolne.
+18. Sprawy dla rodziców i finanse.
+19. mLegitymacja: komunikaty w połowie września.
+20. Podsumowanie w formie pytań.
