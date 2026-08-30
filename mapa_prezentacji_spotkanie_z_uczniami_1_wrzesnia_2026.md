@@ -38,7 +38,7 @@ Ta część powinna być widoczna jako notatka dla wychowawcy przed prezentacją
 - Mapa Standardów: `statut_i_standardy_ochrony_maloletnich/mapa_standardy_ochrony_maloletnich.md`.
 - OCR Standardów: `statut_i_standardy_ochrony_maloletnich/standardy_ochrony_maloletnich_ocr_tekst_stronami.txt`.
 - Kalendarium szkoły: `statut_i_standardy_ochrony_maloletnich/calendar-data-2026-2027.json`, pobrane ze strony `https://nauczyciel.szkolamistrzow.info/`.
-- Oficjalna strona szkoły: `https://www.zsz5.edupage.org/`.
+- Oficjalna strona szkoły: `https://zsz5.edupage.org/` widocznie jako `www.zsz5.edupage.org`.
 - Strona pomocowa/informator: `https://informator.szkolamistrzow.info/`.
 - Nawigacja po szkole: `https://nawigacja.szkolamistrzow.info/`.
 - Komunikat MEN o zmianach w ocenianiu od roku szkolnego 2026/2027: `https://www.gov.pl/web/edukacja/rozporzadzenie-zmieniajace-rozporzadzenie-w-sprawie-oceniania-klasyfikowania-i-promowania-uczniow-i-sluchaczy-w-szkolach-publicznych--podpisane`.
@@ -84,15 +84,15 @@ Treść dla uczniów:
 
 - Dziennik VULCAN jest podstawowym narzędziem komunikacji szkoły z uczniem i rodzicem.
 - Uczniowie i rodzice powinni regularnie sprawdzać wiadomości, plan lekcji, frekwencję, oceny i zastępstwa.
-- Linki do dziennika VULCAN znajdują się na oficjalnej stronie szkoły: `https://www.zsz5.edupage.org/`.
+- Linki do dziennika VULCAN znajdują się na oficjalnej stronie szkoły: `https://zsz5.edupage.org/`; uczniom można pokazać adres `www.zsz5.edupage.org`.
 - Dane kontaktowe rodziców/opiekunów muszą być aktualne.
 - Jeśli brakuje telefonu lub innej formy kontaktu do rodzica/opiekuna, trzeba to jak najszybciej uzupełnić.
 
 Ważna informacja:
 
 - Aplikacja mobilna VULCAN może mieć płatne funkcje.
-- Nie trzeba korzystać z płatnej aplikacji.
-- Dostęp przez stronę WWW pozostaje bezpłatnym sposobem korzystania z dziennika.
+- Uczeń i rodzic nie muszą płacić za aplikację.
+- Dostęp przez przeglądarkę WWW pozostaje bezpłatnym sposobem korzystania z dziennika i informacji szkolnych.
 
 Notatka dla wychowawcy:
 
@@ -105,8 +105,8 @@ Cel: wskazać uczniom, gdzie szukać aktualnego planu zajęć.
 
 Treść dla uczniów:
 
-- Link do planu lekcji znajduje się na oficjalnej stronie szkoły: `https://www.zsz5.edupage.org/`.
-- Aktualny plan lekcji jest również dostępny w dzienniku VULCAN.
+- Aktualny plan lekcji i zmiany są przede wszystkim w dzienniku VULCAN.
+- Link do planu lekcji znajduje się też na oficjalnej stronie szkoły: `https://zsz5.edupage.org/`.
 - Zmiany w planie i zastępstwa należy śledzić w dzienniku.
 - Samo zapamiętanie planu z pierwszego dnia nie wystarcza, bo plan i zastępstwa mogą się zmieniać.
 
@@ -176,8 +176,8 @@ Treść dla uczniów:
 
 - W czasie planowych lekcji i przerw uczniowie pozostają na terenie szkoły.
 - Samowolne opuszczenie zajęć lub terenu szkoły jest naruszeniem statutu.
-- Wyjście ze szkoły jest możliwe tylko w uzasadnionych sytuacjach, np. zdrowotnych lub losowych.
-- Zwolnienia udziela wychowawca klasy.
+- Nie ma swobodnego wychodzenia ze szkoły w czasie lekcji ani przerw.
+- Formalnego zwolnienia ze szkoły udziela wychowawca klasy.
 - Jeśli wychowawca jest nieobecny, uczeń zgłasza się do dyżurującego członka kadry kierowniczej.
 
 Podstawa statutowa:
@@ -201,7 +201,7 @@ Treść dla uczniów:
 - Ich celem jest ochrona uczniów przed krzywdzeniem, przemocą, nadużyciami i niewłaściwymi zachowaniami.
 - Standardy dotyczą relacji między pracownikami szkoły a uczniami oraz relacji między uczniami.
 - Uczeń może zgłosić sytuację niepokojącą, przemocową lub naruszającą jego bezpieczeństwo.
-- Standardy są dostępne na oficjalnej stronie szkoły: `https://www.zsz5.edupage.org/`.
+- Standardy są dostępne na oficjalnej stronie szkoły: `https://zsz5.edupage.org/`.
 - Na pierwszym piętrze znajduje się tablica poświęcona Standardom Ochrony Małoletnich.
 - Osobą kontaktową do zgłoszeń jest pedagog szkolny, pani Sylwia Bokuniewicz.
 
@@ -221,13 +221,13 @@ Cel: wyjaśnić, że ocena zachowania nie jest prostą sumą plusów i minusów,
 
 Treść dla uczniów:
 
-- Od 1 września 2026 r. przepisy wskazują nowe podstawowe obszary brane pod uwagę przy ocenianiu zachowania.
-- Oceniane są między innymi: wywiązywanie się z obowiązków ucznia, szacunek wobec innych osób, odpowiedzialność za własny rozwój, przestrzeganie norm społecznych, kultura języka, bezpieczeństwo i zdrowie, współpraca, relacje z innymi, zaangażowanie w życie klasy i szkoły oraz szacunek wobec tradycji i kultury.
-- Ocena zachowania obejmuje całość funkcjonowania ucznia, a nie tylko pojedyncze aktywności dodatkowe.
+- Statut określa ocenianie zachowania zgodnie z przepisami.
+- Liczą się szacunek, bezpieczeństwo i relacje z całą społecznością szkolną: rówieśnikami, nauczycielami, pracownikami szkoły i innymi osobami przebywającymi w szkole.
+- Ocena zachowania obejmuje całość funkcjonowania ucznia, a nie tylko pojedyncze aktywności dodatkowe i punkty dodatnie.
 
 Akcent szczególnie ważny:
 
-- Poważne naruszenia zasad, np. palenie papierosów lub e-papierosów na terenie szkoły, samowolne opuszczanie szkoły, agresja, używki albo inne zachowania niebezpieczne, nie są neutralizowane automatycznie przez późniejsze aktywności pozytywne.
+- Poważne naruszenia zasad, np. palenie papierosów lub e-papierosów na terenie szkoły, samowolne opuszczanie szkoły, agresja, używki albo inne zachowania niebezpieczne, nie są kasowane automatycznie przez późniejsze aktywności pozytywne.
 - Udział w konkursach, olimpiadach, wydarzeniach szkolnych czy inne plusy nie oznaczają automatycznie bardzo dobrej oceny zachowania, jeśli uczeń jednocześnie poważnie narusza zasady szkoły.
 
 Powiązanie ze statutem:
@@ -308,7 +308,7 @@ Treść dla uczniów:
 
 - Zebranie z rodzicami klas pierwszych odbędzie się 4 września 2026 r. o godz. 16:00.
 - Zebrania z rodzicami klas starszych odbędą się 9 września 2026 r. o godz. 17:00.
-- Szczegółowe informacje należy śledzić na oficjalnej stronie szkoły `https://www.zsz5.edupage.org/`, na stronie pomocowej `https://informator.szkolamistrzow.info/` oraz w wiadomościach w dzienniku VULCAN.
+- Szczegółowe informacje należy śledzić na oficjalnej stronie szkoły `https://zsz5.edupage.org/`, na stronie pomocowej `https://informator.szkolamistrzow.info/` oraz w wiadomościach w dzienniku VULCAN.
 
 Do potwierdzenia przed prezentacją:
 
@@ -320,16 +320,17 @@ Cel: jasno powiedzieć, że WF jest obowiązkowy i wymaga przygotowania.
 
 Treść dla uczniów:
 
-- Uczniowie mają obowiązek uczestniczyć w lekcjach WF.
-- Obowiązek uczestnictwa dotyczy również zajęć realizowanych poza budynkiem szkoły.
-- W roku szkolnym 2026/2027 WF ma być realizowany między innymi w obiektach zewnętrznych: Aquapark, basen i sale gimnastyczne w Aquaparku, rolki przy ul. Spiskiej oraz lodowisko przy ul. Spiskiej.
+- WF nie jest zajęciem dobrowolnym.
+- Uczniowie mają obowiązek uczestniczyć w lekcjach WF i mieć wymagany strój.
+- W roku szkolnym 2026/2027, ze względu na remont sali gimnastycznej, WF ma być realizowany w szkole oraz w obiektach zewnętrznych.
+- Obiekty zewnętrzne wskazane w wytycznych: Aquapark, basen i sale gimnastyczne w Aquaparku, rolki przy ul. Spiskiej oraz lodowisko przy ul. Spiskiej.
 - Na WF trzeba mieć odpowiedni strój i obuwie zmienne z niebrudzącą podeszwą.
 - Paznokcie i elementy stroju nie mogą utrudniać bezpiecznego udziału w zajęciach.
 
 Zwolnienia z WF:
 
-- Zwolnienie z wykonywania określonych ćwiczeń albo z udziału w WF następuje na podstawie opinii lekarza i decyzji dyrektora.
-- Informacje o dłuższych albo rocznych zwolnieniach z WF należy uzyskać w sekretariacie dyrektora.
+- Dłuższe zwolnienia z WF: sprawa kierowana do dyrektora.
+- Więcej informacji można uzyskać w sekretariacie.
 - Do czasu decyzji dyrektora uczeń nie powinien samodzielnie zakładać, że jest zwolniony z obowiązku obecności.
 
 Źródło:
@@ -365,8 +366,8 @@ Branżowa szkoła I stopnia:
 
 Stałe wcześniejsze wyjścia:
 
-- Stałe zwalnianie się z ostatnich lekcji, np. z powodu połączenia kolejowego, nie jest automatycznie akceptowane.
-- Każdy indywidualny przypadek bardzo utrudnionego dojazdu powinien być analizowany przez wychowawcę w konsultacji z dyrektorem.
+- Nie ma stałego wychodzenia wcześniej z lekcji.
+- Każdy indywidualny przypadek bardzo utrudnionego dojazdu wymaga konsultacji z wychowawcą.
 - Stała nieobecność na części lekcji oznacza realną stratę edukacyjną i nie może być traktowana jako zwykła formalność.
 
 Źródło:
@@ -379,7 +380,7 @@ Cel: pokazać uczniom, że statut jest podstawowym dokumentem organizującym ży
 
 Treść dla uczniów:
 
-- Statut szkoły jest dostępny na oficjalnej stronie szkoły: `https://www.zsz5.edupage.org/`.
+- Statut szkoły jest dostępny na oficjalnej stronie szkoły: `https://zsz5.edupage.org/`.
 - W statucie znajdują się prawa i obowiązki ucznia, zasady oceniania, zasady usprawiedliwiania nieobecności, zasady zachowania i organizacji pracy szkoły.
 - Uczniowie powinni wiedzieć, gdzie statut jest dostępny i że jego zasady obowiązują od pierwszego dnia nauki.
 
@@ -417,8 +418,7 @@ Treść dla uczniów:
 
 - W szkole działa pomoc psychologiczno-pedagogiczna.
 - W sprawach trudnych, kryzysowych, wychowawczych, emocjonalnych lub związanych z bezpieczeństwem można zgłaszać się do pedagoga albo psychologa.
-- Dyżury pedagoga i psychologa są podane na tablicy obok pokoju nauczycielskiego.
-- Wychowawca powinien pokazać uczniom, gdzie znajdują się te informacje i gabinety.
+- Wychowawca powinien pokazać uczniom, gdzie znajdują się gabinety pedagoga, psychologa i pielęgniarki.
 
 Powiązanie ze Standardami Ochrony Małoletnich:
 
@@ -513,8 +513,7 @@ Cel: odpowiedzieć na częste pytanie uczniów bez tworzenia fałszywego oczekiw
 
 Treść dla uczniów:
 
-- Szkoła przewiduje obsługę mLegitymacji.
-- Informacje organizacyjne pojawią się dopiero w połowie września.
+- Komunikaty dotyczące ewidencji mLegitymacji pojawią się dopiero w połowie września.
 - Komunikaty będą publikowane na stronach szkoły oraz w dzienniku VULCAN.
 - Do czasu komunikatu uczniowie nie muszą podejmować dodatkowych działań.
 
@@ -525,22 +524,20 @@ Forma:
 
 ### 22. Zamknięcie prezentacji
 
-Cel: zakończyć prezentację prostym podsumowaniem.
+Cel: zakończyć prezentację krótkimi pytaniami sprawdzającymi.
 
 Treść dla uczniów:
 
-- Sprawdzam dziennik i wiadomości.
-- Pilnuję aktualnych danych kontaktowych.
-- Znam plan lekcji i śledzę zastępstwa.
-- Nie opuszczam samowolnie terenu szkoły.
-- Znam podstawowe zasady BHP.
-- Wiem, gdzie jest pedagog, psycholog, pielęgniarka, sekretariat i dyrekcja.
-- Wiem, gdzie znaleźć statut, Standardy Ochrony Małoletnich i najważniejsze informacje szkolne.
-- Wiem, że informacje o mLegitymacji pojawią się w połowie września na stronach szkoły i w dzienniku.
+- Gdzie jutro sprawdzam plan lekcji i zastępstwa?
+- Jak korzystać z VULCAN-a bez płatnej aplikacji?
+- Kto może formalnie zwolnić mnie ze szkoły?
+- Czy punkty dodatnie kasują palenie, używki, agresję albo samowolne wyjścia?
+- Co z mLegitymacją?
+- Gdzie zgłaszam problem albo proszę o pomoc?
 
 Forma:
 
-- Slajd końcowy z krótką listą "Po dzisiejszym spotkaniu wiem...".
+- Slajd końcowy w formie pytań, które wychowawca zadaje uczniom.
 
 ## Wersja treści według typu odbiorcy
 
