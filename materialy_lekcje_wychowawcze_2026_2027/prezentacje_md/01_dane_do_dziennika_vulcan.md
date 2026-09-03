@@ -43,6 +43,16 @@
 - sprawdź z rodzicem/opiekunem
 - uzupełnij braki ustaloną drogą
 - zgłoś problem z dostępem do dziennika
+- sprawdź podział na grupy w wykazie: https://wychowawca.szkolamistrzow.info/wykaz-podzialow-grup.html
+
+---
+
+## Link do podania w Dzienniku VULCAN
+
+Wykaz podziałów na grupy znajduje się tutaj:
+https://wychowawca.szkolamistrzow.info/wykaz-podzialow-grup.html
+
+Proszę sprawdzić oznaczenie swojej grupy i porównywać je z planem lekcji.
 
 ---
 

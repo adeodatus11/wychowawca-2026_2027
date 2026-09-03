@@ -44,6 +44,7 @@ Uczeń rozumie, jakie dane są potrzebne do kartoteki szkolnej i dlaczego aktual
 - Wychowawca nie zbiera danych publicznie. Uczeń ma tylko sprawdzić kompletność i przekazać informację ustalonym kanałem.
 - Aktualny telefon rodzica ma znaczenie przy frekwencji, wypadku, kryzysie, praktykach i pilnych komunikatach.
 - Kody dostępu do Dziennika VULCAN są indywidualne; rodzic i uczeń mają osobne konta.
+- Przy omawianiu planu lekcji uczniowie sprawdzają oznaczenie swojej grupy w wykazie: https://wychowawca.szkolamistrzow.info/wykaz-podzialow-grup.html.
 
 ## Ćwiczenie główne
 
@@ -59,6 +60,9 @@ Uczeń rozumie, jakie dane są potrzebne do kartoteki szkolnej i dlaczego aktual
 ## Bezpieczeństwo, RODO i dobrostan
 
 Nie zbieramy numerów PESEL, adresów, numerów telefonów ani e-maili w otwartym dokumencie, na tablicy, w grupowym czacie ani w prezentacji. Dane wracają tylko procedurą szkoły.
+
+Link do podania w Dzienniku VULCAN:
+https://wychowawca.szkolamistrzow.info/wykaz-podzialow-grup.html
 
 ## Sprawdzenie efektu
 

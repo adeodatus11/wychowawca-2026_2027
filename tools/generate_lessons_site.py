@@ -8,7 +8,7 @@ import unicodedata
 from dataclasses import dataclass
 from pathlib import Path
 
-from generate_wytyczne_document_page import main as generate_wytyczne_document_page
+from generate_wytyczne_document_page import DocumentPageConfig, generate_page, main as generate_wytyczne_document_page
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -26,8 +26,10 @@ EXTRA_SITE_FILES = (
     "prezentacja-1-wrzesnia.css",
     "prezentacja-1-wrzesnia.js",
     "wytyczne-na-spotkanie-z-uczniami-1-wrzesnia-2026.html",
+    "wytyczne-zebranie-z-rodzicami-4-wrzesnia-2026.html",
     "wytyczne-document.css",
     "wytyczne_wych_uczn_1_wrzes_2026_ost.docx",
+    "wytyczne_zebr_rodz_4wrz2026_ost.docx",
 )
 ANALYSIS = ROOT / "analiza_i_opracowanie_tematow_lekcji_wychowawczych_2026_2027.md"
 DOCX_SOURCE = ROOT / "Plan pracy wychowawczo profilaktycznej szkoly 2026.2027.docx"
@@ -1206,7 +1208,7 @@ def render_lesson(lesson: dict, prev_lesson: dict | None, next_lesson: dict | No
     <div class="lesson-header-inner">
       <div class="lesson-topbar">
         {brand_html("../")}
-        <a class="back-link" href="../index.html">← Wróć do planu</a>
+        <a class="back-link" href="../plan-pracy-wychowawczo-profilaktycznej.html">← Wróć do planu</a>
       </div>
       <p class="kicker">Cel {lesson["goal"]} · {esc(lesson["area"])} · {esc(lesson["month"])}</p>
       <h1>{esc(lesson["display_title"])}</h1>
@@ -1269,7 +1271,7 @@ def render_lesson(lesson: dict, prev_lesson: dict | None, next_lesson: dict | No
       </section>
       <nav class="lesson-nav">
         {nav_prev}
-        <a class="nav-link primary" href="../index.html">Wróć do listy</a>
+        <a class="nav-link primary" href="../plan-pracy-wychowawczo-profilaktycznej.html">Wróć do listy</a>
         {nav_next}
       </nav>
     </article>
@@ -1333,6 +1335,11 @@ def render_index(lessons: list[dict]) -> str:
   <header class="site-header home-header">
     <div class="hero-copy">
       {brand_html(variant="full")}
+      <nav class="site-nav section-nav" aria-label="Główna nawigacja">
+        <a class="nav-link" href="index.html">Aktualności</a>
+        <a class="nav-link primary" href="plan-pracy-wychowawczo-profilaktycznej.html">Plan pracy</a>
+        <a class="nav-link" href="baza-wiedzy.html">Baza wiedzy</a>
+      </nav>
       <p class="kicker">Materiały dla wychowawcy</p>
       <h1>Plan pracy wychowawczo-profilaktycznej 2026/2027</h1>
       <p class="subtitle">35 lekcji ułożonych miesiącami. Każda strona prowadzi wychowawcę przez sens tematu, pytanie otwierające, ćwiczenie, najważniejsze komunikaty dla uczniów, film i źródła do pogłębienia.</p>
@@ -1345,27 +1352,6 @@ def render_index(lessons: list[dict]) -> str:
     </div>
   </header>
   <main class="index-layout">
-    <section class="presentation-entry" aria-labelledby="presentation-title">
-      <div>
-        <p class="kicker">Start roku szkolnego</p>
-        <h2 id="presentation-title">Prezentacja na spotkanie z uczniami 1 września 2026</h2>
-        <p>Wstęp dla wychowawcy oraz osobny tryb slajdów z przyciskiem pełnego ekranu i prostymi komunikatami dla uczniów.</p>
-      </div>
-      <div class="entry-actions">
-        <a class="presentation-button" href="spotkanie-z-uczniami-1-wrzesnia-2026.html">Otwórz prezentację</a>
-      </div>
-    </section>
-    <section class="presentation-entry document-entry" aria-labelledby="guidelines-title">
-      <div>
-        <p class="kicker">Teczka wychowawcy</p>
-        <h2 id="guidelines-title">Wytyczne na spotkanie z uczniami 1 września</h2>
-        <p>Pełna treść dokumentu Word odtworzona jeden do jednego oraz oryginalny plik do pobrania.</p>
-      </div>
-      <div class="entry-actions">
-        <a class="presentation-button" href="wytyczne-na-spotkanie-z-uczniami-1-wrzesnia-2026.html">Otwórz wytyczne</a>
-        <a class="presentation-button secondary" href="wytyczne_wych_uczn_1_wrzes_2026_ost.docx" download>Pobierz Word</a>
-      </div>
-    </section>
     <section class="toolbar" aria-label="Filtrowanie lekcji">
       <label for="search">Szukaj tematu</label>
       <input id="search" type="search" placeholder="np. AI, przemoc, praktyki, zdrowie">
@@ -2054,10 +2040,13 @@ Publikacja zawiera {len(lessons)} opracowanych tematów lekcji wychowawczych wyn
 
 ## Zawartość
 
+- strona główna `strona_html/index.html` z aktualnościami, skrótami i archiwum,
+- plan pracy `strona_html/plan-pracy-wychowawczo-profilaktycznej.html` z wyszukiwaniem i filtrowaniem po celu,
 - osobna strona HTML dla każdej lekcji,
-- indeks główny z wyszukiwaniem i filtrowaniem po celu,
 - dodatkowa prezentacja startowa `spotkanie-z-uczniami-1-wrzesnia-2026.html`,
 - wersja dokumentu do teczki wychowawcy `wytyczne-na-spotkanie-z-uczniami-1-wrzesnia-2026.html` z pobieraniem pliku Word,
+- wytyczne na zebranie z rodzicami `wytyczne-zebranie-z-rodzicami-4-wrzesnia-2026.html` z pobieraniem pliku Word,
+- lokalny wykaz podziałów na grupy `strona_html/wykaz-podzialow-grup.html`,
 - plik `lessons.json` z danymi lekcji,
 - zbiorcze źródła i filmy inspiracyjne w `zrodla.md`.
 
@@ -2065,11 +2054,13 @@ Foldery `scenariusze`, `prezentacje_md` i `prezentacje_pptx` mogą zawierać wcz
 
 ## Jak korzystać
 
-Otwórz `strona_html/index.html`, wybierz temat i prowadź lekcję według przewodnika. Każda lekcja jest zaplanowana na 30 minut i zawiera: cel, przewidywane rezultaty, przebieg, ćwiczenie, komunikaty, które muszą wybrzmieć, dowód realizacji, źródła i film albo inspirację wideo dla nauczyciela.
+Otwórz `strona_html/index.html`, żeby zobaczyć aktualności. Do listy lekcji przejdź przez `strona_html/plan-pracy-wychowawczo-profilaktycznej.html`. Każda lekcja jest zaplanowana na 30 minut i zawiera: cel, przewidywane rezultaty, przebieg, ćwiczenie, komunikaty, które muszą wybrzmieć, dowód realizacji, źródła i film albo inspirację wideo dla nauczyciela.
 
 Prezentacja startowa dla spotkania z uczniami 1 września 2026 r. działa w przeglądarce, obsługuje kliknięcie w slajd, strzałki, spację i tryb pełnoekranowy. Przed właściwą prezentacją znajduje się osobny wstęp z notatkami dla wychowawcy.
 
 Wersja do teczki wychowawcy zawiera pełną treść dokumentu `wytyczne_wych_uczn_1_wrzes_2026_ost.docx` oraz link do pobrania oryginalnego pliku Word.
+
+Wytyczne na zebranie z rodzicami 4 września 2026 r. zawierają pełną treść dokumentu `wytyczne_zebr_rodz_4wrz2026_ost.docx` oraz link do pobrania oryginalnego pliku Word.
 
 ## Uwaga
 
@@ -2087,11 +2078,19 @@ Publiczna strona z materiałami dla wychowawców ZSZ5 na rok szkolny 2026/2027.
 
 - źródło tematów: `Plan pracy wychowawczo profilaktycznej szkoly 2026.2027.docx`,
 - liczba tematów: {len(lessons)},
-- format: osobna strona HTML dla każdej lekcji,
+- format: strona główna z aktualnościami oraz osobna strona HTML dla każdej lekcji,
 - wejście do strony: `index.html`,
+- plan pracy: `plan-pracy-wychowawczo-profilaktycznej.html`,
+- baza wiedzy: `baza-wiedzy.html` (dział w przygotowaniu),
 - krótkie adresy lekcji: `lekcje/01.html`, `lekcje/02.html` itd.,
 - dodatkowa prezentacja startowa: `spotkanie-z-uczniami-1-wrzesnia-2026.html`,
-- wersja dokumentu do teczki wychowawcy: `wytyczne-na-spotkanie-z-uczniami-1-wrzesnia-2026.html` z pobieraniem pliku Word.
+- wersja dokumentu do teczki wychowawcy: `wytyczne-na-spotkanie-z-uczniami-1-wrzesnia-2026.html` z pobieraniem pliku Word,
+- wytyczne na zebranie z rodzicami: `wytyczne-zebranie-z-rodzicami-4-wrzesnia-2026.html` z pobieraniem pliku Word,
+- lokalny wykaz podziałów na grupy: `wykaz-podzialow-grup.html`.
+
+## Strona główna
+
+`index.html` pełni teraz funkcję strony aktualności dla wychowawców. Zawiera bieżące komunikaty, skróty do planu pracy i bazy wiedzy oraz archiwum wpisów.
 
 ## Zawartość lekcji
 
@@ -2104,6 +2103,10 @@ Strona zawiera dodatkową prezentację do przeprowadzenia spotkania wychowawcy z
 ## Wytyczne do teczki wychowawcy
 
 Strona zawiera także dokument `Wytyczne na spotkanie z uczniami 1 września - wersja do teczki wychowawców`, odtworzony bezpośrednio z pliku Word. Oryginał `.docx` jest dostępny do pobrania z poziomu strony.
+
+## Wytyczne na zebranie z rodzicami
+
+Strona zawiera również dokument `Wytyczne na zebranie z rodzicami 4 września 2026`, odtworzony bezpośrednio z pliku Word. Oryginał `.docx` jest dostępny do pobrania z poziomu strony.
 
 ## Generowanie
 
@@ -2121,6 +2124,15 @@ Przed publikacją generator sprawdza zgodność listy 35 tematów z plikiem DOCX
 def main() -> None:
     lessons = build_lessons()
     generate_wytyczne_document_page()
+    parent_meeting_docx = ROOT / "wytyczne_zebr_rodz_4wrz2026_ost.docx"
+    if parent_meeting_docx.exists():
+        generate_page(
+            DocumentPageConfig(
+                source_docx=parent_meeting_docx,
+                output_html=ROOT / "wytyczne-zebranie-z-rodzicami-4-wrzesnia-2026.html",
+                title="Wytyczne na zebranie z rodzicami 4 września 2026",
+            )
+        )
     SITE.mkdir(parents=True, exist_ok=True)
     if LESSON_PAGES.exists():
         shutil.rmtree(LESSON_PAGES)
@@ -2132,12 +2144,13 @@ def main() -> None:
     for logo_file in LOGO_FILES:
         if (ROOT_ASSETS / logo_file).exists():
             shutil.copy2(ROOT_ASSETS / logo_file, SITE_ASSETS / logo_file)
-    (SITE / "styles.css").write_text(CSS.strip() + "\n", encoding="utf-8")
+    css_text = (ROOT / "styles.css").read_text(encoding="utf-8") if (ROOT / "styles.css").exists() else CSS.strip() + "\n"
+    (SITE / "styles.css").write_text(css_text, encoding="utf-8")
     (SITE / "script.js").write_text(JS.strip() + "\n", encoding="utf-8")
-    (SITE / "index.html").write_text(render_index(lessons), encoding="utf-8")
-    (ROOT / "styles.css").write_text(CSS.strip() + "\n", encoding="utf-8")
+    (SITE / "plan-pracy-wychowawczo-profilaktycznej.html").write_text(render_index(lessons), encoding="utf-8")
+    (ROOT / "styles.css").write_text(css_text, encoding="utf-8")
     (ROOT / "script.js").write_text(JS.strip() + "\n", encoding="utf-8")
-    (ROOT / "index.html").write_text(render_index(lessons), encoding="utf-8")
+    (ROOT / "plan-pracy-wychowawczo-profilaktycznej.html").write_text(render_index(lessons), encoding="utf-8")
     for file_name in EXTRA_SITE_FILES:
         source = ROOT / file_name
         if source.exists():

@@ -6,11 +6,19 @@ Publiczna strona z materiałami dla wychowawców ZSZ5 na rok szkolny 2026/2027.
 
 - źródło tematów: `Plan pracy wychowawczo profilaktycznej szkoly 2026.2027.docx`,
 - liczba tematów: 35,
-- format: osobna strona HTML dla każdej lekcji,
+- format: strona główna z aktualnościami oraz osobna strona HTML dla każdej lekcji,
 - wejście do strony: `index.html`,
+- plan pracy: `plan-pracy-wychowawczo-profilaktycznej.html`,
+- baza wiedzy: `baza-wiedzy.html` (dział w przygotowaniu),
 - krótkie adresy lekcji: `lekcje/01.html`, `lekcje/02.html` itd.,
 - dodatkowa prezentacja startowa: `spotkanie-z-uczniami-1-wrzesnia-2026.html`,
-- wersja dokumentu do teczki wychowawcy: `wytyczne-na-spotkanie-z-uczniami-1-wrzesnia-2026.html` z pobieraniem pliku Word.
+- wersja dokumentu do teczki wychowawcy: `wytyczne-na-spotkanie-z-uczniami-1-wrzesnia-2026.html` z pobieraniem pliku Word,
+- wytyczne na zebranie z rodzicami: `wytyczne-zebranie-z-rodzicami-4-wrzesnia-2026.html` z pobieraniem pliku Word,
+- lokalny wykaz podziałów na grupy: `wykaz-podzialow-grup.html`.
+
+## Strona główna
+
+`index.html` pełni teraz funkcję strony aktualności dla wychowawców. Zawiera bieżące komunikaty, skróty do planu pracy i bazy wiedzy oraz archiwum wpisów.
 
 ## Zawartość lekcji
 
@@ -23,6 +31,10 @@ Strona zawiera dodatkową prezentację do przeprowadzenia spotkania wychowawcy z
 ## Wytyczne do teczki wychowawcy
 
 Strona zawiera także dokument `Wytyczne na spotkanie z uczniami 1 września - wersja do teczki wychowawców`, odtworzony bezpośrednio z pliku Word. Oryginał `.docx` jest dostępny do pobrania z poziomu strony.
+
+## Wytyczne na zebranie z rodzicami
+
+Strona zawiera również dokument `Wytyczne na zebranie z rodzicami 4 września 2026`, odtworzony bezpośrednio z pliku Word. Oryginał `.docx` jest dostępny do pobrania z poziomu strony.
 
 ## Generowanie
 

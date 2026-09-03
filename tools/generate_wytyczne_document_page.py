@@ -2,15 +2,29 @@ from __future__ import annotations
 
 import html
 import re
+import shutil
+from dataclasses import dataclass
 from pathlib import Path
 
 from docx import Document
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE_DOCX = ROOT / "wytyczne_wych_uczn_1_wrzes_2026_ost.docx"
-OUTPUT_HTML = ROOT / "wytyczne-na-spotkanie-z-uczniami-1-wrzesnia-2026.html"
-TITLE = "Wytyczne na spotkanie z uczniami 1 września - wersja do teczki wychowawców"
+SITE = ROOT / "materialy_lekcje_wychowawcze_2026_2027" / "strona_html"
+
+
+@dataclass(frozen=True)
+class DocumentPageConfig:
+    source_docx: Path
+    output_html: Path
+    title: str
+
+
+DEFAULT_CONFIG = DocumentPageConfig(
+    source_docx=ROOT / "wytyczne_wych_uczn_1_wrzes_2026_ost.docx",
+    output_html=ROOT / "wytyczne-na-spotkanie-z-uczniami-1-wrzesnia-2026.html",
+    title="Wytyczne na spotkanie z uczniami 1 września - wersja do teczki wychowawców",
+)
 
 
 def slug_class(value: str) -> str:
@@ -89,8 +103,8 @@ def paragraph_html(paragraph, main_counter: int) -> tuple[str, int]:
     return f'<p class="{" ".join(classes)}">{body}</p>', main_counter
 
 
-def build_document_body() -> str:
-    doc = Document(SOURCE_DOCX)
+def build_document_body(source_docx: Path) -> str:
+    doc = Document(source_docx)
     paragraphs: list[str] = []
     counter = 0
     for paragraph in doc.paragraphs:
@@ -99,14 +113,15 @@ def build_document_body() -> str:
     return "\n".join(paragraphs)
 
 
-def build_page() -> str:
-    document_body = build_document_body()
+def build_page(config: DocumentPageConfig) -> str:
+    document_body = build_document_body(config.source_docx)
+    title = html.escape(config.title)
     return f"""<!doctype html>
 <html lang="pl">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{html.escape(TITLE)}</title>
+  <title>{title}</title>
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="wytyczne-document.css">
@@ -118,16 +133,16 @@ def build_page() -> str:
     </a>
     <nav class="doc-actions" aria-label="Akcje dokumentu">
       <a class="doc-action" href="index.html">Wróć do materiałów</a>
-      <a class="doc-action primary" href="{SOURCE_DOCX.name}" download>Pobierz dokument Word</a>
+      <a class="doc-action primary" href="{config.source_docx.name}" download>Pobierz dokument Word</a>
     </nav>
   </header>
   <main class="doc-page-shell">
     <section class="doc-hero" aria-labelledby="doc-title">
       <p class="kicker">Dokument do pobrania i wglądu</p>
-      <h1 id="doc-title">{html.escape(TITLE)}</h1>
+      <h1 id="doc-title">{title}</h1>
       <p>Treść poniżej została odtworzona bezpośrednio z pliku Word. Oryginał można pobrać przyciskiem „Pobierz dokument Word”.</p>
     </section>
-    <article class="word-document" aria-label="{html.escape(TITLE)}">
+    <article class="word-document" aria-label="{title}">
       {document_body}
     </article>
   </main>
@@ -136,10 +151,17 @@ def build_page() -> str:
 """
 
 
-def main() -> None:
-    if not SOURCE_DOCX.exists():
-        raise FileNotFoundError(SOURCE_DOCX)
-    OUTPUT_HTML.write_text(build_page(), encoding="utf-8")
+def generate_page(config: DocumentPageConfig) -> None:
+    if not config.source_docx.exists():
+        raise FileNotFoundError(config.source_docx)
+    config.output_html.write_text(build_page(config), encoding="utf-8")
+    SITE.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(config.output_html, SITE / config.output_html.name)
+    shutil.copy2(config.source_docx, SITE / config.source_docx.name)
+
+
+def main(config: DocumentPageConfig | None = None) -> None:
+    generate_page(config or DEFAULT_CONFIG)
 
 
 if __name__ == "__main__":
