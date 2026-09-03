@@ -9,7 +9,7 @@ Publikacja zawiera 35 opracowanych tematów lekcji wychowawczych wynikających z
 - osobna strona HTML dla każdej lekcji,
 - dodatkowa prezentacja startowa `spotkanie-z-uczniami-1-wrzesnia-2026.html`,
 - wersja dokumentu do teczki wychowawcy `wytyczne-na-spotkanie-z-uczniami-1-wrzesnia-2026.html` z pobieraniem pliku Word,
-- wytyczne na zebranie z rodzicami `wytyczne-zebranie-z-rodzicami-4-wrzesnia-2026.html` z pobieraniem pliku Word,
+- link do artykułu SharePoint o zebraniu z rodzicami oraz plik Word do pobrania,
 - lokalny wykaz podziałów na grupy `strona_html/wykaz-podzialow-grup.html`,
 - plik `lessons.json` z danymi lekcji,
 - zbiorcze źródła i filmy inspiracyjne w `zrodla.md`.
@@ -24,7 +24,7 @@ Prezentacja startowa dla spotkania z uczniami 1 września 2026 r. działa w prze
 
 Wersja do teczki wychowawcy zawiera pełną treść dokumentu `wytyczne_wych_uczn_1_wrzes_2026_ost.docx` oraz link do pobrania oryginalnego pliku Word.
 
-Wytyczne na zebranie z rodzicami 4 września 2026 r. zawierają pełną treść dokumentu `wytyczne_zebr_rodz_4wrz2026_ost.docx` oraz link do pobrania oryginalnego pliku Word.
+Wpis o zebraniu z rodzicami 4 września 2026 r. prowadzi do artykułu na SharePoint i udostępnia dokument `wytyczne_zebr_rodz_4wrz2026_ost.docx` do pobrania.
 
 ## Uwaga
 

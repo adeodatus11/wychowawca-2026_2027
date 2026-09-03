@@ -8,7 +8,7 @@ import unicodedata
 from dataclasses import dataclass
 from pathlib import Path
 
-from generate_wytyczne_document_page import DocumentPageConfig, generate_page, main as generate_wytyczne_document_page
+from generate_wytyczne_document_page import main as generate_wytyczne_document_page
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -26,7 +26,6 @@ EXTRA_SITE_FILES = (
     "prezentacja-1-wrzesnia.css",
     "prezentacja-1-wrzesnia.js",
     "wytyczne-na-spotkanie-z-uczniami-1-wrzesnia-2026.html",
-    "wytyczne-zebranie-z-rodzicami-4-wrzesnia-2026.html",
     "wytyczne-document.css",
     "wytyczne_wych_uczn_1_wrzes_2026_ost.docx",
     "wytyczne_zebr_rodz_4wrz2026_ost.docx",
@@ -2045,7 +2044,7 @@ Publikacja zawiera {len(lessons)} opracowanych tematów lekcji wychowawczych wyn
 - osobna strona HTML dla każdej lekcji,
 - dodatkowa prezentacja startowa `spotkanie-z-uczniami-1-wrzesnia-2026.html`,
 - wersja dokumentu do teczki wychowawcy `wytyczne-na-spotkanie-z-uczniami-1-wrzesnia-2026.html` z pobieraniem pliku Word,
-- wytyczne na zebranie z rodzicami `wytyczne-zebranie-z-rodzicami-4-wrzesnia-2026.html` z pobieraniem pliku Word,
+- link do artykułu SharePoint o zebraniu z rodzicami oraz plik Word do pobrania,
 - lokalny wykaz podziałów na grupy `strona_html/wykaz-podzialow-grup.html`,
 - plik `lessons.json` z danymi lekcji,
 - zbiorcze źródła i filmy inspiracyjne w `zrodla.md`.
@@ -2060,7 +2059,7 @@ Prezentacja startowa dla spotkania z uczniami 1 września 2026 r. działa w prze
 
 Wersja do teczki wychowawcy zawiera pełną treść dokumentu `wytyczne_wych_uczn_1_wrzes_2026_ost.docx` oraz link do pobrania oryginalnego pliku Word.
 
-Wytyczne na zebranie z rodzicami 4 września 2026 r. zawierają pełną treść dokumentu `wytyczne_zebr_rodz_4wrz2026_ost.docx` oraz link do pobrania oryginalnego pliku Word.
+Wpis o zebraniu z rodzicami 4 września 2026 r. prowadzi do artykułu na SharePoint i udostępnia dokument `wytyczne_zebr_rodz_4wrz2026_ost.docx` do pobrania.
 
 ## Uwaga
 
@@ -2085,7 +2084,7 @@ Publiczna strona z materiałami dla wychowawców ZSZ5 na rok szkolny 2026/2027.
 - krótkie adresy lekcji: `lekcje/01.html`, `lekcje/02.html` itd.,
 - dodatkowa prezentacja startowa: `spotkanie-z-uczniami-1-wrzesnia-2026.html`,
 - wersja dokumentu do teczki wychowawcy: `wytyczne-na-spotkanie-z-uczniami-1-wrzesnia-2026.html` z pobieraniem pliku Word,
-- wytyczne na zebranie z rodzicami: `wytyczne-zebranie-z-rodzicami-4-wrzesnia-2026.html` z pobieraniem pliku Word,
+- zebranie z rodzicami: link do artykułu SharePoint oraz plik `wytyczne_zebr_rodz_4wrz2026_ost.docx` do pobrania,
 - lokalny wykaz podziałów na grupy: `wykaz-podzialow-grup.html`.
 
 ## Strona główna
@@ -2106,7 +2105,7 @@ Strona zawiera także dokument `Wytyczne na spotkanie z uczniami 1 września - w
 
 ## Wytyczne na zebranie z rodzicami
 
-Strona zawiera również dokument `Wytyczne na zebranie z rodzicami 4 września 2026`, odtworzony bezpośrednio z pliku Word. Oryginał `.docx` jest dostępny do pobrania z poziomu strony.
+Strona zawiera wpis z linkiem do artykułu SharePoint o zebraniu z rodzicami 4 września 2026 r. oraz udostępnia oryginalny plik `.docx` do pobrania.
 
 ## Generowanie
 
@@ -2124,15 +2123,6 @@ Przed publikacją generator sprawdza zgodność listy 35 tematów z plikiem DOCX
 def main() -> None:
     lessons = build_lessons()
     generate_wytyczne_document_page()
-    parent_meeting_docx = ROOT / "wytyczne_zebr_rodz_4wrz2026_ost.docx"
-    if parent_meeting_docx.exists():
-        generate_page(
-            DocumentPageConfig(
-                source_docx=parent_meeting_docx,
-                output_html=ROOT / "wytyczne-zebranie-z-rodzicami-4-wrzesnia-2026.html",
-                title="Wytyczne na zebranie z rodzicami 4 września 2026",
-            )
-        )
     SITE.mkdir(parents=True, exist_ok=True)
     if LESSON_PAGES.exists():
         shutil.rmtree(LESSON_PAGES)
