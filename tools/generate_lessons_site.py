@@ -22,7 +22,7 @@ LOGO_FILE = "logo-orzel-zsz5.png"
 LOGO_FULL_FILE = "logo-school-master-full.png"
 LOGO_FILES = (LOGO_FILE, LOGO_FULL_FILE)
 EXTRA_SITE_FILES = (
-    "integracja-klasy-polsko-ukrainskiej.html",
+    "integracja-klasy-na-poczatku-roku.html",
     "integracja-klasy-polsko-ukrainskiej.css",
     "spotkanie-z-uczniami-1-wrzesnia-2026.html",
     "prezentacja-1-wrzesnia.css",
