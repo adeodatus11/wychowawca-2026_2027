@@ -22,6 +22,7 @@ LOGO_FILE = "logo-orzel-zsz5.png"
 LOGO_FULL_FILE = "logo-school-master-full.png"
 LOGO_FILES = (LOGO_FILE, LOGO_FULL_FILE)
 EXTRA_SITE_FILES = (
+    "baza-wiedzy.html",
     "integracja-klasy-na-poczatku-roku.html",
     "integracja-klasy-polsko-ukrainskiej.css",
     "spotkanie-z-uczniami-1-wrzesnia-2026.html",
@@ -2082,7 +2083,7 @@ Publiczna strona z materiałami dla wychowawców ZSZ5 na rok szkolny 2026/2027.
 - format: strona główna z aktualnościami oraz osobna strona HTML dla każdej lekcji,
 - wejście do strony: `index.html`,
 - plan pracy: `plan-pracy-wychowawczo-profilaktycznej.html`,
-- baza wiedzy: `baza-wiedzy.html` (dział w przygotowaniu),
+- baza wiedzy: `baza-wiedzy.html` (poradniki i materiały dla wychowawców),
 - krótkie adresy lekcji: `lekcje/01.html`, `lekcje/02.html` itd.,
 - dodatkowa prezentacja startowa: `spotkanie-z-uczniami-1-wrzesnia-2026.html`,
 - wersja dokumentu do teczki wychowawcy: `wytyczne-na-spotkanie-z-uczniami-1-wrzesnia-2026.html` z pobieraniem pliku Word,
