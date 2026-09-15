@@ -9,7 +9,7 @@ Publiczna strona z materiałami dla wychowawców ZSZ5 na rok szkolny 2026/2027.
 - format: strona główna z aktualnościami oraz osobna strona HTML dla każdej lekcji,
 - wejście do strony: `index.html`,
 - plan pracy: `plan-pracy-wychowawczo-profilaktycznej.html`,
-- baza wiedzy: `baza-wiedzy.html` (dział w przygotowaniu),
+- baza wiedzy: `baza-wiedzy.html` (poradniki o integracji klasy, reagowaniu na trudne zachowania i wspieraniu ucznia w spektrum autyzmu),
 - krótkie adresy lekcji: `lekcje/01.html`, `lekcje/02.html` itd.,
 - dodatkowa prezentacja startowa: `spotkanie-z-uczniami-1-wrzesnia-2026.html`,
 - wersja dokumentu do teczki wychowawcy: `wytyczne-na-spotkanie-z-uczniami-1-wrzesnia-2026.html` z pobieraniem pliku Word,

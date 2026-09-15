@@ -681,6 +681,9 @@ li + li { margin-top: 6px; }
 .placeholder-panel {
   padding: clamp(22px, 4vw, 34px);
 }
+.placeholder-panel + .placeholder-panel {
+  margin-top: 22px;
+}
 .placeholder-panel .presentation-button {
   margin-top: 12px;
 }
