@@ -26,6 +26,8 @@ EXTRA_SITE_FILES = (
     "trudne-zachowania-na-lekcji.html",
     "uczen-w-spektrum-autyzmu.html",
     "integracja-klasy-na-poczatku-roku.html",
+    "toaleta-podczas-lekcji-a-odpowiedzialnosc-nauczyciela.html",
+    "woda-na-lekcji-i-picie.html",
     "integracja-klasy-polsko-ukrainskiej.css",
     "spotkanie-z-uczniami-1-wrzesnia-2026.html",
     "prezentacja-1-wrzesnia.css",
