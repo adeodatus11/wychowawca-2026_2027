@@ -29,6 +29,8 @@ EXTRA_SITE_FILES = (
     "toaleta-podczas-lekcji-a-odpowiedzialnosc-nauczyciela.html",
     "woda-na-lekcji-i-picie.html",
     "integracja-klasy-polsko-ukrainskiej.css",
+    "guide-figures.css",
+    "guide-figures.js",
     "spotkanie-z-uczniami-1-wrzesnia-2026.html",
     "prezentacja-1-wrzesnia.css",
     "prezentacja-1-wrzesnia.js",
