@@ -28,6 +28,7 @@ EXTRA_SITE_FILES = (
     "integracja-klasy-na-poczatku-roku.html",
     "toaleta-podczas-lekcji-a-odpowiedzialnosc-nauczyciela.html",
     "woda-na-lekcji-i-picie.html",
+    "opuszczanie-terenu-szkoly-podczas-przerw.html",
     "integracja-klasy-polsko-ukrainskiej.css",
     "spotkanie-z-uczniami-1-wrzesnia-2026.html",
     "prezentacja-1-wrzesnia.css",
