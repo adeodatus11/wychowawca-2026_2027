@@ -36,7 +36,7 @@ Strona zawiera także dokument `Wytyczne na spotkanie z uczniami 1 września - w
 
 ## Tydzień o Przeciwdziałaniu Przemocy Rówieśniczej
 
-Artykuł w aktualnościach opisuje ogólnopolską inicjatywę MEN, podaje terminy obu tygodni (w szkołach — przeciwdziałanie przemocy rówieśniczej, w przedszkolach — budowanie relacji) i zbiera materiały dla uczniów w wieku 14–18 lat.
+Artykuł w aktualnościach opisuje ogólnopolską inicjatywę MEN, podaje terminy obu tygodni (w szkołach — przeciwdziałanie przemocy rówieśniczej, w przedszkolach — budowanie relacji) i zbiera materiały dla uczniów w wieku 14–18 lat. Baza wiedzy prowadzi do niego samym linkiem, bez osobnego kafelka z przyciskiem.
 
 Pliki z pakietu MEN są zapisane lokalnie w katalogu `materialy/tydzien-przeciwdzialania-przemocy-rowiesniczej/`: bank dobrych praktyk (DOCX), scenariusz lekcji „Młode Głowy” dla klas ponadpodstawowych, cztery e-booki dla nastolatków, ścieżki pomocy dla ucznia i rodzica, listy Minister Edukacji oraz plakaty.
 
