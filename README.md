@@ -42,7 +42,7 @@ Pliki z pakietu MEN są zapisane lokalnie w katalogu `materialy/tydzien-przeciwd
 
 Artykuł zawiera też propozycje wprowadzenia tematu na języku polskim, WOS, informatyce, wychowaniu fizycznym i przedmiotach zawodowych, z linkami do gotowych lekcji na ZPE.
 
-Termin edycji 2025 (29 września – 3 października) pochodzi z listów Minister Edukacji dołączonych do pakietu. Termin edycji 2026 wymaga potwierdzenia na stronie MEN i jest tak oznaczony w artykule.
+Artykuł podaje termin w roku szkolnym 2026/2027: 28 września – 2 października 2026 r. Pakiet materiałów pochodzi z pierwszej edycji akcji (29 września – 3 października 2025 r.) i pozostaje aktualny.
 
 ## Wytyczne na zebranie z rodzicami
 
