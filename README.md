@@ -16,7 +16,9 @@ Publiczna strona z materiałami dla wychowawców ZSZ5 na rok szkolny 2026/2027.
 - zebranie z rodzicami: link do artykułu SharePoint oraz plik `wytyczne_zebr_rodz_4wrz2026_ost.docx` do pobrania,
 - lokalny wykaz podziałów na grupy: `wykaz-podzialow-grup.html`,
 - Tydzień o Przeciwdziałaniu Przemocy Rówieśniczej: `tydzien-przeciwdzialania-przemocy-rowiesniczej.html`
-  wraz z pakietem plików MEN w `materialy/tydzien-przeciwdzialania-przemocy-rowiesniczej/`.
+  wraz z pakietem plików MEN w `materialy/tydzien-przeciwdzialania-przemocy-rowiesniczej/`,
+- standardy postępowania w kryzysie samobójczym: `kryzys-samobojczy-standardy-dla-nauczycieli.html`
+  wraz z obiema wersjami PDF w `materialy/standardy-postepowania-kryzys-samobojczy/`.
 
 ## Strona główna
 
@@ -43,6 +45,14 @@ Pliki z pakietu MEN są zapisane lokalnie w katalogu `materialy/tydzien-przeciwd
 Artykuł zawiera też propozycje wprowadzenia tematu na języku polskim, WOS, informatyce, wychowaniu fizycznym i przedmiotach zawodowych, z linkami do gotowych lekcji na ZPE.
 
 Artykuł podaje termin w roku szkolnym 2026/2027: 28 września – 2 października 2026 r. Pakiet materiałów pochodzi z pierwszej edycji akcji (29 września – 3 października 2025 r.) i pozostaje aktualny.
+
+## Standardy postępowania w kryzysie samobójczym
+
+Poradnik `kryzys-samobojczy-standardy-dla-nauczycieli.html` streszcza materiał Instytutu Psychiatrii i Neurologii w Warszawie „Standardy postępowania dla nauczycieli w kontakcie z osobami w kryzysie samobójczym, po próbie samobójczej i w żałobie po śmierci samobójczej” (opracowanie: Małgorzata Łuba, konsultacja: Lucyna Kicińska).
+
+Artykuł zawiera trzy kroki pierwszej pomocy emocjonalnej (ZAUWAŻ — POROZMAWIAJ — DZIAŁAJ) w formie tabel „co robić / czego nie robić”, listę sygnałów ostrzegawczych, zestawienie błędnych przekonań z rzetelną wiedzą, zasady współpracy z opiekunami prawnymi, postępowanie po próbie samobójczej ucznia i po śmierci samobójczej oraz wykaz bezpłatnych telefonów pomocowych.
+
+Oryginalne pliki są zapisane w `materialy/standardy-postepowania-kryzys-samobojczy/`: wersja skrócona (karty do wydruku) i wersja rozszerzona (pełne opracowanie z bibliografią). Wpis o materiale jest w aktualnościach, a kafelek z przyciskiem — w bazie wiedzy.
 
 ## Wytyczne na zebranie z rodzicami
 
