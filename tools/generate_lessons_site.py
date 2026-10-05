@@ -31,6 +31,7 @@ EXTRA_SITE_FILES = (
     "opuszczanie-terenu-szkoly-podczas-przerw.html",
     "ocenianie-wagi-i-srednie.html",
     "kryzys-samobojczy-standardy-dla-nauczycieli.html",
+    "odfiltruj-rzeczywistosc.html",
     "integracja-klasy-polsko-ukrainskiej.css",
     "spotkanie-z-uczniami-1-wrzesnia-2026.html",
     "prezentacja-1-wrzesnia.css",
@@ -2099,7 +2100,9 @@ Publiczna strona z materiałami dla wychowawców ZSZ5 na rok szkolny 2026/2027.
 - Tydzień o Przeciwdziałaniu Przemocy Rówieśniczej: `tydzien-przeciwdzialania-przemocy-rowiesniczej.html`
   wraz z pakietem plików MEN w `materialy/tydzien-przeciwdzialania-przemocy-rowiesniczej/`,
 - standardy postępowania w kryzysie samobójczym: `kryzys-samobojczy-standardy-dla-nauczycieli.html`
-  wraz z obiema wersjami PDF w `materialy/standardy-postepowania-kryzys-samobojczy/`.
+  wraz z obiema wersjami PDF w `materialy/standardy-postepowania-kryzys-samobojczy/`,
+- OdFiltruj Rzeczywistość (PZU i Universal Music Polska): `odfiltruj-rzeczywistosc.html`
+  wraz ze scenariuszem lekcji i plakatem konkursu w `materialy/odfiltruj-rzeczywistosc/`.
 
 ## Strona główna
 
@@ -2134,6 +2137,12 @@ Poradnik `kryzys-samobojczy-standardy-dla-nauczycieli.html` streszcza materiał 
 Artykuł zawiera trzy kroki pierwszej pomocy emocjonalnej (ZAUWAŻ — POROZMAWIAJ — DZIAŁAJ) w formie tabel „co robić / czego nie robić”, listę sygnałów ostrzegawczych, zestawienie błędnych przekonań z rzetelną wiedzą, zasady współpracy z opiekunami prawnymi, postępowanie po próbie samobójczej ucznia i po śmierci samobójczej oraz wykaz bezpłatnych telefonów pomocowych.
 
 Oryginalne pliki są zapisane w `materialy/standardy-postepowania-kryzys-samobojczy/`: wersja skrócona (karty do wydruku) i wersja rozszerzona (pełne opracowanie z bibliografią). Wpis o materiale jest w aktualnościach, a kafelek z przyciskiem — w bazie wiedzy.
+
+## OdFiltruj Rzeczywistość
+
+Artykuł `odfiltruj-rzeczywistosc.html` opisuje projekt edukacyjny PZU i Universal Music Polska, będący częścią kampanii społecznej „OdFiltruj Rzeczywistość”. Streszcza scenariusz godziny wychowawczej dla szkół ponadpodstawowych „Po drugiej stronie szkła tak wiele jesteś wart” (2 godziny lekcyjne, teledyski bryskiej, Zuzy Jabłońskiej i Daniela Godsona, karta pracy o samoocenie) oraz zasady konkursu dla uczniów trwającego do 31 października 2026 r.
+
+Oryginalny plik scenariusza jest zapisany w `materialy/odfiltruj-rzeczywistosc/`, a jego ostatnia strona — plakat konkursu — także jako osobny plik PDF do wydruku. Wpis jest w aktualnościach, a link do artykułu — w bazie wiedzy.
 
 ## Wytyczne na zebranie z rodzicami
 
