@@ -20,23 +20,60 @@
         </div>
       </a>
       <nav class="site-nav" aria-label="Główna nawigacja">
-        <a class="nav-link primary" href="index.html">Aktualności</a>
+        <a class="nav-link primary" href="index.html" aria-current="page">Aktualności</a>
+        <a class="nav-link" href="wykaz-podzialow-grup.html">Podziały na grupy</a>
+        <a class="nav-link" href="nauczyciele-w-oddzialach.html">Nauczyciele w oddziałach</a>
         <a class="nav-link" href="plan-pracy-wychowawczo-profilaktycznej.html">Plan pracy</a>
         <a class="nav-link" href="baza-wiedzy.html">Baza wiedzy</a>
       </nav>
     </div>
     <div class="portal-hero">
-      <p class="kicker">Strona wychowawcy</p>
-      <h1>Aktualności, materiały i plan pracy w jednym miejscu</h1>
-      <p class="subtitle">Najpierw bieżące komunikaty. Plan pracy i baza wiedzy są dostępne z menu.</p>
+      <p class="kicker">Strona wychowawcy · rok szkolny 2026/2027</p>
+      <h1>Materiały dla wychowawców ZSZ5</h1>
+      <p class="subtitle">Na górze stałe narzędzia, pod nimi bieżące komunikaty.</p>
     </div>
   </header>
+
+  <section class="quick-access" aria-labelledby="quick-title">
+    <h2 id="quick-title" class="visually-hidden">Na skróty</h2>
+    <div class="class-picker" id="class-picker">
+      <div class="class-picker-copy">
+        <p class="kicker">Moja klasa</p>
+        <label for="myClass">Wybierz oddział, a podziały na grupy i nauczycieli otworzysz od razu dla tej klasy.</label>
+      </div>
+      <div class="class-picker-controls">
+        <select id="myClass">
+          <option value="">Wybierz klasę…</option>
+        </select>
+        <a class="presentation-button" id="myClassGroups" href="wykaz-podzialow-grup.html">Podziały na grupy</a>
+        <a class="presentation-button secondary" id="myClassTeachers" href="nauczyciele-w-oddzialach.html">Nauczyciele</a>
+      </div>
+    </div>
+    <div class="quick-grid">
+      <a class="quick-tile" id="wykaz-grup" href="wykaz-podzialow-grup.html">
+        <strong>Podziały na grupy</strong>
+        <span>Grupy językowe, WF, religia i przedmioty zawodowe w każdej klasie, z nauczycielami.</span>
+      </a>
+      <a class="quick-tile" href="nauczyciele-w-oddzialach.html">
+        <strong>Nauczyciele w oddziałach</strong>
+        <span>Kto uczy w danej klasie: przedmiot po przedmiocie.</span>
+      </a>
+      <a class="quick-tile" href="plan-pracy-wychowawczo-profilaktycznej.html">
+        <strong>Plan pracy</strong>
+        <span>35 gotowych lekcji wychowawczych ułożonych miesiącami.</span>
+      </a>
+      <a class="quick-tile" href="baza-wiedzy.html">
+        <strong>Baza wiedzy</strong>
+        <span>Poradniki, procedury i stałe materiały dla wychowawców.</span>
+      </a>
+    </div>
+  </section>
 
   <main class="portal-layout">
     <section class="news-feed" aria-labelledby="news-title">
       <div class="section-heading">
         <h2 id="news-title">Aktualności</h2>
-        <p>Najważniejsze materiały do przekazania wychowawcom, uczniom i rodzicom.</p>
+        <p>Bieżące komunikaty i materiały do przekazania uczniom i rodzicom. Najnowsze na górze.</p>
       </div>
 
       <article class="news-article featured-news" id="odfiltruj-rzeczywistosc">
@@ -51,7 +88,7 @@
         </div>
       </article>
 
-      <article class="news-article featured-news" id="standardy-kryzys-samobojczy">
+      <article class="news-article" id="standardy-kryzys-samobojczy">
         <div class="article-date">22 września 2026</div>
         <h2>Standardy postępowania w kryzysie samobójczym — materiał IPiN dla nauczycieli</h2>
         <p>Instytut Psychiatrii i Neurologii w Warszawie przekazał szkołom „Standardy postępowania dla nauczycieli w kontakcie z osobami w kryzysie samobójczym, po próbie samobójczej i w żałobie po śmierci samobójczej”. Publikacja zawiera praktyczne wskazówki: jak rozpoznać sygnały ostrzegawcze, jak zareagować i jak pokierować ucznia do profesjonalnej pomocy. <strong>Prosimy o zapoznanie się z materiałem i przekazanie go nauczycielom oraz pracownikom szkoły.</strong></p>
@@ -63,7 +100,7 @@
         </div>
       </article>
 
-      <article class="news-article featured-news" id="tydzien-przeciwdzialania-przemocy">
+      <article class="news-article" id="tydzien-przeciwdzialania-przemocy">
         <div class="article-date">18 września 2026</div>
         <h2>Tydzień o Przeciwdziałaniu Przemocy Rówieśniczej — materiały MEN</h2>
         <p>Ogólnopolska inicjatywa Ministerstwa Edukacji Narodowej, <strong>28 września – 2 października 2026 r.</strong> W pakiecie jest gotowy scenariusz godziny wychowawczej dla klas ponadpodstawowych, cztery e-booki dla uczniów 14–18 lat, ścieżki pomocy dla ucznia i rodzica oraz listy Minister Edukacji. Wszystkie pliki są zapisane na stronie wychowawcy — nie trzeba ich szukać na gov.pl.</p>
@@ -75,7 +112,7 @@
         </div>
       </article>
 
-      <article class="news-article featured-news" id="zebranie-rodzice-4-wrzesnia">
+      <article class="news-article" id="zebranie-rodzice-4-wrzesnia">
         <div class="article-date">3 września 2026</div>
         <h2>Wytyczne na zebranie z rodzicami 4 września</h2>
         <p>Najważniejsze informacje dla wychowawców są opisane w artykule na SharePoint. Na stronie wychowawcy zostaje też plik Word do pobrania.</p>
@@ -95,51 +132,68 @@
           <a class="presentation-button secondary" href="wytyczne_wych_uczn_1_wrzes_2026_ost.docx" download>Pobierz Word</a>
         </div>
       </article>
-
-      <article class="news-article featured-news" id="wykaz-grup">
-        <div class="article-date">31 sierpnia 2026</div>
-        <h2>Wykaz podziałów na grupy</h2>
-        <p>Wykaz jest osadzony bezpośrednio na stronie wychowawcy. Link można wkleić do Dziennika VULCAN, a pełną wersję można otworzyć w osobnym widoku.</p>
-        <div class="article-actions">
-          <a class="presentation-button" href="wykaz-podzialow-grup.html">Otwórz pełny wykaz</a>
-          <a class="presentation-button secondary" href="#wykaz-grup-podglad">Zobacz podgląd</a>
-        </div>
-        <div class="copy-box">
-          <strong>Link do dziennika:</strong>
-          <span>https://wychowawca.szkolamistrzow.info/wykaz-podzialow-grup.html</span>
-        </div>
-        <div class="embedded-frame" id="wykaz-grup-podglad">
-          <iframe src="wykaz-podzialow-grup.html" title="Wykaz podziałów na grupy"></iframe>
-        </div>
-      </article>
     </section>
 
     <aside class="portal-aside" aria-label="Skróty i archiwum">
       <section class="aside-card">
-        <h2>Plan pracy</h2>
-        <p>Dotychczasowa lista 35 lekcji wychowawczych jest przeniesiona do osobnej sekcji.</p>
-        <a class="resource-link" href="plan-pracy-wychowawczo-profilaktycznej.html">Przejdź do planu</a>
+        <h2>Link do dziennika</h2>
+        <p>Wykaz podziałów na grupy dla uczniów i rodziców — do wklejenia w Dzienniku VULCAN.</p>
+        <div class="copy-box">
+          <span>https://wychowawca.szkolamistrzow.info/wykaz-podzialow-grup.html</span>
+        </div>
       </section>
 
       <section class="aside-card">
-        <h2>Baza wiedzy</h2>
-        <p>Ta część jest przygotowana pod instrukcje, procedury i stałe materiały dla wychowawców.</p>
-        <a class="resource-link" href="baza-wiedzy.html">Otwórz bazę wiedzy</a>
+        <h2>Przydatne strony</h2>
+        <ul class="archive-list">
+          <li><a href="https://zsz5.edupage.org/" target="_blank" rel="noopener">Oficjalna strona szkoły</a><span>zsz5.edupage.org — plan lekcji, VULCAN, statut</span></li>
+          <li><a href="https://informator.szkolamistrzow.info/" target="_blank" rel="noopener">Informator</a><span>informator.szkolamistrzow.info</span></li>
+        </ul>
       </section>
 
       <section class="aside-card archive-card">
-        <h2>Archiwum</h2>
+        <h2>Wszystkie wpisy</h2>
         <ul class="archive-list">
           <li><a href="#odfiltruj-rzeczywistosc">OdFiltruj Rzeczywistość — scenariusz lekcji i konkurs</a><span>5 października 2026</span></li>
           <li><a href="#standardy-kryzys-samobojczy">Standardy postępowania w kryzysie samobójczym — materiał IPiN</a><span>22 września 2026</span></li>
           <li><a href="#tydzien-przeciwdzialania-przemocy">Tydzień o Przeciwdziałaniu Przemocy Rówieśniczej — materiały MEN</a><span>18 września 2026</span></li>
           <li><a href="#zebranie-rodzice-4-wrzesnia">Wytyczne na zebranie z rodzicami 4 września</a><span>3 września 2026</span></li>
           <li><a href="#spotkanie-1-wrzesnia">Spotkanie z uczniami 1 września</a><span>31 sierpnia 2026</span></li>
-          <li><a href="#wykaz-grup">Wykaz podziałów na grupy</a><span>31 sierpnia 2026</span></li>
         </ul>
       </section>
     </aside>
   </main>
 
+  <script src="nauczyciele-w-oddzialach-dane.js"></script>
+  <script>
+    (function () {
+      const data = window.NAUCZYCIELE_W_ODDZIALACH;
+      const select = document.getElementById("myClass");
+      const groupsLink = document.getElementById("myClassGroups");
+      const teachersLink = document.getElementById("myClassTeachers");
+      const STORAGE_KEY = "zsz5-moja-klasa";
+      if (!data || !select) return;
+
+      data.classes.forEach((item) => select.add(new Option(item.id, item.id)));
+
+      function update(classId) {
+        const hash = classId ? `#${encodeURIComponent(classId)}` : "";
+        groupsLink.href = `wykaz-podzialow-grup.html${hash}`;
+        teachersLink.href = `nauczyciele-w-oddzialach.html${hash}`;
+        groupsLink.textContent = classId ? `Podziały na grupy ${classId}` : "Podziały na grupy";
+        teachersLink.textContent = classId ? `Nauczyciele ${classId}` : "Nauczyciele";
+      }
+
+      let stored = null;
+      try { stored = localStorage.getItem(STORAGE_KEY); } catch (error) { stored = null; }
+      if (stored && data.classes.some((item) => item.id === stored)) select.value = stored;
+      update(select.value);
+
+      select.addEventListener("change", () => {
+        try { localStorage.setItem(STORAGE_KEY, select.value); } catch (error) { /* brak dostępu do pamięci przeglądarki */ }
+        update(select.value);
+      });
+    })();
+  </script>
 </body>
 </html>

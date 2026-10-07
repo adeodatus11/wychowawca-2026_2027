@@ -87,6 +87,61 @@
         main {
             padding: 18px 0 36px;
         }
+        .site-strip {
+            border-bottom: 1px solid var(--line);
+            background: #f8fafc;
+        }
+        .site-strip .wrap {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px 16px;
+            padding: 10px 0;
+        }
+        .site-strip-brand {
+            color: var(--ink);
+            font-weight: 800;
+            text-decoration: none;
+        }
+        .site-strip nav {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+        .site-strip nav a {
+            border: 1px solid var(--accent);
+            border-radius: 6px;
+            padding: 5px 10px;
+            color: var(--accent-dark);
+            font-size: .92rem;
+            font-weight: 700;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+        .site-strip nav a:hover {
+            background: var(--soft);
+        }
+        .site-strip nav a[aria-current="page"] {
+            background: var(--accent);
+            color: #fff;
+        }
+        .class-link {
+            display: inline-flex;
+            margin-top: 10px;
+            align-items: center;
+            min-height: 34px;
+            border: 1px solid var(--accent);
+            border-radius: 6px;
+            padding: 6px 10px;
+            color: var(--accent-dark);
+            font-size: .92rem;
+            font-weight: 700;
+            text-decoration: none;
+        }
+        .class-link:hover {
+            background: var(--soft);
+        }
         .layout {
             display: grid;
             grid-template-columns: 260px 1fr;
@@ -306,10 +361,14 @@
                 justify-content: flex-start;
             }
             .layout {
-                grid-template-columns: 1fr;
+                grid-template-columns: minmax(0, 1fr);
             }
             .sidebar {
                 position: static;
+                min-width: 0;
+            }
+            .content {
+                min-width: 0;
             }
             .class-list {
                 display: flex;
@@ -331,11 +390,22 @@
 </head>
 <body>
 <header>
+    <div class="site-strip">
+        <div class="wrap">
+            <a class="site-strip-brand" href="index.html">Strona wychowawcy ZSZ5</a>
+            <nav aria-label="Główna nawigacja">
+                <a href="index.html">Aktualności</a>
+                <a href="wykaz-podzialow-grup.html" aria-current="page">Podziały na grupy</a>
+                <a href="nauczyciele-w-oddzialach.html">Nauczyciele w oddziałach</a>
+                <a href="plan-pracy-wychowawczo-profilaktycznej.html">Plan pracy</a>
+                <a href="baza-wiedzy.html">Baza wiedzy</a>
+            </nav>
+        </div>
+    </div>
     <div class="wrap topbar">
         <div>
             <h1>Wykaz podziałów na grupy</h1>
             <div class="source" id="source"></div>
-            <a class="public-link" href="index.html">Wróć do strony wychowawcy</a>
             <a class="public-link" href="https://wychowawca.szkolamistrzow.info/wykaz-podzialow-grup.html">Link do dziennika: wychowawca.szkolamistrzow.info/wykaz-podzialow-grup.html</a>
         </div>
         <div class="summary" id="summary"></div>
@@ -366,8 +436,15 @@ document.getElementById("summary").innerHTML = `
     <span>${REPORT.stats.teachers} nauczycieli</span>
 `;
 
+const STORAGE_KEY = "zsz5-moja-klasa";
+
+function readStoredClass() {
+    try { return localStorage.getItem(STORAGE_KEY); } catch (error) { return null; }
+}
+
 let activeClassId = new URLSearchParams(window.location.search).get("klasa")
-    || window.location.hash.replace("#", "")
+    || decodeURIComponent(window.location.hash.replace("#", ""))
+    || readStoredClass()
     || "1TFA";
 
 function escapeHtml(value) {
@@ -397,6 +474,7 @@ function renderList() {
 
 function selectClass(classId) {
     activeClassId = classId;
+    try { localStorage.setItem(STORAGE_KEY, classId); } catch (error) { /* brak dostępu do pamięci przeglądarki */ }
     history.replaceState(null, "", `#${encodeURIComponent(classId)}`);
     renderList();
     renderClass();
@@ -419,6 +497,7 @@ function renderClass() {
                     <span>${item.groupCount} grup</span>
                 </div>
             </div>
+            <a class="class-link" href="nauczyciele-w-oddzialach.html#${encodeURIComponent(item.id)}">Nauczyciele w ${escapeHtml(item.id)}</a>
         </div>`;
 
     if (!item.divisions.length) {

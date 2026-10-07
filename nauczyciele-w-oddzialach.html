@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nauczyciele w oddziałach - Strona wychowawcy ZSZ5</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header portal-header">
+    <div class="portal-topbar">
+      <a class="brand-strip brand-strip-full" href="index.html" aria-label="Strona główna">
+        <img class="brand-logo-full" src="assets/logo-school-master-full.png" alt="Zespół Szkół Zawodowych nr 5 we Wrocławiu - Szkoła Mistrzów" width="1931" height="301">
+        <img class="brand-logo-mark" src="assets/logo-orzel-zsz5.png" alt="Logo ZSZ5 we Wrocławiu" width="437" height="298">
+        <div class="brand-text">
+          <strong>Szkoła Mistrzów</strong>
+          <span>Zespół Szkół Zawodowych nr 5 we Wrocławiu</span>
+        </div>
+      </a>
+      <nav class="site-nav" aria-label="Główna nawigacja">
+        <a class="nav-link" href="index.html">Aktualności</a>
+        <a class="nav-link" href="wykaz-podzialow-grup.html">Podziały na grupy</a>
+        <a class="nav-link primary" href="nauczyciele-w-oddzialach.html" aria-current="page">Nauczyciele w oddziałach</a>
+        <a class="nav-link" href="plan-pracy-wychowawczo-profilaktycznej.html">Plan pracy</a>
+        <a class="nav-link" href="baza-wiedzy.html">Baza wiedzy</a>
+      </nav>
+    </div>
+    <div class="portal-hero">
+      <p class="kicker">Oddziały</p>
+      <h1>Nauczyciele uczący w oddziałach</h1>
+      <p class="subtitle" id="rosterSource">Wybierz klasę, żeby zobaczyć przedmioty i nauczycieli.</p>
+    </div>
+  </header>
+
+  <main class="roster-layout">
+    <aside class="roster-sidebar" aria-label="Wybór klasy">
+      <label for="rosterSearch">Szukaj klasy</label>
+      <input id="rosterSearch" type="search" placeholder="np. 1TFA" autocomplete="off">
+      <div class="roster-class-list" id="rosterClassList"></div>
+    </aside>
+
+    <section class="roster-content" aria-live="polite">
+      <div class="roster-notice" id="rosterNotice" hidden>
+        <strong>Wykaz jest niepełny.</strong>
+        Na razie zawiera tylko przedmioty prowadzone w grupach (z planu lekcji obowiązującego od 01.09.2026).
+        Przedmioty prowadzone dla całego oddziału zostaną dopisane po uzupełnieniu danych z planu lekcji.
+      </div>
+      <div id="rosterClass"></div>
+    </section>
+  </main>
+
+  <script src="nauczyciele-w-oddzialach-dane.js"></script>
+  <script>
+    (function () {
+      const data = window.NAUCZYCIELE_W_ODDZIALACH;
+      const list = document.getElementById("rosterClassList");
+      const target = document.getElementById("rosterClass");
+      const search = document.getElementById("rosterSearch");
+      const STORAGE_KEY = "zsz5-moja-klasa";
+
+      function escapeHtml(value) {
+        return String(value).replace(/[&<>"']/g, (char) => ({
+          "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#039;"
+        }[char]));
+      }
+
+      function readStoredClass() {
+        try { return localStorage.getItem(STORAGE_KEY); } catch (error) { return null; }
+      }
+
+      function storeClass(classId) {
+        try { localStorage.setItem(STORAGE_KEY, classId); } catch (error) { /* brak dostępu do pamięci przeglądarki */ }
+      }
+
+      if (!data) {
+        target.innerHTML = '<div class="roster-empty">Brak danych do wyświetlenia.</div>';
+        return;
+      }
+
+      document.getElementById("rosterSource").textContent =
+        `${data.sourceTitle}. ${data.stats.classes} oddziałów, ${data.stats.teachers} nauczycieli w wykazie.`;
+      document.getElementById("rosterNotice").hidden = data.hasWholeClassSubjects;
+
+      const fromUrl = new URLSearchParams(window.location.search).get("klasa")
+        || decodeURIComponent(window.location.hash.replace("#", ""));
+      let activeId = [fromUrl, readStoredClass()].find((id) => id && data.classes.some((item) => item.id === id))
+        || data.classes[0].id;
+
+      function renderList() {
+        const term = search.value.trim().toLowerCase();
+        list.innerHTML = "";
+        data.classes
+          .filter((item) => item.id.toLowerCase().includes(term))
+          .forEach((item) => {
+            const button = document.createElement("button");
+            button.type = "button";
+            button.className = "roster-class-button" + (item.id === activeId ? " active" : "");
+            button.textContent = item.id;
+            button.setAttribute("aria-pressed", item.id === activeId ? "true" : "false");
+            button.addEventListener("click", () => select(item.id));
+            list.appendChild(button);
+          });
+      }
+
+      function teacherLine(teacher) {
+        const name = teacher.name
+          ? escapeHtml(teacher.name)
+          : '<span class="roster-missing">brak nauczyciela w planie</span>';
+        const groups = teacher.groups.length
+          ? ` <span class="roster-groups">${teacher.groups.map(escapeHtml).join(", ")}</span>`
+          : "";
+        return `<li>${name}${groups}</li>`;
+      }
+
+      function renderClass() {
+        const item = data.classes.find((entry) => entry.id === activeId);
+        const rows = item.subjects.map((entry) => `
+          <tr>
+            <th scope="row">${escapeHtml(entry.subject)}
+              <span class="roster-scope">${entry.scope === "klasa" ? "cały oddział" : "w grupach"}</span>
+            </th>
+            <td><ul class="roster-teachers">${entry.teachers.map(teacherLine).join("")}</ul></td>
+          </tr>`).join("");
+
+        target.innerHTML = `
+          <div class="roster-class-head">
+            <h2>Klasa ${escapeHtml(item.id)}</h2>
+            <a class="presentation-button secondary" href="wykaz-podzialow-grup.html#${encodeURIComponent(item.id)}">Podziały na grupy w ${escapeHtml(item.id)}</a>
+          </div>
+          ${item.subjects.length ? `
+            <div class="roster-table-wrap">
+              <table class="roster-table">
+                <thead><tr><th scope="col">Przedmiot</th><th scope="col">Nauczyciel</th></tr></thead>
+                <tbody>${rows}</tbody>
+              </table>
+            </div>` : `
+            <div class="roster-empty">Dla tej klasy nie ma jeszcze danych w wykazie (w planie nie ma przedmiotów prowadzonych w grupach).</div>`}
+        `;
+      }
+
+      function select(classId) {
+        activeId = classId;
+        storeClass(classId);
+        history.replaceState(null, "", `#${encodeURIComponent(classId)}`);
+        renderList();
+        renderClass();
+      }
+
+      search.addEventListener("input", renderList);
+      renderList();
+      renderClass();
+    })();
+  </script>
+</body>
+</html>
