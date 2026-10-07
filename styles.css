@@ -883,6 +883,37 @@ li + li { margin-top: 6px; }
   font-size: .8rem;
   font-weight: 800;
 }
+.roster-alert-wrap {
+  width: min(100%, 1500px);
+  margin: 0 auto;
+  padding: 24px clamp(18px, 5vw, 64px) 0;
+}
+.roster-alert {
+  border: 3px solid #b91c1c;
+  border-radius: 10px;
+  padding: clamp(16px, 3vw, 24px);
+  background: #fef2f2;
+  color: #7f1d1d;
+  box-shadow: var(--shadow);
+}
+.roster-alert p {
+  margin: 0;
+  font-size: 1.05rem;
+}
+.roster-alert p + p {
+  margin-top: 8px;
+}
+.roster-alert .roster-alert-title {
+  color: #b91c1c;
+  font-size: clamp(1.35rem, 3vw, 2rem);
+  font-weight: 900;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+.roster-alert strong {
+  color: #b91c1c;
+  font-weight: 900;
+}
 .roster-homeroom {
   margin: 4px 0 0;
   color: var(--muted);
