@@ -2102,7 +2102,7 @@ Publiczna strona z materiałami dla wychowawców ZSZ5 na rok szkolny 2026/2027.
 - zebranie z rodzicami: link do artykułu SharePoint oraz plik `wytyczne_zebr_rodz_4wrz2026_ost.docx` do pobrania,
 - wykaz podziałów na grupy (stała zakładka w menu): `wykaz-podzialow-grup.html`,
 - nauczyciele uczący w oddziałach (stała zakładka w menu): `nauczyciele-w-oddzialach.html`
-  z danymi w `nauczyciele-w-oddzialach-dane.js` (generowane przez `tools/build_nauczyciele_w_oddzialach.py`),
+  z danymi w `nauczyciele-w-oddzialach-dane.js` (oba wykazy generuje `tools/build_nauczyciele_w_oddzialach.py`),
 - Tydzień o Przeciwdziałaniu Przemocy Rówieśniczej: `tydzien-przeciwdzialania-przemocy-rowiesniczej.html`
   wraz z pakietem plików MEN w `materialy/tydzien-przeciwdzialania-przemocy-rowiesniczej/`,
 - standardy postępowania w kryzysie samobójczym: `kryzys-samobojczy-standardy-dla-nauczycieli.html`
@@ -2114,9 +2114,9 @@ Publiczna strona z materiałami dla wychowawców ZSZ5 na rok szkolny 2026/2027.
 
 `index.html` to strona startowa wychowawcy. Na górze są stałe narzędzia: wybór „Mojej klasy” (zapamiętywany w przeglądarce) oraz kafelki do podziałów na grupy, nauczycieli w oddziałach, planu pracy i bazy wiedzy. Pod nimi są aktualności, a w bocznej kolumnie link do wklejenia w dzienniku, przydatne strony i lista wszystkich wpisów.
 
-## Nauczyciele w oddziałach
+## Nauczyciele w oddziałach i podziały na grupy
 
-Dane strony `nauczyciele-w-oddzialach.html` buduje skrypt `python3 tools/build_nauczyciele_w_oddzialach.py`. Przedmioty prowadzone w grupach pobiera z wykazu podziałów na grupy. Przedmioty prowadzone dla całego oddziału trzeba dopisać w pliku `dane/nauczyciele-w-oddzialach-uzupelnienie.csv` (kolumny `klasa;przedmiot;nauczyciel`) i ponownie uruchomić skrypt. Dopóki ten plik jest pusty, strona pokazuje komunikat, że wykaz jest niepełny.
+Obie strony (`nauczyciele-w-oddzialach.html` i `wykaz-podzialow-grup.html`) korzystają z jednego źródła: arkusza `dane/zestawienie-nauczycieli-oddzialy.xlsx` (zestawienie z planu lekcji aSc). Zmiany względem arkusza wpisuje się w `dane/korekty-nauczycieli-oddzialow.csv` (kolumny `oddzial;przedmiot;grupa;nauczyciel`, nauczyciel w formacie „Nazwisko Imię”). Wiersze korekty zastępują wszystkie wiersze arkusza dla tej samej pary oddział + przedmiot. Po zmianie arkusza lub korekt uruchom `python3 tools/build_nauczyciele_w_oddzialach.py` — skrypt zapisze `nauczyciele-w-oddzialach-dane.js` i podmieni dane w `wykaz-podzialow-grup.html`.
 
 ## Zawartość lekcji
 

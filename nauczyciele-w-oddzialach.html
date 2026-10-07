@@ -42,11 +42,6 @@
     </aside>
 
     <section class="roster-content" aria-live="polite">
-      <div class="roster-notice" id="rosterNotice" hidden>
-        <strong>Wykaz jest niepełny.</strong>
-        Na razie zawiera tylko przedmioty prowadzone w grupach (z planu lekcji obowiązującego od 01.09.2026).
-        Przedmioty prowadzone dla całego oddziału zostaną dopisane po uzupełnieniu danych z planu lekcji.
-      </div>
       <div id="rosterClass"></div>
     </section>
   </main>
@@ -80,8 +75,7 @@
       }
 
       document.getElementById("rosterSource").textContent =
-        `${data.sourceTitle}. ${data.stats.classes} oddziałów, ${data.stats.teachers} nauczycieli w wykazie.`;
-      document.getElementById("rosterNotice").hidden = data.hasWholeClassSubjects;
+        `${data.sourceTitle} (plan bazowy, bez zastępstw). ${data.stats.classes} oddziałów, ${data.stats.teachers} nauczycieli.`;
 
       const fromUrl = new URLSearchParams(window.location.search).get("klasa")
         || decodeURIComponent(window.location.hash.replace("#", ""));
@@ -105,13 +99,16 @@
       }
 
       function teacherLine(teacher) {
-        const name = teacher.name
-          ? escapeHtml(teacher.name)
-          : '<span class="roster-missing">brak nauczyciela w planie</span>';
-        const groups = teacher.groups.length
-          ? ` <span class="roster-groups">${teacher.groups.map(escapeHtml).join(", ")}</span>`
+        const group = teacher.group ? ` <span class="roster-groups">${escapeHtml(teacher.group)}</span>` : "";
+        const shared = teacher.shared.length
+          ? `<span class="roster-shared">wspólnie z: ${teacher.shared.map(escapeHtml).join(", ")}</span>`
           : "";
-        return `<li>${name}${groups}</li>`;
+        return `<li>${escapeHtml(teacher.name)}${group}${shared}</li>`;
+      }
+
+      function hoursLabel(hours) {
+        if (!hours) return "";
+        return hours === 1 ? "1 godz./tydz." : `${hours} godz./tydz.`;
       }
 
       function renderClass() {
@@ -119,14 +116,20 @@
         const rows = item.subjects.map((entry) => `
           <tr>
             <th scope="row">${escapeHtml(entry.subject)}
-              <span class="roster-scope">${entry.scope === "klasa" ? "cały oddział" : "w grupach"}</span>
+              <span class="roster-scope">${[
+                entry.teachers.some((teacher) => teacher.group) ? "w grupach" : "cały oddział",
+                hoursLabel(entry.hours)
+              ].filter(Boolean).join(" · ")}${entry.corrected ? ' · <span class="roster-corrected">zmiana względem planu</span>' : ""}</span>
             </th>
             <td><ul class="roster-teachers">${entry.teachers.map(teacherLine).join("")}</ul></td>
           </tr>`).join("");
 
         target.innerHTML = `
           <div class="roster-class-head">
-            <h2>Klasa ${escapeHtml(item.id)}</h2>
+            <div>
+              <h2>Klasa ${escapeHtml(item.id)}</h2>
+              ${item.homeroom ? `<p class="roster-homeroom">Wychowawca: <strong>${escapeHtml(item.homeroom)}</strong></p>` : ""}
+            </div>
             <a class="presentation-button secondary" href="wykaz-podzialow-grup.html#${encodeURIComponent(item.id)}">Podziały na grupy w ${escapeHtml(item.id)}</a>
           </div>
           ${item.subjects.length ? `
@@ -136,7 +139,7 @@
                 <tbody>${rows}</tbody>
               </table>
             </div>` : `
-            <div class="roster-empty">Dla tej klasy nie ma jeszcze danych w wykazie (w planie nie ma przedmiotów prowadzonych w grupach).</div>`}
+            <div class="roster-empty">Brak danych dla tej klasy.</div>`}
         `;
       }
 

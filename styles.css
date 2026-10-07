@@ -816,13 +816,6 @@ li + li { margin-top: 6px; }
   gap: 14px;
   min-width: 0;
 }
-.roster-notice {
-  border: 1px solid #f0d49b;
-  border-radius: 10px;
-  padding: 14px 16px;
-  background: var(--amber-soft);
-  color: #5c4310;
-}
 .roster-class-head {
   display: flex;
   flex-wrap: wrap;
@@ -890,9 +883,21 @@ li + li { margin-top: 6px; }
   font-size: .8rem;
   font-weight: 800;
 }
-.roster-missing {
+.roster-homeroom {
+  margin: 4px 0 0;
+  color: var(--muted);
+}
+.roster-homeroom strong {
+  color: var(--ink);
+}
+.roster-shared {
+  display: block;
+  color: var(--muted);
+  font-size: .82rem;
+}
+.roster-corrected {
   color: #a15c07;
-  font-style: italic;
+  font-weight: 800;
 }
 .roster-empty {
   border: 1px dashed var(--line);
