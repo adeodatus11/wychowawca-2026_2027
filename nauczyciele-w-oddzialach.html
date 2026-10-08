@@ -37,7 +37,7 @@
   <div class="roster-alert-wrap">
     <div class="roster-alert" role="alert">
       <p class="roster-alert-title">Uwaga! W oddziałach są jeszcze nauczyciele nauczania indywidualnego.</p>
-      <p>Nie ma ich w tym wykazie, bo nauczania indywidualnego nie ma w planie lekcji. <strong>Nie usuwaj takich nauczycieli z nauczania indywidualnego!</strong></p>
+      <p>Nauczania indywidualnego nie ma w planie lekcji, dlatego jego nauczyciele są w osobnej tabeli „Nauczanie indywidualne” pod przedmiotami klasy<span id="rosterIndividualClasses"></span>. Klasy z nauczaniem indywidualnym mają w liście oznaczenie <span class="roster-individual-tag">NI</span>. <strong>Nie usuwaj takich nauczycieli z nauczania indywidualnego!</strong></p>
     </div>
   </div>
 
@@ -82,7 +82,12 @@
       }
 
       document.getElementById("rosterSource").textContent =
-        `${data.sourceTitle} (plan bazowy, bez zastępstw). ${data.stats.classes} oddziałów, ${data.stats.teachers} nauczycieli.`;
+        `${data.sourceTitle} (plan bazowy, bez zastępstw). ${data.stats.classes} oddziałów, ${data.stats.teachers} nauczycieli z planu`
+        + (data.stats.individualTeachers ? `, ${data.stats.individualTeachers} nauczycieli nauczania indywidualnego.` : ".");
+      const individualIds = data.classes.filter((item) => item.individual && item.individual.length).map((item) => item.id);
+      if (individualIds.length) {
+        document.getElementById("rosterIndividualClasses").textContent = ` (${individualIds.join(", ")})`;
+      }
 
       const fromUrl = new URLSearchParams(window.location.search).get("klasa")
         || decodeURIComponent(window.location.hash.replace("#", ""));
@@ -99,6 +104,10 @@
             button.type = "button";
             button.className = "roster-class-button" + (item.id === activeId ? " active" : "");
             button.textContent = item.id;
+            if (item.individual && item.individual.length) {
+              button.insertAdjacentHTML("beforeend", ' <span class="roster-individual-tag">NI</span>');
+              button.title = "Klasa z nauczaniem indywidualnym";
+            }
             button.setAttribute("aria-pressed", item.id === activeId ? "true" : "false");
             button.addEventListener("click", () => select(item.id));
             list.appendChild(button);
@@ -116,6 +125,26 @@
       function hoursLabel(hours) {
         if (!hours) return "";
         return hours === 1 ? "1 godz./tydz." : `${hours} godz./tydz.`;
+      }
+
+      function renderIndividual(item) {
+        if (!item.individual || !item.individual.length) return "";
+        const rows = item.individual.map((entry) => `
+          <tr>
+            <th scope="row">${escapeHtml(entry.subject)}</th>
+            <td><ul class="roster-teachers">${entry.teachers.map((name) => `<li>${escapeHtml(name)}</li>`).join("")}</ul></td>
+          </tr>`).join("");
+        return `
+          <section class="roster-individual" aria-labelledby="rosterIndividualTitle">
+            <h3 id="rosterIndividualTitle">Nauczanie indywidualne w ${escapeHtml(item.id)}</h3>
+            <p>Tych zajęć nie ma w planie lekcji. <strong>Nie usuwaj tych nauczycieli z nauczania indywidualnego.</strong></p>
+            <div class="roster-table-wrap">
+              <table class="roster-table">
+                <thead><tr><th scope="col">Przedmiot</th><th scope="col">Nauczyciel nauczania indywidualnego</th></tr></thead>
+                <tbody>${rows}</tbody>
+              </table>
+            </div>
+          </section>`;
       }
 
       function renderClass() {
@@ -137,7 +166,7 @@
               <h2>Klasa ${escapeHtml(item.id)}</h2>
               ${item.homeroom ? `<p class="roster-homeroom">Wychowawca: <strong>${escapeHtml(item.homeroom)}</strong></p>` : ""}
             </div>
-            <a class="presentation-button secondary" href="wykaz-podzialow-grup.html#${encodeURIComponent(item.id)}">Podziały na grupy w ${escapeHtml(item.id)}</a>
+            ${item.subjects.length ? `<a class="presentation-button secondary" href="wykaz-podzialow-grup.html#${encodeURIComponent(item.id)}">Podziały na grupy w ${escapeHtml(item.id)}</a>` : ""}
           </div>
           ${item.subjects.length ? `
             <div class="roster-table-wrap">
@@ -146,7 +175,8 @@
                 <tbody>${rows}</tbody>
               </table>
             </div>` : `
-            <div class="roster-empty">Brak danych dla tej klasy.</div>`}
+            <div class="roster-empty">${item.individual && item.individual.length ? "Tej klasy nie ma w planie lekcji." : "Brak danych dla tej klasy."}</div>`}
+          ${renderIndividual(item)}
         `;
       }
 

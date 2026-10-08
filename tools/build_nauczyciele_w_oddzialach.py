@@ -6,6 +6,9 @@
 - `dane/korekty-nauczycieli-oddzialow.csv` - ręczne zmiany względem arkusza
   (kolumny: oddzial;przedmiot;grupa;nauczyciel). Wiersze korekty zastępują wszystkie
   wiersze arkusza dla tej samej pary oddział + przedmiot.
+- `dane/nauczanie-indywidualne.csv` - nauczyciele nauczania indywidualnego, którego nie ma
+  w planie lekcji (kolumny: oddzial;przedmiot;nauczyciel). Trafiają tylko do wykazu
+  nauczycieli, w osobnej tabeli; nie wpływają na podziały na grupy.
 
 Wynik:
 - `nauczyciele-w-oddzialach-dane.js` (obiekt `window.NAUCZYCIELE_W_ODDZIALACH`),
@@ -25,6 +28,7 @@ from openpyxl import load_workbook
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE_XLSX = ROOT / "dane" / "zestawienie-nauczycieli-oddzialy.xlsx"
 CORRECTIONS_CSV = ROOT / "dane" / "korekty-nauczycieli-oddzialow.csv"
+INDIVIDUAL_CSV = ROOT / "dane" / "nauczanie-indywidualne.csv"
 TEACHERS_OUTPUT = ROOT / "nauczyciele-w-oddzialach-dane.js"
 GROUPS_PAGE = ROOT / "wykaz-podzialow-grup.html"
 
@@ -122,10 +126,28 @@ def apply_corrections(rows: list[dict]) -> list[dict]:
     return result
 
 
-def build_teachers(rows: list[dict], valid_from: str) -> dict:
+def load_individual() -> list[dict]:
+    if not INDIVIDUAL_CSV.exists():
+        return []
+    rows = []
+    with INDIVIDUAL_CSV.open(encoding="utf-8-sig", newline="") as handle:
+        for row in csv.DictReader(handle, delimiter=";"):
+            klasa = (row.get("oddzial") or "").strip()
+            przedmiot = (row.get("przedmiot") or "").strip()
+            nauczyciel = (row.get("nauczyciel") or "").strip()
+            if klasa and przedmiot and nauczyciel:
+                rows.append({"klasa": klasa, "przedmiot": przedmiot, "nauczyciel": nauczyciel})
+    return rows
+
+
+def build_teachers(rows: list[dict], individual: list[dict], valid_from: str) -> dict:
     classes: dict[str, dict] = {}
+
+    def class_item(class_id: str) -> dict:
+        return classes.setdefault(class_id, {"id": class_id, "homeroom": None, "subjects": {}, "individual": {}})
+
     for row in rows:
-        item = classes.setdefault(row["klasa"], {"id": row["klasa"], "homeroom": None, "subjects": {}})
+        item = class_item(row["klasa"])
         name = display_name(row["nauczyciel"])
         if row["przedmiot"].lower() == HOMEROOM_SUBJECT:
             item["homeroom"] = name
@@ -141,13 +163,26 @@ def build_teachers(rows: list[dict], valid_from: str) -> dict:
             "shared": row["wspolnie"],
         })
 
+    for row in individual:
+        if row["klasa"] not in classes:
+            print(f"Uwaga: oddziału {row['klasa']} z nauczania indywidualnego nie ma w planie lekcji")
+        subject = class_item(row["klasa"])["individual"].setdefault(row["przedmiot"].lower(), {
+            "subject": row["przedmiot"], "teachers": [],
+        })
+        name = display_name(row["nauczyciel"])
+        if name not in subject["teachers"]:
+            subject["teachers"].append(name)
+
     result = []
     for class_id in sorted(classes, key=sort_key):
         item = classes[class_id]
         subjects = sorted(item["subjects"].values(), key=lambda entry: sort_key(entry["subject"]))
         for entry in subjects:
             entry["teachers"].sort(key=lambda teacher: (teacher["group"] is not None, sort_key(teacher["group"] or ""), sort_key(teacher["name"])))
-        result.append({"id": class_id, "homeroom": item["homeroom"], "subjects": subjects})
+        individual_subjects = sorted(item["individual"].values(), key=lambda entry: sort_key(entry["subject"]))
+        for entry in individual_subjects:
+            entry["teachers"].sort(key=sort_key)
+        result.append({"id": class_id, "homeroom": item["homeroom"], "subjects": subjects, "individual": individual_subjects})
 
     return {
         "sourceTitle": f"Plan lekcji obowiązuje od {valid_from}" if valid_from else "Plan lekcji",
@@ -155,6 +190,8 @@ def build_teachers(rows: list[dict], valid_from: str) -> dict:
         "stats": {
             "classes": len(result),
             "teachers": len({row["nauczyciel"] for row in rows}),
+            "individualClasses": len({row["klasa"] for row in individual}),
+            "individualTeachers": len({row["nauczyciel"] for row in individual}),
         },
     }
 
@@ -229,7 +266,8 @@ def main() -> None:
     rows, valid_from = load_rows()
     rows = apply_corrections(rows)
 
-    teachers = build_teachers(rows, valid_from)
+    individual = load_individual()
+    teachers = build_teachers(rows, individual, valid_from)
     payload = json.dumps(teachers, ensure_ascii=False, separators=(",", ":"))
     TEACHERS_OUTPUT.write_text(
         "// Plik generowany przez tools/build_nauczyciele_w_oddzialach.py - nie edytuj ręcznie.\n"
@@ -241,7 +279,9 @@ def main() -> None:
     print(
         f"Zapisano {TEACHERS_OUTPUT.name} i {GROUPS_PAGE.name}: "
         f"{teachers['stats']['classes']} oddziałów, {teachers['stats']['teachers']} nauczycieli, "
-        f"{report['stats']['classesWithGroups']} oddziałów z podziałami"
+        f"{report['stats']['classesWithGroups']} oddziałów z podziałami, "
+        f"nauczanie indywidualne: {teachers['stats']['individualClasses']} oddziały, "
+        f"{teachers['stats']['individualTeachers']} nauczycieli"
     )
 
 

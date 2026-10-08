@@ -30,7 +30,7 @@ Publiczna strona z materiałami dla wychowawców ZSZ5 na rok szkolny 2026/2027.
 
 ## Nauczyciele w oddziałach i podziały na grupy
 
-Obie strony (`nauczyciele-w-oddzialach.html` i `wykaz-podzialow-grup.html`) korzystają z jednego źródła: arkusza `dane/zestawienie-nauczycieli-oddzialy.xlsx` (zestawienie z planu lekcji aSc). Zmiany względem arkusza wpisuje się w `dane/korekty-nauczycieli-oddzialow.csv` (kolumny `oddzial;przedmiot;grupa;nauczyciel`, nauczyciel w formacie „Nazwisko Imię”). Wiersze korekty zastępują wszystkie wiersze arkusza dla tej samej pary oddział + przedmiot. Po zmianie arkusza lub korekt uruchom `python3 tools/build_nauczyciele_w_oddzialach.py` — skrypt zapisze `nauczyciele-w-oddzialach-dane.js` i podmieni dane w `wykaz-podzialow-grup.html`.
+Obie strony (`nauczyciele-w-oddzialach.html` i `wykaz-podzialow-grup.html`) korzystają z jednego źródła: arkusza `dane/zestawienie-nauczycieli-oddzialy.xlsx` (zestawienie z planu lekcji aSc). Zmiany względem arkusza wpisuje się w `dane/korekty-nauczycieli-oddzialow.csv` (kolumny `oddzial;przedmiot;grupa;nauczyciel`, nauczyciel w formacie „Nazwisko Imię”). Wiersze korekty zastępują wszystkie wiersze arkusza dla tej samej pary oddział + przedmiot. Nauczycieli nauczania indywidualnego (nie ma go w planie lekcji) wpisuje się w `dane/nauczanie-indywidualne.csv` (kolumny `oddzial;przedmiot;nauczyciel`); strona nauczycieli pokazuje ich w osobnej tabeli „Nauczanie indywidualne” i oznacza takie klasy znacznikiem NI, a na podziały na grupy nie mają wpływu. Po zmianie arkusza lub korekt uruchom `python3 tools/build_nauczyciele_w_oddzialach.py` — skrypt zapisze `nauczyciele-w-oddzialach-dane.js` i podmieni dane w `wykaz-podzialow-grup.html`.
 
 ## Zawartość lekcji
 

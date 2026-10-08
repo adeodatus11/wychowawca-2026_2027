@@ -930,6 +930,41 @@ li + li { margin-top: 6px; }
   color: #a15c07;
   font-weight: 800;
 }
+.roster-individual-tag {
+  display: inline-block;
+  border-radius: 999px;
+  padding: 0 6px;
+  background: #b91c1c;
+  color: #fff;
+  font-size: .7rem;
+  font-weight: 900;
+  vertical-align: middle;
+}
+.roster-class-button .roster-individual-tag {
+  position: absolute;
+  top: -6px;
+  right: -4px;
+}
+.roster-class-button {
+  position: relative;
+}
+.roster-individual {
+  margin-top: 22px;
+  border-top: 3px solid #b91c1c;
+  padding-top: 14px;
+}
+.roster-individual h3 {
+  margin: 0 0 4px;
+  color: #b91c1c;
+}
+.roster-individual > p {
+  margin: 0 0 12px;
+  color: #7f1d1d;
+}
+.roster-individual .roster-table thead th {
+  background: #fef2f2;
+  color: #b91c1c;
+}
 .roster-empty {
   border: 1px dashed var(--line);
   border-radius: 10px;
@@ -972,7 +1007,7 @@ li + li { margin-top: 6px; }
     display: flex;
     max-height: none;
     overflow-x: auto;
-    padding-bottom: 4px;
+    padding: 8px 4px 4px 0;
   }
   .roster-class-button { flex: 0 0 auto; min-width: 64px; }
   .portal-topbar {
