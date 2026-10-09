@@ -9,7 +9,7 @@ Publiczna strona z materiałami dla wychowawców ZSZ5 na rok szkolny 2026/2027.
 - format: strona główna z aktualnościami oraz osobna strona HTML dla każdej lekcji,
 - wejście do strony: `index.html`,
 - plan pracy: `plan-pracy-wychowawczo-profilaktycznej.html`,
-- baza wiedzy: `baza-wiedzy.html` (poradniki o integracji klasy, reagowaniu na trudne zachowania, wspieraniu ucznia w spektrum autyzmu oraz o TikToku i skrajnych postawach),
+- baza wiedzy: `baza-wiedzy.html` (poradniki o integracji klasy, reagowaniu na trudne zachowania, wspieraniu ucznia w spektrum autyzmu oraz o skrajnych postawach młodzieży),
 - krótkie adresy lekcji: `lekcje/01.html`, `lekcje/02.html` itd.,
 - dodatkowa prezentacja startowa: `spotkanie-z-uczniami-1-wrzesnia-2026.html`,
 - wersja dokumentu do teczki wychowawcy: `wytyczne-na-spotkanie-z-uczniami-1-wrzesnia-2026.html` z pobieraniem pliku Word,
@@ -23,7 +23,7 @@ Publiczna strona z materiałami dla wychowawców ZSZ5 na rok szkolny 2026/2027.
   wraz z obiema wersjami PDF w `materialy/standardy-postepowania-kryzys-samobojczy/`,
 - OdFiltruj Rzeczywistość (PZU i Universal Music Polska): `odfiltruj-rzeczywistosc.html`
   wraz ze scenariuszem lekcji i plakatem konkursu w `materialy/odfiltruj-rzeczywistosc/`,
-- Pokolenie Z, TikTok i skrajne postawy: `pokolenie-z-tiktok-i-skrajne-postawy.html`
+- Pokolenie Z i skrajne postawy: `pokolenie-z-tiktok-i-skrajne-postawy.html`
   z linkiem do raportu z badania w repozytorium Zenodo.
 
 ## Strona główna
@@ -70,11 +70,11 @@ Artykuł `odfiltruj-rzeczywistosc.html` opisuje projekt edukacyjny PZU i Univers
 
 Oryginalny plik scenariusza jest zapisany w `materialy/odfiltruj-rzeczywistosc/`, a jego ostatnia strona — plakat konkursu — także jako osobny plik PDF do wydruku. Wpis jest w aktualnościach, a link do artykułu — w bazie wiedzy.
 
-## Pokolenie Z, TikTok i skrajne postawy
+## Pokolenie Z i skrajne postawy
 
-Poradnik `pokolenie-z-tiktok-i-skrajne-postawy.html` omawia raport Michała Słysza „Intensywność korzystania z TikToka a skrajne postawy wobec mężczyzn” (wrzesień 2026, N = 2001, wiek 18–35 lat). Skupia się na mechanizmie, a nie na temacie badania: im więcej czasu na TikToku, tym większa zgoda na skrajne stwierdzenia odbierające innym prawa. Główny akcent wychowawczy: dorosły zwykle rozumie hiperbolę własnych słów, a nastolatek, u którego kontrola poznawcza jeszcze dojrzewa, częściej bierze ostre słowa dosłownie.
+Poradnik `pokolenie-z-tiktok-i-skrajne-postawy.html` (adres pliku zachowany z pierwszej wersji) pokazuje, dlaczego nastolatek częściej niż dorosły bierze dosłownie ostre słowa wypowiadane z przesadą. Najważniejsze części: sygnały ostrzegawcze w trzech poziomach (obserwuj i rozmawiaj, skonsultuj, działaj natychmiast), przesada i ironia w języku nauczyciela na lekcji z ćwiczeniem „Żart czy deklaracja?” oraz wskazówki do rozmów z rodzicami.
 
-Artykuł korzysta też z raportów „Między faktem a feedem” (2025) i „Twarze polskiej radykalizacji” (2023), poradnika Fundacji Orange o dezinformacji, przewodnika PRECOBIAS dla nauczycieli oraz danych Europolu (TE-SAT 2025). Zawiera sygnały ostrzegawcze, wskazówki do rozmowy z uczniem i komunikat dla rodziców. Raport jest podlinkowany do repozytorium Zenodo (https://zenodo.org/records/22901421), a kafelek z przyciskiem — w bazie wiedzy.
+Główne źródło o młodzieży to raport „Między faktem a feedem” (2025, 30 osób w wieku 14–19 lat). Jednym z elementów jest badanie Michała Słysza o czasie spędzanym na TikToku i zgodzie na skrajne hasła (2026, N = 2001, 18–35 lat, podlinkowane do Zenodo: https://zenodo.org/records/22901421). Artykuł korzysta też z raportu „Twarze polskiej radykalizacji” (2023), materiałów Fundacji Orange, przewodnika PRECOBIAS i danych Europolu (TE-SAT 2025). Kafelek z przyciskiem jest w bazie wiedzy.
 
 ## Wytyczne na zebranie z rodzicami
 
