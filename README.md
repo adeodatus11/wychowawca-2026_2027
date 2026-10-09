@@ -24,7 +24,7 @@ Publiczna strona z materiałami dla wychowawców ZSZ5 na rok szkolny 2026/2027.
 - OdFiltruj Rzeczywistość (PZU i Universal Music Polska): `odfiltruj-rzeczywistosc.html`
   wraz ze scenariuszem lekcji i plakatem konkursu w `materialy/odfiltruj-rzeczywistosc/`,
 - Pokolenie Z, TikTok i skrajne postawy: `pokolenie-z-tiktok-i-skrajne-postawy.html`
-  wraz z raportem z badania w `materialy/tiktok-i-skrajne-postawy/`.
+  z linkiem do raportu z badania w repozytorium Zenodo.
 
 ## Strona główna
 
@@ -74,7 +74,7 @@ Oryginalny plik scenariusza jest zapisany w `materialy/odfiltruj-rzeczywistosc/`
 
 Poradnik `pokolenie-z-tiktok-i-skrajne-postawy.html` omawia raport Michała Słysza „Intensywność korzystania z TikToka a skrajne postawy wobec mężczyzn” (wrzesień 2026, N = 2001, wiek 18–35 lat). Skupia się na mechanizmie, a nie na temacie badania: im więcej czasu na TikToku, tym większa zgoda na skrajne stwierdzenia odbierające innym prawa. Główny akcent wychowawczy: dorosły zwykle rozumie hiperbolę własnych słów, a nastolatek, u którego kontrola poznawcza jeszcze dojrzewa, częściej bierze ostre słowa dosłownie.
 
-Artykuł korzysta też z raportów „Między faktem a feedem” (2025) i „Twarze polskiej radykalizacji” (2023), poradnika Fundacji Orange o dezinformacji, przewodnika PRECOBIAS dla nauczycieli oraz danych Europolu (TE-SAT 2025). Zawiera sygnały ostrzegawcze, wskazówki do rozmowy z uczniem i komunikat dla rodziców. Raport PDF jest zapisany w `materialy/tiktok-i-skrajne-postawy/`, a kafelek z przyciskiem — w bazie wiedzy.
+Artykuł korzysta też z raportów „Między faktem a feedem” (2025) i „Twarze polskiej radykalizacji” (2023), poradnika Fundacji Orange o dezinformacji, przewodnika PRECOBIAS dla nauczycieli oraz danych Europolu (TE-SAT 2025). Zawiera sygnały ostrzegawcze, wskazówki do rozmowy z uczniem i komunikat dla rodziców. Raport jest podlinkowany do repozytorium Zenodo (https://zenodo.org/records/22901421), a kafelek z przyciskiem — w bazie wiedzy.
 
 ## Wytyczne na zebranie z rodzicami
 
