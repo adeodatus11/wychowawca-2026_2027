@@ -9,7 +9,7 @@ Publiczna strona z materiałami dla wychowawców ZSZ5 na rok szkolny 2026/2027.
 - format: strona główna z aktualnościami oraz osobna strona HTML dla każdej lekcji,
 - wejście do strony: `index.html`,
 - plan pracy: `plan-pracy-wychowawczo-profilaktycznej.html`,
-- baza wiedzy: `baza-wiedzy.html` (poradniki o integracji klasy, reagowaniu na trudne zachowania i wspieraniu ucznia w spektrum autyzmu),
+- baza wiedzy: `baza-wiedzy.html` (poradniki o integracji klasy, reagowaniu na trudne zachowania, wspieraniu ucznia w spektrum autyzmu oraz o TikToku i skrajnych postawach),
 - krótkie adresy lekcji: `lekcje/01.html`, `lekcje/02.html` itd.,
 - dodatkowa prezentacja startowa: `spotkanie-z-uczniami-1-wrzesnia-2026.html`,
 - wersja dokumentu do teczki wychowawcy: `wytyczne-na-spotkanie-z-uczniami-1-wrzesnia-2026.html` z pobieraniem pliku Word,
@@ -22,7 +22,9 @@ Publiczna strona z materiałami dla wychowawców ZSZ5 na rok szkolny 2026/2027.
 - standardy postępowania w kryzysie samobójczym: `kryzys-samobojczy-standardy-dla-nauczycieli.html`
   wraz z obiema wersjami PDF w `materialy/standardy-postepowania-kryzys-samobojczy/`,
 - OdFiltruj Rzeczywistość (PZU i Universal Music Polska): `odfiltruj-rzeczywistosc.html`
-  wraz ze scenariuszem lekcji i plakatem konkursu w `materialy/odfiltruj-rzeczywistosc/`.
+  wraz ze scenariuszem lekcji i plakatem konkursu w `materialy/odfiltruj-rzeczywistosc/`,
+- Pokolenie Z, TikTok i skrajne postawy: `pokolenie-z-tiktok-i-skrajne-postawy.html`
+  wraz z raportem z badania w `materialy/tiktok-i-skrajne-postawy/`.
 
 ## Strona główna
 
@@ -67,6 +69,12 @@ Oryginalne pliki są zapisane w `materialy/standardy-postepowania-kryzys-samoboj
 Artykuł `odfiltruj-rzeczywistosc.html` opisuje projekt edukacyjny PZU i Universal Music Polska, będący częścią kampanii społecznej „OdFiltruj Rzeczywistość”. Streszcza scenariusz godziny wychowawczej dla szkół ponadpodstawowych „Po drugiej stronie szkła tak wiele jesteś wart” (2 godziny lekcyjne, teledyski bryskiej, Zuzy Jabłońskiej i Daniela Godsona, karta pracy o samoocenie) oraz zasady konkursu dla uczniów trwającego do 31 października 2026 r.
 
 Oryginalny plik scenariusza jest zapisany w `materialy/odfiltruj-rzeczywistosc/`, a jego ostatnia strona — plakat konkursu — także jako osobny plik PDF do wydruku. Wpis jest w aktualnościach, a link do artykułu — w bazie wiedzy.
+
+## Pokolenie Z, TikTok i skrajne postawy
+
+Poradnik `pokolenie-z-tiktok-i-skrajne-postawy.html` omawia raport Michała Słysza „Intensywność korzystania z TikToka a skrajne postawy wobec mężczyzn” (wrzesień 2026, N = 2001, wiek 18–35 lat). Skupia się na mechanizmie, a nie na temacie badania: im więcej czasu na TikToku, tym większa zgoda na skrajne stwierdzenia odbierające innym prawa. Główny akcent wychowawczy: dorosły zwykle rozumie hiperbolę własnych słów, a nastolatek, u którego kontrola poznawcza jeszcze dojrzewa, częściej bierze ostre słowa dosłownie.
+
+Artykuł korzysta też z raportów „Między faktem a feedem” (2025) i „Twarze polskiej radykalizacji” (2023), poradnika Fundacji Orange o dezinformacji, przewodnika PRECOBIAS dla nauczycieli oraz danych Europolu (TE-SAT 2025). Zawiera sygnały ostrzegawcze, wskazówki do rozmowy z uczniem i komunikat dla rodziców. Raport PDF jest zapisany w `materialy/tiktok-i-skrajne-postawy/`, a kafelek z przyciskiem — w bazie wiedzy.
 
 ## Wytyczne na zebranie z rodzicami
 
