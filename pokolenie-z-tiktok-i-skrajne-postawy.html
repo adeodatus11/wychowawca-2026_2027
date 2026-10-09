@@ -2,9 +2,23 @@
 <html lang="pl"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Pokolenie Z i skrajne postawy — Strona wychowawcy ZSZ5</title>
-<meta name="description" content="Dlaczego nastolatek bierze dosłownie to, co dorosły mówi z przesadą, jakie sygnały ostrzegawcze powinny zaniepokoić wychowawcę, jak mówić na lekcji i na co zwracać uwagę w kontakcie z rodzicami.">
+<meta name="description" content="Jak przebiega radykalizacja, dlaczego nastolatek bierze dosłownie to, co dorosły mówi z przesadą, jakie sygnały ostrzegawcze powinny zaniepokoić wychowawcę i na co zwracać uwagę w kontakcie z rodzicami.">
 <link rel="icon" href="data:,"><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="integracja-klasy-polsko-ukrainskiej.css">
-<style>.guide-table-wrap .guide-table td:first-child { white-space: normal; } .guide-table td ul { margin: 0; padding-left: 20px; } .guide-table td li { margin-bottom: .3em; }</style>
+<style>.guide-table-wrap .guide-table td:first-child { white-space: normal; } .guide-table td ul { margin: 0; padding-left: 20px; } .guide-table td li { margin-bottom: .3em; }.bias-figure { margin: 28px 0; padding: 24px; border: 1px solid var(--line); border-radius: 10px; background: #fff; position: relative; overflow: hidden; }
+.bias-figure::before { content: ""; position: absolute; left: 0; top: 0; width: 64px; height: 64px; border-left: 14px solid #111; border-top: 14px solid #111; }
+.bias-figure::after { content: ""; position: absolute; right: 0; bottom: 0; width: 64px; height: 64px; border-right: 14px solid #ff7900; border-bottom: 14px solid #ff7900; }
+.bias-title { text-align: center; font-size: clamp(22px, 3.4vw, 34px); font-weight: 800; margin: 4px 0 20px; color: #111; }
+.bias-grid { display: grid; grid-template-columns: 1fr 90px 1fr; gap: 12px 18px; align-items: center; }
+.bias-col { list-style: none; margin: 0 !important; padding: 0; display: grid; gap: 14px; }
+.bias-col li { display: flex; align-items: center; gap: 12px; margin: 0; font-size: 15px; line-height: 1.3; color: #111; }
+.bias-col.left li { flex-direction: row-reverse; text-align: right; }
+.bias-num { flex: 0 0 34px; height: 34px; border-radius: 50%; background: #ff7900; color: #fff; font-weight: 700; display: grid; place-items: center; font-size: 15px; }
+.bias-person { width: 90px; height: auto; }
+.bias-figure figcaption { margin: 18px 40px 0; font-size: 14px; color: var(--muted); text-align: center; }
+.bias-list li { margin-bottom: .8em; }
+@media (max-width: 640px) { .bias-grid { grid-template-columns: 1fr; } .bias-person { display: none; } .bias-col.left li { flex-direction: row; text-align: left; } .bias-col.left { order: 2; display: flex; flex-direction: column-reverse; } .bias-figure { padding-bottom: 44px; } }
+@media print { .bias-figure { break-inside: avoid; } }
+</style>
 </head><body><a class="guide-skip" href="#tresc">Przejdź do treści artykułu</a>
 <header class="site-header portal-header">
     <div class="portal-topbar">
@@ -26,7 +40,7 @@
     </div>
 <div class="portal-hero guide-hero"><p class="kicker">Baza wiedzy · Media cyfrowe i radykalizacja</p>
 <h1>Pokolenie Z i skrajne postawy</h1>
-<p class="subtitle">Dlaczego nastolatek bierze dosłownie to, co dorosły mówi z przesadą? Jakie sygnały powinny zaniepokoić wychowawcę? Jak mówić na lekcji, żeby nie zostać źle zrozumianym, i na co zwracać uwagę w rozmowach z rodzicami?</p>
+<p class="subtitle">Jak przebiega radykalizacja i dlaczego nastolatek bierze dosłownie to, co dorosły mówi z przesadą? Jakie sygnały powinny zaniepokoić wychowawcę i na co zwracać uwagę w rozmowach z rodzicami?</p>
 <p class="guide-meta">Opracowanie: <time datetime="2026-10-09">9 października 2026</time> · Poradnik dla wychowawców, pedagogów i nauczycieli</p>
 <div class="article-actions guide-actions"><a class="presentation-button" href="#sygnaly">Przejdź do sygnałów ostrzegawczych</a><button class="presentation-button secondary" type="button" onclick="window.print()">Drukuj artykuł / zapisz PDF</button></div>
 </div></header>
@@ -35,26 +49,59 @@
 <h2 id="w-skrocie">Najważniejsze w skrócie</h2>
 <div class="guide-callout">
 <ul>
-<li><strong>Dorosły zwykle wie, kiedy przesadza. Nastolatek często nie.</strong> Ostre słowa, które dorosły mówi w emocjach i traktuje jak przesadę, młody człowiek może odebrać dosłownie, jako opinię autorytetu albo wezwanie do działania.</li>
-<li><strong>Młodzież czerpie wiedzę o świecie głównie z mediów społecznościowych</strong>, przede wszystkim z YouTube'a i TikToka, rzadko ją sprawdza, a teorie spiskowe traktuje raczej jak rozrywkę niż zagrożenie. <a href="#zrodlo-fakt-feed">Między faktem a feedem, 2025</a>.</li>
-<li><strong>Rodzice i nauczyciele nadal są dla młodzieży autorytetami</strong>, które potwierdzają, co jest prawdą. Dlatego ważne jest to, co i jak mówimy, także w żartach.</li>
-<li><strong>Sygnały ostrzegawcze trzeba traktować poważnie</strong>, nawet jeśli brzmią jak żart. Poniżej jest lista podzielona na trzy poziomy: obserwuj i rozmawiaj, skonsultuj, działaj natychmiast.</li>
-<li><strong>Uważajmy na przesadę we własnym języku na lekcji.</strong> Ironia, sarkazm i hiperbola są dla części uczniów niezrozumiałe albo rozumiane dosłownie.</li>
+<li><strong>Radykalizacja to proces, a nie jednorazowa decyzja.</strong> Prowadzi od poczucia krzywdy, przez wskazanie wroga i zamknięcie w bańce, do przyzwolenia na skrajne rozwiązania, a czasem na przemoc.</li>
+<li><strong>Intensywne korzystanie z sieci sprzyja przesuwaniu granic.</strong> W badaniu dorosłych nocny zakaz wychodzenia z domu dla wszystkich mężczyzn poparło 8,3% osób, które nie używają TikToka, i 43,8% osób spędzających na nim ponad 3 godziny dziennie.</li>
+<li><strong>Nastolatek łatwiej niż dorosły bierze ostre słowa dosłownie</strong> i szybciej może przejść od słów do czynów.</li>
+<li><strong>Sygnały ostrzegawcze trzeba traktować poważnie</strong>, także gdy brzmią jak żart.</li>
+<li><strong>Słowa dorosłych mają wagę.</strong> Rodzice i nauczyciele nadal są dla młodzieży autorytetami.</li>
 </ul>
 </div>
 
-<h2 id="hiperbola">Dorosły przesadza, nastolatek bierze dosłownie</h2>
-<p>Dorośli często mówią ostre rzeczy. W badaniu „Twarze polskiej radykalizacji” <strong>19% Polaków ze średnim i wyższym wykształceniem przyznało, że zdarza im się w myślach życzyć śmierci nieznanej osobie</strong>, np. politykowi o innych poglądach. <a href="#zrodlo-twarze">Ciesiołkiewicz (red.), 2023</a>. Ogromna większość tych osób nikogo nie skrzywdzi.</p>
-<p>Dorosły zwykle <strong>rozumie, że jego słowa są przesadą</strong>. Kiedy wujek przy obiedzie mówi „tych wszystkich trzeba by wywieźć”, a ojciec po wiadomościach rzuca „powiesić ich wszystkich”, obaj wiedzą, że rozładowują emocje. Mają doświadczenie, kontekst i hamulce.</p>
+<h2 id="radykalizacja">Jak przebiega radykalizacja</h2>
+<p>Radykalizacja to proces, w którym człowiek stopniowo przyjmuje coraz bardziej skrajne poglądy, aż zaczyna akceptować, a czasem stosować, odbieranie praw innym ludziom lub przemoc. Rzadko jest to nagła przemiana. Zwykle trwa miesiącami, a w sieci może przebiegać szybciej. Badacze porównują ją do schodów: każdy stopień wydaje się niewielki, ale na każdym kolejnym zostaje mniej osób i trudniej się wycofać. <a href="#zrodlo-moghaddam">Moghaddam, 2005</a>.</p>
+<ol>
+<li><strong>Podatność.</strong> Punktem wyjścia jest zwykle poczucie krzywdy, niesprawiedliwości, samotności lub niepewności oraz potrzeba przynależności, znaczenia i prostych odpowiedzi. U nastolatków dochodzi naturalne szukanie własnej tożsamości.</li>
+<li><strong>Wskazanie winnego.</strong> Pojawia się proste wyjaśnienie: „to wszystko przez nich”. Złożony świat zostaje podzielony na „nas” i „ich”.</li>
+<li><strong>Zamknięcie w bańce.</strong> Algorytm podsuwa coraz więcej podobnych i coraz ostrzejszych treści, a grupa w sieci daje akceptację. Inne źródła, rodzina i nauczyciele tracą wiarygodność („media kłamią”, „dorośli nie rozumieją”). Proces wzmacniają błędy poznawcze, np. faworyzowanie własnej grupy, uleganie autorytetom z sieci i przekonanie, że wszystkie media są wrogie (zob. <a href="#pulapki">Pułapki myślenia</a>).</li>
+<li><strong>Przesuwanie granic.</strong> „Oni” przestają być ludźmi, a stają się zagrożeniem. Skrajne rozwiązania, takie jak zakazy, odbieranie praw czy izolowanie całych grup, zaczynają wydawać się rozsądne.</li>
+<li><strong>Przyzwolenie na przemoc i działanie.</strong> Pojawia się myśl, że „ktoś musi w końcu coś zrobić”. Fundacja Orange opisuje tę drogę tak: wrogi język prowadzi najpierw do unikania kontaktu z „przeciwnikami”, potem do dyskryminacji, a na końcu do przemocy fizycznej. <a href="#zrodlo-orange-radykalizacja">Fundacja Orange</a>.</li>
+</ol>
 <div class="guide-callout">
-<p><strong>Nastolatek tego rozróżnienia często jeszcze nie ma</strong></p>
-<p>U młodzieży wcześniej dojrzewa układ odpowiedzialny za emocje i nagrody, w tym nagrodę w postaci uznania rówieśników. <strong>Kontrola poznawcza</strong>, czyli hamowanie impulsów, przewidywanie konsekwencji i dystans do własnych emocji, związana z korą przedczołową, <strong>rozwija się stopniowo aż do wczesnej dorosłości</strong>. <a href="#zrodlo-steinberg">Steinberg, 2008</a>; <a href="#zrodlo-shulman">Shulman i in., 2016</a>.</p>
-<p>Skutek: <strong>to samo zdanie u dorosłego jest wentylem, a u nastolatka może stać się planem</strong>.</p>
+<p><strong>Przykład z badań: im więcej godzin w sieci, tym łatwiej o zgodę na skrajne zakazy</strong></p>
+<p>W ogólnopolskim badaniu 2001 osób w wieku 18–35 lat sprawdzano, czy czas spędzany na TikToku wiąże się z poparciem dla bardzo skrajnych pomysłów. <a href="#zrodlo-slysz">Słysz, 2026</a>. Jednym z nich był <strong>nocny zakaz wychodzenia z domu dla mężczyzn</strong>: rodzaj godziny policyjnej, w której żaden mężczyzna, bez względu na to, co zrobił, nie mógłby po zmroku przebywać na ulicy, rzekomo dla bezpieczeństwa kobiet.</p>
+<p>Taki zakaz poparło <strong>8,3% osób, które nie używają TikToka, i 43,8% osób spędzających na nim ponad 3 godziny dziennie</strong>. Podobnie było z innymi skrajnymi propozycjami, np. odebraniem mężczyznom prawa głosu: przynajmniej jedną z nich poparło 15,5% nieużytkowników i 60,7% najintensywniejszych użytkowników. Odsetek rósł z każdym kolejnym przedziałem czasu.</p>
+<p>Badanie objęło dorosłych i nie dowodzi, że przyczyną jest TikTok, bo osoby o skrajnych poglądach mogą też po prostu częściej z niego korzystać. Pokazuje jednak, jak łatwo w intensywnie używanym środowisku sieciowym przesuwa się granica tego, co wydaje się do przyjęcia.</p>
 </div>
-<p>Nastolatek słyszy agresywne słowa od bliskich dorosłych, którym ufa. Potem widzi w telefonie dziesiątki krótkich filmów, które mówią to samo, ostrzej i z większymi emocjami. Algorytm podsuwa kolejne, bo poprzednie przyciągnęły uwagę. Nastolatek nie słyszy ironii w głosie ojca ani nie zna kontekstu twórcy filmu. Dostaje sygnał: „wszyscy tak myślą, ktoś w końcu musi coś zrobić”.</p>
-<h3>Od słów do czynów</h3>
-<p>Fundacja Orange opisuje typową drogę: wrogi język najpierw prowadzi do unikania kontaktu z „przeciwnikami”, potem do stopniowej dyskryminacji, a na końcu do przemocy fizycznej. <a href="#zrodlo-orange-radykalizacja">Fundacja Orange</a>. U młodego człowieka ta droga może być krótka: od wykluczania i nękania rówieśników, przez groźby i pobicia, aż po przygotowywanie zamachów.</p>
-<p>To ostatnie nie jest teorią. Według Europolu w 2024 r. w Unii Europejskiej za przestępstwa terrorystyczne zatrzymano 449 osób, z czego <strong>133 miały od 12 do 20 lat</strong>. Europol opisuje grupy niepełnoletnich, które radykalizują się razem w sieci i wspólnie planują ataki. <a href="#zrodlo-europol">Europol, TE-SAT 2025</a>.</p>
+<p><strong>Większość osób o skrajnych poglądach nigdy nie sięga po przemoc.</strong> Badacze odróżniają radykalizację poglądów od radykalizacji działań. <a href="#zrodlo-mccauley">McCauley i Moskalenko, 2017</a>. U młodych ludzi droga od słów do czynów bywa jednak krótsza. Według Europolu w 2024 r. w Unii Europejskiej za przestępstwa terrorystyczne zatrzymano 449 osób, z czego <strong>133 miały od 12 do 20 lat</strong>. Europol opisuje grupy niepełnoletnich, które radykalizują się razem w sieci i wspólnie planują ataki. <a href="#zrodlo-europol">Europol, TE-SAT 2025</a>.</p>
+
+<h2 id="pulapki">Pułapki myślenia</h2>
+<p>Większość z nas na co dzień korzysta z <strong>trybu myślenia automatycznego</strong>. Nie wymaga on dużego wysiłku: przetwarzamy w nim komunikaty nieświadomie i szybko, opierając się na emocjach i skojarzeniach. Jego przeciwieństwem jest <strong>myślenie kontrolowane</strong>: uważne, wysiłkowe, oparte na refleksji i rozumowaniu. Im więcej trybu automatycznego, tym łatwiej wpaść w pułapki poznawcze, a to one ułatwiają manipulację i radykalizację. Twórcy programu PRECOBIAS opisują dziesięć najczęstszych błędów poznawczych. Świadomość, że występują, to pierwszy krok do ochrony przed dezinformacją. <a href="#zrodlo-orange-radykalizacja">Fundacja Orange</a>.</p>
+<figure class="bias-figure" role="group" aria-labelledby="bias-title">
+<p class="bias-title" id="bias-title">10 zniekształceń poznawczych</p>
+<div class="bias-grid">
+<ol class="bias-col left"><li><span class="bias-num">10</span><span>Efekt przesypiania (działania po długim czasie)</span></li><li><span class="bias-num">9</span><span>Efekt humoru</span></li><li><span class="bias-num">8</span><span>Efekt wyższości obrazu nad tekstem</span></li><li><span class="bias-num">7</span><span>Zjawisko wrogich mediów</span></li><li><span class="bias-num">6</span><span>Zasada podczepiania się (dołączania do reszty)</span></li></ol>
+<svg class="bias-person" viewBox="0 0 90 130" aria-hidden="true"><circle cx="45" cy="30" r="27" fill="#111"/><path d="M8 130V92c0-20 15-34 37-34s37 14 37 34v38z" fill="#111"/></svg>
+<ol class="bias-col right"><li><span class="bias-num">1</span><span>Efekt grupy wewnętrznej i zewnętrznej</span></li><li><span class="bias-num">2</span><span>Efekt autorytetu</span></li><li><span class="bias-num">3</span><span>Efekt potwierdzenia</span></li><li><span class="bias-num">4</span><span>Pozytywna retrospekcja</span></li><li><span class="bias-num">5</span><span>Efekt negatywności</span></li></ol>
+</div>
+<figcaption>Grafika: <a href="https://fundacja.orange.pl/strefa-wiedzy/post/jak-radzic-sobie-z-manipulacja-i-radykalizacja-w-sieci-psychoedukacja-dzieci-mlodziezy-i-doroslych" target="_blank" rel="noopener">Fundacja Orange, „Jak radzić sobie z manipulacją i radykalizacją w sieci?”</a>, na podstawie programu PRECOBIAS. Odtworzona na stronie w HTML.</figcaption>
+</figure>
+<ol class="bias-list">
+<li><strong>Efekt grupy wewnętrznej i zewnętrznej.</strong> Potrzeba przynależności do grupy jest częścią naszej tożsamości. Często jednak budujemy ją, przypisując innym grupom negatywne cechy, posługując się stereotypami i niechęcią wobec „obcych”.</li>
+<li><strong>Efekt autorytetu.</strong> Jesteśmy skłonni ufać osobom i instytucjom, które uważamy za wiarygodne. Jak w efekcie aureoli przenosimy opinie „autorytetu” z jednej dziedziny na inne, nawet bez żadnych dowodów.</li>
+<li><strong>Efekt potwierdzenia.</strong> Szukamy informacji, które potwierdzają to, w co już wierzymy, i pomijamy te, które temu przeczą. Wyjście poza tę strefę komfortu wymaga dużego wysiłku.</li>
+<li><strong>Pozytywna retrospekcja.</strong> Idealizujemy przeszłość i patrzymy na nią przez różowe okulary, przez co źle porównujemy ją z teraźniejszością („kiedyś było lepiej”).</li>
+<li><strong>Efekt negatywności.</strong> Informacje negatywne przyciągają naszą uwagę wielokrotnie silniej niż wyważone lub pozytywne. Ten ewolucyjnie użyteczny nawyk jest dziś wykorzystywany zarówno ideologicznie, jak i komercyjnie.</li>
+<li><strong>Zasada podczepiania się.</strong> Chętnie dołączamy do „silniejszych” i „zwycięskiej grupy”, a poglądy większości przyjmujemy zwykle bezkrytycznie.</li>
+<li><strong>Zjawisko wrogich mediów.</strong> Gdy temat jest dla nas ważny, oceniamy materiały medialne na ten temat jako wrogie i stronnicze, nawet jeśli osoby niezaangażowane uważają je za neutralne lub przychylne.</li>
+<li><strong>Efekt wyższości obrazu nad tekstem.</strong> Obraz działa na nas silniej niż słowo pisane. Dotyczy to wszystkich grup wiekowych, ale im młodsze pokolenie, tym większy wpływ „kultury obrazkowej”.</li>
+<li><strong>Efekt humoru.</strong> Przekazy oparte na znanych, budzących ciepłe skojarzenia elementach i zawierające humor zapamiętujemy lepiej. Dlatego memy są tak skutecznym nośnikiem skrajnych treści.</li>
+<li><strong>Efekt przesypiania.</strong> Opinie z niewiarygodnych źródeł mogą wpływać na nasze postawy po dłuższym czasie, kiedy zapomnimy już, że źródło było niewiarygodne.</li>
+</ol>
+<p class="guide-note">Opis błędów na podstawie artykułu Fundacji Orange. Gotowe lekcje o każdym z nich zawierają <a href="#zrodlo-precobias">materiały PRECOBIAS</a>.</p>
+
+<h2 id="hiperbola">Dorosły przesadza, nastolatek bierze dosłownie</h2>
+<p>Dorośli też mówią ostre rzeczy. W badaniu „Twarze polskiej radykalizacji” 19% Polaków ze średnim i wyższym wykształceniem przyznało, że zdarza im się w myślach życzyć śmierci nieznanej osobie, np. politykowi o innych poglądach. <a href="#zrodlo-twarze">Ciesiołkiewicz (red.), 2023</a>. Dorosły zwykle wie jednak, że taka przesada jest rozładowaniem emocji, a nie planem.</p>
+<p>U nastolatka kontrola poznawcza, czyli hamowanie impulsów i przewidywanie konsekwencji, związana z korą przedczołową, <strong>dojrzewa stopniowo aż do wczesnej dorosłości</strong>. <a href="#zrodlo-steinberg">Steinberg, 2008</a>; <a href="#zrodlo-shulman">Shulman i in., 2016</a>. Młody człowiek gorzej odróżnia przesadę od deklaracji. Ostre słowa dorosłego, któremu ufa, w połączeniu z podobnymi treściami w telefonie może odebrać jako potwierdzenie, że „wszyscy tak myślą”. <strong>To samo zdanie u dorosłego bywa wentylem, a u nastolatka może stać się planem.</strong></p>
 
 <h2 id="sygnaly">Sygnały ostrzegawcze</h2>
 <p>Pojedynczy sygnał nie oznacza radykalizacji. Niepokój powinno budzić <strong>nasilenie, połączenie kilku sygnałów naraz albo nagła zmiana</strong> w zachowaniu ucznia. Najważniejsza zasada: <strong>sygnału nie lekceważymy tylko dlatego, że brzmi jak żart</strong>. Nastolatek często sprawdza reakcję dorosłych, mówiąc coś „pół żartem”.</p>
@@ -110,46 +157,9 @@
 </div>
 <p>Jak reagować na groźby i przemoc w trakcie lekcji, opisuje poradnik <a href="trudne-zachowania-na-lekcji.html">Trudne zachowania na lekcji — jak reagować</a>.</p>
 
-<h2 id="na-lekcji">Przesada na lekcji — uważajmy, co mówimy</h2>
-<p>To, co dotyczy rodziców, dotyczy także nas. Nauczyciele też przesadzają, ironizują i żartują, często po to, żeby rozładować napięcie. <strong>Dla części uczniów taka przesada jest niezrozumiała albo rozumiana dosłownie.</strong> Szczególnie dotyczy to:</p>
-<ul>
-<li>młodszych uczniów, u których umiejętność odczytywania intencji i dystansu dopiero się rozwija,</li>
-<li>uczniów w spektrum autyzmu, którzy często rozumieją wypowiedzi dosłownie (zob. <a href="uczen-w-spektrum-autyzmu.html">Uczeń w spektrum autyzmu — wsparcie na lekcji</a>),</li>
-<li>uczniów, którzy uczą się języka polskiego, np. z klas polsko-ukraińskich: ironia, idiomy i aluzje są dla nich często nieczytelne (zob. <a href="integracja-klasy-na-poczatku-roku.html">Integracja klasy na początku roku</a>),</li>
-<li>uczniów, którzy są w napięciu, w kryzysie albo czują się atakowani.</li>
-</ul>
-<p>Pamiętajmy też, że zdanie wypowiedziane na lekcji może zostać nagrane, wycięte z kontekstu i krążyć w sieci jako „nauczyciel powiedział, że…”.</p>
-<h3>Zamiast przesady</h3>
-<div class="guide-table-wrap" role="region" aria-label="Przykłady komunikatów" tabindex="0">
-<table class="guide-table">
-<caption>Przesada a jasny komunikat</caption>
-<thead><tr><th scope="col">Zamiast</th><th scope="col">Lepiej</th></tr></thead>
-<tbody>
-<tr><td>„Jeszcze raz to zrobisz, to cię uduszę”.</td><td>„Proszę, przestań. To mi przeszkadza w prowadzeniu lekcji”.</td></tr>
-<tr><td>„Całą tę klasę trzeba by wyrzucić ze szkoły”.</td><td>„Dziś trudno nam się skupić. Zróbmy dwie minuty przerwy i wróćmy do zadania”.</td></tr>
-<tr><td>„Z waszym pokoleniem to już nic nie będzie”.</td><td>„Widzę, że ten temat was nie wciąga. Co by pomogło?”.</td></tr>
-<tr><td>„No pięknie, genialna odpowiedź” (ironicznie).</td><td>„To nie jest dobra odpowiedź. Spróbuj jeszcze raz, podpowiem ci pierwszy krok”.</td></tr>
-<tr><td>Żarty i uogólnienia o grupach ludzi, narodowościach, płci, poglądach.</td><td>Mówienie o konkretnych zachowaniach i faktach, bez etykiet.</td></tr>
-</tbody>
-</table>
-</div>
-<h3>Zasady na co dzień</h3>
-<ul>
-<li><strong>Mów wprost, co masz na myśli.</strong> Jasny komunikat jest skuteczniejszy niż ironia.</li>
-<li><strong>Jeśli użyjesz ironii lub przesady, nazwij ją:</strong> „Przesadziłem, chodziło mi o to, że…”. Tak pokazujesz uczniom, czym różni się emocja od deklaracji.</li>
-<li><strong>Nie używaj metafor przemocy</strong> („zabiję”, „rozstrzelać”, „wywieźć”), nawet w żartach.</li>
-<li><strong>Nie dziel się skrajnymi opiniami o grupach ludzi i politykach.</strong> Słowa nauczyciela mają wagę autorytetu.</li>
-<li><strong>Przy tematach spornych</strong> podawaj fakty, pokazuj różne punkty widzenia i ucz sprawdzania źródeł.</li>
-</ul>
-<h3>Ćwiczenie na godzinę wychowawczą: „Żart czy deklaracja?”</h3>
-<p>Przygotuj kilka ostrych zdań, jakie młodzi słyszą w domu, w sieci i na przerwach, bez wskazywania konkretnej grupy, np. „Takich jak oni powinno się zamknąć”, „Zabiję go za to”, „Najlepiej, żeby ich w ogóle nie było”. Uczniowie w grupach odpowiadają na pytania:</p>
-<ul>
-<li>Co czuje osoba, która to mówi? Czego naprawdę chce?</li>
-<li>Jak można to zrozumieć dosłownie? Kto mógłby tak to zrozumieć?</li>
-<li>Co by się stało, gdyby ktoś potraktował to zdanie jak plan?</li>
-<li>Jak powiedzieć to samo bez przesady?</li>
-</ul>
-<p>Warto też porozmawiać o algorytmie: uczniowie mogą sprawdzić w ustawieniach telefonu, ile czasu spędzają w aplikacjach, i zastanowić się, co najczęściej widzą w strumieniu „Dla Ciebie” i dlaczego. Gotowe lekcje o błędach poznawczych, które ułatwiają manipulację w sieci, zawierają <a href="#zrodlo-precobias">materiały PRECOBIAS</a>, a ćwiczenia ze sprawdzania informacji — <a href="#zrodlo-orange-poradnik">poradnik Fundacji Orange</a>.</p>
+<h2 id="na-lekcji">Przesada w naszym języku</h2>
+<p>To dotyczy także nauczycieli. Ironia, sarkazm i przesada na lekcji bywają dla części uczniów niezrozumiałe albo rozumiane dosłownie. Dotyczy to zwłaszcza uczniów w spektrum autyzmu (zob. <a href="uczen-w-spektrum-autyzmu.html">Uczeń w spektrum autyzmu — wsparcie na lekcji</a>), uczniów uczących się języka polskiego (zob. <a href="integracja-klasy-na-poczatku-roku.html">Integracja klasy na początku roku</a>) oraz uczniów będących w napięciu. Słowa nauczyciela mają wagę autorytetu, a wypowiedź z lekcji może zostać nagrana i wyrwana z kontekstu.</p>
+<p>Ogólna zasada jest prosta: mówmy wprost, unikajmy metafor przemocy i uogólnień o grupach ludzi, a gdy zdarzy się nam przesada, nazwijmy ją. W ten sposób pokazujemy uczniom, czym różni się emocja od deklaracji. Przy tematach spornych warto podawać fakty, pokazywać różne punkty widzenia i uczyć sprawdzania źródeł. Na godzinie wychowawczej można też porozmawiać z uczniami o tym, jak działa algorytm i co najczęściej widzą w swoim strumieniu „Dla Ciebie”. Gotowe lekcje o błędach poznawczych zawierają <a href="#zrodlo-precobias">materiały PRECOBIAS</a>, a ćwiczenia ze sprawdzania informacji — <a href="#zrodlo-orange-poradnik">poradnik Fundacji Orange</a>.</p>
 
 <h2 id="rodzice">W kontakcie z rodzicami — na co zwracać uwagę</h2>
 <p>Rodzice są dla nastolatka pierwszym autorytetem. Raport „Między faktem a feedem” pokazuje, że to właśnie <strong>znaczący dorośli — rodzice, nauczyciele, znane osoby — potwierdzają młodym, co jest prawdą</strong>. <a href="#zrodlo-fakt-feed">Między faktem a feedem, 2025</a>. To działa w obie strony: dorosły może młodego człowieka uodpornić, ale może też, nieświadomie, uwiarygodnić skrajny przekaz.</p>
@@ -190,21 +200,8 @@
 </ul>
 <p>Wniosek dla szkoły: zakazy nie wystarczą. Młodzi potrzebują rozmowy, przestrzeni na pytania i dorosłych, którzy pokażą, jak sprawdzać informacje i odróżniać przesadę od faktu.</p>
 
-<h3 id="tiktok">Czas na TikToku a zgoda na skrajne hasła</h3>
-<p>Raport Michała Słysza (wrzesień 2026) opiera się na ogólnopolskim badaniu internetowym <strong>2001 osób w wieku 18–35 lat</strong>. <a href="#zrodlo-slysz">Słysz, 2026</a>. Badani podawali, ile czasu dziennie spędzają na TikToku, i oceniali, czy zgadzają się z czterema celowo skrajnymi stwierdzeniami. Wszystkie dotyczyły mężczyzn i polegały na <strong>odebraniu całej grupie ludzi praw, wolności lub prawa do istnienia tylko z powodu płci</strong>:</p>
-<ul>
-<li>że <strong>„wyeliminowanie każdego mężczyzny”</strong> byłoby czynem słusznym,</li>
-<li>że mężczyznom należy na trzy kadencje <strong>odebrać czynne prawo wyborcze</strong>, czyli prawo do głosowania,</li>
-<li>że byłoby dobrze, gdyby <strong>męskie chromosomy Y nie istniały</strong> i należało je „zamknąć w probówce”,</li>
-<li>że należy wprowadzić <strong>nocny zakaz wychodzenia z domu dla mężczyzn</strong> — rodzaj godziny policyjnej, w której wszyscy mężczyźni, bez względu na to, co zrobili, nie mogliby nocą przebywać na ulicach i w innych miejscach publicznych, rzekomo dla bezpieczeństwa kobiet.</li>
-</ul>
-<p>Z perspektywy przeciętnego dorosłego to propozycje absurdalne. Mimo to przynajmniej jedno z nich poparło <strong>15,5% osób, które nie używają TikToka, i 60,7% osób spędzających na nim ponad 3 godziny dziennie</strong>. Odsetek rósł stopniowo z każdym kolejnym przedziałem czasu i pozostawał wyraźny po uwzględnieniu wieku, płci, wykształcenia i poglądów. Związek występował zarówno u kobiet, jak i u mężczyzn.</p>
-<p>W tym poradniku nie chodzi o temat badania, ale o mechanizm: autor zauważa, że skrajne hasła są „dobrze dopasowane do krótkiej, wiralowej i silnie afektywnej formy komunikacji”, a część odpowiedzi może odzwierciedlać prowokację i „ironiczno-performatywny język internetu”. <a href="#zrodlo-slysz">Słysz, 2026, s. 9–10</a>. Innymi słowy, nawet dorośli w tym środowisku łatwo przesuwają granicę tego, co wydaje się do przyjęcia.</p>
-<p class="guide-note">Badanie jest jednorazowe (przekrojowe), czas korzystania był deklarowany, a próba obejmowała dorosłych. Nie dowodzi, że TikTok zmienia postawy — równie dobrze osoby o skrajnych postawach mogą go częściej używać. Wnioski o nastolatkach w tym poradniku wynikają z połączenia tych danych z wiedzą o rozwoju młodzieży.</p>
-
-<h3>„Twarze polskiej radykalizacji” i dane Europolu</h3>
-<p>Raport „Twarze polskiej radykalizacji” (2023) opisuje mechanizmy radykalizacji i polaryzacji w Polsce, rolę mediów i spadek zaufania społecznego. Oprócz danych o życzeniu komuś śmierci pokazuje, że 70% badanych uznało Polskę za podzieloną na dwa plemiona. Kończy się rekomendacjami, także dla edukacji. <a href="#zrodlo-twarze">Ciesiołkiewicz (red.), 2023</a>.</p>
-<p>Europol w raporcie TE-SAT 2025 określa rosnący udział niepełnoletnich i młodych dorosłych w terroryzmie jako niepokojący trend. Opisuje społeczności internetowe, które celowo werbują młodzież do przemocy, oraz rosnące zainteresowanie strzelaninami w szkołach. <a href="#zrodlo-europol">Europol, TE-SAT 2025</a>.</p>
+<h3>„Twarze polskiej radykalizacji”</h3>
+<p>Raport z 2023 r. opisuje mechanizmy radykalizacji i polaryzacji w Polsce, rolę mediów i spadek zaufania społecznego. Oprócz danych o życzeniu komuś śmierci pokazuje, że 70% badanych uznało Polskę za podzieloną na dwa plemiona. Kończy się rekomendacjami, także dla edukacji. <a href="#zrodlo-twarze">Ciesiołkiewicz (red.), 2023</a>.</p>
 
 <h2 id="materialy">Materiały do pobrania</h2>
 <ol class="guide-source-list">
@@ -225,6 +222,8 @@
 <li id="zrodlo-orange-radykalizacja"><a href="https://fundacja.orange.pl/strefa-wiedzy/post/jak-radzic-sobie-z-manipulacja-i-radykalizacja-w-sieci-psychoedukacja-dzieci-mlodziezy-i-doroslych" target="_blank" rel="noopener">Fundacja Orange. Jak radzić sobie z manipulacją i radykalizacją w sieci? Psychoedukacja dzieci, młodzieży i dorosłych.</a><span>Artykuł z materiałami dla nauczycieli, pedagogów i psychologów, w tym odesłaniem do przewodnika PRECOBIAS.</span></li>
 <li id="zrodlo-precobias"><a href="https://fundacja.orange.pl/strefa-wiedzy/post/jak-radzic-sobie-z-manipulacja-i-radykalizacja-w-sieci-psychoedukacja-dzieci-mlodziezy-i-doroslych" target="_blank" rel="noopener">PRECOBIAS (Prevention of Youth Radicalisation Through Self-Awareness on Cognitive Biases) — materiały dla nauczycieli wskazane przez Fundację Orange.</a><span>Projekt finansowany przez Komisję Europejską, prowadzony m.in. przez Uniwersytet w Gandawie i Uniwersytet Ludwika i Maksymiliana w Monachium. Obejmuje przewodnik z lekcjami o dziesięciu błędach poznawczych, m.in. efekcie grupy własnej i obcej, efekcie autorytetu i zjawisku wrogich mediów, oraz 12-godzinny bezpłatny kurs online.</span></li>
 <li id="zrodlo-europol"><a href="https://www.europol.europa.eu/cms/sites/default/files/documents/TE-SAT%202025%20-%20Summary%20-%20EN.pdf" target="_blank" rel="noopener">Europol (2025). EU Terrorism Situation and Trend Report (TE-SAT 2025). Podsumowanie.</a><span>Dane za 2024 r.; liczba zatrzymanych w wieku 12–20 lat za omówieniem w <a href="https://eucrim.eu/news/europol-te-sat-2025/" target="_blank" rel="noopener">eucrim.eu</a>.</span></li>
+<li id="zrodlo-moghaddam"><a href="https://doi.org/10.1037/0003-066X.60.2.161" target="_blank" rel="noopener">Moghaddam, F. M. (2005). The staircase to terrorism: A psychological exploration. American Psychologist, 60(2), 161–169.</a><span>Model „schodów”: radykalizacja jako stopniowe wchodzenie na kolejne piętra, na których zostaje coraz mniej osób.</span></li>
+<li id="zrodlo-mccauley"><a href="https://doi.org/10.1037/amp0000062" target="_blank" rel="noopener">McCauley, C., Moskalenko, S. (2017). Understanding political radicalization: The two-pyramids model. American Psychologist, 72(3), 205–216.</a><span>Rozróżnienie radykalizacji poglądów i radykalizacji działań.</span></li>
 <li id="zrodlo-steinberg"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2396566/" target="_blank" rel="noopener">Steinberg, L. (2008). A social neuroscience perspective on adolescent risk-taking. Developmental Review, 28(1), 78–106.</a><span>Model dwóch systemów: wcześnie dojrzewający układ emocji i nagrody oraz wolniej dojrzewająca kontrola poznawcza.</span></li>
 <li id="zrodlo-shulman"><a href="https://doi.org/10.1016/j.dcn.2015.12.010" target="_blank" rel="noopener">Shulman, E. P. i in. (2016). The dual systems model: Review, reappraisal, and reaffirmation. Developmental Cognitive Neuroscience, 17, 103–117.</a><span>Przegląd badań: wrażliwość na nagrody osiąga szczyt pod koniec okresu nastoletniego, kontrola poznawcza rośnie do wczesnej dorosłości. Model jest przedmiotem dyskusji naukowej.</span></li>
 </ol>
@@ -235,9 +234,11 @@
 <h2>W tym artykule</h2>
 <ol>
 <li><a href="#w-skrocie">Najważniejsze w skrócie</a></li>
+<li><a href="#radykalizacja">Jak przebiega radykalizacja</a></li>
+<li><a href="#pulapki">Pułapki myślenia</a></li>
 <li><a href="#hiperbola">Dorosły przesadza, nastolatek bierze dosłownie</a></li>
 <li><a href="#sygnaly">Sygnały ostrzegawcze</a></li>
-<li><a href="#na-lekcji">Przesada na lekcji</a></li>
+<li><a href="#na-lekcji">Przesada w naszym języku</a></li>
 <li><a href="#rodzice">W kontakcie z rodzicami</a></li>
 <li><a href="#badania">Co mówią badania</a></li>
 <li><a href="#materialy">Materiały do pobrania</a></li>
