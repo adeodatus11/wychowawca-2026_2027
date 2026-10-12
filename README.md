@@ -26,7 +26,7 @@ Publiczna strona z materiałami dla wychowawców ZSZ5 na rok szkolny 2026/2027.
 - Pokolenie Z i skrajne postawy: `pokolenie-z-tiktok-i-skrajne-postawy.html`
   z linkiem do raportu z badania w repozytorium Zenodo,
 - procedura MEN „Schemat 4U!” (osoba z niebezpiecznym przedmiotem): `zagrozenie-niebezpieczny-przedmiot-schemat-4u.html`
-  wraz z oryginalnym PDF w `materialy/zagrozenie-niebezpieczny-przedmiot/`.
+  wraz z oryginalnym PDF i infografiką PNG w `materialy/zagrozenie-niebezpieczny-przedmiot/`.
 
 ## Strona główna
 
@@ -80,7 +80,7 @@ Główne źródło o młodzieży to raport „Między faktem a feedem” (2025, 
 
 ## Osoba z niebezpiecznym przedmiotem — schemat 4U!
 
-Artykuł `zagrozenie-niebezpieczny-przedmiot-schemat-4u.html` streszcza procedurę Ministerstwa Edukacji Narodowej „Postępowanie nauczyciela w sytuacji zagrożenia ze strony osoby posiadającej niebezpieczne narzędzie lub przedmiot”. Omawia zasadę nadrzędną i cztery elementy schematu 4U! (Uważaj — Uciekaj — Ukryj się — Udaremnij atak), zgłoszenie pod 112 (z adresem szkoły ze statutu), postępowanie wobec poszkodowanych i po zdarzeniu oraz krótką listę przygotowań, oznaczoną jako wskazówki redakcji. Oryginalny PDF jest w `materialy/zagrozenie-niebezpieczny-przedmiot/`. Wpis jest w aktualnościach, a kafelek z przyciskiem — w bazie wiedzy.
+Artykuł `zagrozenie-niebezpieczny-przedmiot-schemat-4u.html` streszcza procedurę Ministerstwa Edukacji Narodowej „Postępowanie nauczyciela w sytuacji zagrożenia ze strony osoby posiadającej niebezpieczne narzędzie lub przedmiot”. Omawia zasadę nadrzędną i cztery elementy schematu 4U! (Uważaj — Uciekaj — Ukryj się — Udaremnij atak), zgłoszenie pod 112 (z adresem szkoły ze statutu), postępowanie wobec poszkodowanych i po zdarzeniu oraz krótką listę przygotowań, oznaczoną jako wskazówki redakcji. Oryginalny PDF i infografika do wydruku (`infografika-schemat-4u.png`) są w `materialy/zagrozenie-niebezpieczny-przedmiot/`. Wpis jest w aktualnościach, a kafelek z przyciskiem — w bazie wiedzy.
 
 ## Wytyczne na zebranie z rodzicami
 
