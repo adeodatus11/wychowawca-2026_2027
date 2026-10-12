@@ -24,7 +24,9 @@ Publiczna strona z materiałami dla wychowawców ZSZ5 na rok szkolny 2026/2027.
 - OdFiltruj Rzeczywistość (PZU i Universal Music Polska): `odfiltruj-rzeczywistosc.html`
   wraz ze scenariuszem lekcji i plakatem konkursu w `materialy/odfiltruj-rzeczywistosc/`,
 - Pokolenie Z i skrajne postawy: `pokolenie-z-tiktok-i-skrajne-postawy.html`
-  z linkiem do raportu z badania w repozytorium Zenodo.
+  z linkiem do raportu z badania w repozytorium Zenodo,
+- procedura MEN „Schemat 4U!” (osoba z niebezpiecznym przedmiotem): `zagrozenie-niebezpieczny-przedmiot-schemat-4u.html`
+  wraz z oryginalnym PDF w `materialy/zagrozenie-niebezpieczny-przedmiot/`.
 
 ## Strona główna
 
@@ -75,6 +77,10 @@ Oryginalny plik scenariusza jest zapisany w `materialy/odfiltruj-rzeczywistosc/`
 Poradnik `pokolenie-z-tiktok-i-skrajne-postawy.html` (adres pliku zachowany z pierwszej wersji) wyjaśnia, jak przebiega radykalizacja (pięć etapów, z przykładem z badania o nocnym zakazie wychodzenia dla mężczyzn), opisuje dziesięć pułapek myślenia z programu PRECOBIAS (z grafiką Fundacji Orange zapisaną w `materialy/pokolenie-z-skrajne-postawy/`) i pokazuje, dlaczego nastolatek częściej niż dorosły bierze dosłownie ostre słowa wypowiadane z przesadą. Zawiera sygnały ostrzegawcze w trzech poziomach (obserwuj i rozmawiaj, skonsultuj, działaj natychmiast), krótką część o przesadzie w języku nauczyciela oraz wskazówki do rozmów z rodzicami.
 
 Główne źródło o młodzieży to raport „Między faktem a feedem” (2025, 30 osób w wieku 14–19 lat). Przykładem w opisie procesu radykalizacji jest badanie Michała Słysza o czasie spędzanym na TikToku i zgodzie na skrajne hasła (2026, N = 2001, 18–35 lat, podlinkowane do Zenodo: https://zenodo.org/records/22901421). Artykuł korzysta też z raportu „Twarze polskiej radykalizacji” (2023), materiałów Fundacji Orange, przewodnika PRECOBIAS danych Europolu (TE-SAT 2025) oraz modeli radykalizacji Moghaddama i McCauleya–Moskalenko. Kafelek z przyciskiem jest w bazie wiedzy.
+
+## Osoba z niebezpiecznym przedmiotem — schemat 4U!
+
+Artykuł `zagrozenie-niebezpieczny-przedmiot-schemat-4u.html` streszcza procedurę Ministerstwa Edukacji Narodowej „Postępowanie nauczyciela w sytuacji zagrożenia ze strony osoby posiadającej niebezpieczne narzędzie lub przedmiot”. Omawia zasadę nadrzędną i cztery elementy schematu 4U! (Uważaj — Uciekaj — Ukryj się — Udaremnij atak), zgłoszenie pod 112 (z adresem szkoły ze statutu), postępowanie wobec poszkodowanych i po zdarzeniu oraz krótką listę przygotowań, oznaczoną jako wskazówki redakcji. Oryginalny PDF jest w `materialy/zagrozenie-niebezpieczny-przedmiot/`. Wpis jest w aktualnościach, a kafelek z przyciskiem — w bazie wiedzy.
 
 ## Wytyczne na zebranie z rodzicami
 
